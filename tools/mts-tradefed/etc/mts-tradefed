@@ -119,6 +119,6 @@ for j in ${MTS_ROOT}/android-mts/testcases/*.jar; do
     JAR_PATH=${JAR_PATH}:$j
 done
 
-java $RDBG_FLAG -cp ${JAR_PATH} -DATS_ROOT=${MTS_ROOT} com.android.compatibility.common.tradefed.command.CompatibilityConsole "$@"
+java $RDBG_FLAG -cp ${JAR_PATH} -DMTS_ROOT=${MTS_ROOT} com.android.compatibility.common.tradefed.command.CompatibilityConsole "$@"
 
 
