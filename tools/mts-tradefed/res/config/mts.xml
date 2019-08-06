@@ -19,6 +19,8 @@
     <option name="plan" value="mts" />
     <option name="test-tag" value="mts" />
 
+    <include name="mts-preconditions" />
+
     <option name="enable-root" value="false" />
 
     <target_preparer class="com.android.tradefed.targetprep.RunCommandTargetPreparer">
