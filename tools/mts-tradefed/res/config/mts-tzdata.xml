@@ -19,10 +19,11 @@
 
     <option name="plan" value="mts-tzdata" />
 
-    <option name="compatibility:module-metadata-include-filter" key="component" value="libcore" />
-    <option name="compatibility:include-filter" value="CtsLibcoreTestCases" />
-    <option name="compatibility:include-filter" value="CtsLibcoreOjTestCases" />
+    <option name="compatibility:include-filter" value="CtsBionicTestCases" />
     <option name="compatibility:include-filter" value="CtsIcuTestCases" />
-    <option name="compatibility:test-arg" value="com.android.tradefed.testtype.AndroidJUnitTest:exclude-annotation:android.support.test.filters.FlakyTest" />
+    <option name="compatibility:include-filter" value="CtsLibcoreOjTestCases" />
+    <option name="compatibility:include-filter" value="CtsLibcoreTestCases" />
+    <option name="compatibility:include-filter" value="CtsTextTestCases" />
+
 </configuration>
 
