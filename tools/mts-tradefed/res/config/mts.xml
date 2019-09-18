@@ -20,6 +20,7 @@
     <option name="test-tag" value="mts" />
 
     <include name="mts-preconditions" />
+    <include name="mts-exclude" />
 
     <option name="enable-root" value="false" />
 
