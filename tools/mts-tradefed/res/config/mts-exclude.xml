@@ -53,5 +53,17 @@
 
     <!-- b/38280830 -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.VideoDecoderPerfTest#testVp8Goog0Perf1280x0720" />
+
+    <!-- Flacky tests in CtsMediaTestCases that are not related to media mainlines -->
+    <!-- b/143246724 -->
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.AudioFocusTest.testAudioFocusRequestBuilderDefault" />
+    <!-- b/143245713 -->
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.AudioRecordingConfigurationTest.testParcel" />
+    <!-- b/143245870 -->
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.AudioPlaybackCaptureTest.testPlaybackCaptureDoS" />
+    <!-- b/142977679 -->
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.MediaSyncTest.testAudioBufferReturn" />
+    <!-- b/142964090 -->
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.BassBoostTest.test3_2ParameterChangedListener" />
 </configuration>
 
