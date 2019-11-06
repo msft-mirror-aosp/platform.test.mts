@@ -56,5 +56,9 @@
 
     <!-- Exclude tests that are not related to media mainlines -->
     <option name="compatibility:module-arg" value="CtsMediaTestCases:exclude-annotation:android.media.cts.NonMediaMainlineTest" />
+
+    <!-- DocumentsUITests is only used to get coverage on virtual devices. -->
+    <option name="compatibility:exclude-filter" value="DocumentsUITests" />
+
 </configuration>
 
