@@ -83,6 +83,7 @@ JAR_DIR=${MTS_ROOT}/android-mts/tools
 TRADEFED_JAR="tradefed"
 
 JARS="tradefed
+  loganalysis
   hosttestlib
   compatibility-host-util
   mts-tradefed
