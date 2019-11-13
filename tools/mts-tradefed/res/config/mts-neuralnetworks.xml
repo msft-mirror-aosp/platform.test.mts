@@ -20,4 +20,5 @@
     <option name="plan" value="mts-neuralnetworks" />
     <option name="compatibility:include-filter" value="CtsNNAPITestCases" />
     <option name="compatibility:include-filter" value="CtsNNAPIBenchmarkTestCases" />
+    <option name="compatibility:include-filter" value="CtsTfliteNnapiDelegateTestCases" />
 </configuration>
