@@ -20,7 +20,6 @@
     <option name="plan" value="mts-media" />
 
     <option name="compatibility:include-filter" value="CtsMediaTestCases" />
-    <option name="compatibility:include-filter" value="GtsMediaTestCases" />
     <option name="compatibility:include-filter" value="CtsMediaStressTestCases" />
 
     <!--b/138964734-->
