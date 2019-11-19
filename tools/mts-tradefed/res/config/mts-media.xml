@@ -36,4 +36,7 @@
 
     <!-- Exclude tests that are not related to media mainlines -->
     <option name="compatibility:module-arg" value="CtsMediaTestCases:exclude-annotation:android.media.cts.NonMediaMainlineTest" />
+
+    <!-- Advertise the test suite to media cts. -->
+    <option name="compatibility:module-arg" value="CtsMediaTestCases:instrumentation-arg:mts-media:=true" />
 </configuration>
