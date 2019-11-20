@@ -42,5 +42,8 @@
     </target_preparer>
 
     <template-include name="reporters" default="basic-reporters" />
+
+    <!-- Advertise the test suite to media cts. -->
+    <option name="compatibility:module-arg" value="CtsMediaTestCases:instrumentation-arg:mts-media:=true" />
 </configuration>
 
