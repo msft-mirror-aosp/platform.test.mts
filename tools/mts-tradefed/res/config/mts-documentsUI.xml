@@ -13,12 +13,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-neuralnetworks from a pre-existing MTS installation">
+<configuration description="Runs MTS-documentsUI from a pre-existing MTS installation">
 
     <include name="mts" />
 
-    <option name="plan" value="mts-neuralnetworks" />
-    <option name="compatibility:include-filter" value="CtsNNAPITestCases" />
-    <option name="compatibility:include-filter" value="CtsNNAPIBenchmarkTestCases" />
-    <option name="compatibility:include-filter" value="CtsTfliteNnapiDelegateTestCases" />
+    <option name="plan" value="mts-documentsUI" />
+
+    <option name="compatibility:include-filter" value="DocumentsUIGoogleTests" />
+    <option name="compatibility:include-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.DocumentsTest" />
+    <option name="compatibility:include-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.ScopedDirectoryAccessTest" />
 </configuration>
