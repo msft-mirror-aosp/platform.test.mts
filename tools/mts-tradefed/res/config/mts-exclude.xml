@@ -59,5 +59,8 @@
     <!-- DocumentsUITests is only used to get coverage on virtual devices. -->
     <option name="compatibility:exclude-filter" value="DocumentsUITests" />
 
+    <!-- Exclude flaky timezone data tests. b/144301036 -->
+    <option name="compatibility:exclude-filter" value="CtsIcuTestCases android.icu.dev.test.util.ICUServiceThreadTest#Test05_ConcurrentEverything" />
+
 </configuration>
 
