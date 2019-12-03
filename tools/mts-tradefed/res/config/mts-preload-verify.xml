@@ -13,17 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-tzdata from a pre-existing MTS installation">
+<configuration description="Runs MTS-preload-verify from a pre-existing MTS installation">
 
     <include name="mts" />
 
-    <option name="plan" value="mts-tzdata" />
+    <option name="plan" value="mts-preload-verify" />
 
-    <option name="compatibility:include-filter" value="CtsBionicTestCases" />
-    <option name="compatibility:include-filter" value="CtsIcuTestCases" />
-    <option name="compatibility:include-filter" value="CtsLibcoreOjTestCases" />
-    <option name="compatibility:include-filter" value="CtsLibcoreTestCases" />
-    <option name="compatibility:include-filter" value="CtsTextTestCases" />
-
+    <option name="compatibility:include-filter" value="GtsOsTestCases com.google.android.os.gts.MainlineModulePreloadTest" />
 </configuration>
 
