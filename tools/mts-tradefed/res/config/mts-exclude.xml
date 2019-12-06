@@ -67,5 +67,32 @@
 
     <!-- b/144859812: Flaky test -->
     <option name="compatibility:exclude-filter" value="DocumentsUIGoogleTests com.android.documentsui.FileCopyUiTest#testCopyDocuments_InternalStorage" />
+
+    <!-- b/144850069: MTS flaky test -->
+    <option name="compatibility:exclude-filter" value="CtsMediaStressTestCases android.mediastress.cts.H264R1080pAacLongPlayerTest#testPlay00" />
+
+    <!-- b/144656329: MTS flaky test -->
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.EncodeDecodeTest#testEncodeDecodeVideoFromBufferToBufferQVGA0" />
+
+    <!-- b/144590142: MTS flaky test -->
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.DecoderTest#testVP8Decode640x360" />
+
+    <!-- b/144590245: MTS flaky test -->
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.VideoEncoderTest#testGoogH264FlexNearMaxMax" />
+
+    <!-- b/142976793: MTS flaky test -->
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.DecoderTest#testDecodeMonoOggMp4" />
+
+    <!-- b/144798271: MTS flaky test -->
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.MediaCodecCapabilitiesTest#testAvcHigh31" />
+
+    <!-- b/144590380: MTS flaky test -->
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.NativeMediaDrmClearkeyTest#testClearKeyPlaybackCenc2" />
+
+    <!-- b/143245993: MTS flaky test -->
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.NativeMediaDrmClearkeyTest#testPssh" />
+
+    <!-- b/142965402: MTS flaky test -->
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
 </configuration>
 
