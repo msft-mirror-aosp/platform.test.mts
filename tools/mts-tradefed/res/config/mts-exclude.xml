@@ -62,5 +62,8 @@
     <!-- Exclude flaky timezone data tests. b/144301036 -->
     <option name="compatibility:exclude-filter" value="CtsIcuTestCases android.icu.dev.test.util.ICUServiceThreadTest#Test05_ConcurrentEverything" />
 
+    <!-- b/142978584: Flaky test -->
+    <option name="compatibility:exclude-filter" value="CtsNetTestCases android.net.cts.TrafficStatsTest#testTrafficStatsForLocalhost" />
+
 </configuration>
 
