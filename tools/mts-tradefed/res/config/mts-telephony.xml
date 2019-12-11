@@ -26,7 +26,12 @@
     <option name="compatibility:include-filter" value="CtsTelephony2TestCases" />
     <option name="compatibility:include-filter" value="CtsTelephonySdk28TestCases" />
     <option name="compatibility:include-filter" value="CtsTelephonyTestCases" />
+    <!-- TODO: Uncomment this after the instrumentation signature issue is resolved:
+     MTS runs on goog/dev-keys signed devices, but MTS is built with aosp/test-keys so
+     instrumentation doesn't work properly. Solution is pending, either a short term solution
+     based on adding a new MTS target in vendor/unbundled_google or something else the
+     release team cooks up.
     <option name="compatibility:include-filter" value="TeleServiceTests" />
-
+    -->
     <option name="compatibility:primary-abi-only" value="true" />
 </configuration>
