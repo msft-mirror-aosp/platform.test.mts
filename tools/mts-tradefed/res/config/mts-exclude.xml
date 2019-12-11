@@ -94,5 +94,9 @@
 
     <!-- b/142965402: MTS flaky test -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
+
+    <!-- b/138407636: MTS Telephony flaky test -->
+    <option name="compatibility:exclude-filter" value="CtsTelephonyTestCases android.telephony.ims.cts.ImsServiceTest" />
+
 </configuration>
 
