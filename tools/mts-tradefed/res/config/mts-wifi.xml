@@ -22,5 +22,4 @@
     <option name="compatibility:include-filter" value="FrameworksWifiApiTests" />
     <option name="compatibility:include-filter" value="FrameworksWifiTests" />
     <option name="compatibility:include-filter" value="CtsNetTestCases" />
-    <option name="compatibility:primary-abi-only" value="true" />
 </configuration>
