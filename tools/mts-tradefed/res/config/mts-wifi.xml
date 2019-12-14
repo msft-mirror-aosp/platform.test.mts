@@ -13,15 +13,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-mainline-infra from a pre-existing MTS installation">
+
+<configuration description="Runs MTS-wifi from a pre-existing MTS installation">
 
     <include name="mts" />
 
-    <option name="plan" value="mts-mainline-infra" />
-
-    <option name="compatibility:include-filter" value="CtsApexTestCases" />
-    <option name="compatibility:include-filter" value="CtsAtomicInstallTestCases" />
-    <option name="compatibility:include-filter" value="CtsSdkExtTestCases" />
-    <option name="compatibility:include-filter" value="CtsStagedInstallHostTestCases" />
+    <option name="plan" value="mts-wifi" />
+    <option name="compatibility:include-filter" value="FrameworksWifiApiTests" />
+    <option name="compatibility:include-filter" value="FrameworksWifiTests" />
+    <option name="compatibility:include-filter" value="CtsNetTestCases" />
 </configuration>
-
