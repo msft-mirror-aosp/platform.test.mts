@@ -17,6 +17,7 @@
 <configuration description="Runs MTS-telephony from a pre-existing MTS installation">
 
     <include name="mts" />
+    <include name="mts-exclude" />
 
     <option name="plan" value="mts-telephony" />
     <option name="compatibility:include-filter" value="FrameworksTelephonyTests" />
@@ -26,6 +27,7 @@
     <option name="compatibility:include-filter" value="CtsTelephony2TestCases" />
     <option name="compatibility:include-filter" value="CtsTelephonySdk28TestCases" />
     <option name="compatibility:include-filter" value="CtsTelephonyTestCases" />
+
     <!-- TODO: Uncomment this after the instrumentation signature issue is resolved:
      MTS runs on goog/dev-keys signed devices, but MTS is built with aosp/test-keys so
      instrumentation doesn't work properly. Solution is pending, either a short term solution
