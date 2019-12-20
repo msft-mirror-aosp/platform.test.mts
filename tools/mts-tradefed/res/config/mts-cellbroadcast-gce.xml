@@ -17,7 +17,7 @@
 
     <include name="mts" />
 
-    <option name="plan" value="mts-cellbroadcast-covergae" />
+    <option name="plan" value="mts-cellbroadcast-gce" />
 
     <option name="compatibility:include-filter" value="CellBroadcastReceiverUnitTests" />
     <option name="compatibility:include-filter" value="CellBroadcastServiceTests" />
