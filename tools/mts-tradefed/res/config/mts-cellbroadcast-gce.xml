@@ -41,4 +41,5 @@
 
     <option name="compatibility:include-filter" value="CellBroadcastReceiverUnitTests" />
     <option name="compatibility:include-filter" value="CellBroadcastServiceTests" />
+    <template-include name="reporters" default="basic-reporters" />
 </configuration>
