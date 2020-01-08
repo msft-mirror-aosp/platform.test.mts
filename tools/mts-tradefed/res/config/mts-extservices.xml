@@ -19,8 +19,14 @@
 
     <option name="plan" value="mts-extservices" />
 
+    <target_preparer class="com.android.tradefed.targetprep.RunCommandTargetPreparer">
+        <option name="run-command" value="device_config put textclassifier textclassifier_service_package_override com.google.android.ext.services" />
+        <option name="teardown-command" value="device_config delete textclassifier textclassifier_service_package_override" />
+    </target_preparer>
+
     <option name="compatibility:include-filter" value="ExtServicesUnitTests" />
     <option name="compatibility:include-filter" value="TextClassifierServiceTest" />
     <option name="compatibility:include-filter" value="TextClassifierNotificationTests" />
+    <option name="compatibility:include-filter" value="CtsTextClassifierTestCases" />
 
 </configuration>
