@@ -19,6 +19,6 @@
 
     <option name="plan" value="mts-sdkextensions" />
 
-    <option name="compatibility:include-filter" value="CtsSdkExtTestCases" />
+    <option name="compatibility:include-filter" value="CtsSdkExtensionsTestCases" />
 </configuration>
 
