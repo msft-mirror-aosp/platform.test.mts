@@ -21,7 +21,7 @@
 
     <option name="compatibility:include-filter" value="CtsApexTestCases" />
     <option name="compatibility:include-filter" value="CtsAtomicInstallTestCases" />
-    <option name="compatibility:include-filter" value="CtsSdkExtTestCases" />
+    <option name="compatibility:include-filter" value="CtsSdkExtensionsTestCases" />
     <option name="compatibility:include-filter" value="CtsStagedInstallHostTestCases" />
 </configuration>
 
