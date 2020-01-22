@@ -21,6 +21,8 @@
 
     <include name="everything" />
 
+    <include name="mts-preconditions" />
+
     <option name="enable-root" value="false" />
 
     <!-- Use the same preparers as the main mts config for consistency -->
