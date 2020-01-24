@@ -19,11 +19,7 @@
 
     <option name="plan" value="mts-tzdata" />
 
-    <option name="compatibility:include-filter" value="CtsBionicTestCases" />
-    <option name="compatibility:include-filter" value="CtsIcuTestCases" />
-    <option name="compatibility:include-filter" value="CtsLibcoreOjTestCases" />
-    <option name="compatibility:include-filter" value="CtsLibcoreTestCases" />
-    <option name="compatibility:include-filter" value="CtsTextTestCases" />
+    <option name="compatibility:include-filter" value="MtsTimeZoneDataTestCases" />
 
 </configuration>
 
