@@ -46,6 +46,7 @@
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.UseEmbeddedDexTest" />
 
     <!-- NetworkStackTests is only used to get coverage on virtual devices. -->
+    <option name="compatibility:exclude-filter" value="NetworkStackCoverageTests" />
     <option name="compatibility:exclude-filter" value="NetworkStackTests" />
 </configuration>
 
