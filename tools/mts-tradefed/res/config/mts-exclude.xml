@@ -63,6 +63,7 @@
     <option name="compatibility:exclude-filter" value="CellBroadcastReceiverUnitTests" />
 
     <!-- NetworkStackTests is only used to get coverage on virtual devices. -->
+    <option name="compatibility:exclude-filter" value="NetworkStackCoverageTests" />
     <option name="compatibility:exclude-filter" value="NetworkStackTests" />
 
     <!-- Exclude flaky timezone data tests. b/144301036 -->
