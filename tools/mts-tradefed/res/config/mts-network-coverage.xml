@@ -43,11 +43,11 @@
         <option name="throw-error" value="false"/> <!-- Only print warning if not en-US -->
     </target_preparer>
 
-    <option name="compatibility:include-filter" value="NetworkStackTests" />
+    <option name="compatibility:include-filter" value="NetworkStackCoverageTests" />
 
     <!-- b/141603906 is a platform bug that was not fixed until Q-QPR2 and affects testGetConnectionOwnerUid -->
-    <option name="compatibility:exclude-filter" value="NetworkStackTests android.net.netlink.InetDiagSocketTest#testGetConnectionOwnerUid" />
-    <option name="compatibility:exclude-filter" value="NetworkStackTests android.net.netlink.InetDiagSocketTest#testB141603906" />
+    <option name="compatibility:exclude-filter" value="NetworkStackCoverageTests android.net.netlink.InetDiagSocketTest#testGetConnectionOwnerUid" />
+    <option name="compatibility:exclude-filter" value="NetworkStackCoverageTests android.net.netlink.InetDiagSocketTest#testB141603906" />
 
     <template-include name="reporters" default="basic-reporters" />
 
