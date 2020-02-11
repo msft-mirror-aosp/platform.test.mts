@@ -13,13 +13,14 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-tzdata from a pre-existing MTS installation">
+<configuration description="Runs MTS-Dns-Resolver from a pre-existing MTS installation">
 
     <include name="mts" />
 
-    <option name="plan" value="mts-tzdata" />
+    <option name="plan" value="mts-dns-resolver" />
 
-    <option name="compatibility:include-filter" value="MtsTimeZoneDataTestCases" />
-
+    <option name="compatibility:module-metadata-include-filter" key="component" value="networking" />
+    <option name="compatibility:include-filter" value="CtsNetTestCases android.net.cts.DnsTest" />
+    <option name="compatibility:include-filter" value="CtsNetTestCases android.net.cts.DnsResolverTest" />
+    <option name="compatibility:include-filter" value="CtsNativeNetDnsTestCases" />
 </configuration>
-

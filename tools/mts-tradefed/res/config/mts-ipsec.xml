@@ -13,13 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-tzdata from a pre-existing MTS installation">
+<configuration description="Runs MTS-ipsec from a pre-existing MTS installation">
 
     <include name="mts" />
 
-    <option name="plan" value="mts-tzdata" />
+    <option name="plan" value="mts-ipsec" />
 
-    <option name="compatibility:include-filter" value="MtsTimeZoneDataTestCases" />
+    <option name="compatibility:include-filter" value="FrameworksIkeTests" />
 
 </configuration>
-
