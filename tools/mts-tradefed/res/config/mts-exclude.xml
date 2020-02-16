@@ -129,9 +129,6 @@
     <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSessionStateMachineTest#testSimulRekey" />
     <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.ChildSessionStateMachineTest#testRekeyLocalCreateChildHandlesKeyCalculationFail" />
 
-    <!-- b/148095484, b/148422843: Flaky test for tethering -->
-    <option name="compatibility:exclude-filter" value="CtsTetheringTest  android.tethering.test.TetheringManagerTest#testStartTetheringWithStateChangeBroadcast" />
-
     <!-- https://b.corp.google.com/hotlists/2163722: Flaky test for media -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaScannerTest#testCanonicalize" />
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaPlayerDrmTest#testCAR_CLEARKEY_AUDIO_DOWNLOADED_V0_SYNC" />
