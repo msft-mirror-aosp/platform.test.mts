@@ -72,6 +72,79 @@
     <!-- b/142978584: Flaky test -->
     <option name="compatibility:exclude-filter" value="CtsNetTestCases android.net.cts.TrafficStatsTest#testTrafficStatsForLocalhost" />
 
+    <!-- https://b.corp.google.com/hotlists/2163903 Flaky test for DNS resolver-->
+    <option name="compatibility:exclude-filter" value="CtsNetTestCases  android.net.cts.DnsResolverTest#testRawQueryInline" />
+    <option name="compatibility:exclude-filter" value="CtsNetTestCases  android.net.cts.DnsResolverTest#testPrivateDnsBypass" />
+    <option name="compatibility:exclude-filter" value="CtsNetTestCases  android.net.cts.DnsResolverTest#testRawQueryNXDomainInlineWithPrivateDns" />
+    <option name="compatibility:exclude-filter" value="CtsNetTestCases  android.net.cts.DnsResolverTest#testRawQueryRootInline" />
+    <option name="compatibility:exclude-filter" value="CtsNetTestCases  android.net.cts.DnsResolverTest#testRawQueryRoot" />
+    <option name="compatibility:exclude-filter" value="CtsNetTestCases  android.net.cts.DnsResolverTest#testQueryForInetAddressInline" />
+    <option name="compatibility:exclude-filter" value="CtsNetTestCases  android.net.cts.DnsTest#testDnsWorks" />
+    <option name="compatibility:exclude-filter" value="CtsNetTestCases  android.net.cts.DnsResolverTest#testRawQueryNXDomainInlineWithPrivateDns" />
+    <option name="compatibility:exclude-filter" value="CtsNetTestCases  android.net.cts.DnsResolverTest#testQueryForInetAddressIpv4" />
+    <option name="compatibility:exclude-filter" value="CtsNetTestCases  android.net.cts.DnsResolverTest#testContinuousQueries" />
+    <option name="compatibility:exclude-filter" value="CtsNetTestCases  android.net.cts.DnsResolverTest#testContinuousQueriesInline" />
+    <option name="compatibility:exclude-filter" value="CtsNetTestCases  android.net.cts.DnsResolverTest#testRawQueryNXDomainWithPrivateDns" />
+    <option name="compatibility:exclude-filter" value="CtsNetTestCases  android.net.cts.DnsResolverTest#testRawQueryNXDomain" />
+
+
+    <!-- https://b.corp.google.com/hotlists/2163774 Flaky test for Extservices-->
+    <option name="compatibility:exclude-filter" value="ExtServicesUnitTests  android.ext.services.watchdog.ExplicitHealthCheckServiceImplTest#testHealthCheckSupportedPackage" />
+    <option name="compatibility:exclude-filter" value="ExtServicesUnitTests  android.ext.services.watchdog.ExplicitHealthCheckServiceImplTest#testHealthCheckRequests" />
+
+    <!-- b/148478158, b/148478370, b/148476965 Flaky test for Conscrypt-->
+    <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases  test.java.time.chrono.TestJapaneseChronoImpl#test_dayOfYearVsCalendar" />
+    <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases  tck.java.time.chrono.TCKJapaneseChronology#test_getDayOfYear" />
+    <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases  org.apache.harmony.tests.javax.net.ssl.SSLSocketTest#testConstructor_InetAddressI" />
+
+    <!-- b/148544543 Flaky test for media provider -->
+    <option name="compatibility:exclude-filter" value="MediaProviderTests  com.android.providers.media.scan.DrmTest#testForwardLock_Video" />
+
+    <!-- https://b.corp.google.com/hotlists/2163643 Flaky test for statsd-->
+    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.metric.ValueMetricsTests#testValueMetric" />
+    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.metric.DurationMetricsTests#testDurationMetricWithConditionAndActivation" />
+    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.atom.HostAtomTests#testBatteryLevelChangedAtom" />
+    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.uidmap.UidMapTests#testChangeFromInstallation" />
+    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.atom.HostAtomTests#testFullBatteryCapacity" />
+    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.metric.GaugeMetricsTests#testPulledGaugeMetricWithConditionAndActivation" />
+
+    <!-- https://b.corp.google.com/hotlists/2163558 Flaky test for Permission Controller-->
+    <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#requestRoleFirstTimeNoDontAskAgain" />
+    <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#openDefaultAppDetailsThenIsNotDefaultApp" />
+    <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#requestRoleAndDenyWithDontAskAgainAndClearDataThenShowsUiWithoutDontAskAgain" />
+    <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#requestRoleAndDenyWithDontAskAgainAndReinstallThenShowsUiWithoutDontAskAgain" />
+    <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#openDefaultAppListAndSetDefaultAppThenIsDefaultAppInList" />
+    <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#targetSdk28AndChangeDefaultSmsAndAllowThenIsDefaultSms" />
+    <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#requestRoleAndDenyThenHasDontAskAgain" />
+
+    <!-- https://b.corp.google.com/hotlists/2163558 Flaky test for Ike-->
+    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSocketTest#testSendIkePacket" />
+    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSessionStateMachineTest#testCreateIkeLocalIkeInit" />
+    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSessionStateMachineTest#testTempFailureHandlerTimeout" />
+    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSessionStateMachineTest#testRekeyIkeRemoteCreateSaCreationFailure" />
+    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSessionStateMachineTest#testRekeyIkeLocalDeleteHandlesRespWithParsingError" />
+    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSessionStateMachineTest#testRekeyIkeRemoteCreateHandlesInvalidReq" />
+    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSessionStateMachineTest#testIdleReceiveRequestWithFatalError" />
+    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.ChildSessionStateMachineTest#testCreateFirstChild" />
+    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSessionStateMachineTest#testSimulRekey" />
+    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.ChildSessionStateMachineTest#testRekeyLocalCreateChildHandlesKeyCalculationFail" />
+
+    <!-- https://b.corp.google.com/hotlists/2163722: Flaky test for media -->
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaScannerTest#testCanonicalize" />
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaPlayerDrmTest#testCAR_CLEARKEY_AUDIO_DOWNLOADED_V0_SYNC" />
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaSyncTest#testPlayAudio" />
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaPlayerTest#testPlayAudioAmr" />
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaCodecListTest#testVideoPerformancePointsSanity" />
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaRecorderTest#testGetSurfaceApi" />
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.ResourceManagerTest#testReclaimResourceMixVsNonsecure" />
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaPlayerTest#testGapless1" />
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaSyncTest#testAudioBufferReturn" />
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaPlayerTest#testPlayAudioTwice" />
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaScannerTest#testEncodingDetection" />
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaScannerTest#testWildcardPaths" />
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaPlayerTest#testPositionAtEnd" />
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaSyncTest#testPlaybackRateDouble" />
+
     <!-- b/144859812: Flaky test -->
     <option name="compatibility:exclude-filter" value="DocumentsUIGoogleTests com.android.documentsui.FileCopyUiTest#testCopyDocuments_InternalStorage" />
 
