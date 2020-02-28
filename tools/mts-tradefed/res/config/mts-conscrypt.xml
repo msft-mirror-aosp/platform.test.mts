@@ -19,8 +19,8 @@
 
     <option name="plan" value="mts-conscrypt" />
 
-    <option name="compatibility:module-metadata-include-filter" key="component" value="libcore" />
-    <option name="compatibility:include-filter" value="CtsLibcoreTestCases" />
     <option name="compatibility:include-filter" value="CtsLibcoreOkHttpTestCases" />
+    <option name="compatibility:include-filter" value="MtsConscryptTestCases" />
+    
 </configuration>
 
