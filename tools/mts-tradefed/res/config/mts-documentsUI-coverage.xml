@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019 The Android Open Source Project.
+<!-- Copyright (C) 2019 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,14 +13,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS">
+<configuration description="Runs MTS-documentsUI-coverage from a pre-existing MTS installation">
+
+    <option name="plan" value="mts-documentsUI-coverage" />
 
     <include name="everything" />
-    <option name="plan" value="mts" />
-    <option name="test-tag" value="mts" />
 
     <include name="mts-preconditions" />
-    <include name="mts-exclude" />
 
     <option name="enable-root" value="false" />
 
@@ -31,7 +30,7 @@
 
     <target_preparer class="com.android.compatibility.common.tradefed.targetprep.PropertyCheck">
         <option name="property-name" value="ro.build.type" />
-        <option name="expected-value" value="user"/> <!-- Device should have user build -->
+          <option name="expected-value" value="eng"/> <!-- Device should have userdebug/eng build -->
         <option name="throw-error" value="false"/> <!-- Only print warning if not user build -->
     </target_preparer>
 
@@ -41,9 +40,10 @@
         <option name="throw-error" value="false"/> <!-- Only print warning if not en-US -->
     </target_preparer>
 
+    <option name="compatibility:include-filter" value="DocumentsUITests" />
+    <option name="compatibility:include-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.DocumentsTest" />
+    <option name="compatibility:include-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.ScopedDirectoryAccessTest" />
+
     <template-include name="reporters" default="basic-reporters" />
 
-    <!-- Advertise the test suite to media cts. -->
-    <option name="compatibility:module-arg" value="CtsMediaTestCases:instrumentation-arg:mts-media:=true" />
 </configuration>
-
