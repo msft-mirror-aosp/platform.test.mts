@@ -19,10 +19,10 @@
 
     <option name="plan" value="mts-network" />
 
-    <option name="compatibility:include-filter" value="CtsNetTestCases" />
+    <option name="compatibility:include-filter" value="CtsNetTestCasesLatestSdk" />
 
     <!-- b/110385515: Flaky test -->
-    <option name="compatibility:exclude-filter" value="CtsNetTestCases android.net.wifi.rtt.cts.WifiRttTest#testRangingToTestAp" />
+    <option name="compatibility:exclude-filter" value="CtsNetTestCasesLatestSdk android.net.wifi.rtt.cts.WifiRttTest#testRangingToTestAp" />
 
 </configuration>
 
