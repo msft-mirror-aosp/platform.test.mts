@@ -54,6 +54,9 @@
 
     <option name="compatibility:module-arg" value="MtsTimeZoneDataTestCases:enable:true" />
 
+    <!-- Wifi MTS-only tests -->
     <option name="compatibility:module-arg" value="MtsWifiTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="FrameworksWifiApiTests:enable:true" />
+    <option name="compatibility:module-arg" value="FrameworksWifiTests:enable:true" />
 </configuration>
 
