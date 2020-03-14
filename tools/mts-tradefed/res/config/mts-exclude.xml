@@ -14,9 +14,71 @@
      limitations under the License.
 -->
 <configuration description="This test plan excludes non-mainline related tests">
+    <option name="plan" value="mts-exclude" />
+
+    <!-- Tests in GtsGmscoreHostTestCases that does not test Wifi functionality. -->
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.provisioning.ProvisioningHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.security.AttestationRootHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.security.DeviceIdAttestationHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.locationcontext.LocationContextHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.netrec.NetRecHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.provider.ProviderHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.bluetooth.BluetoothHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.audio.AudioHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.persistentdata.PersistentDataHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.audioservice.AudioServiceHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.cast.RemoteSubmixHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.cast.VirtualDisplayHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.systemupdate.SystemUpdateManagerHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.telephony.TelephonyHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.telephony.TelephonyEuiccHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.telecom.TelecomHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.phone.PhoneHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.updateengine.UpdateEngineHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.power.PowerHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.location.LocationHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.recoverablekeystore.RecoverableKeyStoreEndtoEndHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.recoverablekeystore.RecoverySessionHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.recoverablekeystore.RecoveryControllerFromSUWHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.recoverablekeystore.RecoveryControllerHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.audiopolicy.AudioPolicyHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.multiuser.RestrictedProfileHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.devicepolicy.DevicePolicyManagerTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.devicepolicy.DeviceOwnerUserRestrictionTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.devicepolicy.DeviceOwnerTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.devicepolicy.DeviceAdminTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.devicepolicy.ManagedProfileTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.devicepolicy.managedprovisioning.ManagedProfileProvisioningHostsideTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.devicepolicy.managedprovisioning.BaseProvisioningHostsideTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.devicepolicy.managedprovisioning.DeviceOwnerProvisioningHostsideTest" />
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases com.google.android.gts.trust.TrustHostTest" />
+
+    <!-- Tests in GtsBackupHostTestCases that does not test Wifi functionality. -->
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.NetworkPolicyRestoreHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.ScheduledBackupHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.GmsModulesHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.NotificationSettingsRestoreHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.SliceServiceRestoreHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.RestoreFromHigherSdkHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.WallpaperRestoreHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.UsageStatsRestoreHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.BaseKeyValueBackupHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.BaseBackupRestoreHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.BackupHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.ShortcutServiceRestoreHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.SettingsBackupAllowedKeysHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.PreferredActivityRestoreHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.LocaleSettingsRestoreHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.DefaultBrowserBackupHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.BackupManagerTransportAttributesHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.IncrementalFlagsHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.KeyValueRestoreExclusionHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.SettingsProviderBackupHostTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.RestoreSessionHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.SettingsBackupValidationHostSideTest" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.AccessibilityServiceRestoreHostSideTest" />
 
     <!--Tests in CtsAppSecurityHostTestCases that are not testing mainline modules-->
-    <option name="plan" value="mts-exclude" />
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.AccessSerialNumberTest" />
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.AdoptableHostTest" />
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.AppOpsTest" />
