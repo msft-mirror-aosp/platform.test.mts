@@ -22,7 +22,7 @@
     <include name="mts-preconditions" />
     <include name="mts-exclude" />
 
-    <option name="enable-root" value="false" />
+    <option name="enable-root" value="true" />
 
     <target_preparer class="com.android.tradefed.targetprep.RunCommandTargetPreparer">
         <option name="run-command" value="settings put global package_verifier_enable 0" />
