@@ -107,5 +107,8 @@
 
     <!-- b/142965402: MTS flaky test -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
+
+    <!-- b/147925128: Tests for permission controller should be excluded from the full MTS test run -->
+    <option name="compatibility:exclude-filter" value="CtsRoleTestCases" />
 </configuration>
 
