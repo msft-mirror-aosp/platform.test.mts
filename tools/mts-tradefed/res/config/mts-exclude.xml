@@ -179,18 +179,6 @@
     <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#targetSdk28AndChangeDefaultSmsAndAllowThenIsDefaultSms" />
     <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#requestRoleAndDenyThenHasDontAskAgain" />
 
-    <!-- https://b.corp.google.com/hotlists/2163558 Flaky test for Ike-->
-    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSocketTest#testSendIkePacket" />
-    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSessionStateMachineTest#testCreateIkeLocalIkeInit" />
-    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSessionStateMachineTest#testTempFailureHandlerTimeout" />
-    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSessionStateMachineTest#testRekeyIkeRemoteCreateSaCreationFailure" />
-    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSessionStateMachineTest#testRekeyIkeLocalDeleteHandlesRespWithParsingError" />
-    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSessionStateMachineTest#testRekeyIkeRemoteCreateHandlesInvalidReq" />
-    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSessionStateMachineTest#testIdleReceiveRequestWithFatalError" />
-    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.ChildSessionStateMachineTest#testCreateFirstChild" />
-    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.IkeSessionStateMachineTest#testSimulRekey" />
-    <option name="compatibility:exclude-filter" value="FrameworksIkeTests  com.android.internal.net.test.ipsec.ike.ChildSessionStateMachineTest#testRekeyLocalCreateChildHandlesKeyCalculationFail" />
-
     <!-- https://b.corp.google.com/hotlists/2163722: Flaky test for media -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaScannerTest#testCanonicalize" />
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaPlayerDrmTest#testCAR_CLEARKEY_AUDIO_DOWNLOADED_V0_SYNC" />
