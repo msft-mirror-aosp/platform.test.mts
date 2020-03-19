@@ -31,7 +31,7 @@
     <option name="compatibility:include-filter" value="resolv_gold_test" />
     <option name="compatibility:include-filter" value="resolv_stress_test" />
 
-    <option name="compatibility:include-filter" value="CtsNetTestCases android.net.cts.DnsTest" />
-    <option name="compatibility:include-filter" value="CtsNetTestCases android.net.cts.DnsResolverTest" />
+    <option name="compatibility:include-filter" value="CtsNetTestCasesLatestSdk android.net.cts.DnsTest" />
+    <option name="compatibility:include-filter" value="CtsNetTestCasesLatestSdk android.net.cts.DnsResolverTest" />
     <option name="compatibility:include-filter" value="CtsNativeNetDnsTestCases" />
 </configuration>
