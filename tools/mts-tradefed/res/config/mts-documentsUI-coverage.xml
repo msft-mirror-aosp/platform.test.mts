@@ -13,11 +13,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<!-- Test plan for runs of NetworkStack MTS to calculate unit test coverage.
-     Includes unit tests that will only pass on devices using test platform keys. -->
-<configuration description="Runs MTS-network-coverage from a pre-existing MTS installation">
+<configuration description="Runs MTS-documentsUI-coverage from a pre-existing MTS installation">
 
-    <option name="plan" value="mts-network-coverage" />
+    <option name="plan" value="mts-documentsUI-coverage" />
 
     <include name="everything" />
 
@@ -25,7 +23,6 @@
 
     <option name="enable-root" value="false" />
 
-    <!-- Use the same preparers as the main mts config for consistency -->
     <target_preparer class="com.android.tradefed.targetprep.RunCommandTargetPreparer">
         <option name="run-command" value="settings put global package_verifier_enable 0" />
         <option name="teardown-command" value="settings put global package_verifier_enable 1"/>
@@ -43,9 +40,10 @@
         <option name="throw-error" value="false"/> <!-- Only print warning if not en-US -->
     </target_preparer>
 
-    <option name="compatibility:include-filter" value="NetworkStackCoverageTests" />
+    <option name="compatibility:include-filter" value="DocumentsUITests" />
+    <option name="compatibility:include-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.DocumentsTest" />
+    <option name="compatibility:include-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.ScopedDirectoryAccessTest" />
 
     <template-include name="reporters" default="basic-reporters" />
 
 </configuration>
-

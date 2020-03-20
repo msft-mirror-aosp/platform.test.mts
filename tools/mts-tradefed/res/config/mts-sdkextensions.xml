@@ -13,14 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-conscrypt from a pre-existing MTS installation">
+<configuration description="Runs MTS-sdkextensions from a pre-existing MTS installation">
 
     <include name="mts" />
 
-    <option name="plan" value="mts-conscrypt" />
+    <option name="plan" value="mts-sdkextensions" />
 
-    <option name="compatibility:include-filter" value="CtsLibcoreOkHttpTestCases" />
-    <option name="compatibility:include-filter" value="MtsConscryptTestCases" />
-    
+    <option name="compatibility:include-filter" value="CtsSdkExtensionsTestCases" />
 </configuration>
 

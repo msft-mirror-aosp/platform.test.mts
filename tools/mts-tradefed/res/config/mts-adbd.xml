@@ -13,14 +13,18 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-conscrypt from a pre-existing MTS installation">
+<configuration description="Runs mts-adbd from a pre-existing MTS installation">
 
     <include name="mts" />
 
-    <option name="plan" value="mts-conscrypt" />
+    <option name="plan" value="mts-adbd" />
 
-    <option name="compatibility:include-filter" value="CtsLibcoreOkHttpTestCases" />
-    <option name="compatibility:include-filter" value="MtsConscryptTestCases" />
-    
+    <target_preparer class="com.android.compatibility.common.tradefed.targetprep.PropertyCheck">
+        <option name="property-name" value="ro.build.type" />
+        <option name="expected-value" value="userdebug"/>
+        <option name="throw-error" value="false"/>
+    </target_preparer>
+
+    <option name="compatibility:include-filter" value="adbd_test" />
+
 </configuration>
-
