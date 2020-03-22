@@ -107,6 +107,9 @@
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.StorageHostTest" />
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.UseEmbeddedDexTest" />
 
+    <!-- ANGLE: Don't run dEQP on physical devices -->
+    <option name="compatibility:exclude-filter" value="CtsDeqpTestCases" />
+
     <!--Tests from CTS known faliures-->
 
     <!-- b/38224690 -->
@@ -251,9 +254,6 @@
 
     <!-- b/138407636: MTS Telephony flaky test -->
     <option name="compatibility:exclude-filter" value="CtsTelephonyTestCases android.telephony.ims.cts.ImsServiceTest" />
-
-    <!-- b/132358672: Global Settings not being applied -->
-    <option name="compatibility:exclude-filter" value="CtsAngleIntegrationHostTestCases android.angle.cts.CtsAngleRulesFileTest#testEmptyRulesFile" />
 
 </configuration>
 
