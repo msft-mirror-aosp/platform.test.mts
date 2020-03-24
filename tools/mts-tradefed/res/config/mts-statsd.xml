@@ -24,6 +24,7 @@
 
     <!-- Include tests from GTS -->
     <option name="compatibility:include-filter" value="GtsStatsdHostTestCases" />
+    <option name="compatibility:include-filter" value="GtsLibIncidentTests" />
 
     <!-- Exclude tests from CTS known faliures-->
     <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.alert.AnomalyDetectionTests#testPerfetto" />
