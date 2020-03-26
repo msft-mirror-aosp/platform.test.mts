@@ -23,6 +23,7 @@
     <!-- This test is only run if the Wifi module is installed. It tests for functionality that is
          not required for devices that don't take the Wifi module. -->
     <option name="compatibility:include-filter" value="MtsWifiTestCases" />
+    <option name="compatibility:include-filter" value="CtsWifiTestCases" />
 
     <option name="compatibility:include-filter" value="FrameworksWifiApiTests" />
     <option name="compatibility:include-filter" value="FrameworksWifiTests" />
@@ -33,6 +34,9 @@
          test suites, which is not desirable since other tests in the suite are used to qualify
          mandatory modules. -->
     <option name="compatibility:include-filter" value="CtsNetTestCasesLatestSdk" />
+    <!-- Disabled since it requires a SIM on the test device
+         TODO(b/152267259): re-enable tests once enough test devices with SIM -->
+    <option name="compatibility:exclude-filter" value="CtsNetTestCases android.net.cts.ConnectivityManagerTest#testOpenConnection" />
     <option name="compatibility:include-filter"
             value="GtsGmscoreHostTestCases com.google.android.gts.wifi.WifiHostTest" />
     <option name="compatibility:include-filter"
