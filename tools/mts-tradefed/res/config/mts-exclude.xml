@@ -155,11 +155,6 @@
     <option name="compatibility:exclude-filter" value="CtsNetTestCases  android.net.cts.DnsResolverTest#testRawQueryNXDomainWithPrivateDns" />
     <option name="compatibility:exclude-filter" value="CtsNetTestCases  android.net.cts.DnsResolverTest#testRawQueryNXDomain" />
 
-
-    <!-- https://b.corp.google.com/hotlists/2163774 Flaky test for Extservices-->
-    <option name="compatibility:exclude-filter" value="ExtServicesUnitTests  android.ext.services.watchdog.ExplicitHealthCheckServiceImplTest#testHealthCheckSupportedPackage" />
-    <option name="compatibility:exclude-filter" value="ExtServicesUnitTests  android.ext.services.watchdog.ExplicitHealthCheckServiceImplTest#testHealthCheckRequests" />
-
     <!-- b/148478158, b/148478370, b/148476965 Flaky test for Conscrypt-->
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases  test.java.time.chrono.TestJapaneseChronoImpl#test_dayOfYearVsCalendar" />
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases  tck.java.time.chrono.TCKJapaneseChronology#test_getDayOfYear" />
