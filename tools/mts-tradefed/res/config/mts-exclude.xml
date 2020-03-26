@@ -78,6 +78,9 @@
     <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.SettingsBackupValidationHostSideTest" />
     <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.AccessibilityServiceRestoreHostSideTest" />
 
+    <!-- b/110385515: Flaky test -->
+    <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.rtt.cts.WifiRttTest#testRangingToTestAp" />
+
     <!--Tests in CtsAppSecurityHostTestCases that are not testing mainline modules-->
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.AccessSerialNumberTest" />
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.AdoptableHostTest" />
