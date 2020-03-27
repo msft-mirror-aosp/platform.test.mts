@@ -165,9 +165,6 @@
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases  tck.java.time.chrono.TCKJapaneseChronology#test_getDayOfYear" />
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases  org.apache.harmony.tests.javax.net.ssl.SSLSocketTest#testConstructor_InetAddressI" />
 
-    <!-- b/148544543 Flaky test for media provider -->
-    <option name="compatibility:exclude-filter" value="MediaProviderTests  com.android.providers.media.scan.DrmTest#testForwardLock_Video" />
-
     <!-- https://b.corp.google.com/hotlists/2163643 Flaky test for statsd-->
     <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.metric.ValueMetricsTests#testValueMetric" />
     <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.metric.DurationMetricsTests#testDurationMetricWithConditionAndActivation" />
