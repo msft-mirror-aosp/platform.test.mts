@@ -78,6 +78,9 @@
     <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.SettingsBackupValidationHostSideTest" />
     <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.AccessibilityServiceRestoreHostSideTest" />
 
+    <!-- b/110385515: Flaky test -->
+    <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.rtt.cts.WifiRttTest#testRangingToTestAp" />
+
     <!--Tests in CtsAppSecurityHostTestCases that are not testing mainline modules-->
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.AccessSerialNumberTest" />
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.AdoptableHostTest" />
@@ -161,9 +164,6 @@
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases  test.java.time.chrono.TestJapaneseChronoImpl#test_dayOfYearVsCalendar" />
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases  tck.java.time.chrono.TCKJapaneseChronology#test_getDayOfYear" />
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases  org.apache.harmony.tests.javax.net.ssl.SSLSocketTest#testConstructor_InetAddressI" />
-
-    <!-- b/148544543 Flaky test for media provider -->
-    <option name="compatibility:exclude-filter" value="MediaProviderTests  com.android.providers.media.scan.DrmTest#testForwardLock_Video" />
 
     <!-- https://b.corp.google.com/hotlists/2163643 Flaky test for statsd-->
     <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.metric.ValueMetricsTests#testValueMetric" />
