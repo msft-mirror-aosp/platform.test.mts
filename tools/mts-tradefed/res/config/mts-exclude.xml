@@ -166,12 +166,7 @@
     <option name="compatibility:exclude-filter" value="MediaProviderTests  com.android.providers.media.scan.DrmTest#testForwardLock_Video" />
 
     <!-- https://b.corp.google.com/hotlists/2163643 Flaky test for statsd-->
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.metric.ValueMetricsTests#testValueMetric" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.metric.DurationMetricsTests#testDurationMetricWithConditionAndActivation" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.atom.HostAtomTests#testBatteryLevelChangedAtom" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.uidmap.UidMapTests#testChangeFromInstallation" />
     <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.atom.HostAtomTests#testFullBatteryCapacity" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.metric.GaugeMetricsTests#testPulledGaugeMetricWithConditionAndActivation" />
 
     <!-- https://b.corp.google.com/hotlists/2163558 Flaky test for Permission Controller-->
     <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#requestRoleFirstTimeNoDontAskAgain" />
