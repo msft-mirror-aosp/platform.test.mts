@@ -243,5 +243,8 @@
     <!-- b/138407636: MTS Telephony flaky test -->
     <option name="compatibility:exclude-filter" value="CtsTelephonyTestCases android.telephony.ims.cts.ImsServiceTest" />
 
+    <!-- b/150071590: This is for build certification not mainline RC testing -->
+    <option name="compatibility:exclude-filter" value="GtsOsTestCases com.google.android.os.gts.MainlineConfigurationTest#testMainlineApprovedTrain" />
+
 </configuration>
 
