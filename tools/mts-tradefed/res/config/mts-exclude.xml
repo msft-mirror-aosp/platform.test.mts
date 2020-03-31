@@ -174,13 +174,6 @@
     <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.metric.GaugeMetricsTests#testPulledGaugeMetricWithConditionAndActivation" />
 
     <!-- https://b.corp.google.com/hotlists/2163558 Flaky test for Permission Controller-->
-    <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#requestRoleFirstTimeNoDontAskAgain" />
-    <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#openDefaultAppDetailsThenIsNotDefaultApp" />
-    <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#requestRoleAndDenyWithDontAskAgainAndClearDataThenShowsUiWithoutDontAskAgain" />
-    <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#requestRoleAndDenyWithDontAskAgainAndReinstallThenShowsUiWithoutDontAskAgain" />
-    <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#openDefaultAppListAndSetDefaultAppThenIsDefaultAppInList" />
-    <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#targetSdk28AndChangeDefaultSmsAndAllowThenIsDefaultSms" />
-    <option name="compatibility:exclude-filter" value="CtsRoleTestCases  android.app.role.cts.RoleManagerTest#requestRoleAndDenyThenHasDontAskAgain" />
 
     <!-- https://b.corp.google.com/hotlists/2163722: Flaky test for media -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaScannerTest#testCanonicalize" />
