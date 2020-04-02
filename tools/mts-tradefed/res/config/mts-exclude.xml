@@ -161,12 +161,7 @@
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases  org.apache.harmony.tests.javax.net.ssl.SSLSocketTest#testConstructor_InetAddressI" />
 
     <!-- https://b.corp.google.com/hotlists/2163643 Flaky test for statsd-->
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.metric.ValueMetricsTests#testValueMetric" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.metric.DurationMetricsTests#testDurationMetricWithConditionAndActivation" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.atom.HostAtomTests#testBatteryLevelChangedAtom" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.uidmap.UidMapTests#testChangeFromInstallation" />
     <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.atom.HostAtomTests#testFullBatteryCapacity" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.metric.GaugeMetricsTests#testPulledGaugeMetricWithConditionAndActivation" />
 
     <!-- https://b.corp.google.com/hotlists/2163558 Flaky test for Permission Controller-->
 
