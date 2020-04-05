@@ -26,26 +26,4 @@
     <option name="compatibility:include-filter" value="GtsStatsdHostTestCases" />
     <option name="compatibility:include-filter" value="GtsLibIncidentTests" />
 
-    <!-- Exclude tests from CTS known faliures-->
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.alert.AnomalyDetectionTests#testPerfetto" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.HostAtomTests#testConnectivityStateChange" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.HostAtomTests#testKernelWakelock" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.ProcStateAtomTests#testForeground" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.ProcStateAtomTests#testTop" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testGpsStatus" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testGpsTimeToFirstFix" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testMediaCodecActivity" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testOverlayState" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testPictureInPictureState" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testProcessMemorySnapshot" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testAppStartOccurred" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testBleScan" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testBleUnoptimizedScan" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testBleScanResult" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testCpuActiveTime" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.metric.MetricActivationTests#testRestart" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.metric.MetricActivationTests#testMultipleActivations" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.validation.BatteryStatsValidationTests#testConnectivityStateChange" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.validation.ProcStatsValidationTests#testProcessStateCachedEmptyDuration" />
-
 </configuration>
