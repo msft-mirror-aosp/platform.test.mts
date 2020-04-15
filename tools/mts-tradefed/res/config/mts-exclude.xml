@@ -80,6 +80,8 @@
 
     <!-- b/110385515: Flaky test -->
     <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.rtt.cts.WifiRttTest#testRangingToTestAp" />
+    <!-- TODO(b/153088610): Missing AP support in test lab -->
+    <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.rtt.cts.WifiRttTest#testRangingToTestApWithResponderLocation" />
 
     <!--Tests in CtsAppSecurityHostTestCases that are not testing mainline modules-->
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.AccessSerialNumberTest" />
@@ -214,5 +216,7 @@
     <!-- b/150071590: This is for build certification not mainline RC testing -->
     <option name="compatibility:exclude-filter" value="GtsOsTestCases com.google.android.os.gts.MainlineConfigurationTest#testMainlineApprovedTrain" />
 
+    <!-- BouncyCastle allows unrecognized algorithms, but RI does not -->
+    <option name="compatibility:exclude-filter" value="MtsConscryptTestCases org.apache.harmony.crypto.tests.javax.crypto.KeyAgreementTest#test_generateSecretLjava_lang_String" />
 </configuration>
 
