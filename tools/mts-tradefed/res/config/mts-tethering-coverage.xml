@@ -17,5 +17,5 @@
 
     <option name="plan" value="mts-tethering-coverage" />
 
-    <option name="compatibility:include-filter" value="TetheringTests" />
+    <option name="compatibility:include-filter" value="TetheringCoverageTests" />
 </configuration>
