@@ -25,4 +25,7 @@
     <!-- Include tests from GTS -->
     <option name="compatibility:include-filter" value="GtsStatsdHostTestCases" />
 
+    <!-- Include tests from statsd native device-tests -->
+    <option name="compatbility:include-filter" value="statsd_test" />
+
 </configuration>
