@@ -163,9 +163,10 @@
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases  org.apache.harmony.tests.javax.net.ssl.SSLSocketTest#testConstructor_InetAddressI" />
 
     <!-- https://b.corp.google.com/hotlists/2163643 Flaky test for statsd-->
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.atom.HostAtomTests#testFullBatteryCapacity" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.atom.UidAtomTests#testMobileBytesTransfer" />
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases  android.cts.statsd.atom.UidAtomTests#testMobileBytesTransferByFgBg" />
+    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testMobileBytesTransfer" />
+    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testMobileBytesTransferByFgBg" />
+    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.validation.ProcStatsValidationTests#testProcessStateByPulling" />
+    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.validation.ProcStatsValidationTests#testProcStatsPkgProcStats" />
 
     <!-- https://b.corp.google.com/hotlists/2163558 Flaky test for Permission Controller-->
 
