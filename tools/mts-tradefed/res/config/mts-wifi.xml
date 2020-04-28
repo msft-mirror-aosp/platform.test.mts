@@ -18,33 +18,9 @@
 
     <include name="mts" />
 
+    <include name="mts-wifi-tests-list" />
+
     <option name="plan" value="mts-wifi" />
-
-    <!-- This test is only run if the Wifi module is installed. It tests for functionality that is
-         not required for devices that don't take the Wifi module. -->
-    <option name="compatibility:include-filter" value="MtsWifiTestCases" />
-    <option name="compatibility:include-filter" value="CtsWifiTestCases" />
-
-    <option name="compatibility:include-filter" value="FrameworksWifiApiTests" />
-    <option name="compatibility:include-filter" value="FrameworksWifiTests" />
-
-    <!-- These tests are run no matter if the Wifi module is installed or not, since these are
-         CTS/GTS tests that should pass regardless.
-         Note: Gating these tests by whether the Wifi Module is installed will gate their entire
-         test suites, which is not desirable since other tests in the suite are used to qualify
-         mandatory modules. -->
-    <option name="compatibility:include-filter" value="CtsNetTestCasesLatestSdk" />
-    <!-- Disabled since it requires a SIM on the test device
-         TODO(b/152267259): re-enable tests once enough test devices with SIM -->
-    <option name="compatibility:exclude-filter" value="CtsNetTestCasesLatestSdk android.net.cts.ConnectivityManagerTest#testOpenConnection" />
-    <option name="compatibility:include-filter"
-            value="GtsGmscoreHostTestCases com.google.android.gts.wifi.WifiHostTest" />
-    <option name="compatibility:include-filter"
-            value="GtsBackupHostTestCases com.google.android.gts.backup.OldWifiSettingsRestoreHostSideTest" />
-    <option name="compatibility:include-filter"
-            value="GtsBackupHostTestCases com.google.android.gts.backup.WifiSettingsBackupHostSideTest" />
-    <option name="compatibility:include-filter"
-            value="GtsBackupHostTestCases com.google.android.gts.backup.WifiSettingsRestoreHostSideTest" />
 
     <option name="compatibility:primary-abi-only" value="true" />
 </configuration>
