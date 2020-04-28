@@ -35,9 +35,9 @@ checkPath adb
 checkPath java
 
 # check java version
-JAVA_VERSION=$(java -version 2>&1 | head -n 1 | grep 'version [ "]\(1\.8\|9\|11\).*[ "]')
+JAVA_VERSION=$(java -version 2>&1 | head -n 1 | grep 'version [ "]\(1\.8\|9\).*[ "]')
 if [ "${JAVA_VERSION}" == "" ]; then
-    echo "Wrong java version. 1.8, 9, or 11 is required."
+    echo "Wrong java version. 1.8 or 9 is required."
     exit
 fi
 
@@ -104,6 +104,19 @@ for JAR in $OPTIONAL_JARS; do
         JAR_PATH=${JAR_PATH}:${JAR_DIR}/${JAR}.jar
     fi;
 done
+
+# check if APE_API_KEY is set in the env by user.
+if [ ! -n "${APE_API_KEY}" ]; then
+    GTS_GOOGLE_SERVICE_ACCOUNT=${ANDROID_BUILD_TOP}/vendor/xts/tools/gts-google-service-account/gts-google-service-account.json
+    # set KEY only for google if APE_API_KEY isn't set and GTS_GOOGLE_SERVICE_ACCOUNT exists in the soure tree.
+    if [ -f "$GTS_GOOGLE_SERVICE_ACCOUNT" ]; then
+        APE_API_KEY=${GTS_GOOGLE_SERVICE_ACCOUNT}
+        export APE_API_KEY
+    else
+        echo "APE_API_KEY not set, GTS tests may fail without authentication."
+    fi;
+fi;
+echo "APE_API_KEY: $APE_API_KEY"
 
 # load any shared libraries for host-side executables
 LIB_DIR=${MTS_ROOT}/android-mts/lib
