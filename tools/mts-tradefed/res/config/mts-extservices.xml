@@ -27,6 +27,12 @@
     <option name="compatibility:include-filter" value="ExtServicesUnitTests" />
     <option name="compatibility:include-filter" value="TextClassifierServiceTest" />
     <option name="compatibility:include-filter" value="TextClassifierNotificationTests" />
+
+    <!-- for TextClassifier -->
     <option name="compatibility:include-filter" value="CtsTextClassifierTestCases" />
+    <!-- for Watchdog -->
+    <option name="compatibility:include-filter" value="CtsPackageWatchdogTestCases" />
+    <!-- for Notification -->
+    <option name="compatibility:include-filter" value="CtsLegacyNotification29TestCases" />
 
 </configuration>
