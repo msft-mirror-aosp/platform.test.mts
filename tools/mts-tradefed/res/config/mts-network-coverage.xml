@@ -43,7 +43,7 @@
         <option name="throw-error" value="false"/> <!-- Only print warning if not en-US -->
     </target_preparer>
 
-    <option name="compatibility:include-filter" value="NetworkStackCoverageTests" />
+    <option name="compatibility:include-filter" value="NetworkStackCoverageMtsConfigTests" />
 
     <template-include name="reporters" default="basic-reporters" />
 
