@@ -32,7 +32,4 @@
     <option name="compatibility:include-filter" value="libstatspull_test" />
     <option name="compatibility:include-filter" value="libstatssocket_test" />
 
-    <!-- Include libstatspull jni tests -->
-    <option name="compatibility:include-filter" value="LibStatsPullTests" />
-
 </configuration>
