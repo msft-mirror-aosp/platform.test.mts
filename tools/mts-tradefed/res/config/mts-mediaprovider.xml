@@ -20,8 +20,9 @@
     <option name="plan" value="mts-mediaprovider" />
 
     <option name="compatibility:include-filter" value="MediaProviderTests" />
-    <option name="compatibility:include-filter" value="MediaProviderClientTests" />
     <option name="compatibility:include-filter" value="FuseDaemonHostTest" />
     <option name="compatibility:include-filter" value="RedactionInfoTest" />
     <option name="compatibility:include-filter" value="fuse_node_test" />
+
+    <option name="compatibility:include-filter" value="CtsProviderTestCases android.provider.cts.media." />
 </configuration>
