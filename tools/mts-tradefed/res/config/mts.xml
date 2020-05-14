@@ -58,5 +58,18 @@
     <option name="compatibility:module-arg" value="MtsWifiTestCases:enable:true" />
     <option name="compatibility:module-arg" value="FrameworksWifiApiTests:enable:true" />
     <option name="compatibility:module-arg" value="FrameworksWifiTests:enable:true" />
+
+    <!-- Enable MainlineTestModuleController for all the tests added for new R module Tests -->
+
+    <!-- CellBoradcast -->
+    <option name="compatibility:module-arg" value="CellBroadcastReceiverMTS:enable:true" />
+    <option name="compatibility:module-arg" value="CellBroadcastServiceTests:enable:true" />
+    
+    <!-- ExtServices -->
+    <option name="compatibility:module-arg" value="ExtServicesUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsPackageWatchdogTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="CtsTextClassifierTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="CtsLegacyNotification29TestCases:enable:true" />
+
 </configuration>
 
