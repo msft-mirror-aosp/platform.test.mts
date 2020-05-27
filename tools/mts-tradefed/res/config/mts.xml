@@ -50,20 +50,7 @@
     <template-include name="reporters" default="basic-reporters" />
 
     <!-- Advertise the test suite to media cts. -->
+    <!-- TODO:delete after mts-all.xml is ready. -->
     <option name="compatibility:module-arg" value="CtsMediaTestCases:instrumentation-arg:mts-media:=true" />
-
-    <option name="compatibility:module-arg" value="MtsTimeZoneDataTestCases:enable:true" />
-
-    <!-- Wifi MTS-only tests -->
-    <option name="compatibility:module-arg" value="MtsWifiTestCases:enable:true" />
-    <option name="compatibility:module-arg" value="FrameworksWifiApiTests:enable:true" />
-    <option name="compatibility:module-arg" value="FrameworksWifiTests:enable:true" />
-
-    <!-- Enable MainlineTestModuleController for all the tests added for new R module Tests -->
-
-    <!-- CellBoradcast -->
-    <option name="compatibility:module-arg" value="CellBroadcastReceiverMTS:enable:true" />
-    <option name="compatibility:module-arg" value="CellBroadcastServiceTests:enable:true" />
-    
 </configuration>
 
