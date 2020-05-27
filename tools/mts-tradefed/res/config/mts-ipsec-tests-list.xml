@@ -16,8 +16,10 @@
 <configuration description="IPsec mts tests list.">
 
     <option name="compatibility:include-filter" value="FrameworksIkeTests" />
+    <option name="compatibility:include-filter" value="CtsIkeTestCases" />
 
     <!-- Enable IPsec MTS tests to use MainlineTestModuleController -->
     <option name="compatibility:module-arg" value="FrameworksIkeTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsIkeTestCases:enable:true" />
 
 </configuration>
