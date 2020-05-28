@@ -13,13 +13,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="IPsec mts tests list.">
+<configuration
+    description="Runs MTS-documentsUI from a pre-existing MTS installation for oems">
 
-    <option name="compatibility:include-filter" value="FrameworksIkeTests" />
-    <option name="compatibility:include-filter" value="CtsIkeTestCases" />
+  <include name="mts" />
 
-    <!-- Enable IPsec MTS tests to use MainlineTestModuleController -->
-    <option name="compatibility:module-arg" value="FrameworksIkeTests:enable:true" />
-    <option name="compatibility:module-arg" value="CtsIkeTestCases:enable:true" />
+  <include name="mts-documentsUI-oem-tests-list" />
+
+  <option name="plan" value="mts-documentsUI-oem" />
 
 </configuration>
