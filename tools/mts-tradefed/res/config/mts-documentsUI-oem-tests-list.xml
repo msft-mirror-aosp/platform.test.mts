@@ -13,13 +13,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="IPsec mts tests list.">
+<configuration
+        description="DocumentsUI mts tests list for oems">
 
-    <option name="compatibility:include-filter" value="FrameworksIkeTests" />
-    <option name="compatibility:include-filter" value="CtsIkeTestCases" />
-
-    <!-- Enable IPsec MTS tests to use MainlineTestModuleController -->
-    <option name="compatibility:module-arg" value="FrameworksIkeTests:enable:true" />
-    <option name="compatibility:module-arg" value="CtsIkeTestCases:enable:true" />
+    <option name="compatibility:include-filter" value="DocumentsUIUnitTests" />
+    <option name="compatibility:include-filter"
+            value="CtsAppSecurityHostTestCases android.appsecurity.cts.DocumentsTest" />
+    <option name="compatibility:include-filter"
+            value="CtsAppSecurityHostTestCases android.appsecurity.cts.ScopedDirectoryAccessTest" />
 
 </configuration>
