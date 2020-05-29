@@ -17,10 +17,8 @@
 
     <include name="mts" />
 
-    <option name="plan" value="mts-conscrypt" />
+    <include name="mts-conscrypt-tests-list" />
 
-    <option name="compatibility:include-filter" value="CtsLibcoreOkHttpTestCases" />
-    <option name="compatibility:include-filter" value="MtsConscryptTestCases" />
-    
+    <option name="plan" value="mts-conscrypt" />
 </configuration>
 

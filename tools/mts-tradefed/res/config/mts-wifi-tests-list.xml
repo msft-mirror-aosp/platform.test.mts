@@ -38,4 +38,8 @@
     <option name="compatibility:include-filter"
             value="GtsBackupHostTestCases com.google.android.gts.backup.WifiSettingsRestoreHostSideTest" />
 
+    <!-- Enable MainlineTestModuleController for Wifi MTS-only tests -->
+    <option name="compatibility:module-arg" value="MtsWifiTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="FrameworksWifiApiTests:enable:true" />
+    <option name="compatibility:module-arg" value="FrameworksWifiTests:enable:true" />
 </configuration>
