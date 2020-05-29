@@ -17,8 +17,8 @@
 
     <include name="mts" />
 
-    <option name="plan" value="mts-preload-verify" />
+    <include name="mts-preload-verify-tests-list" />
 
-    <option name="compatibility:include-filter" value="GtsOsTestCases com.google.android.os.gts.MainlineModulePreloadTest" />
+    <option name="plan" value="mts-preload-verify" />
 </configuration>
 
