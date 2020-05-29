@@ -13,12 +13,10 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-network from a pre-existing MTS installation">
+<configuration description="Runs MTS-tzdata from a pre-existing MTS installation">
+    <option name="compatibility:include-filter" value="MtsTimeZoneDataTestCases" />
 
-    <include name="mts" />
-
-    <include name="mts-network-tests-list" />
-
-    <option name="plan" value="mts-network" />
+    <!-- Enable MainlineTestModuleController. -->
+    <option name="compatibility:module-arg" value="MtsTimeZoneDataTestCases:enable:true" />
 </configuration>
 
