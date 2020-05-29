@@ -16,9 +16,14 @@
   -->
 <configuration description="MTS test list for Scheduling">
 
+    <option name="compatibility:include-filter" value="CtsAlarmManagerTestCases" />
+    <option name="compatibility:include-filter" value="CtsAppUsageHostTestCases" />
+    <option name="compatibility:include-filter" value="CtsBatterySavingTestCases" />
     <option name="compatibility:include-filter" value="CtsJobSchedulerTestCases" />
 
-    <!-- Enable SdkExtensions MTS tests to use MainlineTestModuleController -->
+    <!-- Enable Scheduling MTS tests to use MainlineTestModuleController -->
+    <option name="compatibility:module-arg" value="CtsAlarmManagerTestCases:enable:false" />
+    <option name="compatibility:module-arg" value="CtsAppUsageHostTestCases:enable:false" />
+    <option name="compatibility:module-arg" value="CtsBatterySavingTestCases:enable:false" />
     <option name="compatibility:module-arg" value="CtsJobSchedulerTestCases:enable:false" />
 </configuration>
-
