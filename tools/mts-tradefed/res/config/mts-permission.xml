@@ -20,20 +20,7 @@
 
     <include name="mts" />
 
-    <option name="plan" value="mts-permission" />
+    <include name="mts-permission-tests-list" />
 
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.BackgroundPermissionsTest" />
-    <!-- TODO(b/153907603): LocationAccessCheckTest clears package data for PermissionController which will interfere with coverage collection. -->
-    <!--<option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.LocationAccessCheckTest" />-->
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PermissionControllerTest" />
-    <option name="compatibility:module-arg" value="CtsPermissionTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
-    <option name="compatibility:include-filter" value="CtsPermission3TestCases" />
-    <option name="compatibility:module-arg" value="CtsPermission3TestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
-    <option name="compatibility:include-filter" value="CtsBackupTestCases android.backup.cts.PermissionTest" />
-    <option name="compatibility:module-arg" value="CtsBackupTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
-    <option name="compatibility:include-filter" value="CtsDevicePolicyManagerTestCases" />
-    <option name="compatibility:module-arg" value="CtsDevicePolicyManagerTestCases:include-annotation:com.android.cts.devicepolicy.annotations.PermissionsTest" />
-    <option name="compatibility:module-arg" value="CtsDevicePolicyManagerTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
-    <option name="compatibility:include-filter" value="CtsRoleTestCases" />
-    <option name="compatibility:module-arg" value="CtsRoleTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
+    <option name="plan" value="mts-permission" />
 </configuration>
