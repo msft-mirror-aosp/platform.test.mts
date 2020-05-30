@@ -17,9 +17,8 @@
 
     <include name="mts" />
 
+    <include name="mts-tzdata-tests-list" />
+
     <option name="plan" value="mts-tzdata" />
-
-    <option name="compatibility:include-filter" value="MtsTimeZoneDataTestCases" />
-
 </configuration>
 
