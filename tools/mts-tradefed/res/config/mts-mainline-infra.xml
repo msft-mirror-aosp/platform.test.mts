@@ -17,11 +17,8 @@
 
     <include name="mts" />
 
-    <option name="plan" value="mts-mainline-infra" />
+    <include name="mts-mainline-infra-tests-list" />
 
-    <option name="compatibility:include-filter" value="CtsApexTestCases" />
-    <option name="compatibility:include-filter" value="CtsAtomicInstallTestCases" />
-    <option name="compatibility:include-filter" value="CtsSdkExtensionsTestCases" />
-    <option name="compatibility:include-filter" value="CtsStagedInstallHostTestCases" />
+    <option name="plan" value="mts-mainline-infra" />
 </configuration>
 

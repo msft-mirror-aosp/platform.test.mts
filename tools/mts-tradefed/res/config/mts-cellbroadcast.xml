@@ -17,8 +17,7 @@
 
     <include name="mts" />
 
-    <option name="plan" value="mts-cellbroadcast" />
+    <include name="mts-cellbroadcast-tests-list" />
 
-    <option name="compatibility:include-filter" value="CellBroadcastReceiverMTS" />
-    <option name="compatibility:include-filter" value="CellBroadcastServiceTests" />
+    <option name="plan" value="mts-cellbroadcast" />
 </configuration>
