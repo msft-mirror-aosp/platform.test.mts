@@ -24,7 +24,6 @@
     <include name="mts-documentsUI-oem-tests-list" />
     <include name="mts-dnsresolver-tests-list" />
     <include name="mts-ipsec-tests-list" />
-    <include name="mts-mainline-infra-tests-list" />
     <include name="mts-media-tests-list" />
     <include name="mts-network-tests-list" />
     <include name="mts-neuralnetworks-tests-list" />
