@@ -190,6 +190,8 @@
 
     <!-- b/144859812: Flaky test -->
     <option name="compatibility:exclude-filter" value="DocumentsUIGoogleTests com.android.documentsui.FileCopyUiTest#testCopyDocuments_InternalStorage" />
+    <!-- b/156756197: Flaky test -->
+    <option name="compatibility:exclude-filter" value="DocumentsUIGoogleTests com.android.documentsui.CancelFromNotificationUiTest#testMoveDocument_CancelFromNotification" />
 
     <!-- b/144578694: the tests are not for current train -->
     <option name="compatibility:exclude-filter" value="DocumentsUIGoogleTests com.android.documentsui.DialogFragmentTest#testCreateDialog_textInputEditText_shouldNotTruncateOnLargeDensity" />
