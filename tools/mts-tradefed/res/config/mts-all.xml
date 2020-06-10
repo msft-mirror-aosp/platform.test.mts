@@ -19,7 +19,7 @@
     <option name="plan" value="mts-all" />
 
     <include name="mts-adbd-tests-list" />
-    <include name="mts-cellbroadcast-tests-list" />
+    <include name="mts-cellbroadcast-oem-tests-list" />
     <include name="mts-conscrypt-tests-list" />
     <include name="mts-documentsUI-oem-tests-list" />
     <include name="mts-dnsresolver-tests-list" />
