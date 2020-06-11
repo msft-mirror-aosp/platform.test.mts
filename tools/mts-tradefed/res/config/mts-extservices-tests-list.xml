@@ -31,12 +31,16 @@
     <option name="compatibility:include-filter" value="TextClassifierNotificationTests" />
     <option name="compatibility:include-filter" value="TextClassifierServiceTest" />
 
-      <!-- Enable MainlineTestModuleController. -->
+    <!-- for TextClassifier native -->
+    <option name="compatibility:include-filter" value="libtextclassifier_tests" />
+
+    <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsPackageWatchdogTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsLegacyNotification29TestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsTextClassifierTestCases:enable:true" />
     <option name="compatibility:module-arg" value="ExtServicesUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="TextClassifierNotificationTests:enable:true" />
     <option name="compatibility:module-arg" value="TextClassifierServiceTest:enable:true" />
+    <option name="compatibility:module-arg" value="libtextclassifier_tests:enable:true" />
 
 </configuration>
