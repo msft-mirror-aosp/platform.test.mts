@@ -18,6 +18,9 @@
     <!-- Include tests from CTS -->
     <option name="compatibility:include-filter" value="CtsStatsdHostTestCases" />
 
+    <!-- Include tests from Statsd Framework Apex -->
+    <option name="compatibility:include-filter" value="FrameworkStatsdTest" />
+
     <!-- Include tests from GTS -->
     <option name="compatibility:include-filter" value="GtsStatsdHostTestCases" />
 
@@ -30,6 +33,7 @@
 
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsStatsdHostTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="FrameworkStatsdTest:enable:true" />
     <option name="compatibility:module-arg" value="libstatspull_test:enable:true" />
     <option name="compatibility:module-arg" value="libstatssocket_test:enable:true" />
     <option name="compatibility:module-arg" value="statsd_test:enable:true" />
