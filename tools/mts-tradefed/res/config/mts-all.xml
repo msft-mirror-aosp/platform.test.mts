@@ -18,21 +18,7 @@
 
     <option name="plan" value="mts-all" />
 
-    <include name="mts-adbd-tests-list" />
-    <include name="mts-cellbroadcast-tests-list" />
-    <include name="mts-conscrypt-tests-list" />
-    <include name="mts-documentsUI-oem-tests-list" />
-    <include name="mts-dnsresolver-tests-list" />
-    <include name="mts-ipsec-tests-list" />
-    <include name="mts-media-tests-list" />
-    <include name="mts-network-tests-list" />
-    <include name="mts-neuralnetworks-tests-list" />
-    <include name="mts-permission-tests-list" />
-    <include name="mts-preload-verify-tests-list" />
-    <include name="mts-sdkextensions-tests-list" />
-    <include name="mts-statsd-tests-list" />
-    <include name="mts-tethering-tests-list" />
-    <include name="mts-tzdata-tests-list" />
-    <include name="mts-wifi-tests-list" />
+    <include name="mts-tests-list-user" />
+    <include name="mts-tests-list-eng-only" />
 </configuration>
 
