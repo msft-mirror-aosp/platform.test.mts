@@ -13,12 +13,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs mts-adbd from a pre-existing MTS installation">
-
-    <include name="mts" />
-
-    <include name="mts-adbd-tests-list-eng-only" />
-
-    <option name="plan" value="mts-adbd" />
-
+<configuration description="List mts dnsResolver tests that do not need root access">
+    <option name="compatibility:include-filter" value="CtsNetTestCasesLatestSdk android.net.cts.DnsTest" />
+    <option name="compatibility:include-filter" value="CtsNetTestCasesLatestSdk android.net.cts.DnsResolverTest" />
+    <option name="compatibility:include-filter" value="CtsNativeNetDnsTestCases" />
 </configuration>
