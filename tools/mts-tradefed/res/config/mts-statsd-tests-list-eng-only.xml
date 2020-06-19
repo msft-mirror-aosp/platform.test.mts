@@ -13,17 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List of statsd MTS tests.">
-
-    <!-- Include tests from CTS -->
-    <option name="compatibility:include-filter" value="CtsStatsdHostTestCases" />
-
-    <!-- Include tests from Statsd Framework Apex -->
-    <option name="compatibility:include-filter" value="FrameworkStatsdTest" />
-
-    <!-- Include tests from GTS -->
-    <option name="compatibility:include-filter" value="GtsStatsdHostTestCases" />
-
+<configuration description="List of statsd MTS tests that need root access.">
     <!-- Include libstats tests -->
     <option name="compatibility:include-filter" value="libstatspull_test" />
     <option name="compatibility:include-filter" value="libstatssocket_test" />
@@ -35,11 +25,8 @@
     <option name="compatibility:include-filter" value="statsd_test" />
 
     <!-- Enable MainlineTestModuleController. -->
-    <option name="compatibility:module-arg" value="CtsStatsdHostTestCases:enable:true" />
-    <option name="compatibility:module-arg" value="FrameworkStatsdTest:enable:true" />
+    <option name="compatibility:module-arg" value="libincident_test:enable:true" />
     <option name="compatibility:module-arg" value="libstatspull_test:enable:true" />
     <option name="compatibility:module-arg" value="libstatssocket_test:enable:true" />
     <option name="compatibility:module-arg" value="statsd_test:enable:true" />
-    <option name="compatibility:module-arg" value="libincident_test:enable:true" />
-
 </configuration>
