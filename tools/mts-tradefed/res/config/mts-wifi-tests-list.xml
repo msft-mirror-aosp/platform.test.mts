@@ -42,4 +42,6 @@
     <option name="compatibility:module-arg" value="MtsWifiTestCases:enable:true" />
     <option name="compatibility:module-arg" value="FrameworksWifiApiTests:enable:true" />
     <option name="compatibility:module-arg" value="FrameworksWifiTests:enable:true" />
+    <option name="compatibility:module-arg" value="GtsBackupHostTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="GtsGmscoreHostTestCases:enable:true" />
 </configuration>
