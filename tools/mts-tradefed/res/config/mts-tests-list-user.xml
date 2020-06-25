@@ -29,5 +29,10 @@
     <include name="mts-tethering-tests-list" />
     <include name="mts-tzdata-tests-list" />
     <include name="mts-wifi-tests-list" />
+
+    <!-- Exclude Wifi GTS tests that cannot run on user build due to signature mismatch with GMSCore
+         TODO(b/158818152): remove once GTS tests can run on user build  -->
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases" />
 </configuration>
 
