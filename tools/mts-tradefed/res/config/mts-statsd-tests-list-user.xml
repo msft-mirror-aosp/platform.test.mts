@@ -26,5 +26,5 @@
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsStatsdHostTestCases:enable:true" />
     <option name="compatibility:module-arg" value="FrameworkStatsdTest:enable:true" />
-    <option name="compatibility:module-arg" value="GtsStatsdHostTestCases:true" />
+    <option name="compatibility:module-arg" value="GtsStatsdHostTestCases:enable:true" />
 </configuration>
