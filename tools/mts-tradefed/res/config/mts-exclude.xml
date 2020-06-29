@@ -228,6 +228,9 @@
     <!-- b/142965402: MTS flaky test -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
 
+    <!-- b/159668249: MTS flaky test -->
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.VisualizerTest" />
+
     <!-- b/145554519: MTS flaky tests -->
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases libcore.java.net.InetAddressTest#test_isReachable_by_ICMP" />
     <option name="compatibility:exclude-filter" value="CtsLibcoreOkHttpTestCases com.squareup.okhttp.internal.framed.Spdy3ConnectionTest#serverSendsSettingsToClient" />
