@@ -14,10 +14,11 @@
      limitations under the License.
 -->
 <configuration description="List all tests that do not need root access in active test plans.">
+    <include name="mts-art-tests-list-user" />
     <include name="mts-cellbroadcast-oem-tests-list" />
     <include name="mts-conscrypt-tests-list" />
-    <include name="mts-documentsUI-oem-tests-list" />
     <include name="mts-dnsresolver-tests-list-user" />
+    <include name="mts-documentsUI-oem-tests-list" />
     <include name="mts-ipsec-tests-list" />
     <include name="mts-media-tests-list" />
     <include name="mts-network-tests-list" />
