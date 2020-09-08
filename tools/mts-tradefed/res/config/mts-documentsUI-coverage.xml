@@ -40,7 +40,7 @@
         <option name="throw-error" value="false"/> <!-- Only print warning if not en-US -->
     </target_preparer>
 
-    <option name="compatibility:include-filter" value="DocumentsUITests" />
+    <option name="compatibility:include-filter" value="DocumentsUIGoogleTests" />
     <option name="compatibility:include-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.DocumentsTest" />
     <option name="compatibility:include-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.ScopedDirectoryAccessTest" />
 

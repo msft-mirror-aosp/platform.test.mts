@@ -13,12 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-network from a pre-existing MTS installation">
+<configuration description="Runs MTS-mediaprovider from a pre-existing MTS installation">
 
     <include name="mts" />
 
-    <include name="mts-network-tests-list" />
+    <include name="mts-mediaprovider-tests-list" />
 
-    <option name="plan" value="mts-network" />
+    <option name="plan" value="mts-mediaprovider" />
+
 </configuration>
-
