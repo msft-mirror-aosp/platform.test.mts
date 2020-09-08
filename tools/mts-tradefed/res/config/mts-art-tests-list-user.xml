@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="ART MTS test list.">
+<configuration description="List of ART MTS tests that do not need root access.">
 
     <!-- ART run-tests. -->
     <!-- TODO(rpl): Find a way to express this list in a more concise fashion. -->
