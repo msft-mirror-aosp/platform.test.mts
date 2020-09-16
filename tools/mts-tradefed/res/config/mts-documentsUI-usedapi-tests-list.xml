@@ -14,12 +14,12 @@
      limitations under the License.
 -->
 <configuration description="List MTS api tests used by documentsUI.">
-    <option name="compatibility:include-filter" value="CtsContentTestCases android.content.cts.ContextTest.testCreatePackageContextAsUser" />
-    <option name="compatibility:include-filter" value="CtsContentTestCases android.content.cts.ContextTest.testStartActivityAsUser" />
-    <option name="compatibility:include-filter" value="CtsOsTestCases android.os.cts.AsyncTaskTest.testException" />
-    <option name="compatibility:include-filter" value="CtsOsTestCases android.os.cts.AsyncTaskTest.testCancellationWithException" />
-    <option name="compatibility:include-filter" value="GtsStatsdHostTestCases com.google.android.statsd.gts.StatsdHostTestCases.testWriteRaw" />
-    <option name="compatibility:include-filter" value="CtsProviderTestCases android.provider.cts.DocumentsContractTest.testGetDocumentThumbnail" />
-    <option name="compatibility:include-filter" value="CtsProviderTestCases android.provider.cts.DocumentsContractTest.testManagedMode" />
+    <option name="compatibility:include-filter" value="CtsContentTestCases android.content.cts.ContextTest#testCreatePackageContextAsUser" />
+    <option name="compatibility:include-filter" value="CtsContentTestCases android.content.cts.ContextTest#testStartActivityAsUser" />
+    <option name="compatibility:include-filter" value="CtsOsTestCases android.os.cts.AsyncTaskTest#testException" />
+    <option name="compatibility:include-filter" value="CtsOsTestCases android.os.cts.AsyncTaskTest#testCancellationWithException" />
+    <option name="compatibility:include-filter" value="GtsStatsdHostTestCases com.google.android.statsd.gts.StatsdHostTestCases#testWriteRaw" />
+    <option name="compatibility:include-filter" value="CtsProviderTestCases android.provider.cts.DocumentsContractTest#testGetDocumentThumbnail" />
+    <option name="compatibility:include-filter" value="CtsProviderTestCases android.provider.cts.DocumentsContractTest#testManageMode" />
 </configuration>
 
