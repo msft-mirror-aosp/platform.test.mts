@@ -222,9 +222,6 @@
     <!-- b/144590380: MTS flaky test -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.NativeMediaDrmClearkeyTest#testClearKeyPlaybackCenc2" />
 
-    <!-- b/143245993: MTS flaky test -->
-    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.NativeMediaDrmClearkeyTest#testPssh" />
-
     <!-- b/142965402: MTS flaky test -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
 
