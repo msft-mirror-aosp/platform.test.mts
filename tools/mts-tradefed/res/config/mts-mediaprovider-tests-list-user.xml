@@ -20,7 +20,7 @@
     <option name="compatibility:include-filter" value="MediaProviderTests" />
 
     <!-- Enable Mediaprovider MTS tests to use MainlineTestModuleController -->
-    <option name="compatibility:module-arg" value="CtsProviderTestCases:enable:true" />
+    <!-- MainlineTestModuleController is disabled for CtsProviderTestCases because the test is shared by DocumentUI (Q-intro module) and MediaProvider -->
     <option name="compatibility:module-arg" value="CtsScopedStorageHostTest:enable:true" />
     <option name="compatibility:module-arg" value="MediaProviderTests:enable:true" />
 
