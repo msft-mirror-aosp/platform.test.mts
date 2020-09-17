@@ -17,9 +17,7 @@
 
     <include name="mts" />
 
-    <option name="plan" value="mts-documentsUI" />
+    <include name="mts-documentsUI-tests-list" />
 
-    <option name="compatibility:include-filter" value="DocumentsUIGoogleTests" />
-    <option name="compatibility:include-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.DocumentsTest" />
-    <option name="compatibility:include-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.ScopedDirectoryAccessTest" />
+    <option name="plan" value="mts-documentsUI" />
 </configuration>
