@@ -13,20 +13,14 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="MTS test list for Mediaprovider.">
+<configuration description="MTS test list for Mediaprovider root tests.">
 
-    <option name="compatibility:include-filter" value="CtsProviderTestCases android.provider.cts.media." />
     <option name="compatibility:include-filter" value="fuse_node_test" />
-    <option name="compatibility:include-filter" value="CtsScopedStorageHostTest" />
-    <option name="compatibility:include-filter" value="MediaProviderTests" />
     <option name="compatibility:include-filter" value="FuseUtilsTest" />
     <option name="compatibility:include-filter" value="RedactionInfoTest" />
 
     <!-- Enable Mediaprovider MTS tests to use MainlineTestModuleController -->
-    <option name="compatibility:module-arg" value="CtsProviderTestCases:enable:true" />
     <option name="compatibility:module-arg" value="fuse_node_test:enable:true" />
-    <option name="compatibility:module-arg" value="CtsScopedStorageHostTest:enable:true" />
-    <option name="compatibility:module-arg" value="MediaProviderTests:enable:true" />
     <option name="compatibility:module-arg" value="FuseUtilsTest:enable:true" />
     <option name="compatibility:module-arg" value="RedactionInfoTest:enable:true" />
 
