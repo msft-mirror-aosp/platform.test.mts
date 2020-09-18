@@ -19,8 +19,10 @@
     <include name="mts-documentsUI-oem-tests-list" />
     <include name="mts-documentsUI-usedapi-tests-list" />
     <include name="mts-dnsresolver-tests-list-user" />
+    <indlude name="mts-extservices-tests-list" />
     <include name="mts-ipsec-tests-list" />
     <include name="mts-media-tests-list" />
+    <include name="mts-mediaprovider-tests-list-user" />
     <include name="mts-network-tests-list" />
     <include name="mts-neuralnetworks-tests-list" />
     <include name="mts-permission-tests-list" />
