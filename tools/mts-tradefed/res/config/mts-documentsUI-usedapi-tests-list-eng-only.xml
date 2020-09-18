@@ -13,10 +13,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List MTS api tests used by documentsUI.">
-    <option name="compatibility:include-filter" value="CtsContentTestCases android.content.cts.ContextTest#testCreatePackageContextAsUser" />
-    <option name="compatibility:include-filter" value="CtsContentTestCases android.content.cts.ContextTest#testStartActivityAsUser" />
-    <option name="compatibility:include-filter" value="CtsProviderTestCases android.provider.cts.DocumentsContractTest#testGetDocumentThumbnail" />
-    <option name="compatibility:include-filter" value="CtsProviderTestCases android.provider.cts.DocumentsContractTest#testManageMode" />
+<configuration description="List MTS api tests used by documentsUI that needs root access.">
+  <option name="compatibility:include-filter" value="CtsOsTestCases android.os.cts.AsyncTaskTest#testException" />
+  <option name="compatibility:include-filter" value="CtsOsTestCases android.os.cts.AsyncTaskTest#testCancellationWithException" />
 </configuration>
 

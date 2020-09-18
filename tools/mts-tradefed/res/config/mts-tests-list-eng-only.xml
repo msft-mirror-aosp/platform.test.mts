@@ -17,5 +17,6 @@
     <include name="mts-dnsresolver-tests-list-eng-only" />
     <include name="mts-adbd-tests-list-eng-only" />
     <include name="mts-statsd-tests-list-eng-only" />
+    <include name="mts-documentsUI-usedapi-tests-list-eng-only" />
 </configuration>
 
