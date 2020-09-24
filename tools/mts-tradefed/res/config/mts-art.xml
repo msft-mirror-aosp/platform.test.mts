@@ -17,7 +17,8 @@
 
     <include name="mts" />
 
-    <include name="mts-art-tests-list" />
+    <include name="mts-art-tests-list-user" />
+    <include name="mts-art-tests-list-eng-only" />
 
     <option name="plan" value="mts-art" />
 </configuration>
