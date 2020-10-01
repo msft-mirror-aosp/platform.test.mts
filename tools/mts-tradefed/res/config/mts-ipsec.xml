@@ -17,8 +17,8 @@
 
     <include name="mts" />
 
-    <option name="plan" value="mts-ipsec" />
+    <include name="mts-ipsec-tests-list" />
 
-    <option name="compatibility:include-filter" value="FrameworksIkeTests" />
+    <option name="plan" value="mts-ipsec" />
 
 </configuration>

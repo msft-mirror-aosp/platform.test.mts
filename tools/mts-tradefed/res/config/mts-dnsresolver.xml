@@ -17,6 +17,9 @@
 
     <include name="mts" />
 
+    <include name="mts-dnsresolver-tests-list-eng-only" />
+    <include name="mts-dnsresolver-tests-list-user" />
+
     <option name="plan" value="mts-dnsresolver" />
 
     <target_preparer class="com.android.compatibility.common.tradefed.targetprep.PropertyCheck">
@@ -24,14 +27,4 @@
 	<option name="expected-value" value="userdebug"/> <!-- Device should have userdebug/eng build -->
 	<option name="throw-error" value="false"/> <!-- Only print warning if not user build -->
     </target_preparer>
-
-    <!-- Add all the tests listed in packages/modules/DnsResolver/TEST_MAPPING -->
-    <option name="compatibility:include-filter" value="resolv_unit_test" />
-    <option name="compatibility:include-filter" value="resolv_integration_test" />
-    <option name="compatibility:include-filter" value="resolv_gold_test" />
-    <option name="compatibility:include-filter" value="resolv_stress_test" />
-
-    <option name="compatibility:include-filter" value="CtsNetTestCases android.net.cts.DnsTest" />
-    <option name="compatibility:include-filter" value="CtsNetTestCases android.net.cts.DnsResolverTest" />
-    <option name="compatibility:include-filter" value="CtsNativeNetDnsTestCases" />
 </configuration>
