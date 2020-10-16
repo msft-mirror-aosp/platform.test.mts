@@ -26,6 +26,8 @@
     <option name="compatibility:include-filter" value="CtsPackageWatchdogTestCases" />
     <!-- for TextClassifier -->
     <option name="compatibility:include-filter" value="CtsTextClassifierTestCases" />
+    <!-- for Storage -->
+    <option name="compatibility:include-filter" value="CtsUsageStatsTestCases android.app.usage.cts.CacheQuotaHintTest" />
 
     <option name="compatibility:include-filter" value="ExtServicesUnitTests" />
     <option name="compatibility:include-filter" value="TextClassifierNotificationTests" />
@@ -39,6 +41,7 @@
     <option name="compatibility:module-arg" value="CtsPackageWatchdogTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsLegacyNotification29TestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsTextClassifierTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="CtsUsageStatsTestCases:enable:true" />
     <option name="compatibility:module-arg" value="ExtServicesUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="TextClassifierNotificationTests:enable:true" />
     <option name="compatibility:module-arg" value="TextClassifierServiceTest:enable:true" />
