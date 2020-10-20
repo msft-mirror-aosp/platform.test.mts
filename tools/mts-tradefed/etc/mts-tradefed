@@ -84,7 +84,6 @@ TRADEFED_JAR="tradefed"
 
 JARS="tradefed
   loganalysis
-  hosttestlib
   compatibility-host-util
   mts-tradefed
   mts-tradefed-tests"
