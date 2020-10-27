@@ -14,12 +14,13 @@
      limitations under the License.
 -->
 
-<configuration description="List test modules of WIFI module. This is a placeholder xml instead of a runnable plan.">
+<configuration description="Runs MTS-wifi from a pre-existing MTS installation for OEMs">
+
+    <include name="mts" />
+
     <include name="mts-wifi-oem-tests-list" />
 
-    <option name="compatibility:include-filter" value="FrameworksWifiApiTests" />
-    <option name="compatibility:include-filter" value="FrameworksWifiTests" />
+    <option name="plan" value="mts-wifi-oem" />
 
-    <option name="compatibility:module-arg" value="FrameworksWifiApiTests:enable:true" />
-    <option name="compatibility:module-arg" value="FrameworksWifiTests:enable:true" />
+    <option name="compatibility:primary-abi-only" value="true" />
 </configuration>
