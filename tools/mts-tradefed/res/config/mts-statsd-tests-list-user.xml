@@ -27,4 +27,9 @@
     <option name="compatibility:module-arg" value="CtsStatsdHostTestCases:enable:true" />
     <option name="compatibility:module-arg" value="FrameworkStatsdTest:enable:true" />
     <option name="compatibility:module-arg" value="GtsStatsdHostTestCases:enable:true" />
+
+    <!-- Exclude Statsd GTS tests that cannot run on user build due to signature mismatch with
+         GMSCore
+         TODO(b/158818152): remove once GTS tests can run on user build  -->
+    <option name="compatibility:exclude-filter" value="GtsStatsdHostTestCases" />
 </configuration>
