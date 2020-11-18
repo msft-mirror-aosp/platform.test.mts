@@ -92,10 +92,6 @@
     <!-- TODO(b/153088610): Missing AP support in test lab -->
     <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.rtt.cts.WifiRttTest#testRangingToTestApWithResponderLocation" />
 
-    <!-- Exclude failing Wifi unit tests for M-2020-12 train -->
-    <option name="compatibility:exclude-filter" value="FrameworksWifiTests" />
-    <option name="compatibility:exclude-filter" value="FrameworksWifiApiTests" />
-
     <!--Tests in CtsAppSecurityHostTestCases that are not testing mainline modules-->
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.AccessSerialNumberTest" />
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.AdoptableHostTest" />
