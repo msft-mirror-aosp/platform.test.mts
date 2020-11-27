@@ -160,7 +160,7 @@
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases  org.apache.harmony.tests.javax.net.ssl.SSLSocketTest#testConstructor_InetAddressI" />
 
     <!-- https://b.corp.google.com/hotlists/2163643 Flaky test for statsd-->
-    <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testAppOps" />
+    <option name="compatibility:exclude-filter" value="CtsStatsdAtomHostTestCases android.cts.statsdatom.appops.AppOpsTests#testAppOps" />
     <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests$#testForegroundServiceAccessAppOp" />
     <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testMobileBytesTransfer" />
     <option name="compatibility:exclude-filter" value="CtsStatsdHostTestCases android.cts.statsd.atom.UidAtomTests#testMobileBytesTransferByFgBg" />
