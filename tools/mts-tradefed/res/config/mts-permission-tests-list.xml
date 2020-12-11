@@ -34,8 +34,4 @@
     <option name="compatibility:module-arg" value="CtsOsTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsRoleTestCases" />
     <option name="compatibility:module-arg" value="CtsRoleTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
-    <!-- Tests for used API coverage -->
-    <option name="compatibility:include-filter" value="CtsAppOpsTestCases android.app.appops.cts.AppOpEventCollectionTest#ensureCorrectOpStr" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PermissionManagerTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.RevokePermissionTest" />
 </configuration>
