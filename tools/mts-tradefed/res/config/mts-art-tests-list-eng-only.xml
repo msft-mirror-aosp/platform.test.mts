@@ -21,4 +21,6 @@
          list. -->
     <option name="compatibility:include-filter" value="ArtGtestsTargetInstallApex" />
 
+    <!-- Enable MainlineTestModuleController. -->
+    <option name="compatibility:module-arg" value="ArtGtestsTargetInstallApex:enable:true" />
 </configuration>
