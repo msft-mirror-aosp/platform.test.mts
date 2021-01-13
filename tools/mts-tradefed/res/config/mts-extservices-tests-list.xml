@@ -33,6 +33,7 @@
 
     <!-- for TextClassifier native -->
     <option name="compatibility:include-filter" value="libtextclassifier_tests" />
+    <option name="compatibility:include-filter" value="libtextclassifier_java_tests" />
 
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsPackageWatchdogTestCases:enable:true" />
@@ -42,5 +43,6 @@
     <option name="compatibility:module-arg" value="TextClassifierNotificationTests:enable:true" />
     <option name="compatibility:module-arg" value="TextClassifierServiceTest:enable:true" />
     <option name="compatibility:module-arg" value="libtextclassifier_tests:enable:true" />
+    <option name="compatibility:module-arg" value="libtextclassifier_java_tests:enable:true" />
 
 </configuration>
