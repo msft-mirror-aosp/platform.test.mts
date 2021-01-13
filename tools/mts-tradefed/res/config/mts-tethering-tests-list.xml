@@ -15,10 +15,12 @@
 -->
 <configuration description="List mts tethering tests">
 
+    <option name="compatibility:include-filter" value="MtsTetheringTest" />
     <option name="compatibility:include-filter" value="CtsTetheringTest" />
     <option name="compatibility:include-filter" value="CtsWifiTestCases" />
 
     <!-- Enable tethering MTS tests to use MainlineTestModuleController -->
+    <option name="compatibility:module-arg" value="MtsTetheringTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsTetheringTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsWifiTestCases:enable:true" />
 </configuration>
