@@ -15,3 +15,11 @@
 
 COMPATIBILITY_TESTCASES_OUT_mts := $(HOST_OUT)/mts/android-mts/testcases
 
+mts_modules :=
+mts_modules += \
+	       tzdata \
+	       wifi
+
+$(foreach module, $(mts_modules), \
+	$(eval COMPATIBILITY_TESTCASES_OUT_mts-$(module) := $(HOST_OUT)/mts-$(module)/android-mts-$(module)/testcases))
+
