@@ -16,5 +16,6 @@
 <configuration description="List MTS conscrypt tests.">
     <option name="compatibility:include-filter" value="CtsLibcoreOkHttpTestCases" />
     <option name="compatibility:include-filter" value="MtsConscryptTestCases" />
+    <option name="compatibility:include-filter" value="MtsConscryptFdSocketTestCases" />
 </configuration>
 
