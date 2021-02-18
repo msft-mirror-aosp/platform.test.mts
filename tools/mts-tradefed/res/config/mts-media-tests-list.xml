@@ -18,10 +18,13 @@
     <option name="compatibility:include-filter" value="CtsMediaStressTestCases" />
     <option name="compatibility:include-filter" value="CtsMediaParserTestCases" />
 
+    <!-- unit tests -->
+    <option name="compatibility:include-filter" value="FrameDropper_test" />
+
     <!--b/138964734-->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
 
-    <!--Tests from CTS known faliures-->
+    <!--Tests from CTS known failures-->
 
     <!-- b/38224690 -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.NativeEncoderTest" />
