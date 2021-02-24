@@ -118,7 +118,6 @@
     <option name="compatibility:include-filter" value="art-run-test-153-reference-stress" />
     <option name="compatibility:include-filter" value="art-run-test-156-register-dex-file-multi-loader" />
     <option name="compatibility:include-filter" value="art-run-test-159-app-image-fields" />
-    <option name="compatibility:include-filter" value="art-run-test-160-read-barrier-stress" />
     <option name="compatibility:include-filter" value="art-run-test-163-app-image-methods" />
     <option name="compatibility:include-filter" value="art-run-test-165-lock-owner-proxy" />
     <option name="compatibility:include-filter" value="art-run-test-168-vmstack-annotated" />
@@ -140,6 +139,7 @@
     <option name="compatibility:include-filter" value="art-run-test-2028-MultiBackward" />
     <option name="compatibility:include-filter" value="art-run-test-2029-contended-monitors" />
     <option name="compatibility:include-filter" value="art-run-test-2030-long-running-child" />
+    <option name="compatibility:include-filter" value="art-run-test-2232-write-metrics-to-log" />
     <option name="compatibility:include-filter" value="art-run-test-300-package-override" />
     <option name="compatibility:include-filter" value="art-run-test-301-abstract-protected" />
     <option name="compatibility:include-filter" value="art-run-test-302-float-conversion" />
@@ -268,6 +268,10 @@
     <option name="compatibility:include-filter" value="art-run-test-726-array-store" />
     <option name="compatibility:include-filter" value="art-run-test-805-TooDeepClassInstanceOf" />
     <option name="compatibility:include-filter" value="art-run-test-806-TooWideClassInstanceOf" />
+    <option name="compatibility:include-filter" value="art-run-test-812-recursive-default" />
+    <option name="compatibility:include-filter" value="art-run-test-814-large-field-offsets" />
+    <option name="compatibility:include-filter" value="art-run-test-815-invokeinterface-default" />
+    <option name="compatibility:include-filter" value="art-run-test-818-clinit-nterp" />
     <option name="compatibility:include-filter" value="art-run-test-963-default-range-smali" />
 
     <!-- Enable MainlineTestModuleController. -->
@@ -373,7 +377,6 @@
     <option name="compatibility:module-arg" value="art-run-test-153-reference-stress:enable:true" />
     <option name="compatibility:module-arg" value="art-run-test-156-register-dex-file-multi-loader:enable:true" />
     <option name="compatibility:module-arg" value="art-run-test-159-app-image-fields:enable:true" />
-    <option name="compatibility:module-arg" value="art-run-test-160-read-barrier-stress:enable:true" />
     <option name="compatibility:module-arg" value="art-run-test-163-app-image-methods:enable:true" />
     <option name="compatibility:module-arg" value="art-run-test-165-lock-owner-proxy:enable:true" />
     <option name="compatibility:module-arg" value="art-run-test-168-vmstack-annotated:enable:true" />
@@ -395,6 +398,7 @@
     <option name="compatibility:module-arg" value="art-run-test-2028-MultiBackward:enable:true" />
     <option name="compatibility:module-arg" value="art-run-test-2029-contended-monitors:enable:true" />
     <option name="compatibility:module-arg" value="art-run-test-2030-long-running-child:enable:true" />
+    <option name="compatibility:module-arg" value="art-run-test-2232-write-metrics-to-log:enable:true" />
     <option name="compatibility:module-arg" value="art-run-test-300-package-override:enable:true" />
     <option name="compatibility:module-arg" value="art-run-test-301-abstract-protected:enable:true" />
     <option name="compatibility:module-arg" value="art-run-test-302-float-conversion:enable:true" />
@@ -523,6 +527,10 @@
     <option name="compatibility:module-arg" value="art-run-test-726-array-store:enable:true" />
     <option name="compatibility:module-arg" value="art-run-test-805-TooDeepClassInstanceOf:enable:true" />
     <option name="compatibility:module-arg" value="art-run-test-806-TooWideClassInstanceOf:enable:true" />
+    <option name="compatibility:module-arg" value="art-run-test-812-recursive-default:enable:true" />
+    <option name="compatibility:module-arg" value="art-run-test-814-large-field-offsets:enable:true" />
+    <option name="compatibility:module-arg" value="art-run-test-815-invokeinterface-default:enable:true" />
+    <option name="compatibility:module-arg" value="art-run-test-818-clinit-nterp:enable:true" />
     <option name="compatibility:module-arg" value="art-run-test-963-default-range-smali:enable:true" />
 
 </configuration>
