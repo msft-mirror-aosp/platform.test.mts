@@ -31,6 +31,7 @@
     <option name="compatibility:module-arg" value="CtsDevicePolicyManagerTestCases:include-annotation:com.android.cts.devicepolicy.annotations.PermissionsTest" />
     <option name="compatibility:module-arg" value="CtsDevicePolicyManagerTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsOsTestCases android.os.cts.AutoRevokeTest" />
+    <option name="compatibility:include-filter" value="CtsOsTestCases android.os.cts.AppHibernationIntegrationTest" />
     <option name="compatibility:module-arg" value="CtsOsTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsRoleTestCases" />
     <option name="compatibility:module-arg" value="CtsRoleTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
