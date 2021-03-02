@@ -273,7 +273,9 @@
     <option name="compatibility:include-filter" value="art-run-test-815-invokeinterface-default"/>
     <option name="compatibility:include-filter" value="art-run-test-818-clinit-nterp"/>
     <option name="compatibility:include-filter" value="art-run-test-963-default-range-smali"/>
-    <!-- Enable MainlineTestModuleController. -->
+    <!-- Libcore CTS tests. -->
+    <option name="compatibility:include-filter" value="CtsLibcoreTestCases"/>
+    <!-- Enable MainlineTestModuleController for ART run-tests. -->
     <!-- TODO(rpl): Find a way to express this list in a more concise fashion. -->
     <option name="compatibility:module-arg" value="art-run-test-001-HelloWorld:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-001-Main:enable:true"/>
@@ -531,4 +533,6 @@
     <option name="compatibility:module-arg" value="art-run-test-815-invokeinterface-default:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-818-clinit-nterp:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-963-default-range-smali:enable:true"/>
+    <!-- Enable MainlineTestModuleController for Libcore CTS tests. -->
+    <option name="compatibility:module-arg" value="CtsLibcoreTestCases:enable:true"/>
 </configuration>
