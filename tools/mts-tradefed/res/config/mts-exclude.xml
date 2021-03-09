@@ -255,12 +255,16 @@
 
     <!-- Slow Conscrypt tests -->
     <option name="compatibility:exclude-filter" value="MtsConscryptTestCases org.apache.harmony.crypto.tests.javax.crypto.func.KeyAgreementFunctionalTest#test_KeyAgreement" />
+    <option name="compatibility:exclude-filter" value="MtsConscryptFdSocketTestCases org.apache.harmony.crypto.tests.javax.crypto.func.KeyAgreementFunctionalTest#test_KeyAgreement" />
     <option name="compatibility:exclude-filter" value="MtsConscryptTestCases com.android.org.conscrypt.java.security.AlgorithmParameterGeneratorTestDH#testAlgorithmParameterGenerator" />
+    <option name="compatibility:exclude-filter" value="MtsConscryptFdSocketTestCases com.android.org.conscrypt.java.security.AlgorithmParameterGeneratorTestDH#testAlgorithmParameterGenerator" />
 
     <!-- BouncyCastle allows unrecognized algorithms, but RI does not -->
     <option name="compatibility:exclude-filter" value="MtsConscryptTestCases org.apache.harmony.crypto.tests.javax.crypto.KeyAgreementTest#test_generateSecretLjava_lang_String" />
+    <option name="compatibility:exclude-filter" value="MtsConscryptFdSocketTestCases org.apache.harmony.crypto.tests.javax.crypto.KeyAgreementTest#test_generateSecretLjava_lang_String" />
 
     <!-- b/3403706: SQLite JDBC is unsupported -->
     <option name="compatibility:exclude-filter" value="MtsConscryptTestCases org.apache.harmony.tests.javax.net.ssl.TrustManagerFactory1Test#test_initLjavax_net_ssl_ManagerFactoryParameters" />
+    <option name="compatibility:exclude-filter" value="MtsConscryptFdSocketTestCases org.apache.harmony.tests.javax.net.ssl.TrustManagerFactory1Test#test_initLjavax_net_ssl_ManagerFactoryParameters" />
 </configuration>
 
