@@ -14,7 +14,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List of ART MTS tests that do not need root access.">
-    <include name="mts-art-tests-list-user-shard-00"/>
-    <include name="mts-art-tests-list-user-shard-01"/>
+<configuration description="List of ART MTS tests that do not need root access (shard 01)">
+    <!-- Libcore CTS tests. -->
+    <option name="compatibility:include-filter" value="CtsLibcoreTestCases"/>
+    <!-- Enable MainlineTestModuleController for Libcore CTS tests. -->
+    <option name="compatibility:module-arg" value="CtsLibcoreTestCases:enable:true"/>
 </configuration>

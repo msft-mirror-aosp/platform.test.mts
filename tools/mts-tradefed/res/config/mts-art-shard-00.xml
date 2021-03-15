@@ -14,7 +14,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List of ART MTS tests that do not need root access.">
+<configuration description="Run mts-art-shard-00 from a preexisting MTS installation.">
+    <include name="mts"/>
     <include name="mts-art-tests-list-user-shard-00"/>
-    <include name="mts-art-tests-list-user-shard-01"/>
+    <option name="plan" value="mts-art-shard-00"/>
 </configuration>
