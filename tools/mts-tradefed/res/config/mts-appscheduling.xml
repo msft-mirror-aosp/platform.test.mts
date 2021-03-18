@@ -14,10 +14,12 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<configuration description="MTS test list for Device Scheduling">
+<configuration description="Runs MTS-appscheduling from a pre-existing MTS installation">
 
-  <option name="compatibility:include-filter" value="CtsRebootReadinessTestCases" />
+    <include name="mts" />
 
-  <!-- Enable Device Scheduling MTS tests to use MainlineTestModuleController -->
-  <option name="compatibility:module-arg" value="CtsRebootReadinessTestCases:enable:true" />
+    <option name="plan" value="mts-appscheduling" />
+
+    <include name="mts-appscheduling-tests-list" />
+
 </configuration>
