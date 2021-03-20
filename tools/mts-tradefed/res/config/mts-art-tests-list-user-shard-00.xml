@@ -85,7 +85,6 @@
     <option name="compatibility:include-filter" value="art-run-test-093-serialization"/>
     <option name="compatibility:include-filter" value="art-run-test-094-pattern"/>
     <option name="compatibility:include-filter" value="art-run-test-095-switch-MAX_INT"/>
-    <option name="compatibility:include-filter" value="art-run-test-098-ddmc"/>
     <option name="compatibility:include-filter" value="art-run-test-099-vmdebug"/>
     <option name="compatibility:include-filter" value="art-run-test-100-reflect2"/>
     <option name="compatibility:include-filter" value="art-run-test-1004-checker-volatile-ref-load"/>
@@ -395,6 +394,7 @@
     <option name="compatibility:include-filter" value="art-run-test-814-large-field-offsets"/>
     <option name="compatibility:include-filter" value="art-run-test-815-invokeinterface-default"/>
     <option name="compatibility:include-filter" value="art-run-test-818-clinit-nterp"/>
+    <option name="compatibility:include-filter" value="art-run-test-821-madvise-willneed"/>
     <option name="compatibility:include-filter" value="art-run-test-963-default-range-smali"/>
     <!-- Enable MainlineTestModuleController for ART run-tests. -->
     <!-- TODO(rpl): Find a way to express this list in a more concise fashion. -->
@@ -466,7 +466,6 @@
     <option name="compatibility:module-arg" value="art-run-test-093-serialization:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-094-pattern:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-095-switch-MAX_INT:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-098-ddmc:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-099-vmdebug:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-100-reflect2:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-1004-checker-volatile-ref-load:enable:true"/>
@@ -776,5 +775,6 @@
     <option name="compatibility:module-arg" value="art-run-test-814-large-field-offsets:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-815-invokeinterface-default:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-818-clinit-nterp:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-821-madvise-willneed:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-963-default-range-smali:enable:true"/>
 </configuration>
