@@ -260,7 +260,6 @@
     <option name="compatibility:include-filter" value="art-run-test-530-checker-loops5"/>
     <option name="compatibility:include-filter" value="art-run-test-530-checker-lse-ctor-fences"/>
     <option name="compatibility:include-filter" value="art-run-test-530-checker-lse-simd"/>
-    <option name="compatibility:include-filter" value="art-run-test-530-checker-lse2"/>
     <option name="compatibility:include-filter" value="art-run-test-530-instanceof-checkcast"/>
     <option name="compatibility:include-filter" value="art-run-test-532-checker-nonnull-arrayset"/>
     <option name="compatibility:include-filter" value="art-run-test-534-checker-bce-deoptimization"/>
@@ -310,7 +309,6 @@
     <option name="compatibility:include-filter" value="art-run-test-580-crc32"/>
     <option name="compatibility:include-filter" value="art-run-test-581-rtp"/>
     <option name="compatibility:include-filter" value="art-run-test-582-checker-bce-length"/>
-    <option name="compatibility:include-filter" value="art-run-test-583-checker-zero"/>
     <option name="compatibility:include-filter" value="art-run-test-584-checker-div-bool"/>
     <option name="compatibility:include-filter" value="art-run-test-589-super-imt"/>
     <option name="compatibility:include-filter" value="art-run-test-590-checker-arr-set-null-regression"/>
@@ -641,7 +639,6 @@
     <option name="compatibility:module-arg" value="art-run-test-530-checker-loops5:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-530-checker-lse-ctor-fences:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-530-checker-lse-simd:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-530-checker-lse2:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-530-instanceof-checkcast:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-532-checker-nonnull-arrayset:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-534-checker-bce-deoptimization:enable:true"/>
@@ -691,7 +688,6 @@
     <option name="compatibility:module-arg" value="art-run-test-580-crc32:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-581-rtp:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-582-checker-bce-length:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-583-checker-zero:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-584-checker-div-bool:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-589-super-imt:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-590-checker-arr-set-null-regression:enable:true"/>
