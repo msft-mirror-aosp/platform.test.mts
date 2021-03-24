@@ -20,8 +20,6 @@
 
     <!-- unit tests -->
     <option name="compatibility:include-filter" value="CodecListTest" />
-    <option name="compatibility:include-filter" value="FrameDropper_test" />
-
     <!--b/138964734-->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
 
