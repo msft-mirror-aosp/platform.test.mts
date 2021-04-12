@@ -16,6 +16,7 @@
 <configuration description="List all tests that do not need root access in active test plans.">
     <include name="mts-cellbroadcast-oem-tests-list" />
     <include name="mts-conscrypt-tests-list" />
+    <include name="mts-core-tests-list" />
     <include name="mts-documentsUI-oem-tests-list" />
     <include name="mts-documentsUI-usedapi-tests-list" />
     <include name="mts-dnsresolver-tests-list-user" />
@@ -37,5 +38,11 @@
          TODO(b/158818152): remove once GTS tests can run on user build  -->
     <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases" />
     <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases" />
+
+    <!-- Exclude Statsd GTS tests that cannot run on user build due to signature mismatch with
+        GMSCore
+        TODO(b/158818152): remove once GTS tests can run on user build  -->
+    <option name="compatibility:exclude-filter" value="GtsStatsdHostTestCases" />
+
 </configuration>
 

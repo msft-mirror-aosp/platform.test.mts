@@ -21,7 +21,7 @@
     <!--b/138964734-->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
 
-    <!--Tests from CTS known faliures-->
+    <!--Tests from CTS known failures-->
 
     <!-- b/38224690 -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.NativeEncoderTest" />
