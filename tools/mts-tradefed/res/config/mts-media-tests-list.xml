@@ -37,4 +37,8 @@
 
     <!-- Advertise the test suite to media cts. -->
     <option name="compatibility:module-arg" value="CtsMediaTestCases:instrumentation-arg:mts-media:=true" />
+
+    <!-- Unit tests dynamically download test media -->
+    <option name="compatibility:enable-module-dynamic-download" value="true" />
+
 </configuration>
