@@ -16,7 +16,9 @@
   ~ limitations under the License.
   -->
 
-<configuration description="List MTS permission tests.">
+<configuration description="List MTS permission tests for OEM.">
+    <option name="compatibility:include-filter" value="PermissionControllerMockingTests" />
+    <option name="compatibility:include-filter" value="PermissionControllerOutOfProcessTests" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.BackgroundPermissionsTest" />
     <!-- TODO(b/153907603): LocationAccessCheckTest clears package data for PermissionController which will interfere with coverage collection. -->
     <!--<option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.LocationAccessCheckTest" />-->
