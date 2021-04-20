@@ -87,7 +87,6 @@
     <option name="compatibility:include-filter" value="art-run-test-095-switch-MAX_INT"/>
     <option name="compatibility:include-filter" value="art-run-test-099-vmdebug"/>
     <option name="compatibility:include-filter" value="art-run-test-100-reflect2"/>
-    <option name="compatibility:include-filter" value="art-run-test-1004-checker-volatile-ref-load"/>
     <option name="compatibility:include-filter" value="art-run-test-101-fibonacci"/>
     <option name="compatibility:include-filter" value="art-run-test-102-concurrent-gc"/>
     <option name="compatibility:include-filter" value="art-run-test-103-string-append"/>
@@ -466,7 +465,6 @@
     <option name="compatibility:module-arg" value="art-run-test-095-switch-MAX_INT:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-099-vmdebug:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-100-reflect2:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-1004-checker-volatile-ref-load:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-101-fibonacci:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-102-concurrent-gc:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-103-string-append:enable:true"/>
