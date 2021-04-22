@@ -17,6 +17,7 @@
     <option name="compatibility:include-filter" value="CtsMediaTestCases" />
     <option name="compatibility:include-filter" value="CtsMediaStressTestCases" />
     <option name="compatibility:include-filter" value="CtsMediaParserTestCases" />
+    <option name="compatibility:include-filter" value="Mpeg4H263DecoderTest" />
 
     <!--b/138964734-->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
