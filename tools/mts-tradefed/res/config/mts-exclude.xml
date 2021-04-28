@@ -251,5 +251,9 @@
     <!-- b/3403706: SQLite JDBC is unsupported -->
     <option name="compatibility:exclude-filter" value="MtsConscryptTestCases org.apache.harmony.tests.javax.net.ssl.TrustManagerFactory1Test#test_initLjavax_net_ssl_ManagerFactoryParameters" />
     <option name="compatibility:exclude-filter" value="MtsConscryptFdSocketTestCases org.apache.harmony.tests.javax.net.ssl.TrustManagerFactory1Test#test_initLjavax_net_ssl_ManagerFactoryParameters" />
+
+    <!-- HostnameVerifierTest assumes latest security patches installed, not always true for MTS: b/182957352 -->
+    <option name="compatibility:exclude-filter" value="MtsConscryptTestCases org.apache.harmony.tests.javax.net.ssl.HostnameVerifierTest#testVerify" />
+    <option name="compatibility:exclude-filter" value="MtsConscryptFdSocketTestCases org.apache.harmony.tests.javax.net.ssl.HostnameVerifierTest#testVerify" />
 </configuration>
 
