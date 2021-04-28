@@ -17,7 +17,9 @@
 <configuration description="MTS test list for Device Scheduling">
 
   <option name="compatibility:include-filter" value="CtsRebootReadinessTestCases" />
+  <option name="compatibility:include-filter" value="RebootReadinessUnitTests" />
 
   <!-- Enable Device Scheduling MTS tests to use MainlineTestModuleController -->
   <option name="compatibility:module-arg" value="CtsRebootReadinessTestCases:enable:true" />
+  <option name="compatibility:module-arg" value="RebootReadinessUnitTests:enable:true" />
 </configuration>
