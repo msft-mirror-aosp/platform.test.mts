@@ -17,6 +17,7 @@
   -->
 
 <configuration description="List MTS permission tests for OEM.">
+    <option name="compatibility:include-filter" value="PermissionApexTests" />
     <option name="compatibility:include-filter" value="PermissionControllerMockingTests" />
     <option name="compatibility:include-filter" value="PermissionControllerOutOfProcessTests" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.BackgroundPermissionsTest" />
@@ -24,6 +25,7 @@
     <!--<option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.LocationAccessCheckTest" />-->
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.OneTimePermissionTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PermissionControllerTest" />
+    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PlatformPermissionGroupMappingTest" />
     <option name="compatibility:module-arg" value="CtsPermissionTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsPermission3TestCases" />
     <option name="compatibility:module-arg" value="CtsPermission3TestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
