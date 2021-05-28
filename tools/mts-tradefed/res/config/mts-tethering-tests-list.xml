@@ -23,5 +23,10 @@
     <option name="compatibility:module-arg" value="MtsTetheringTestLatestSdk:enable:true" />
     <option name="compatibility:module-arg" value="CtsTetheringTestLatestSdk:enable:true" />
     <option name="compatibility:module-arg" value="CtsWifiTestCases:enable:true" />
+
+    <!-- Exclude tests that are not important to tethering mainlines and S+ test would crash in R
+         devices -->
+    <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.cts.ConnectedNetworkScorerTest" />
+    <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.aware.cts.SingleDeviceTest" />
 </configuration>
 
