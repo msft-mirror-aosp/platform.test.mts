@@ -14,20 +14,21 @@
      limitations under the License.
 -->
 <configuration description="List all tests that do not need root access in active test plans.">
+    <include name="mts-art-tests-list-user" />
     <include name="mts-cellbroadcast-oem-tests-list" />
     <include name="mts-conscrypt-tests-list" />
-    <include name="mts-core-tests-list" />
+    <include name="mts-dnsresolver-tests-list-user" />
     <include name="mts-documentsUI-oem-tests-list" />
     <include name="mts-documentsUI-usedapi-tests-list" />
-    <include name="mts-dnsresolver-tests-list-user" />
     <include name="mts-extservices-tests-list" />
     <include name="mts-ipsec-tests-list" />
     <include name="mts-media-tests-list" />
     <include name="mts-mediaprovider-tests-list-user" />
     <include name="mts-network-tests-list" />
     <include name="mts-neuralnetworks-tests-list" />
-    <include name="mts-permission-tests-list" />
+    <include name="mts-permission-tests-list-oem" />
     <include name="mts-preload-verify-tests-list" />
+    <include name="mts-scheduling-tests-list" />
     <include name="mts-sdkextensions-tests-list" />
     <include name="mts-statsd-tests-list-user" />
     <include name="mts-tethering-tests-list" />
@@ -38,5 +39,14 @@
          TODO(b/158818152): remove once GTS tests can run on user build  -->
     <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases" />
     <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases" />
-</configuration>
 
+    <!-- Exclude Statsd GTS tests that cannot run on user build due to signature mismatch with
+        GMSCore
+        TODO(b/158818152): remove once GTS tests can run on user build  -->
+    <option name="compatibility:exclude-filter" value="GtsStatsdHostTestCases" />
+
+    <!-- Exclude Permission GTS tests that cannot run on user build due to signature mismatch with
+        GMSCore
+        TODO(b/158818152): remove once GTS tests can run on user build  -->
+    <option name="compatibility:exclude-filter" value="GtsIncidentManagerTestCases" />
+</configuration>

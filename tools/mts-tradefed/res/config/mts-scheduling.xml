@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!--
-  ~ Copyright (C) 2019 The Android Open Source Project
+  ~ Copyright (C) 2021 The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -15,13 +14,12 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
+<configuration description="Runs MTS-scheduling from a pre-existing MTS installation">
 
-<configuration description="Runs MTS-Permission from a pre-existing MTS installation">
+  <include name="mts" />
 
-    <include name="mts" />
+  <option name="plan" value="mts-scheduling" />
 
-    <include name="mts-permission-tests-list-internal" />
-    <include name="mts-permission-tests-list-oem" />
+  <include name="mts-scheduling-tests-list" />
 
-    <option name="plan" value="mts-permission" />
 </configuration>
