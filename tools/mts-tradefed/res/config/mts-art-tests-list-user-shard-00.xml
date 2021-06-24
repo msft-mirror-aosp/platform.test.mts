@@ -87,7 +87,6 @@
     <option name="compatibility:include-filter" value="art-run-test-095-switch-MAX_INT"/>
     <option name="compatibility:include-filter" value="art-run-test-099-vmdebug"/>
     <option name="compatibility:include-filter" value="art-run-test-100-reflect2"/>
-    <option name="compatibility:include-filter" value="art-run-test-1004-checker-volatile-ref-load"/>
     <option name="compatibility:include-filter" value="art-run-test-101-fibonacci"/>
     <option name="compatibility:include-filter" value="art-run-test-102-concurrent-gc"/>
     <option name="compatibility:include-filter" value="art-run-test-103-string-append"/>
@@ -194,7 +193,6 @@
     <option name="compatibility:include-filter" value="art-run-test-446-checker-inliner2"/>
     <option name="compatibility:include-filter" value="art-run-test-447-checker-inliner3"/>
     <option name="compatibility:include-filter" value="art-run-test-449-checker-bce-rem"/>
-    <option name="compatibility:include-filter" value="art-run-test-450-checker-types"/>
     <option name="compatibility:include-filter" value="art-run-test-451-regression-add-float"/>
     <option name="compatibility:include-filter" value="art-run-test-451-spill-splot"/>
     <option name="compatibility:include-filter" value="art-run-test-455-checker-gvn"/>
@@ -386,6 +384,7 @@
     <option name="compatibility:include-filter" value="art-run-test-718-zipfile-finalizer"/>
     <option name="compatibility:include-filter" value="art-run-test-721-osr"/>
     <option name="compatibility:include-filter" value="art-run-test-726-array-store"/>
+    <option name="compatibility:include-filter" value="art-run-test-730-checker-inlining-super"/>
     <option name="compatibility:include-filter" value="art-run-test-805-TooDeepClassInstanceOf"/>
     <option name="compatibility:include-filter" value="art-run-test-806-TooWideClassInstanceOf"/>
     <option name="compatibility:include-filter" value="art-run-test-812-recursive-default"/>
@@ -466,7 +465,6 @@
     <option name="compatibility:module-arg" value="art-run-test-095-switch-MAX_INT:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-099-vmdebug:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-100-reflect2:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-1004-checker-volatile-ref-load:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-101-fibonacci:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-102-concurrent-gc:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-103-string-append:enable:true"/>
@@ -573,7 +571,6 @@
     <option name="compatibility:module-arg" value="art-run-test-446-checker-inliner2:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-447-checker-inliner3:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-449-checker-bce-rem:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-450-checker-types:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-451-regression-add-float:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-451-spill-splot:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-455-checker-gvn:enable:true"/>
@@ -765,6 +762,7 @@
     <option name="compatibility:module-arg" value="art-run-test-718-zipfile-finalizer:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-721-osr:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-726-array-store:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-730-checker-inlining-super:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-805-TooDeepClassInstanceOf:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-806-TooWideClassInstanceOf:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-812-recursive-default:enable:true"/>
