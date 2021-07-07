@@ -13,23 +13,27 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Test plan for 2020-09 train.">
+<configuration description="Test plan for 2021-08 train.">
     <include name="mts" />
 
-    <option name="plan" value="mts-user-sep" />
+    <option name="plan" value="mts-user-aug-s" />
 
     <include name="mts-cellbroadcast-oem-tests-list" />
     <include name="mts-documentsUI-oem-tests-list" />
-    <include name="mts-dnsresolver-tests-list-user" />
+    <include name="mts-documentsUI-usedapi-tests-list" />
+    <include name="mts-extservices-tests-list" />
     <include name="mts-ipsec-tests-list" />
-    <include name="mts-media-tests-list" />
-    <include name="mts-network-tests-list" />
+    <include name="mts-mediaprovider-tests-list-user" />
     <include name="mts-neuralnetworks-tests-list" />
-    <include name="mts-permission-tests-list" />
-    <include name="mts-preload-verify-tests-list" />
-    <include name="mts-sdkextensions-tests-list" />
-    <include name="mts-statsd-tests-list-user" />
-    <include name="mts-tethering-tests-list" />
-    <include name="mts-wifi-tests-list" />
+
+    <!-- Exclude Wifi GTS tests that cannot run on user build due to signature mismatch with GMSCore
+         TODO(b/158818152): remove once GTS tests can run on user build  -->
+    <option name="compatibility:exclude-filter" value="GtsGmscoreHostTestCases" />
+    <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases" />
+
+    <!-- Exclude Statsd GTS tests that cannot run on user build due to signature mismatch with
+        GMSCore
+        TODO(b/158818152): remove once GTS tests can run on user build  -->
+    <option name="compatibility:exclude-filter" value="GtsStatsdHostTestCases" />
 </configuration>
 
