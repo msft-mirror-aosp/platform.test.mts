@@ -19,7 +19,9 @@
     <option name="compatibility:include-filter" value="CtsScopedStorageCoreHostTest" />
     <option name="compatibility:include-filter" value="CtsScopedStorageHostTest" />
     <option name="compatibility:include-filter" value="CtsScopedStorageDeviceOnlyTest" />
-    <option name="compatibility:include-filter" value="CtsScopedStoragePublicVolumeHostTest" />
+    <!-- TODO(b/184232207) Enable CtsScopedStoragePublicVolumeHostTest in MTS when it is stable -->
+    <!-- <option name="compatibility:include-filter" value="CtsScopedStoragePublicVolumeHostTest" /> -->
+    <option name="compatibility:include-filter" value="CtsAppCloningHostTest" />
     <option name="compatibility:include-filter" value="MediaProviderTests" />
 
     <!-- Enable Mediaprovider MTS tests to use MainlineTestModuleController -->
@@ -27,7 +29,8 @@
     <option name="compatibility:module-arg" value="CtsScopedStorageCoreHostTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsScopedStorageHostTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsScopedStorageDeviceOnlyTest:enable:true" />
-    <option name="compatibility:module-arg" value="CtsScopedStoragePublicVolumeHostTest:enable:true" />
+    <!-- <option name="compatibility:module-arg" value="CtsScopedStoragePublicVolumeHostTest:enable:true" /> -->
+    <option name="compatibility:module-arg" value="CtsAppCloningHostTest:enable:true" />
     <option name="compatibility:module-arg" value="MediaProviderTests:enable:true" />
 
 </configuration>
