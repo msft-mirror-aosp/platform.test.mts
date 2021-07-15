@@ -13,12 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-sdkextensions from a pre-existing MTS installation">
+<configuration description="Run mts-art from a preexisting MTS installation.">
 
-    <option name="compatibility:include-filter" value="CtsClasspathsTestCases" />
-    <option name="compatibility:include-filter" value="CtsSdkExtensionsTestCases" />
+    <include name="mts" />
 
-   <!-- Enable SdkExtensions MTS tests to use MainlineTestModuleController -->
-    <option name="compatibility:module-arg" value="CtsSdkExtensionsTestCases:enable:true" />
+    <include name="mts-art-tests-list-user" />
+    <include name="mts-art-tests-list-eng-only" />
+
+    <option name="plan" value="mts-art" />
 </configuration>
-
