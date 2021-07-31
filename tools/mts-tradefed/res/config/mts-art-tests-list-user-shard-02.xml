@@ -22,6 +22,7 @@
     <option name="compatibility:include-filter" value="CtsLibcoreLegacy22TestCases"/>
     <option name="compatibility:include-filter" value="CtsLibcoreOjTestCases"/>
     <option name="compatibility:include-filter" value="CtsLibcoreWycheproofBCTestCases"/>
+    <option name="compatibility:include-filter" value="MtsLibcoreOkHttpTestCases"/>
     <!-- Enable MainlineTestModuleController for CTS Libcore OJ tests. -->
     <option name="compatibility:module-arg" value="CtsLibcoreApiEvolutionTestCases:enable:true"/>
     <option name="compatibility:module-arg" value="CtsLibcoreFileIOTestCases:enable:true"/>
@@ -29,4 +30,5 @@
     <option name="compatibility:module-arg" value="CtsLibcoreLegacy22TestCases:enable:true"/>
     <option name="compatibility:module-arg" value="CtsLibcoreOjTestCases:enable:true"/>
     <option name="compatibility:module-arg" value="CtsLibcoreWycheproofBCTestCases:enable:true"/>
+    <option name="compatibility:module-arg" value="MtsLibcoreOkHttpTestCases:enable:true"/>
 </configuration>
