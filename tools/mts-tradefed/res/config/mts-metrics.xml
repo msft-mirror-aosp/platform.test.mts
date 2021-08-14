@@ -13,13 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<configuration description="Runs MTS-metrics from a pre-existing MTS installation">
 
-<configuration description="List test modules of WIFI module. This is a placeholder xml instead of a runnable plan.">
-    <include name="mts-wifi-oem-tests-list" />
+    <include name="mts" />
 
-    <option name="compatibility:include-filter" value="FrameworksWifiApiTests" />
-    <option name="compatibility:include-filter" value="FrameworksWifiTests" />
+    <include name="mts-metrics-tests-list" />
 
-    <option name="compatibility:module-arg" value="FrameworksWifiApiTests:enable:true" />
-    <option name="compatibility:module-arg" value="FrameworksWifiTests:enable:true" />
+    <option name="plan" value="mts-metrics" />
 </configuration>
+

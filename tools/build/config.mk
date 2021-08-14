@@ -26,6 +26,7 @@ mts_modules += \
                documentsui \
                extservices \
                ipsec \
+               mainline-infra \
                media \
                mediaprovider \
                networking \
