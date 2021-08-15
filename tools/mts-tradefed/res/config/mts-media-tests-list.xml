@@ -16,8 +16,9 @@
 <configuration description="List MTS media tests">
     <option name="compatibility:include-filter" value="CtsMediaTestCases" />
     <option name="compatibility:include-filter" value="CtsMediaV2TestCases" />
-    <option name="compatibility:include-filter" value="CtsMediaStressTestCases" />
     <option name="compatibility:include-filter" value="CtsMediaParserTestCases" />
+    <option name="compatibility:include-filter" value="CtsMediaStressTestCases" />
+    <option name="compatibility:include-filter" value="CtsMediaTranscodingTestCases" />
     <option name="compatibility:include-filter" value="Mpeg4H263DecoderTest" />
 
     <!-- unit tests -->
