@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2020 The Android Open Source Project
+<!-- Copyright (C) 2021 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,13 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<configuration description="Runs MTS-mainline-infra from a pre-existing MTS installation">
 
-<configuration description="List test modules of WIFI module. This is a placeholder xml instead of a runnable plan.">
-    <include name="mts-wifi-oem-tests-list" />
-
-    <option name="compatibility:include-filter" value="FrameworksWifiApiTests" />
-    <option name="compatibility:include-filter" value="FrameworksWifiTests" />
-
-    <option name="compatibility:module-arg" value="FrameworksWifiApiTests:enable:true" />
-    <option name="compatibility:module-arg" value="FrameworksWifiTests:enable:true" />
+    <option name="compatibility:include-filter"
+            value="CtsAppSecurityHostTestCases android.appsecurity.cts.ResumeOnRebootHostTest" />
+    <!-- b/181930359 -->
+    <option name="compatibility:exclude-filter"
+            value="CtsAppSecurityHostTestCases android.appsecurity.cts.ResumeOnRebootHostTest#resumeOnReboot_ManagedProfile_Success" />
 </configuration>
+
