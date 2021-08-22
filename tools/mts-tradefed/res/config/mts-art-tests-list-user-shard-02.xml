@@ -16,7 +16,19 @@
 -->
 <configuration description="List of ART MTS tests that do not need root access (shard 02)">
     <!-- CTS Libcore OJ tests. -->
+    <option name="compatibility:include-filter" value="CtsLibcoreApiEvolutionTestCases"/>
+    <option name="compatibility:include-filter" value="CtsLibcoreFileIOTestCases"/>
+    <option name="compatibility:include-filter" value="CtsLibcoreJsr166TestCases"/>
+    <option name="compatibility:include-filter" value="CtsLibcoreLegacy22TestCases"/>
     <option name="compatibility:include-filter" value="CtsLibcoreOjTestCases"/>
+    <option name="compatibility:include-filter" value="CtsLibcoreWycheproofBCTestCases"/>
+    <option name="compatibility:include-filter" value="MtsLibcoreOkHttpTestCases"/>
     <!-- Enable MainlineTestModuleController for CTS Libcore OJ tests. -->
+    <option name="compatibility:module-arg" value="CtsLibcoreApiEvolutionTestCases:enable:true"/>
+    <option name="compatibility:module-arg" value="CtsLibcoreFileIOTestCases:enable:true"/>
+    <option name="compatibility:module-arg" value="CtsLibcoreJsr166TestCases:enable:true"/>
+    <option name="compatibility:module-arg" value="CtsLibcoreLegacy22TestCases:enable:true"/>
     <option name="compatibility:module-arg" value="CtsLibcoreOjTestCases:enable:true"/>
+    <option name="compatibility:module-arg" value="CtsLibcoreWycheproofBCTestCases:enable:true"/>
+    <option name="compatibility:module-arg" value="MtsLibcoreOkHttpTestCases:enable:true"/>
 </configuration>
