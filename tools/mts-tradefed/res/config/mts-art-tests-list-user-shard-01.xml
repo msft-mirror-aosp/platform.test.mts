@@ -17,6 +17,9 @@
 <configuration description="List of ART MTS tests that do not need root access (shard 01)">
     <!-- CTS Libcore non-OJ tests. -->
     <option name="compatibility:include-filter" value="CtsLibcoreTestCases"/>
+    <!-- Excluded tests. -->
+    <!-- Test requires an updated Conscrypt and is not really relevant to ART (b/198606382). -->
+    <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases com.android.org.conscrypt.NativeCryptoArgTest"/>
     <!-- Enable MainlineTestModuleController for CTS Libcore non-OJ tests. -->
     <option name="compatibility:module-arg" value="CtsLibcoreTestCases:enable:true"/>
 </configuration>
