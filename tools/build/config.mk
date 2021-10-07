@@ -26,11 +26,13 @@ mts_modules += \
                documentsui \
                extservices \
                ipsec \
+               mainline-infra \
                media \
                mediaprovider \
                networking \
                neuralnetworks \
                permission \
+               scheduling \
                sdkextensions \
                statsd \
                tethering \

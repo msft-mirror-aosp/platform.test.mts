@@ -13,13 +13,6 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-documentsUI from a pre-existing MTS installation">
-
-    <include name="mts" />
-
-    <include name="mts-documentsUI-tests-list" />
-
-    <include name="mts-documentsUI-usedapi-tests-list" />
-
-    <option name="plan" value="mts-documentsUI" />
+<configuration description="List mts metrics tests that do not need root access">
+    <option name="compatibility:include-filter" value="TrainInstallWithManualRebootSuccessTest" />
 </configuration>

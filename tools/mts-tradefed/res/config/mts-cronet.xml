@@ -13,13 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-documentsUI from a pre-existing MTS installation">
+<configuration description="Runs MTS-cronet from a pre-existing MTS installation">
 
     <include name="mts" />
 
-    <include name="mts-documentsUI-tests-list" />
+    <option name="plan" value="mts-cronet" />
 
-    <include name="mts-documentsUI-usedapi-tests-list" />
+    <option name="compatibility:include-filter" value="CtsCronetTestCases" />
 
-    <option name="plan" value="mts-documentsUI" />
 </configuration>
