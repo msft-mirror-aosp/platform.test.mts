@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!--
-  ~ Copyright (C) 2019 The Android Open Source Project
+  ~ Copyright (C) 2021 The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -15,13 +14,12 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
+<configuration description="MTS test list for Device Scheduling">
 
-<configuration description="Runs MTS-Permission from a pre-existing MTS installation">
+  <option name="compatibility:include-filter" value="CtsRebootReadinessTestCases" />
+  <option name="compatibility:include-filter" value="RebootReadinessUnitTests" />
 
-    <include name="mts" />
-
-    <include name="mts-permission-tests-list-internal" />
-    <include name="mts-permission-tests-list-oem" />
-
-    <option name="plan" value="mts-permission" />
+  <!-- Enable Device Scheduling MTS tests to use MainlineTestModuleController -->
+  <option name="compatibility:module-arg" value="CtsRebootReadinessTestCases:enable:true" />
+  <option name="compatibility:module-arg" value="RebootReadinessUnitTests:enable:true" />
 </configuration>

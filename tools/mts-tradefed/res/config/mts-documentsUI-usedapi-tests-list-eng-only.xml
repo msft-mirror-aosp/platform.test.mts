@@ -13,13 +13,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<configuration description="List test modules of WIFI module. This is a placeholder xml instead of a runnable plan.">
-    <include name="mts-wifi-oem-tests-list" />
-
-    <option name="compatibility:include-filter" value="FrameworksWifiApiTests" />
-    <option name="compatibility:include-filter" value="FrameworksWifiTests" />
-
-    <option name="compatibility:module-arg" value="FrameworksWifiApiTests:enable:true" />
-    <option name="compatibility:module-arg" value="FrameworksWifiTests:enable:true" />
+<configuration description="List MTS api tests used by documentsUI that needs root access.">
+  <option name="compatibility:include-filter" value="CtsOsTestCases android.os.cts.AsyncTaskTest#testException" />
+  <option name="compatibility:include-filter" value="CtsOsTestCases android.os.cts.AsyncTaskTest#testCancellationWithException" />
 </configuration>
+
