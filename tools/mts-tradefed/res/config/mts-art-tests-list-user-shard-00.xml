@@ -364,7 +364,6 @@
     <option name="compatibility:include-filter" value="art-run-test-671-npe-field-opts"/>
     <option name="compatibility:include-filter" value="art-run-test-672-checker-throw-method"/>
     <option name="compatibility:include-filter" value="art-run-test-673-checker-throw-vmethod"/>
-    <option name="compatibility:include-filter" value="art-run-test-674-HelloWorld-Dm"/>
     <option name="compatibility:include-filter" value="art-run-test-676-proxy-jit-at-first-use"/>
     <option name="compatibility:include-filter" value="art-run-test-677-fsi2"/>
     <option name="compatibility:include-filter" value="art-run-test-680-sink-regression"/>
