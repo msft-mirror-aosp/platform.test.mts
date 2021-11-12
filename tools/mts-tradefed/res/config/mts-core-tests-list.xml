@@ -16,6 +16,6 @@
 <configuration description="Runs MTS-core from a pre-existing MTS installation">
 
     <option name="compatibility:include-filter" value="CtsStrictJavaPackagesTestCases" />
+    <option name="compatibility:include-filter" value="ModulesUtilsTestingTests" />
 
 </configuration>
-
