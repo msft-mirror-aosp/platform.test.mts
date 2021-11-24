@@ -408,6 +408,7 @@
     <option name="compatibility:include-filter" value="art-run-test-818-clinit-nterp"/>
     <option name="compatibility:include-filter" value="art-run-test-821-madvise-willneed"/>
     <option name="compatibility:include-filter" value="art-run-test-828-partial-lse"/>
+    <option name="compatibility:include-filter" value="art-run-test-834-lse"/>
     <option name="compatibility:include-filter" value="art-run-test-963-default-range-smali"/>
     <option name="compatibility:include-filter" value="art_standalone_cmdline_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_compiler_tests"/>
@@ -818,6 +819,7 @@
     <option name="compatibility:module-arg" value="art-run-test-818-clinit-nterp:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-821-madvise-willneed:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-828-partial-lse:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-834-lse:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-963-default-range-smali:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_cmdline_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_compiler_tests:enable:true"/>
