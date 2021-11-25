@@ -119,6 +119,7 @@
     <option name="compatibility:include-filter" value="art-run-test-153-reference-stress"/>
     <option name="compatibility:include-filter" value="art-run-test-156-register-dex-file-multi-loader"/>
     <option name="compatibility:include-filter" value="art-run-test-159-app-image-fields"/>
+    <option name="compatibility:include-filter" value="art-run-test-160-read-barrier-stress"/>
     <option name="compatibility:include-filter" value="art-run-test-163-app-image-methods"/>
     <option name="compatibility:include-filter" value="art-run-test-165-lock-owner-proxy"/>
     <option name="compatibility:include-filter" value="art-run-test-168-vmstack-annotated"/>
@@ -396,6 +397,7 @@
     <option name="compatibility:include-filter" value="art-run-test-704-multiply-accumulate"/>
     <option name="compatibility:include-filter" value="art-run-test-705-register-conflict"/>
     <option name="compatibility:include-filter" value="art-run-test-711-checker-type-conversion"/>
+    <option name="compatibility:include-filter" value="art-run-test-713-varhandle-invokers"/>
     <option name="compatibility:include-filter" value="art-run-test-718-zipfile-finalizer"/>
     <option name="compatibility:include-filter" value="art-run-test-721-osr"/>
     <option name="compatibility:include-filter" value="art-run-test-726-array-store"/>
@@ -530,6 +532,7 @@
     <option name="compatibility:module-arg" value="art-run-test-153-reference-stress:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-156-register-dex-file-multi-loader:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-159-app-image-fields:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-160-read-barrier-stress:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-163-app-image-methods:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-165-lock-owner-proxy:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-168-vmstack-annotated:enable:true"/>
@@ -807,6 +810,7 @@
     <option name="compatibility:module-arg" value="art-run-test-704-multiply-accumulate:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-705-register-conflict:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-711-checker-type-conversion:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-713-varhandle-invokers:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-718-zipfile-finalizer:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-721-osr:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-726-array-store:enable:true"/>
