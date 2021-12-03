@@ -86,6 +86,7 @@
     <option name="compatibility:include-filter" value="art-run-test-093-serialization"/>
     <option name="compatibility:include-filter" value="art-run-test-094-pattern"/>
     <option name="compatibility:include-filter" value="art-run-test-095-switch-MAX_INT"/>
+    <option name="compatibility:include-filter" value="art-run-test-096-array-copy-concurrent-gc"/>
     <option name="compatibility:include-filter" value="art-run-test-099-vmdebug"/>
     <option name="compatibility:include-filter" value="art-run-test-100-reflect2"/>
     <option name="compatibility:include-filter" value="art-run-test-1000-non-moving-space-stress"/>
@@ -507,6 +508,7 @@
     <option name="compatibility:module-arg" value="art-run-test-093-serialization:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-094-pattern:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-095-switch-MAX_INT:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-096-array-copy-concurrent-gc:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-099-vmdebug:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-100-reflect2:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-1000-non-moving-space-stress:enable:true"/>
