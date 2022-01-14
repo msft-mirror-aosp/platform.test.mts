@@ -13,14 +13,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-core from a pre-existing MTS installation">
+<configuration description="Runs MTS-core tests that need root access">
 
-    <include name="mts" />
-
-    <include name="mts-core-tests-list-user" />
-    <include name="mts-core-tests-list-eng-only" />
-
-    <option name="plan" value="mts-core" />
+    <option name="compatibility:include-filter" value="ApexSystemServicesTestCases" />
 
 </configuration>
-
