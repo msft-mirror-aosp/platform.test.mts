@@ -32,7 +32,7 @@
     <include name="mts-scheduling-tests-list" />
     <include name="mts-sdkextensions-tests-list" />
     <include name="mts-statsd-tests-list-user" />
-    <include name="mts-tethering-tests-list" />
+    <include name="mts-tethering-tests-list-user" />
     <include name="mts-tzdata-tests-list" />
     <include name="mts-wifi-oem-tests-list" />
 
