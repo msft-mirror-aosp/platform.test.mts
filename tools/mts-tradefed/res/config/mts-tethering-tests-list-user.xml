@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List mts tethering tests">
+<configuration description="List of MTS tethering tests that do not need root acccess">
 
     <option name="compatibility:include-filter" value="MtsTetheringTestLatestSdk" />
     <option name="compatibility:include-filter" value="CtsTetheringTestLatestSdk" />
