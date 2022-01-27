@@ -25,7 +25,7 @@
     <include name="mts-ipsec-tests-list" />
     <include name="mts-media-tests-list" />
     <include name="mts-mediaprovider-tests-list-user" />
-    <include name="mts-network-tests-list" />
+    <include name="mts-network-tests-list-user" />
     <include name="mts-neuralnetworks-tests-list" />
     <include name="mts-permission-tests-list-oem" />
     <include name="mts-preload-verify-tests-list" />
