@@ -17,9 +17,11 @@
 
     <option name="compatibility:include-filter" value="MtsTetheringTestLatestSdk" />
     <option name="compatibility:include-filter" value="CtsTetheringTestLatestSdk" />
+    <option name="compatibility:include-filter" value="NearbyUnitTests" />
 
     <!-- Enable tethering MTS tests to use MainlineTestModuleController -->
     <option name="compatibility:module-arg" value="MtsTetheringTestLatestSdk:enable:true" />
     <option name="compatibility:module-arg" value="CtsTetheringTestLatestSdk:enable:true" />
+    <option name="compatibility:module-arg" value="NearbyUnitTests:enable:true" />
 </configuration>
 

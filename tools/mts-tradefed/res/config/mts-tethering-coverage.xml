@@ -18,6 +18,7 @@
     <option name="plan" value="mts-tethering-coverage" />
 
     <option name="compatibility:include-filter" value="ConnectivityCoverageTests" />
+    <option name="compatibility:include-filter" value="NearbyUnitTests" />
 
     <!-- Coverage runs are significantly slower than normal runs, and testFuzzing cannot
          complete before the general test timeout (5 minutes) on such configurations. It is
