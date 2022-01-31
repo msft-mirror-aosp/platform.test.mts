@@ -23,6 +23,7 @@
     <!-- <option name="compatibility:include-filter" value="CtsScopedStoragePublicVolumeHostTest" /> -->
     <option name="compatibility:include-filter" value="CtsAppCloningHostTest" />
     <option name="compatibility:include-filter" value="MediaProviderTests" />
+    <option name="compatibility:include-filter" value="CtsMediaProviderTranscodeTests" />
 
     <!-- Enable Mediaprovider MTS tests to use MainlineTestModuleController -->
     <!-- MainlineTestModuleController is disabled for CtsProviderTestCases because the test is shared by DocumentUI (Q-intro module) and MediaProvider -->
@@ -32,5 +33,6 @@
     <!-- <option name="compatibility:module-arg" value="CtsScopedStoragePublicVolumeHostTest:enable:true" /> -->
     <option name="compatibility:module-arg" value="CtsAppCloningHostTest:enable:true" />
     <option name="compatibility:module-arg" value="MediaProviderTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsMediaProviderTranscodeTests:enable:true" />
 
 </configuration>
