@@ -32,7 +32,6 @@
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases com.android.org.conscrypt.javax.net.ssl.SSLSocketVersionCompatibilityTest#test_SSLSocket_setSoWriteTimeout[1: TLSv1.2 client, TLSv1.3 server]"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases com.android.org.conscrypt.javax.net.ssl.SSLSocketVersionCompatibilityTest#test_SSLSocket_setSoWriteTimeout[2: TLSv1.3 client, TLSv1.2 server]"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases com.android.org.conscrypt.javax.net.ssl.SSLSocketVersionCompatibilityTest#test_SSLSocket_setSoWriteTimeout[3: TLSv1.3 client, TLSv1.3 server]"/>
-    <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases libcore.android.system.OsTest#test_socket_setSockoptTimeval_effective"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases libcore.dalvik.system.DelegateLastClassLoaderTest#testLookupOrderNodelegate_getResource"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases libcore.dalvik.system.DelegateLastClassLoaderTest#testLookupOrder_getResource"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.ExplodeOpTest#testOps"/>
@@ -45,5 +44,4 @@
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.SortedOpTest#testSortSort"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.ToArrayOpTest#testDistinctAndSortedPermutations"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.ToArrayOpTest#testLongDistinctAndSortedPermutations"/>
-    <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases test.java.lang.invoke.ExplicitCastArgumenstTest#testMultipleArgs"/>
 </configuration>
