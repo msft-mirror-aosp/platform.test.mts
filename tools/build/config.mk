@@ -38,6 +38,7 @@ mts_modules += \
                statsd \
                tethering \
                tzdata \
+               uwb \
                wifi
 
 $(foreach module, $(mts_modules), \
