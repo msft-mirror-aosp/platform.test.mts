@@ -38,6 +38,7 @@
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.IntSliceOpTest#testLimitOps"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.IntSliceOpTest#testSkipOps"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.SequentialOpTest#testMixedSeqPar"/>
+    <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.SliceOpTest#testLimitOps"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.SliceOpTest#testSkipLimitOps"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.SliceOpTest#testSkipOps"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.SortedOpTest#testDoubleStreamTooLarge"/>
