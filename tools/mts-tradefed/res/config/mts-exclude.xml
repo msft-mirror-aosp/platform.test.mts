@@ -174,7 +174,7 @@
 
     <!-- https://b.corp.google.com/hotlists/2163722: Flaky test for media -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaScannerTest#testCanonicalize" />
-    <option name="compatibility:exclude-filter" value="CtsMediaDrmTestCases  android.mediadrm.cts.MediaPlayerDrmTest#testCAR_CLEARKEY_AUDIO_DOWNLOADED_V0_SYNC" />
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaPlayerDrmTest#testCAR_CLEARKEY_AUDIO_DOWNLOADED_V0_SYNC" />
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaSyncTest#testPlayAudio" />
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaPlayerTest#testPlayAudioAmr" />
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases  android.media.cts.MediaCodecListTest#testVideoPerformancePointsSanity" />
@@ -220,7 +220,7 @@
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.MediaCodecCapabilitiesTest#testAvcHigh31" />
 
     <!-- b/144590380: MTS flaky test -->
-    <option name="compatibility:exclude-filter" value="CtsMediaDrmTestCases android.mediadrm.cts.NativeMediaDrmClearkeyTest#testClearKeyPlaybackCenc2" />
+    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.NativeMediaDrmClearkeyTest#testClearKeyPlaybackCenc2" />
 
     <!-- b/142965402: MTS flaky test -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
