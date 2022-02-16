@@ -18,7 +18,6 @@ COMPATIBILITY_TESTCASES_OUT_mts := $(HOST_OUT)/mts/android-mts/testcases
 mts_modules :=
 mts_modules += \
                adbd \
-               appsearch \
                art \
                cellbroadcast \
                conscrypt \
@@ -38,7 +37,6 @@ mts_modules += \
                statsd \
                tethering \
                tzdata \
-               uwb \
                wifi
 
 $(foreach module, $(mts_modules), \
