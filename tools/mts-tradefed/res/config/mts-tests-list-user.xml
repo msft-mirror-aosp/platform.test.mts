@@ -17,11 +17,12 @@
     <include name="mts-art-tests-list-user" />
     <include name="mts-cellbroadcast-oem-tests-list" />
     <include name="mts-conscrypt-tests-list" />
-    <include name="mts-core-tests-list" />
+    <include name="mts-core-tests-list-user" />
     <include name="mts-dnsresolver-tests-list-user" />
     <include name="mts-documentsUI-oem-tests-list" />
     <include name="mts-documentsUI-usedapi-tests-list" />
     <include name="mts-extservices-tests-list" />
+    <include name="mts-linkerconfig-tests-list" />
     <include name="mts-ipsec-tests-list" />
     <include name="mts-media-tests-list" />
     <include name="mts-mediaprovider-tests-list-user" />
@@ -32,7 +33,7 @@
     <include name="mts-scheduling-tests-list" />
     <include name="mts-sdkextensions-tests-list" />
     <include name="mts-statsd-tests-list-user" />
-    <include name="mts-tethering-tests-list" />
+    <include name="mts-tethering-tests-list-user" />
     <include name="mts-tzdata-tests-list" />
     <include name="mts-wifi-oem-tests-list" />
 
