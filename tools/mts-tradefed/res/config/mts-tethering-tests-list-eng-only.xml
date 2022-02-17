@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2020 The Android Open Source Project
+<!-- Copyright (C) 2022 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,9 +13,6 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List MTS network tests.">
-    <option name="compatibility:include-filter" value="CtsNetTestCasesLatestSdk" />
-    <option name="compatibility:include-filter" value="CaptivePortalLoginTests" />
-    <option name="compatibility:module-arg" value="CtsNetTestCasesLatestSdk:exclude-annotation:com.android.testutils.ConnectivityModuleTest" />
+<configuration description="List of tethering MTS tests that need root access.">
+    <option name="compatibility:include-filter" value="bpf_existence_test" />
 </configuration>
-
