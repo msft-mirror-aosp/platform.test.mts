@@ -14,12 +14,10 @@
      limitations under the License.
 -->
 
-<configuration description="List test modules of UWB module. This is a placeholder xml instead of a runnable plan.">
-    <option name="compatibility:include-filter" value="FrameworkUwbTests" />
-    <option name="compatibility:include-filter" value="ServiceUwbTests" />
-    <option name="compatibility:include-filter" value="CtsUwbTestCases" />
+<configuration description="List of UWB MTS tests that need root access.">
+    <option name="compatibility:include-filter" value="libuwb_uci_packet_tests" />
+    <option name="compatibility:include-filter" value="libuwb_uci_rust_tests" />
 
-    <option name="compatibility:module-arg" value="FrameworkUwbTests:enable:true" />
-    <option name="compatibility:module-arg" value="ServiceUwbTests:enable:true" />
-    <option name="compatibility:module-arg" value="CtsUwbTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="libuwb_uci_packet_tests:enable:true" />
+    <option name="compatibility:module-arg" value="libuwb_uci_rust_tests:enable:true" />
 </configuration>
