@@ -35,6 +35,7 @@
     <include name="mts-statsd-tests-list-user" />
     <include name="mts-tethering-tests-list-user" />
     <include name="mts-tzdata-tests-list" />
+    <include name="mts-uwb-tests-list-user" />
     <include name="mts-wifi-oem-tests-list" />
 
     <!-- Exclude Wifi GTS tests that cannot run on user build due to signature mismatch with GMSCore
