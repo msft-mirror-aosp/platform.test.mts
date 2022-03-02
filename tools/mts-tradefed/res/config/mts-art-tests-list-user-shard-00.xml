@@ -437,6 +437,7 @@
     <option name="compatibility:include-filter" value="art_standalone_runtime_compiler_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_runtime_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_sigchain_tests"/>
+    <option name="compatibility:include-filter" value="libnativeloader_test"/>
     <!-- Enable MainlineTestModuleController for ART run-tests. -->
     <!-- TODO(rpl): Find a way to express this list in a more concise fashion. -->
     <option name="compatibility:module-arg" value="art-run-test-001-HelloWorld:enable:true"/>
@@ -859,4 +860,5 @@
     <option name="compatibility:module-arg" value="art_standalone_runtime_compiler_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_runtime_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_sigchain_tests:enable:true"/>
+    <option name="compatibility:module-arg" value="libnativeloader_test:enable:true"/>
 </configuration>
