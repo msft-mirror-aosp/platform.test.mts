@@ -32,6 +32,7 @@ mts_modules += \
                mediaprovider \
                networking \
                neuralnetworks \
+               ondevicepersonalization \
                permission \
                scheduling \
                sdkextensions \
