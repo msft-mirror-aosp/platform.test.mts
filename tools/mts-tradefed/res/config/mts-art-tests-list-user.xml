@@ -34,15 +34,4 @@
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases com.android.org.conscrypt.javax.net.ssl.SSLSocketVersionCompatibilityTest#test_SSLSocket_setSoWriteTimeout[3: TLSv1.3 client, TLSv1.3 server]"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases libcore.dalvik.system.DelegateLastClassLoaderTest#testLookupOrderNodelegate_getResource"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases libcore.dalvik.system.DelegateLastClassLoaderTest#testLookupOrder_getResource"/>
-    <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.ExplodeOpTest#testOps"/>
-    <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.IntSliceOpTest#testLimitOps"/>
-    <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.IntSliceOpTest#testSkipOps"/>
-    <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.SequentialOpTest#testMixedSeqPar"/>
-    <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.SliceOpTest#testLimitOps"/>
-    <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.SliceOpTest#testSkipLimitOps"/>
-    <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.SliceOpTest#testSkipOps"/>
-    <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.SortedOpTest#testDoubleStreamTooLarge"/>
-    <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.SortedOpTest#testSortSort"/>
-    <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.ToArrayOpTest#testDistinctAndSortedPermutations"/>
-    <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases org.openjdk.tests.java.util.stream.ToArrayOpTest#testLongDistinctAndSortedPermutations"/>
 </configuration>
