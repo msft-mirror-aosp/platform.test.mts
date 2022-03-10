@@ -18,6 +18,7 @@ COMPATIBILITY_TESTCASES_OUT_mts := $(HOST_OUT)/mts/android-mts/testcases
 mts_modules :=
 mts_modules += \
                adbd \
+               adservices \
                appsearch \
                art \
                cellbroadcast \
