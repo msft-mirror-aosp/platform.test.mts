@@ -20,6 +20,7 @@ mts_modules += \
                adbd \
                appsearch \
                art \
+               bluetooth \
                cellbroadcast \
                conscrypt \
                cronet \
