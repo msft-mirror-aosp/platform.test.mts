@@ -13,13 +13,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<configuration description="Runs MTS-core from a pre-existing MTS installation">
 
-<configuration description="List of UWB MTS tests that do not need root access.">
-    <option name="compatibility:include-filter" value="FrameworkUwbTests" />
-    <option name="compatibility:include-filter" value="ServiceUwbTests" />
-    <option name="compatibility:include-filter" value="CtsUwbTestCases" />
+    <option name="compatibility:include-filter" value="CtsStrictJavaPackagesTestCases" />
 
-    <option name="compatibility:module-arg" value="FrameworkUwbTests:enable:true" />
-    <option name="compatibility:module-arg" value="ServiceUwbTests:enable:true" />
-    <option name="compatibility:module-arg" value="CtsUwbTestCases:enable:true" />
 </configuration>
+
