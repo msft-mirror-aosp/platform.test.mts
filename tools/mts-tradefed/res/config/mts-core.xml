@@ -17,8 +17,7 @@
 
     <include name="mts" />
 
-    <include name="mts-core-tests-list-user" />
-    <include name="mts-core-tests-list-eng-only" />
+    <include name="mts-core-tests-list" />
 
     <option name="plan" value="mts-core" />
 
