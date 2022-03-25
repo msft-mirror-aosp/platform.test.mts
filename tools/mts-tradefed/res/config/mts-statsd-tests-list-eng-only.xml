@@ -21,8 +21,12 @@
     <!-- Include tests from statsd native device-tests -->
     <option name="compatibility:include-filter" value="statsd_test" />
 
+    <!-- Include framework statsd host tests -->
+    <option name="compatibility:include-filter" value="FrameworkStatsdHostTest" />
+
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="libstatspull_test:enable:true" />
     <option name="compatibility:module-arg" value="libstatssocket_test:enable:true" />
     <option name="compatibility:module-arg" value="statsd_test:enable:true" />
+    <option name="compatibility:module-arg" value="FrameworkStatsdHostTest:enable:true" />
 </configuration>
