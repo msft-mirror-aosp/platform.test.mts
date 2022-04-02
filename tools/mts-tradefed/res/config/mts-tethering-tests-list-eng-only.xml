@@ -15,4 +15,5 @@
 -->
 <configuration description="List of tethering MTS tests that need root access.">
     <option name="compatibility:include-filter" value="bpf_existence_test" />
+    <option name="compatibility:include-filter" value="connectivity_native_test" />
 </configuration>
