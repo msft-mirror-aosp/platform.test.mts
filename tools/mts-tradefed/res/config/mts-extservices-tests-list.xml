@@ -33,9 +33,6 @@
     <option name="compatibility:include-filter" value="libtextclassifier_tests" />
     <option name="compatibility:include-filter" value="libtextclassifier_java_tests" />
 
-    <!-- for Displayhash native -->
-    <option name="compatibility:include-filter" value="libextservices_test" />
-
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsPackageWatchdogTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsTextClassifierTestCases:enable:true" />
@@ -44,6 +41,5 @@
     <option name="compatibility:module-arg" value="TextClassifierServiceTest:enable:true" />
     <option name="compatibility:module-arg" value="libtextclassifier_tests:enable:true" />
     <option name="compatibility:module-arg" value="libtextclassifier_java_tests:enable:true" />
-    <option name="compatibility:module-arg" value="libextservices_test:enable:true" />
 
 </configuration>

@@ -13,16 +13,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package {
-    default_applicable_licenses: ["Android-Apache-2.0"],
-}
-
 tradefed_binary_host {
     name: "mts-tradefed",
     wrapper: "etc/mts-tradefed",
     short_name: "MTS",
     full_name: "Mainline Test Suite",
-    version: "3.0",
+    version: "2.0",
     static_libs: ["cts-tradefed-harness"],
     java_resource_dirs: ["res"],
 }

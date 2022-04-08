@@ -32,7 +32,6 @@ mts_modules += \
                networking \
                neuralnetworks \
                permission \
-               scheduling \
                sdkextensions \
                statsd \
                tethering \
