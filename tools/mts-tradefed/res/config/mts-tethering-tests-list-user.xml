@@ -15,12 +15,14 @@
 -->
 <configuration description="List of MTS tethering tests that do not need root acccess">
 
+    <option name="compatibility:include-filter" value="CtsNetTestCasesLatestSdk" />
     <option name="compatibility:include-filter" value="MtsTetheringTestLatestSdk" />
     <option name="compatibility:include-filter" value="CtsTetheringTestLatestSdk" />
     <option name="compatibility:include-filter" value="NearbyUnitTests" />
     <option name="compatibility:include-filter" value="CtsNearbyFastPairTestCases" />
 
     <!-- Enable tethering MTS tests to use MainlineTestModuleController -->
+    <option name="compatibility:module-arg" value="CtsNetTestCasesLatestSdk:enable:true" />
     <option name="compatibility:module-arg" value="MtsTetheringTestLatestSdk:enable:true" />
     <option name="compatibility:module-arg" value="CtsTetheringTestLatestSdk:enable:true" />
     <option name="compatibility:module-arg" value="NearbyUnitTests:enable:true" />
