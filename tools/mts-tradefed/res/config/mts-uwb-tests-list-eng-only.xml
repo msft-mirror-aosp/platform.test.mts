@@ -13,10 +13,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-core tests that need root access">
 
-    <option name="compatibility:include-filter" value="ApexSystemServicesTestCases" />
+<configuration description="List of UWB MTS tests that need root access.">
+    <option name="compatibility:include-filter" value="libuwb_uci_jni_rust_tests" />
+    <option name="compatibility:include-filter" value="libuwb_uci_packet_tests" />
+    <option name="compatibility:include-filter" value="libuwb_uci_rust_tests" />
 
-    <option name="compatibility:include-filter"
-            value="UpdatableSharedLibsTest" />
+    <option name="compatibility:module-arg" value="libuwb_uci_jni_rust_tests:enable:true" />
+    <option name="compatibility:module-arg" value="libuwb_uci_packet_tests:enable:true" />
+    <option name="compatibility:module-arg" value="libuwb_uci_rust_tests:enable:true" />
 </configuration>
