@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<configuration description="List test modules of UWB module. This is a placeholder xml instead of a runnable plan.">
+<configuration description="List of UWB MTS tests that do not need root access.">
     <option name="compatibility:include-filter" value="FrameworkUwbTests" />
     <option name="compatibility:include-filter" value="ServiceUwbTests" />
     <option name="compatibility:include-filter" value="CtsUwbTestCases" />
