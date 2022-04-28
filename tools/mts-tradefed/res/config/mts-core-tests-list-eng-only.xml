@@ -17,4 +17,6 @@
 
     <option name="compatibility:include-filter" value="ApexSystemServicesTestCases" />
 
+    <option name="compatibility:include-filter"
+            value="UpdatableSharedLibsTest" />
 </configuration>
