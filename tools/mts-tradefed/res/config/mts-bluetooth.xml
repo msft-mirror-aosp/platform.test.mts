@@ -13,14 +13,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-tethering from a pre-existing MTS installation">
+<configuration description="Runs MTS-bluetooth from a pre-existing MTS installation">
 
     <include name="mts" />
 
-    <include name="mts-tethering-tests-list-user" />
-    <include name="mts-tethering-tests-list-eng-only" />
+    <include name="mts-bluetooth-tests-list" />
 
-    <option name="plan" value="mts-tethering" />
+    <option name="plan" value="mts-bluetooth" />
 
     <target_preparer class="com.android.compatibility.common.tradefed.targetprep.PropertyCheck">
         <option name="property-name" value="ro.build.type" />
@@ -28,4 +27,3 @@
         <option name="throw-error" value="false"/> <!-- Only print warning if not user build -->
     </target_preparer>
 </configuration>
-

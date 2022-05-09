@@ -13,14 +13,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-core from a pre-existing MTS installation">
 
-    <include name="mts" />
+<configuration description="List of UWB MTS tests that need root access.">
+    <option name="compatibility:include-filter" value="libuwb_uci_jni_rust_tests" />
+    <option name="compatibility:include-filter" value="libuwb_uci_packet_tests" />
+    <option name="compatibility:include-filter" value="libuwb_uci_rust_tests" />
 
-    <include name="mts-core-tests-list-user" />
-    <include name="mts-core-tests-list-eng-only" />
-
-    <option name="plan" value="mts-core" />
-
+    <option name="compatibility:module-arg" value="libuwb_uci_jni_rust_tests:enable:true" />
+    <option name="compatibility:module-arg" value="libuwb_uci_packet_tests:enable:true" />
+    <option name="compatibility:module-arg" value="libuwb_uci_rust_tests:enable:true" />
 </configuration>
-
