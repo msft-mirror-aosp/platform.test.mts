@@ -13,9 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-core from a pre-existing MTS installation">
+<configuration description="Runs MTS-core tests that need root access">
 
-    <option name="compatibility:include-filter" value="CtsStrictJavaPackagesTestCases" />
+    <option name="compatibility:include-filter" value="ApexSystemServicesTestCases" />
 
+    <option name="compatibility:include-filter"
+      value="UpdatableSharedLibsTest" />
+
+    <option name="compatibility:include-filter" value="ApkInApexTest" />
 </configuration>
-
