@@ -24,12 +24,12 @@
     <option name="compatibility:include-filter" value="ServiceBluetoothTests" />
 
      <!-- Include Bluetooth unit tests -->
-    <option name="compatibility:include-filter" value="BluetoothInstrumentationTests" />
+    <option name="compatibility:include-filter" value="GoogleBluetoothInstrumentationTests" />
 
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsBluetoothTestCases:enable:true" />
     <option name="compatibility:module-arg" value="BluetoothTests:enable:true" />
     <option name="compatibility:module-arg" value="ServiceBluetoothTests:enable:true" />
-    <option name="compatibility:module-arg" value="BluetoothInstrumentationTests:enable:true" />
+    <option name="compatibility:module-arg" value="GoogleBluetoothInstrumentationTests:enable:true" />
 
 </configuration>
