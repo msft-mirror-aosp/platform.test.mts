@@ -15,6 +15,7 @@
 -->
 <configuration description="List all tests that do not need root access in active test plans.">
     <include name="mts-adservices-tests-list" />
+    <include name="mts-appsearch-tests-list" />
     <include name="mts-art-tests-list-user" />
     <include name="mts-bluetooth-tests-list" />
     <include name="mts-cellbroadcast-oem-tests-list" />
