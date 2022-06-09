@@ -17,7 +17,6 @@
     <include name="mts-adservices-tests-list" />
     <include name="mts-appsearch-tests-list" />
     <include name="mts-art-tests-list-user" />
-    <include name="mts-bluetooth-tests-list" />
     <include name="mts-cellbroadcast-oem-tests-list" />
     <include name="mts-conscrypt-tests-list" />
     <include name="mts-core-tests-list-user" />
