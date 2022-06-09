@@ -24,7 +24,6 @@ mts_modules += \
                bluetooth \
                cellbroadcast \
                conscrypt \
-               cronet \
                dnsresolver \
                documentsui \
                extservices \
