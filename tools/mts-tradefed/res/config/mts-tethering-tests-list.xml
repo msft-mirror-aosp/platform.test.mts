@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2021 The Android Open Source Project
+<!-- Copyright (C) 2020 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,12 +13,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-core tests that need root access">
+<configuration description="List mts tethering tests">
 
-    <option name="compatibility:include-filter" value="ApexSystemServicesTestCases" />
+    <option name="compatibility:include-filter" value="MtsTetheringTestLatestSdk" />
+    <option name="compatibility:include-filter" value="CtsTetheringTestLatestSdk" />
 
-    <option name="compatibility:include-filter"
-      value="UpdatableSharedLibsTest" />
-
-    <option name="compatibility:include-filter" value="ApkInApexTest" />
+    <!-- Enable tethering MTS tests to use MainlineTestModuleController -->
+    <option name="compatibility:module-arg" value="MtsTetheringTestLatestSdk:enable:true" />
+    <option name="compatibility:module-arg" value="CtsTetheringTestLatestSdk:enable:true" />
 </configuration>
+
