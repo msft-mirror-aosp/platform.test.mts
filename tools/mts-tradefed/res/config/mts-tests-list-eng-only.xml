@@ -23,8 +23,4 @@
     <include name="mts-statsd-tests-list-eng-only" />
     <include name="mts-tethering-tests-list-eng-only" />
     <include name="mts-uwb-tests-list-eng-only" />
-
-    <!-- Exclude Statsd Framework Host tests until priv-app issue is resolved
-        TODO(b/222124237): remove once tests can run on userdebug build  -->
-    <option name="compatibility:exclude-filter" value="FrameworkStatsdHostTests" />
 </configuration>
