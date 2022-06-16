@@ -87,8 +87,11 @@
     <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.SettingsBackupValidationHostSideTest" />
     <option name="compatibility:exclude-filter" value="GtsBackupHostTestCases com.google.android.gts.backup.AccessibilityServiceRestoreHostSideTest" />
 
-    <!-- b/110385515: Flaky test -->
-    <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.rtt.cts.WifiRttTest#testRangingToTestAp" />
+    <!-- b/234821097: Flaky test due to hardware and test setup, not related to the module-->
+    <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.rtt.cts.WifiRttTest#testRangingToTest11mcApUsingResponderConfig" />
+    <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.rtt.cts.WifiRttTest#testRangingToTest11mcApUsingScanResult" />
+    <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.rtt.cts.WifiRttTest#testRangingToTestNon11mcApUsingResponderConfig" />
+    <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.rtt.cts.WifiRttTest#testRangingToTestNon11mcApUsingScanResult" />
     <!-- TODO(b/153088610): Missing AP support in test lab -->
     <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.rtt.cts.WifiRttTest#testRangingToTestApWithResponderLocation" />
 
