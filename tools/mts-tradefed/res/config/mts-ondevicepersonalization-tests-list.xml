@@ -14,6 +14,10 @@
 <configuration description="List test modules of OnDevicePersonalization module. This is a placeholder xml instead of a runnable plan.">
     <option name="compatibility:include-filter"
             value="CtsOnDevicePersonalizationTestCases android.ondevicepersonalization.cts.OnDevicePersonalizationServiceTest" />
+    <option name="compatibility:include-filter"
+            value="OnDevicePersonalizationManagerServicesTests" />
+
 
     <option name="compatibility:module-arg" value="CtsOnDevicePersonalizationTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="OnDevicePersonalizationManagerServicesTests:enable:true" />
 </configuration>
