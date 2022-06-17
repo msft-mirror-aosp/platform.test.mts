@@ -14,6 +14,29 @@
 <configuration description="List test modules of AdServices module. This is a placeholder xml instead of a runnable plan.">
     <option name="compatibility:include-filter"
             value="CtsAdServicesDeviceTestCases" />
+    <option name="compatibility:include-filter"
+            value="CtsAdServicesEndToEndTests" />
+    <option name="compatibility:include-filter"
+            value="AdServicesFrameworkUnitTests" />
+    <option name="compatibility:include-filter"
+            value="AdServicesServiceCoreUnitTests" />
+
+    <option name="compatibility:include-filter"
+            value="SdkSandboxManagerTests" />
+    <option name="compatibility:include-filter"
+            value="CtsSdkSandboxInprocessTests" />
+    <option name="compatibility:include-filter"
+            value="SdkSandboxManagerServiceUnitTests" />
+    <option name="compatibility:include-filter"
+            value="SdkSandboxTests" />
 
     <option name="compatibility:module-arg" value="CtsAdServicesDeviceTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdServicesFrameworkUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdServicesServiceCoreUnitTests:enable:true" />
+
+    <option name="compatibility:module-arg" value="SdkSandboxManagerTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsSdkSandboxInprocessTests:enable:true" />
+    <option name="compatibility:module-arg" value="SdkSandboxManagerServiceUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="SdkSandboxTests:enable:true" />
 </configuration>
