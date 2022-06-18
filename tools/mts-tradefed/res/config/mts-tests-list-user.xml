@@ -18,7 +18,7 @@
     <include name="mts-appsearch-tests-list" />
     <include name="mts-art-tests-list-user" />
     <include name="mts-cellbroadcast-oem-tests-list" />
-    <include name="mts-conscrypt-tests-list" />
+    <include name="mts-conscrypt-tests-list-user" />
     <include name="mts-core-tests-list-user" />
     <include name="mts-dnsresolver-tests-list-user" />
     <include name="mts-documentsUI-oem-tests-list" />
