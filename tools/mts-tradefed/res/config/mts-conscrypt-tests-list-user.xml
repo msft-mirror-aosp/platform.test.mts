@@ -13,9 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List MTS conscrypt tests.">
-    <option name="compatibility:include-filter" value="boringssl_crypto_test" />
-    <option name="compatibility:include-filter" value="boringssl_ssl_test" />
+<configuration description="List of MTS Conscrypt tests that can run on user builds.">
     <option name="compatibility:include-filter" value="CtsLibcoreOkHttpTestCases" />
     <option name="compatibility:include-filter" value="MtsConscryptTestCases" />
     <option name="compatibility:include-filter" value="MtsConscryptFdSocketTestCases" />
