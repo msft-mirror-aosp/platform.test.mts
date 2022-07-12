@@ -13,13 +13,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List MTS cellbroadcast tests.">
-    <option name="compatibility:include-filter" value="CellBroadcastReceiverMTS" />
-    <option name="compatibility:include-filter" value="CellBroadcastServiceTests" />
-    <option name="compatibility:include-filter" value="CellBroadcastReceiverComplianceTests" />
-
-    <!-- Enable MainlineTestModuleController -->
-    <option name="compatibility:module-arg" value="CellBroadcastReceiverMTS:enable:true" />
-    <option name="compatibility:module-arg" value="CellBroadcastServiceTests:enable:true" />
-    <option name="compatibility:module-arg" value="CellBroadcastReceiverComplianceTests:enable:true" />
+<configuration description="List of MTS Conscrypt tests requiring eng build.">
+    <option name="compatibility:include-filter" value="boringssl_crypto_test" />
+    <option name="compatibility:include-filter" value="boringssl_ssl_test" />
 </configuration>
+
