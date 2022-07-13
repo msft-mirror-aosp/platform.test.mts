@@ -41,5 +41,5 @@
     <option name="compatibility:module-arg" value="SdkSandboxManagerTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsSdkSandboxInprocessTests:enable:true" />
     <option name="compatibility:module-arg" value="SdkSandboxManagerServiceUnitTests:enable:true" />
-    <option name="compatibility:module-arg" value="SdkSandboxTests:enable:true" />
+    <option name="compatibility:module-arg" value="SdkSandboxUnitTests:enable:true" />
 </configuration>
