@@ -317,7 +317,6 @@
     <option name="compatibility:include-filter" value="art-run-test-564-checker-negbitwise"/>
     <option name="compatibility:include-filter" value="art-run-test-565-checker-condition-liveness"/>
     <option name="compatibility:include-filter" value="art-run-test-566-checker-codegen-select"/>
-    <option name="compatibility:include-filter" value="art-run-test-567-checker-builder-intrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-568-checker-onebit"/>
     <option name="compatibility:include-filter" value="art-run-test-570-checker-select"/>
     <option name="compatibility:include-filter" value="art-run-test-572-checker-array-get-regression"/>
@@ -426,8 +425,10 @@
     <option name="compatibility:include-filter" value="art-run-test-828-partial-lse"/>
     <option name="compatibility:include-filter" value="art-run-test-834-lse"/>
     <option name="compatibility:include-filter" value="art-run-test-835-b216762268"/>
+    <option name="compatibility:include-filter" value="art-run-test-839-clinit-throw"/>
     <option name="compatibility:include-filter" value="art-run-test-963-default-range-smali"/>
     <option name="compatibility:include-filter" value="art_libnativebridge_cts_tests"/>
+    <option name="compatibility:include-filter" value="art_standalone_artd_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_cmdline_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_compiler_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_dex2oat_tests"/>
@@ -747,7 +748,6 @@
     <option name="compatibility:module-arg" value="art-run-test-564-checker-negbitwise:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-565-checker-condition-liveness:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-566-checker-codegen-select:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-567-checker-builder-intrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-568-checker-onebit:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-570-checker-select:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-572-checker-array-get-regression:enable:true"/>
@@ -856,8 +856,10 @@
     <option name="compatibility:module-arg" value="art-run-test-828-partial-lse:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-834-lse:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-835-b216762268:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-839-clinit-throw:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-963-default-range-smali:enable:true"/>
     <option name="compatibility:module-arg" value="art_libnativebridge_cts_tests:enable:true"/>
+    <option name="compatibility:module-arg" value="art_standalone_artd_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_cmdline_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_compiler_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_dex2oat_tests:enable:true"/>
