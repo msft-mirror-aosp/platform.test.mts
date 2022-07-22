@@ -30,7 +30,7 @@
     <option name="compatibility:include-filter"
             value="SdkSandboxManagerServiceUnitTests" />
     <option name="compatibility:include-filter"
-            value="SdkSandboxTests" />
+            value="SdkSandboxUnitTests" />
 
     <option name="compatibility:module-arg" value="CtsAdServicesDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesDebuggableDeviceTestCases:enable:true" />
