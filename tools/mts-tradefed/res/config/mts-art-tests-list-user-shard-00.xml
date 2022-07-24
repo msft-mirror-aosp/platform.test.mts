@@ -424,24 +424,6 @@
     <option name="compatibility:include-filter" value="art-run-test-834-lse"/>
     <option name="compatibility:include-filter" value="art-run-test-835-b216762268"/>
     <option name="compatibility:include-filter" value="art-run-test-963-default-range-smali"/>
-    <option name="compatibility:include-filter" value="art_libnativebridge_cts_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_cmdline_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_compiler_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_dex2oat_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_dexdump_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_dexlist_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_libartbase_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_libartpalette_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_libartservice_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_libarttools_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_libdexfile_support_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_libdexfile_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_libprofile_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_oatdump_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_runtime_compiler_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_runtime_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_sigchain_tests"/>
-    <option name="compatibility:include-filter" value="libnativeloader_test"/>
     <!-- Enable MainlineTestModuleController for ART run-tests. -->
     <!-- TODO(rpl): Find a way to express this list in a more concise fashion. -->
     <option name="compatibility:module-arg" value="art-run-test-001-HelloWorld:enable:true"/>
@@ -851,22 +833,4 @@
     <option name="compatibility:module-arg" value="art-run-test-834-lse:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-835-b216762268:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-963-default-range-smali:enable:true"/>
-    <option name="compatibility:module-arg" value="art_libnativebridge_cts_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_cmdline_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_compiler_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_dex2oat_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_dexdump_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_dexlist_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_libartbase_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_libartpalette_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_libartservice_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_libarttools_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_libdexfile_support_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_libdexfile_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_libprofile_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_oatdump_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_runtime_compiler_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_runtime_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_sigchain_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="libnativeloader_test:enable:true"/>
 </configuration>
