@@ -15,9 +15,9 @@
     <option name="compatibility:include-filter"
             value="CtsOnDevicePersonalizationTestCases android.ondevicepersonalization.cts.OnDevicePersonalizationServiceTest" />
     <option name="compatibility:include-filter"
-            value="OnDevicePersonalizationManagerServicesTests" />
+            value="OnDevicePersonalizationManagingServicesTests" />
 
 
     <option name="compatibility:module-arg" value="CtsOnDevicePersonalizationTestCases:enable:true" />
-    <option name="compatibility:module-arg" value="OnDevicePersonalizationManagerServicesTests:enable:true" />
+    <option name="compatibility:module-arg" value="OnDevicePersonalizationManagingServicesTests:enable:true" />
 </configuration>
