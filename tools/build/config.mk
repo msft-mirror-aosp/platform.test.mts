@@ -19,6 +19,7 @@ mts_modules :=
 mts_modules += \
                adbd \
                adservices \
+               adservices-cts-only \
                appsearch \
                art \
                bluetooth \
