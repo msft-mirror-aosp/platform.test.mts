@@ -22,6 +22,11 @@
             value="AdServicesFrameworkUnitTests" />
     <option name="compatibility:include-filter"
             value="AdServicesServiceCoreUnitTests" />
+    <option name="compatibility:include-filter"
+            value="AdServicesApkUnitTests" />
+    <option name="compatibility:include-filter"
+            value="AdServicesApkUITests" />
+
 
     <option name="compatibility:include-filter"
             value="SdkSandboxManagerTests" />
@@ -30,16 +35,21 @@
     <option name="compatibility:include-filter"
             value="SdkSandboxManagerServiceUnitTests" />
     <option name="compatibility:include-filter"
-            value="SdkSandboxTests" />
+            value="SdkSandboxUnitTests" />
+    <option name="compatibility:include-filter"
+            value="SdkSandboxFrameworkUnitTests" />
 
     <option name="compatibility:module-arg" value="CtsAdServicesDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesDebuggableDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesFrameworkUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesServiceCoreUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdServicesApkUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdServicesApkUITests:enable:true" />
 
     <option name="compatibility:module-arg" value="SdkSandboxManagerTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsSdkSandboxInprocessTests:enable:true" />
     <option name="compatibility:module-arg" value="SdkSandboxManagerServiceUnitTests:enable:true" />
-    <option name="compatibility:module-arg" value="SdkSandboxTests:enable:true" />
+    <option name="compatibility:module-arg" value="SdkSandboxUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="SdkSandboxFrameworkUnitTests:enable:true" />
 </configuration>
