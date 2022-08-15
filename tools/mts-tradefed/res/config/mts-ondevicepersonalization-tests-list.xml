@@ -15,9 +15,15 @@
     <option name="compatibility:include-filter"
             value="CtsOnDevicePersonalizationTestCases android.ondevicepersonalization.cts.OnDevicePersonalizationServiceTest" />
     <option name="compatibility:include-filter"
-            value="OnDevicePersonalizationManagerServicesTests" />
+            value="FrameworkOnDevicePersonalizationTests" />
+    <option name="compatibility:include-filter"
+            value="OnDevicePersonalizationManagingServicesTests" />
+    <option name="compatibility:include-filter"
+            value="OdpChronicleTests" />
 
 
     <option name="compatibility:module-arg" value="CtsOnDevicePersonalizationTestCases:enable:true" />
-    <option name="compatibility:module-arg" value="OnDevicePersonalizationManagerServicesTests:enable:true" />
+    <option name="compatibility:module-arg" value="FrameworkOnDevicePersonalizationTests:enable:true" />
+    <option name="compatibility:module-arg" value="OnDevicePersonalizationManagingServicesTests:enable:true" />
+    <option name="compatibility:module-arg" value="OdpChronicleTests:enable:true" />
 </configuration>
