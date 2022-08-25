@@ -26,6 +26,11 @@
             value="AdServicesApkUnitTests" />
     <option name="compatibility:include-filter"
             value="AdServicesApkUITests" />
+    <option name="compatibility:include-filter"
+            value="CtsAdIdEndToEndTest" />
+    <option name="compatibility:include-filter"
+            value="CtsAppSetIdEndToEndTest" />
+
 
 
     <option name="compatibility:include-filter"
@@ -46,6 +51,8 @@
     <option name="compatibility:module-arg" value="AdServicesServiceCoreUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesApkUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesApkUITests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdIdEndToEndTest:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAppSetIdEndToEndTest:enable:true" />
 
     <option name="compatibility:module-arg" value="SdkSandboxManagerTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsSdkSandboxInprocessTests:enable:true" />
