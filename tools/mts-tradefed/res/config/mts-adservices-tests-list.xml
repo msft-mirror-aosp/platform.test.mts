@@ -19,6 +19,8 @@
     <option name="compatibility:include-filter"
             value="CtsAdServicesEndToEndTests" />
     <option name="compatibility:include-filter"
+            value="CtsAdServicesEndToEndTestMeasurement" />
+    <option name="compatibility:include-filter"
             value="AdServicesFrameworkUnitTests" />
     <option name="compatibility:include-filter"
             value="AdServicesServiceCoreUnitTests" />
@@ -47,6 +49,7 @@
     <option name="compatibility:module-arg" value="CtsAdServicesDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesDebuggableDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTestMeasurement:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesFrameworkUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesServiceCoreUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesApkUnitTests:enable:true" />
