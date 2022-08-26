@@ -19,6 +19,8 @@
     <option name="compatibility:include-filter"
             value="CtsAdServicesEndToEndTests" />
     <option name="compatibility:include-filter"
+            value="CtsAdServicesEndToEndTestMeasurement" />
+    <option name="compatibility:include-filter"
             value="CtsAdIdEndToEndTest" />
     <option name="compatibility:include-filter"
             value="CtsAppSetIdEndToEndTest" />
@@ -30,6 +32,7 @@
     <option name="compatibility:module-arg" value="CtsAdServicesDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesDebuggableDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTestMeasurement:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdIdEndToEndTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAppSetIdEndToEndTest:enable:true" />
 
