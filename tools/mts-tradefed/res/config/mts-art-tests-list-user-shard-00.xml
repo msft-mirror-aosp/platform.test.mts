@@ -151,6 +151,7 @@
     <option name="compatibility:include-filter" value="art-run-test-2042-checker-dce-always-throw"/>
     <option name="compatibility:include-filter" value="art-run-test-2042-reference-processing"/>
     <option name="compatibility:include-filter" value="art-run-test-2043-reference-pauses"/>
+    <option name="compatibility:include-filter" value="art-run-test-2044-get-stack-traces"/>
     <option name="compatibility:include-filter" value="art-run-test-2231-checker-heap-poisoning"/>
     <option name="compatibility:include-filter" value="art-run-test-2232-write-metrics-to-log"/>
     <option name="compatibility:include-filter" value="art-run-test-2233-checker-remove-loop-suspend-check"/>
@@ -317,6 +318,7 @@
     <option name="compatibility:include-filter" value="art-run-test-564-checker-negbitwise"/>
     <option name="compatibility:include-filter" value="art-run-test-565-checker-condition-liveness"/>
     <option name="compatibility:include-filter" value="art-run-test-566-checker-codegen-select"/>
+    <option name="compatibility:include-filter" value="art-run-test-567-checker-builder-intrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-568-checker-onebit"/>
     <option name="compatibility:include-filter" value="art-run-test-570-checker-select"/>
     <option name="compatibility:include-filter" value="art-run-test-572-checker-array-get-regression"/>
@@ -426,7 +428,7 @@
     <option name="compatibility:include-filter" value="art-run-test-834-lse"/>
     <option name="compatibility:include-filter" value="art-run-test-835-b216762268"/>
     <option name="compatibility:include-filter" value="art-run-test-838-override"/>
-    <option name="compatibility:include-filter" value="art-run-test-839-clinit-throw"/>
+    <option name="compatibility:include-filter" value="art-run-test-841-defaults"/>
     <option name="compatibility:include-filter" value="art-run-test-963-default-range-smali"/>
     <!-- Enable MainlineTestModuleController for ART run-tests. -->
     <!-- TODO(rpl): Find a way to express this list in a more concise fashion. -->
@@ -564,6 +566,7 @@
     <option name="compatibility:module-arg" value="art-run-test-2042-checker-dce-always-throw:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2042-reference-processing:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2043-reference-pauses:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2044-get-stack-traces:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2231-checker-heap-poisoning:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2232-write-metrics-to-log:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2233-checker-remove-loop-suspend-check:enable:true"/>
@@ -730,6 +733,7 @@
     <option name="compatibility:module-arg" value="art-run-test-564-checker-negbitwise:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-565-checker-condition-liveness:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-566-checker-codegen-select:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-567-checker-builder-intrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-568-checker-onebit:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-570-checker-select:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-572-checker-array-get-regression:enable:true"/>
@@ -839,6 +843,6 @@
     <option name="compatibility:module-arg" value="art-run-test-834-lse:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-835-b216762268:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-838-override:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-839-clinit-throw:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-841-defaults:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-963-default-range-smali:enable:true"/>
 </configuration>
