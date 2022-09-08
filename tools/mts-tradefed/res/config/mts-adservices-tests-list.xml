@@ -15,8 +15,6 @@
     <option name="compatibility:include-filter"
             value="CtsAdServicesDeviceTestCases" />
     <option name="compatibility:include-filter"
-            value="CtsAdServicesDebuggableDeviceTestCases" />
-    <option name="compatibility:include-filter"
             value="CtsAdServicesEndToEndTests" />
     <option name="compatibility:include-filter"
             value="AdServicesFrameworkUnitTests" />
@@ -30,10 +28,9 @@
     <option name="compatibility:include-filter"
             value="SdkSandboxManagerServiceUnitTests" />
     <option name="compatibility:include-filter"
-            value="SdkSandboxUnitTests" />
+            value="SdkSandboxTests" />
 
     <option name="compatibility:module-arg" value="CtsAdServicesDeviceTestCases:enable:true" />
-    <option name="compatibility:module-arg" value="CtsAdServicesDebuggableDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesFrameworkUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesServiceCoreUnitTests:enable:true" />
@@ -41,5 +38,5 @@
     <option name="compatibility:module-arg" value="SdkSandboxManagerTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsSdkSandboxInprocessTests:enable:true" />
     <option name="compatibility:module-arg" value="SdkSandboxManagerServiceUnitTests:enable:true" />
-    <option name="compatibility:module-arg" value="SdkSandboxUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="SdkSandboxTests:enable:true" />
 </configuration>

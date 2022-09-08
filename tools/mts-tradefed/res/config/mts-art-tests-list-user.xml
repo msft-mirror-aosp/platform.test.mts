@@ -18,7 +18,6 @@
     <include name="mts-art-tests-list-user-shard-00"/>
     <include name="mts-art-tests-list-user-shard-01"/>
     <include name="mts-art-tests-list-user-shard-02"/>
-    <include name="mts-art-tests-list-user-shard-03"/>
     <!-- Excluded flaky tests (b/209958457). -->
     <option name="compatibility:exclude-filter" value="CtsLibcoreFileIOTestCases android.cts.FileChannelInterProcessLockTest#test_lockJJZ_Exclusive_asyncChannel"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreFileIOTestCases android.cts.FileChannelInterProcessLockTest#test_lockJJZ_Exclusive_syncChannel"/>
