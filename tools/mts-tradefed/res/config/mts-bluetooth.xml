@@ -18,6 +18,7 @@
     <include name="mts" />
 
     <include name="mts-bluetooth-tests-list" />
+    <include name="mts-bluetooth-tests-list-internal" />
 
     <option name="plan" value="mts-bluetooth" />
 
