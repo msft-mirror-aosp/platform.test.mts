@@ -386,6 +386,7 @@
     <option name="compatibility:include-filter" value="art-run-test-660-checker-simd-sad"/>
     <option name="compatibility:include-filter" value="art-run-test-661-checker-simd-reduc"/>
     <option name="compatibility:include-filter" value="art-run-test-662-regression-alias"/>
+    <option name="compatibility:include-filter" value="art-run-test-663-checker-select-generator"/>
     <option name="compatibility:include-filter" value="art-run-test-665-checker-simd-zero"/>
     <option name="compatibility:include-filter" value="art-run-test-666-dex-cache-itf"/>
     <option name="compatibility:include-filter" value="art-run-test-667-checker-simd-alignment"/>
@@ -428,6 +429,7 @@
     <option name="compatibility:include-filter" value="art-run-test-834-lse"/>
     <option name="compatibility:include-filter" value="art-run-test-835-b216762268"/>
     <option name="compatibility:include-filter" value="art-run-test-838-override"/>
+    <option name="compatibility:include-filter" value="art-run-test-839-clinit-throw"/>
     <option name="compatibility:include-filter" value="art-run-test-841-defaults"/>
     <option name="compatibility:include-filter" value="art-run-test-963-default-range-smali"/>
     <!-- Enable MainlineTestModuleController for ART run-tests. -->
@@ -801,6 +803,7 @@
     <option name="compatibility:module-arg" value="art-run-test-660-checker-simd-sad:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-661-checker-simd-reduc:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-662-regression-alias:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-663-checker-select-generator:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-665-checker-simd-zero:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-666-dex-cache-itf:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-667-checker-simd-alignment:enable:true"/>
@@ -843,6 +846,7 @@
     <option name="compatibility:module-arg" value="art-run-test-834-lse:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-835-b216762268:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-838-override:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-839-clinit-throw:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-841-defaults:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-963-default-range-smali:enable:true"/>
 </configuration>
