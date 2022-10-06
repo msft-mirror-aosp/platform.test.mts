@@ -75,6 +75,7 @@
     <option name="compatibility:include-filter" value="net_test_stack_gatt" />
     <option name="compatibility:include-filter" value="net_test_stack_l2cap" />
     <option name="compatibility:include-filter" value="net_test_stack_acl" />
+    <option name="compatibility:include-filter" value="net_test_stack_sdp" />
     <option name="compatibility:include-filter" value="bt_headless" />
     <option name="compatibility:include-filter" value="net_test_bluetooth" />
     <option name="compatibility:include-filter" value="net_test_types" />
@@ -143,6 +144,7 @@
     <option name="compatibility:module-arg" value="net_test_stack_gatt:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_l2cap:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_acl:enable:true" />
+    <option name="compatibility:module-arg" value="net_test_stack_sdp:enable:true" />
     <option name="compatibility:module-arg" value="bt_headless:enable:true" />
     <option name="compatibility:module-arg" value="net_test_bluetooth:enable:true" />
     <option name="compatibility:module-arg" value="net_test_types:enable:true" />
