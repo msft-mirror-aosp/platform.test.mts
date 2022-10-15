@@ -17,6 +17,8 @@
 
     <!-- Include Java test suites -->
     <option name="compatibility:include-filter" value="CtsBluetoothTestCases" />
+    <option name="compatibility:include-filter" value="GoogleServiceBluetoothTests" />
+    <option name="compatibility:include-filter" value="GoogleFrameworkBluetoothTests" />
     <option name="compatibility:include-filter" value="GoogleBluetoothInstrumentationTests" />
 
     <!-- Include native tests -->
@@ -83,6 +85,8 @@
 
     <!-- Enable MainlineTestModuleController for Java test suites -->
     <option name="compatibility:module-arg" value="CtsBluetoothTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="GoogleServiceBluetoothTests:enable:true" />
+    <option name="compatibility:module-arg" value="GoogleFrameworkBluetoothTests:enable:true" />
     <option name="compatibility:module-arg" value="GoogleBluetoothInstrumentationTests:enable:true" />
 
     <!-- Enable MainlineTestModuleController for Native tests -->
