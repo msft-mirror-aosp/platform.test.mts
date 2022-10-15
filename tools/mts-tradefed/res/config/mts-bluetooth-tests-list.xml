@@ -32,7 +32,6 @@
     <option name="compatibility:include-filter" value="bluetooth_vc_test" />
     <option name="compatibility:include-filter" value="bluetooth_le_audio_test" />
     <option name="compatibility:include-filter" value="bluetooth_le_audio_client_test" />
-    <option name="compatibility:include-filter" value="bluetooth_test_broadcaster_sm" />
     <option name="compatibility:include-filter" value="bluetooth_test_broadcaster" />
     <option name="compatibility:include-filter" value="bluetooth_has_test" />
     <option name="compatibility:include-filter" value="net_test_btcore" />
@@ -75,12 +74,9 @@
     <option name="compatibility:include-filter" value="net_test_stack_gatt" />
     <option name="compatibility:include-filter" value="net_test_stack_l2cap" />
     <option name="compatibility:include-filter" value="net_test_stack_acl" />
-    <option name="compatibility:include-filter" value="bt_headless" />
+    <option name="compatibility:include-filter" value="net_test_stack_sdp" />
     <option name="compatibility:include-filter" value="net_test_bluetooth" />
     <option name="compatibility:include-filter" value="net_test_types" />
-    <option name="compatibility:include-filter" value="libbt_packets_test" />
-    <option name="compatibility:include-filter" value="packets_test_rust" />
-    <option name="compatibility:include-filter" value="libbluetooth_rs_test" />
 
 
     <!-- Enable MainlineTestModuleController for Java test suites -->
@@ -100,7 +96,6 @@
     <option name="compatibility:module-arg" value="bluetooth_vc_test:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_le_audio_test:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_le_audio_client_test:enable:true" />
-    <option name="compatibility:module-arg" value="bluetooth_test_broadcaster_sm:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_test_broadcaster:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_has_test:enable:true" />
     <option name="compatibility:module-arg" value="net_test_btcore:enable:true" />
@@ -143,11 +138,8 @@
     <option name="compatibility:module-arg" value="net_test_stack_gatt:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_l2cap:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_acl:enable:true" />
-    <option name="compatibility:module-arg" value="bt_headless:enable:true" />
+    <option name="compatibility:module-arg" value="net_test_stack_sdp:enable:true" />
     <option name="compatibility:module-arg" value="net_test_bluetooth:enable:true" />
     <option name="compatibility:module-arg" value="net_test_types:enable:true" />
-    <option name="compatibility:module-arg" value="libbt_packets_test:enable:true" />
-    <option name="compatibility:module-arg" value="packets_test_rust:enable:true" />
-    <option name="compatibility:module-arg" value="libbluetooth_rs_test:enable:true" />
 
 </configuration>
