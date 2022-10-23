@@ -27,6 +27,8 @@
 
 
     <option name="compatibility:include-filter"
+            value="CtsSdkSandboxHostSideTests" />
+    <option name="compatibility:include-filter"
             value="CtsSdkSandboxInprocessTests" />
 
     <option name="compatibility:module-arg" value="CtsAdServicesDeviceTestCases:enable:true" />
@@ -36,5 +38,6 @@
     <option name="compatibility:module-arg" value="CtsAdIdEndToEndTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAppSetIdEndToEndTest:enable:true" />
 
+    <option name="compatibility:module-arg" value="CtsSdkSandboxHostSideTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsSdkSandboxInprocessTests:enable:true" />
 </configuration>
