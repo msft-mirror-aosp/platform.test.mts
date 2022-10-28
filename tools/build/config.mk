@@ -30,6 +30,7 @@ mts_modules += \
                dnsresolver \
                documentsui \
                extservices \
+               healthconnect \
                ipsec \
                mainline-infra \
                media \
