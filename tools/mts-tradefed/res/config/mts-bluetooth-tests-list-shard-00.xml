@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019 The Android Open Source Project
+<!-- Copyright (C) 2022 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,9 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List mts dnsResolver tests that do not need root access">
-    <option name="compatibility:include-filter" value="CtsNetTestCasesLatestSdk android.net.cts.DnsTest" />
-    <option name="compatibility:include-filter" value="CtsNetTestCasesLatestSdk android.net.cts.DnsResolverTest" />
-    <option name="compatibility:include-filter" value="CtsNativeNetDnsTestCases" />
-    <option name="compatibility:include-filter" value="doh_ffi_test" />
+<configuration description="List of Bluetooth MTS tests that do not need root access (shard 00).">
+    <option name="compatibility:include-filter" value="pts-bot-mts" />
+    <option name="compatibility:module-arg" value="pts-bot-mts:enable:true" />
 </configuration>
