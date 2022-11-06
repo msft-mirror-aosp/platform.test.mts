@@ -13,15 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs mts-bluetooth from a pre-existing MTS installation">
-
-    <include name="mts" />
-    <include name="mts-bluetooth-tests-list" />
-    <option name="plan" value="mts-bluetooth" />
-
-    <target_preparer class="com.android.compatibility.common.tradefed.targetprep.PropertyCheck">
-        <option name="property-name" value="ro.build.type" />
-        <option name="expected-value" value="userdebug"/> <!-- Device should have userdebug/eng build -->
-        <option name="throw-error" value="false"/> <!-- Only print warning if not user build -->
-    </target_preparer>
+<configuration description="List of Bluetooth MTS tests that do not need root access (shard 00).">
+    <option name="compatibility:include-filter" value="pts-bot-mts" />
+    <option name="compatibility:module-arg" value="pts-bot-mts:enable:true" />
 </configuration>
