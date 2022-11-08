@@ -157,6 +157,8 @@
     <option name="compatibility:include-filter" value="art-run-test-2234-checker-remove-entry-suspendcheck"/>
     <option name="compatibility:include-filter" value="art-run-test-2236-JdkUnsafeGetLong-regression"/>
     <option name="compatibility:include-filter" value="art-run-test-2241-checker-inline-try-catch"/>
+    <option name="compatibility:include-filter" value="art-run-test-2242-checker-lse-acquire-release-operations"/>
+    <option name="compatibility:include-filter" value="art-run-test-2243-checker-not-inline-into-throw"/>
     <option name="compatibility:include-filter" value="art-run-test-300-package-override"/>
     <option name="compatibility:include-filter" value="art-run-test-301-abstract-protected"/>
     <option name="compatibility:include-filter" value="art-run-test-302-float-conversion"/>
@@ -574,6 +576,8 @@
     <option name="compatibility:module-arg" value="art-run-test-2234-checker-remove-entry-suspendcheck:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2236-JdkUnsafeGetLong-regression:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2241-checker-inline-try-catch:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2242-checker-lse-acquire-release-operations:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2243-checker-not-inline-into-throw:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-300-package-override:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-301-abstract-protected:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-302-float-conversion:enable:true"/>
