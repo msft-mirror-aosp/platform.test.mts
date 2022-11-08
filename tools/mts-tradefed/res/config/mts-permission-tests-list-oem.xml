@@ -47,4 +47,6 @@
     <option name="compatibility:module-arg" value="GtsIncidentManagerTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="GtsSafetyCenterTestCases" />
     <option name="compatibility:module-arg" value="GtsSafetyCenterTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
+    <option name="compatibility:include-filter" value="SafetyCenterFunctionalTestCases" />
+    <option name="compatibility:module-arg" value="SafetyCenterFunctionalTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
 </configuration>
