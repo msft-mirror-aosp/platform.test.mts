@@ -29,6 +29,8 @@
     <option name="compatibility:include-filter" value="net_test_btcore" />
     <option name="compatibility:include-filter" value="net_test_btif" />
     <option name="compatibility:include-filter" value="net_test_btif_profile_queue" />
+    <option name="compatibility:include-filter" value="libaptx_enc_tests" />
+    <option name="compatibility:include-filter" value="libaptxhd_enc_tests" />
     <option name="compatibility:include-filter" value="net_test_btif_rc" />
     <option name="compatibility:include-filter" value="net_test_btif_config_cache" />
     <option name="compatibility:include-filter" value="net_test_btif_hf_client_service" />
