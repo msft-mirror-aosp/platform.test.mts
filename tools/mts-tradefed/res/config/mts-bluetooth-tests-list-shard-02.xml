@@ -57,6 +57,7 @@
     <option name="compatibility:include-filter" value="net_test_stack_ad_parser" />
     <option name="compatibility:include-filter" value="net_test_stack_gatt_native" />
     <option name="compatibility:include-filter" value="net_test_stack_avdtp" />
+    <option name="compatibility:include-filter" value="net_test_stack_a2dp_codecs_native" />
     <option name="compatibility:include-filter" value="net_test_stack_a2dp_native" />
     <option name="compatibility:include-filter" value="net_test_stack_gatt_sr_hash_native" />
     <option name="compatibility:include-filter" value="net_test_btm_iso" />
@@ -112,6 +113,7 @@
     <option name="compatibility:module-arg" value="net_test_stack_ad_parser:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_gatt_native:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_avdtp:enable:true" />
+    <option name="compatibility:module-arg" value="net_test_stack_a2dp_codecs_native:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_a2dp_native:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_gatt_sr_hash_native:enable:true" />
     <option name="compatibility:module-arg" value="net_test_btm_iso:enable:true" />
