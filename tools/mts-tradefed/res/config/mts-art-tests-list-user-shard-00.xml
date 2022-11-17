@@ -117,9 +117,7 @@
     <option name="compatibility:include-filter" value="art-run-test-140-dce-regression"/>
     <option name="compatibility:include-filter" value="art-run-test-140-field-packing"/>
     <option name="compatibility:include-filter" value="art-run-test-143-string-value"/>
-    <option name="compatibility:include-filter" value="art-run-test-144-static-field-sigquit"/>
     <option name="compatibility:include-filter" value="art-run-test-145-alloc-tracking-stress"/>
-    <option name="compatibility:include-filter" value="art-run-test-151-OpenFileLimit"/>
     <option name="compatibility:include-filter" value="art-run-test-152-dead-large-object"/>
     <option name="compatibility:include-filter" value="art-run-test-153-reference-stress"/>
     <option name="compatibility:include-filter" value="art-run-test-156-register-dex-file-multi-loader"/>
@@ -526,9 +524,7 @@
     <option name="compatibility:module-arg" value="art-run-test-140-dce-regression:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-140-field-packing:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-143-string-value:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-144-static-field-sigquit:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-145-alloc-tracking-stress:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-151-OpenFileLimit:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-152-dead-large-object:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-153-reference-stress:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-156-register-dex-file-multi-loader:enable:true"/>
