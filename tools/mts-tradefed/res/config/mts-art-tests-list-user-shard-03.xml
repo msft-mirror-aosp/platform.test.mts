@@ -31,7 +31,7 @@
     <option name="compatibility:include-filter" value="art_standalone_libdexfile_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_libprofile_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_oatdump_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_runtime_compiler_tests"/>
+    <option name="compatibility:include-filter" value="art_standalone_odrefresh_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_runtime_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_sigchain_tests"/>
     <option name="compatibility:include-filter" value="libnativeloader_test"/>
@@ -51,7 +51,7 @@
     <option name="compatibility:module-arg" value="art_standalone_libdexfile_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_libprofile_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_oatdump_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_runtime_compiler_tests:enable:true"/>
+    <option name="compatibility:module-arg" value="art_standalone_odrefresh_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_runtime_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_sigchain_tests:enable:true"/>
     <option name="compatibility:module-arg" value="libnativeloader_test:enable:true"/>

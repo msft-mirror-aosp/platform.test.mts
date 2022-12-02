@@ -117,9 +117,7 @@
     <option name="compatibility:include-filter" value="art-run-test-140-dce-regression"/>
     <option name="compatibility:include-filter" value="art-run-test-140-field-packing"/>
     <option name="compatibility:include-filter" value="art-run-test-143-string-value"/>
-    <option name="compatibility:include-filter" value="art-run-test-144-static-field-sigquit"/>
     <option name="compatibility:include-filter" value="art-run-test-145-alloc-tracking-stress"/>
-    <option name="compatibility:include-filter" value="art-run-test-151-OpenFileLimit"/>
     <option name="compatibility:include-filter" value="art-run-test-152-dead-large-object"/>
     <option name="compatibility:include-filter" value="art-run-test-153-reference-stress"/>
     <option name="compatibility:include-filter" value="art-run-test-156-register-dex-file-multi-loader"/>
@@ -153,10 +151,12 @@
     <option name="compatibility:include-filter" value="art-run-test-2043-reference-pauses"/>
     <option name="compatibility:include-filter" value="art-run-test-2044-get-stack-traces"/>
     <option name="compatibility:include-filter" value="art-run-test-2231-checker-heap-poisoning"/>
-    <option name="compatibility:include-filter" value="art-run-test-2232-write-metrics-to-log"/>
     <option name="compatibility:include-filter" value="art-run-test-2233-checker-remove-loop-suspend-check"/>
     <option name="compatibility:include-filter" value="art-run-test-2234-checker-remove-entry-suspendcheck"/>
     <option name="compatibility:include-filter" value="art-run-test-2236-JdkUnsafeGetLong-regression"/>
+    <option name="compatibility:include-filter" value="art-run-test-2241-checker-inline-try-catch"/>
+    <option name="compatibility:include-filter" value="art-run-test-2242-checker-lse-acquire-release-operations"/>
+    <option name="compatibility:include-filter" value="art-run-test-2243-checker-not-inline-into-throw"/>
     <option name="compatibility:include-filter" value="art-run-test-300-package-override"/>
     <option name="compatibility:include-filter" value="art-run-test-301-abstract-protected"/>
     <option name="compatibility:include-filter" value="art-run-test-302-float-conversion"/>
@@ -386,6 +386,7 @@
     <option name="compatibility:include-filter" value="art-run-test-660-checker-simd-sad"/>
     <option name="compatibility:include-filter" value="art-run-test-661-checker-simd-reduc"/>
     <option name="compatibility:include-filter" value="art-run-test-662-regression-alias"/>
+    <option name="compatibility:include-filter" value="art-run-test-663-checker-select-generator"/>
     <option name="compatibility:include-filter" value="art-run-test-665-checker-simd-zero"/>
     <option name="compatibility:include-filter" value="art-run-test-666-dex-cache-itf"/>
     <option name="compatibility:include-filter" value="art-run-test-667-checker-simd-alignment"/>
@@ -428,6 +429,7 @@
     <option name="compatibility:include-filter" value="art-run-test-834-lse"/>
     <option name="compatibility:include-filter" value="art-run-test-835-b216762268"/>
     <option name="compatibility:include-filter" value="art-run-test-838-override"/>
+    <option name="compatibility:include-filter" value="art-run-test-839-clinit-throw"/>
     <option name="compatibility:include-filter" value="art-run-test-841-defaults"/>
     <option name="compatibility:include-filter" value="art-run-test-963-default-range-smali"/>
     <!-- Enable MainlineTestModuleController for ART run-tests. -->
@@ -532,9 +534,7 @@
     <option name="compatibility:module-arg" value="art-run-test-140-dce-regression:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-140-field-packing:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-143-string-value:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-144-static-field-sigquit:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-145-alloc-tracking-stress:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-151-OpenFileLimit:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-152-dead-large-object:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-153-reference-stress:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-156-register-dex-file-multi-loader:enable:true"/>
@@ -568,10 +568,12 @@
     <option name="compatibility:module-arg" value="art-run-test-2043-reference-pauses:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2044-get-stack-traces:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2231-checker-heap-poisoning:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-2232-write-metrics-to-log:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2233-checker-remove-loop-suspend-check:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2234-checker-remove-entry-suspendcheck:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2236-JdkUnsafeGetLong-regression:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2241-checker-inline-try-catch:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2242-checker-lse-acquire-release-operations:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2243-checker-not-inline-into-throw:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-300-package-override:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-301-abstract-protected:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-302-float-conversion:enable:true"/>
@@ -801,6 +803,7 @@
     <option name="compatibility:module-arg" value="art-run-test-660-checker-simd-sad:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-661-checker-simd-reduc:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-662-regression-alias:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-663-checker-select-generator:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-665-checker-simd-zero:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-666-dex-cache-itf:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-667-checker-simd-alignment:enable:true"/>
@@ -843,6 +846,7 @@
     <option name="compatibility:module-arg" value="art-run-test-834-lse:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-835-b216762268:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-838-override:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-839-clinit-throw:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-841-defaults:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-963-default-range-smali:enable:true"/>
 </configuration>
