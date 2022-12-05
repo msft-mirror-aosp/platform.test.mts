@@ -38,7 +38,7 @@
     <option name="compatibility:module-arg" value="CtsMediaExtractorTestCases:instrumentation-arg:mts-media:=true" />
 
     <option name="compatibility:include-filter" value="CtsMediaMiscTestCases" />
-    <option name="compatibility:module-arg" value="CtsMediaMiscTestCases:exclude-annotation:android.media.cts.NonMediaMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaMiscTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
     <option name="compatibility:module-arg" value="CtsMediaMiscTestCases:instrumentation-arg:mts-media:=true" />
 
     <option name="compatibility:include-filter" value="CtsMediaPlayerTestCases" />
