@@ -23,6 +23,8 @@ import com.android.tradefed.build.IBuildInfo;
 import com.android.tradefed.config.OptionSetter;
 import com.android.tradefed.util.FileUtil;
 
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
@@ -40,6 +42,20 @@ public class MtsTradefedTest {
     private static final String SUITE_NAME = "MTS";
     private static final String SUITE_PLAN = "mts";
     private static final String DYNAMIC_CONFIG_URL = "";
+
+    private String mOriginalProperty = null;
+
+    @Before
+    public void setUp() throws Exception {
+        mOriginalProperty = System.getProperty(PROPERTY_NAME);
+    }
+
+    @After
+    public void tearDown() throws Exception {
+        if (mOriginalProperty != null) {
+            System.setProperty(PROPERTY_NAME, mOriginalProperty);
+        }
+    }
 
     @Test
     public void testSuiteInfoLoad() throws Exception {
