@@ -15,5 +15,7 @@
       <option name="compatibility:include-filter"
                     value="CtsHealthConnectDeviceTestCases" />
 
+      <option name="compatibility:include-filter" value="HealthConnectUnitTests" />
+
       <option name="compatibility:module-arg" value="CtsHealthConnectDeviceTestCases:enable:true" />
 </configuration>
