@@ -16,6 +16,8 @@
 <configuration description="List mts metrics tests that do not need root access">
   <option name="compatibility:include-filter" value="service-rkp-unittest" />
   <option name="compatibility:include-filter" value="GtsGmscoreHostTestCases com.google.android.gts.security.AttestationRootHostTest" />
+  <option name="compatibility:include-filter" value="RkpdAppGoogleUnitTests" />
 
   <option name="compatibility:module-arg" value="GtsGmscoreHostTestCases:enable:true" />
+  <option name="compatibility:module-arg" value="RkpdAppGoogleUnitTests:enable:true" />
 </configuration>
