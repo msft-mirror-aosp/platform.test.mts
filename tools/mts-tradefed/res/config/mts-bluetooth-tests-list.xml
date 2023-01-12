@@ -17,4 +17,5 @@
     <include name="mts-bluetooth-tests-list-shard-00"/>
     <include name="mts-bluetooth-tests-list-shard-01"/>
     <include name="mts-bluetooth-tests-list-shard-02"/>
+
 </configuration>
