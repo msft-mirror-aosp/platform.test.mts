@@ -83,4 +83,6 @@
     <option name="compatibility:module-arg" value="SafetyCenterConfigTests:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="GtsPermissionUiTestCases" />
     <option name="compatibility:module-arg" value="GtsPermissionUiTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
+    <option name="compatibility:include-filter" value="SafetyCenterFunctionalMultiUsersTestCases" />
+    <option name="compatibility:module-arg" value="SafetyCenterFunctionalMultiUsersTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
 </configuration>
