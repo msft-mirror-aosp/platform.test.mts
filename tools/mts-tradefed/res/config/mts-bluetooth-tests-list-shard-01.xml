@@ -19,7 +19,7 @@
     <option name="compatibility:include-filter" value="GoogleServiceBluetoothTests" />
     <option name="compatibility:include-filter" value="GoogleBluetoothInstrumentationTests" />
     <option name="compatibility:module-arg" value="CtsBluetoothTestCases:enable:true" />
-    <option name="compatibility:module-arg" value="GoogleFrameworkBluetoothTests:enable:true" />
-    <option name="compatibility:module-arg" value="GoogleServiceBluetoothTests:enable:true" />
+    <option name="compatibility:module-arg" value="FrameworkBluetoothTests:enable:true" />
+    <option name="compatibility:module-arg" value="ServiceBluetoothTests:enable:true" />
     <option name="compatibility:module-arg" value="GoogleBluetoothInstrumentationTests:enable:true" />
 </configuration>
