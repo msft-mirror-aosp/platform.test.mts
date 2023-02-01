@@ -40,7 +40,6 @@
     <option name="compatibility:include-filter" value="bluetooth_packet_parser_test" />
     <option name="compatibility:include-filter" value="bluetooth_flatbuffer_tests" />
     <option name="compatibility:include-filter" value="net_test_hci" />
-    <option name="compatibility:include-filter" value="net_test_hci_native" />
     <option name="compatibility:include-filter" value="net_test_hci_fragmenter_native" />
     <option name="compatibility:include-filter" value="net_test_main_shim" />
     <option name="compatibility:include-filter" value="net_test_osi" />
@@ -96,7 +95,6 @@
     <option name="compatibility:module-arg" value="bluetooth_packet_parser_test:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_flatbuffer_tests:enable:true" />
     <option name="compatibility:module-arg" value="net_test_hci:enable:true" />
-    <option name="compatibility:module-arg" value="net_test_hci_native:enable:true" />
     <option name="compatibility:module-arg" value="net_test_hci_fragmenter_native:enable:true" />
     <option name="compatibility:module-arg" value="net_test_main_shim:enable:true" />
     <option name="compatibility:module-arg" value="net_test_osi:enable:true" />
