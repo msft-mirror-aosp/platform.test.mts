@@ -12,10 +12,14 @@
 -->
 
 <configuration description="List test modules of HealthConnect module. This is a placeholder xml instead of a runnable plan.">
-      <option name="compatibility:include-filter"
-                    value="CtsHealthConnectDeviceTestCases" />
-
+      <option name="compatibility:include-filter" value="CtsHealthConnectDeviceTestCases" />
+      <option name="compatibility:include-filter" value="CtsHealthConnectDeviceTestCasesNoPermission" />
       <option name="compatibility:include-filter" value="HealthConnectUnitTests" />
+      <option name="compatibility:include-filter" value="HealthConnectControllerUITests" />
 
       <option name="compatibility:module-arg" value="CtsHealthConnectDeviceTestCases:enable:true" />
+      <option name="compatibility:module-arg" value="CtsHealthConnectDeviceTestCasesNoPermission:enable:true" />
+      <option name="compatibility:module-arg" value="HealthConnectUnitTests:enable:true" />
+      <option name="compatibility:module-arg" value="HealthConnectControllerUITests:enable:true" />
+
 </configuration>
