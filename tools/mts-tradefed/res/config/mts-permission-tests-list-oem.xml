@@ -54,8 +54,6 @@
     <option name="compatibility:module-arg" value="CtsPermission2TestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsPermission3TestCases" />
     <option name="compatibility:module-arg" value="CtsPermission3TestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
-    <option name="compatibility:include-filter" value="CtsPermission4TestCases" />
-    <option name="compatibility:module-arg" value="CtsPermission4TestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsPermission5TestCases" />
     <option name="compatibility:module-arg" value="CtsPermission5TestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsAppOpsTestCases" />
