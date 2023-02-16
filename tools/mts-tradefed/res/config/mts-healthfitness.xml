@@ -11,11 +11,11 @@
      limitations under the License.
 -->
 
-<configuration description="Runs MTS-healthconnect from a pre-existing MTS installation">
+<configuration description="Runs MTS-healthfitness from a pre-existing MTS installation">
       <include name="mts" />
 
-      <include name="mts-healthconnect-tests-list" />
+      <include name="mts-healthfitness-tests-list" />
 
-      <option name="plan" value="mts-healthconnect" />
+      <option name="plan" value="mts-healthfitness" />
 </configuration>
 
