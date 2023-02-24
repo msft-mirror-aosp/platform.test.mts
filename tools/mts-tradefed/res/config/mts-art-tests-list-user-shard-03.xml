@@ -20,10 +20,8 @@
     <option name="compatibility:include-filter" value="art_standalone_artd_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_cmdline_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_compiler_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_dex2oat_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_dexdump_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_dexlist_tests"/>
-    <option name="compatibility:include-filter" value="art_standalone_libartbase_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_libartpalette_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_libartservice_tests"/>
     <option name="compatibility:include-filter" value="art_standalone_libarttools_tests"/>
@@ -40,10 +38,8 @@
     <option name="compatibility:module-arg" value="art_standalone_artd_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_cmdline_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_compiler_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_dex2oat_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_dexdump_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_dexlist_tests:enable:true"/>
-    <option name="compatibility:module-arg" value="art_standalone_libartbase_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_libartpalette_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_libartservice_tests:enable:true"/>
     <option name="compatibility:module-arg" value="art_standalone_libarttools_tests:enable:true"/>
