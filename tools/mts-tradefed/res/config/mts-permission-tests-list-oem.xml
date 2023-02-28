@@ -22,44 +22,16 @@
     <option name="compatibility:include-filter" value="PermissionControllerOutOfProcessTests" />
     <option name="compatibility:include-filter" value="PermissionUiTestCases" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.AccessibilityPrivacySourceTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.ActivityPermissionRationaleTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.BackgroundPermissionButtonLabelTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.BackgroundPermissionsTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.DuplicatePermissionDefinitionsTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.LocationAccessCheckTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.MinMaxSdkVersionTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.NotificationListenerCheckTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.NotificationListenerCheckWithSafetyCenterUnsupportedTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.OneTimePermissionTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PermissionControllerTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PermissionFlagsTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PermissionGroupChange" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PermissionManagerTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PermissionUpdateListenerTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PlatformPermissionGroupMappingTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.RemovePermissionTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.RevokePermissionTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.RevokeSelfPermissionTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.RuntimePermissionPresentationInfoTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.SharedUidPermissionsTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.SplitPermissionTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.SplitPermissionsSystemTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.StorageEscalationTest" />
-    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.UndefinedGroupPermissionTest" />
     <option name="compatibility:module-arg" value="CtsPermissionTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
-    <option name="compatibility:include-filter" value="CtsPermission2TestCases android.permission.cts.PermissionMaxSdkVersionTest" />
-    <option name="compatibility:include-filter" value="CtsPermission2TestCases android.permission2.cts.RestrictedPermissionsTest" />
-    <option name="compatibility:include-filter" value="CtsPermission2TestCases android.permission2.cts.RestrictedStoragePermissionSharedUidTest" />
-    <option name="compatibility:include-filter" value="CtsPermission2TestCases android.permission2.cts.RestrictedStoragePermissionTest" />
-    <option name="compatibility:module-arg" value="CtsPermission2TestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsPermission3TestCases" />
     <option name="compatibility:module-arg" value="CtsPermission3TestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
-    <option name="compatibility:include-filter" value="CtsAttributionSourceTestCases" />
-    <option name="compatibility:module-arg" value="CtsAttributionSourceTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
-    <option name="compatibility:include-filter" value="CtsAppOpsTestCases" />
-    <option name="compatibility:module-arg" value="CtsAppOpsTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
-    <option name="compatibility:include-filter" value="CtsAppOps2TestCases" />
-    <option name="compatibility:module-arg" value="CtsAppOps2TestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsBackupTestCases android.backup.cts.PermissionTest" />
     <option name="compatibility:module-arg" value="CtsBackupTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsDevicePolicyManagerTestCases" />
