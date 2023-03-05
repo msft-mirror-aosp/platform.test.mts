@@ -36,6 +36,7 @@ mts_modules += \
                neuralnetworks \
                ondevicepersonalization \
                permission \
+               rkpd \
                scheduling \
                sdkextensions \
                statsd \

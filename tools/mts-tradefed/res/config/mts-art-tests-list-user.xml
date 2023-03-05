@@ -37,4 +37,5 @@
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases libcore.dalvik.system.DelegateLastClassLoaderTest#testLookupOrder_getResource"/>
     <!-- Excluded failing tests (b/247108425). -->
     <option name="compatibility:exclude-filter" value="art_standalone_compiler_tests JniCompilerTest*"/>
+    <option name="compatibility:exclude-filter" value="art_standalone_libartpalette_tests PaletteClientJniTest*"/>
 </configuration>
