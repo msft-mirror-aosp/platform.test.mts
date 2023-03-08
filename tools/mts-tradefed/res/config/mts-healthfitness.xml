@@ -11,11 +11,11 @@
      limitations under the License.
 -->
 
-<configuration description="List test modules of HealthConnect module. This is a placeholder xml instead of a runnable plan.">
-      <option name="compatibility:include-filter"
-                    value="CtsHealthConnectDeviceTestCases" />
+<configuration description="Runs MTS-healthfitness from a pre-existing MTS installation">
+      <include name="mts" />
 
-      <option name="compatibility:include-filter" value="HealthConnectUnitTests" />
+      <include name="mts-healthfitness-tests-list" />
 
-      <option name="compatibility:module-arg" value="CtsHealthConnectDeviceTestCases:enable:true" />
+      <option name="plan" value="mts-healthfitness" />
 </configuration>
+

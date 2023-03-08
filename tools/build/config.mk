@@ -31,7 +31,7 @@ mts_modules += \
                dnsresolver \
                documentsui \
                extservices \
-               healthconnect \
+               healthfitness \
                ipsec \
                mainline-infra \
                media \
@@ -40,6 +40,7 @@ mts_modules += \
                neuralnetworks \
                ondevicepersonalization \
                permission \
+               rkpd \
                scheduling \
                sdkextensions \
                statsd \
