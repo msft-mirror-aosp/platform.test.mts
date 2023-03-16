@@ -26,6 +26,7 @@ mts_modules += \
                art \
                bluetooth \
                cellbroadcast \
+               configinfrastructure \
                conscrypt \
                cronet \
                dnsresolver \
