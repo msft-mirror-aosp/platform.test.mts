@@ -36,6 +36,16 @@
     <!-- for Displayhash native -->
     <option name="compatibility:include-filter" value="libextservices_test" />
 
+    <!-- for AdServices -->
+    <!-- Currently these tests will run on T+ devices though they aren't supposed to. b/273751721 -->
+    <!-- Add remaining AdServices CTS test modules here once they're ported over to Android S -->
+    <option name="compatibility:include-filter" value="AdExtServicesFrameworkUnitTests" />
+    <option name="compatibility:include-filter" value="AdExtServicesApkUnitTests" />
+    <option name="compatibility:include-filter" value="AdExtServicesServiceCoreUnitTests" />
+    <option name="compatibility:include-filter" value="AdExtServicesJsEngineUnitTests" />
+    <option name="compatibility:include-filter" value="AdExtServicesMddIntegrationTests" />
+    <option name="compatibility:include-filter" value="CtsExtAdIdEndToEndTest" />
+
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsPackageWatchdogTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsTextClassifierTestCases:enable:true" />
@@ -45,5 +55,11 @@
     <option name="compatibility:module-arg" value="libtextclassifier_tests:enable:true" />
     <option name="compatibility:module-arg" value="libtextclassifier_java_tests:enable:true" />
     <option name="compatibility:module-arg" value="libextservices_test:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesFrameworkUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesApkUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesServiceCoreUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesJsEngineUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesMddIntegrationTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsExtAdIdEndToEndTest:enable:true" />
 
 </configuration>
