@@ -94,6 +94,9 @@
     <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.rtt.cts.WifiRttTest#testRangingToTestNon11mcApUsingScanResult" />
     <!-- TODO(b/153088610): Missing AP support in test lab -->
     <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.rtt.cts.WifiRttTest#testRangingToTestApWithResponderLocation" />
+    <!-- Exclude the sharedconnectivity from CtsWifiTestCases as it's not related to Wifi APIs -->
+    <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.sharedconnectivity.cts" />
+    <option name="compatibility:exclude-filter" value="CtsWifiTestCases android.net.wifi.sharedconnectivity.cts.app" />
 
     <!--Tests in CtsAppSecurityHostTestCases that are not testing mainline modules-->
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.AccessSerialNumberTest" />
