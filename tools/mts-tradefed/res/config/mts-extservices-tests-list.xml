@@ -57,6 +57,8 @@
     <option name="compatibility:include-filter" value="CtsExtAdServicesDebuggableDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsExtAdServicesCUJTestCases" />
     <option name="compatibility:include-filter" value="CtsExtAppSetIdEndToEndTest" />
+    <option name="compatibility:include-filter" value="AdExtServicesApkUnitTests" />
+    <option name="compatibility:include-filter" value="AdExtServicesApkUITests" />
 
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsPackageWatchdogTestCases:enable:true" />
@@ -86,5 +88,7 @@
     <option name="compatibility:module-arg" value="CtsExtAdServicesDebuggableDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsExtAdServicesCUJTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsExtAppSetIdEndToEndTest:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesApkUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesApkUITests:enable:true" />
 
 </configuration>
