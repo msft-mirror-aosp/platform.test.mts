@@ -52,7 +52,6 @@
     <option name="compatibility:include-filter" value="CtsMediaTranscodingTestCases" />
 
     <!-- unit tests -->
-    <option name="compatibility:include-filter" value="CodecListTest" />
     <option name="compatibility:include-filter" value="Mpeg4H263DecoderTest" />
 
     <!--b/138964734-->
