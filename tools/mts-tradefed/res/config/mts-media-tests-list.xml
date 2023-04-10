@@ -18,7 +18,7 @@
             The "mostly" is addressed with annotations to exclude specific tests in each suite.
         -->
     <option name="compatibility:include-filter" value="CtsMediaBetterTogetherTestCases" />
-    <option name="compatibility:module-arg" value="CtsMediaBetterTogetherTestCases:exclude-annotation:android.media.cts.NonMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaBetterTogetherTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
     <option name="compatibility:module-arg" value="CtsMediaBetterTogetherTestCases:instrumentation-arg:mts-media:=true" />
 
     <option name="compatibility:include-filter" value="CtsMediaCodecTestCases" />
@@ -56,7 +56,6 @@
     <option name="compatibility:include-filter" value="CtsMediaTranscodingTestCases" />
 
     <!-- unit tests -->
-    <option name="compatibility:include-filter" value="CodecListTest" />
     <option name="compatibility:include-filter" value="Mpeg4H263DecoderTest" />
 
     <!--b/138964734-->

@@ -48,7 +48,6 @@
     <option name="compatibility:include-filter" value="net_test_eatt" />
     <option name="compatibility:include-filter" value="net_test_hci" />
     <option name="compatibility:include-filter" value="net_test_hci_fragmenter_native" />
-    <option name="compatibility:include-filter" value="net_test_hf_client_add_record" />
     <option name="compatibility:include-filter" value="net_test_main_shim" />
     <option name="compatibility:include-filter" value="net_test_osi" />
     <option name="compatibility:include-filter" value="net_test_performance" />
@@ -104,7 +103,6 @@
     <option name="compatibility:module-arg" value="net_test_eatt:enable:true" />
     <option name="compatibility:module-arg" value="net_test_hci:enable:true" />
     <option name="compatibility:module-arg" value="net_test_hci_fragmenter_native:enable:true" />
-    <option name="compatibility:module-arg" value="net_test_hf_client_add_record:enable:true" />
     <option name="compatibility:module-arg" value="net_test_main_shim:enable:true" />
     <option name="compatibility:module-arg" value="net_test_osi:enable:true" />
     <option name="compatibility:module-arg" value="net_test_performance:enable:true" />
