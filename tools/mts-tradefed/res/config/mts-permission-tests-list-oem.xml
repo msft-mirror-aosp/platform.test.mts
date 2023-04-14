@@ -57,4 +57,6 @@
     <option name="compatibility:module-arg" value="SafetyCenterFunctionalMultiUsersTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="SafetyCenterActivityFunctionalTestCases" />
     <option name="compatibility:module-arg" value="SafetyCenterActivityFunctionalTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
+    <option name="compatibility:include-filter" value="SafetyCenterHostSideTestCases" />
+    <option name="compatibility:module-arg" value="SafetyCenterHostSideTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
 </configuration>
