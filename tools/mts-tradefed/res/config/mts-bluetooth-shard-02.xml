@@ -24,4 +24,6 @@
         <option name="expected-value" value="userdebug"/> <!-- Device should have userdebug/eng build -->
         <option name="throw-error" value="false"/> <!-- Only print warning if not user build -->
     </target_preparer>
+
+    <option name="compatibility:primary-abi-only" value="true" />
 </configuration>

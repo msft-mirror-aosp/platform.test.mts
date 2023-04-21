@@ -16,6 +16,7 @@
 <configuration description="List all tests that do not need root access in active test plans.">
     <include name="mts-appsearch-tests-list" />
     <include name="mts-art-tests-list-user" />
+    <include name="mts-art-extra-tests-list-user" />
     <include name="mts-cellbroadcast-oem-tests-list" />
     <include name="mts-configinfrastructure-tests-list" />
     <include name="mts-conscrypt-tests-list-user" />
