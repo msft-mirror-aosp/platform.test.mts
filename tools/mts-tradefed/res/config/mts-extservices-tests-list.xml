@@ -53,7 +53,6 @@
     <option name="compatibility:include-filter" value="CtsAdExtServicesDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTestMeasurement" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTests" />
-    <option name="compatibility:include-filter" value="CtsAdExtServicesHostTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesMddTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesNotInAllowListEndToEndTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesPermissionsAppOptOutEndToEndTests" />
@@ -87,7 +86,6 @@
     <option name="compatibility:module-arg" value="CtsAdExtServicesDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesEndToEndTestMeasurement:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesEndToEndTests:enable:true" />
-    <option name="compatibility:module-arg" value="CtsAdExtServicesHostTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesMddTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesNotInAllowListEndToEndTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesPermissionsAppOptOutEndToEndTests:enable:true" />
