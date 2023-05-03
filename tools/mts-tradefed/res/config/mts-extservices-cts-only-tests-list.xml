@@ -33,7 +33,6 @@
     <option name="compatibility:include-filter" value="CtsAdExtServicesDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTestMeasurement" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTests" />
-    <option name="compatibility:include-filter" value="CtsAdExtServicesHostTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesMddTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesNotInAllowListEndToEndTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesPermissionsAppOptOutEndToEndTests" />
@@ -41,6 +40,7 @@
     <option name="compatibility:include-filter" value="CtsAdExtServicesPermissionsValidEndToEndTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesTopicsAppUpdateTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesTopicsConnectionTests" />
+
 
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsPackageWatchdogTestCases:enable:true" />
@@ -54,7 +54,6 @@
     <option name="compatibility:module-arg" value="CtsAdExtServicesDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesEndToEndTestMeasurement:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesEndToEndTests:enable:true" />
-    <option name="compatibility:module-arg" value="CtsAdExtServicesHostTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesMddTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesNotInAllowListEndToEndTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesPermissionsAppOptOutEndToEndTests:enable:true" />
@@ -62,6 +61,5 @@
     <option name="compatibility:module-arg" value="CtsAdExtServicesPermissionsValidEndToEndTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesTopicsAppUpdateTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesTopicsConnectionTests:enable:true" />
-
 
 </configuration>
