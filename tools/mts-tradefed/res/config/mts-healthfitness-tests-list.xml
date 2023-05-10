@@ -17,11 +17,15 @@
       <option name="compatibility:include-filter" value="HealthFitnessUnitTests" />
       <option name="compatibility:include-filter" value="HealthConnectControllerUITests" />
       <option name="compatibility:include-filter" value="CtsHealthConnectControllerTestCases" />
+      <option name="compatibility:include-filter" value="HealthFitnessIntegrationTests" />
+      <option name="compatibility:include-filter" value="HealthConnectBackupRestoreUnitTests" />
 
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCases:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCasesNoPermission:enable:true" />
       <option name="compatibility:module-arg" value="HealthFitnessUnitTests:enable:true" />
       <option name="compatibility:module-arg" value="HealthConnectControllerUITests:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthConnectControllerTestCases:enable:true" />
+      <option name="compatibility:module-arg" value="HealthFitnessIntegrationTests:enable:true" />
+      <option name="compatibility:module-arg" value="HealthConnectBackupRestoreUnitTests:enable:true" />
 
 </configuration>
