@@ -53,6 +53,7 @@
     <option name="compatibility:include-filter" value="CtsAdExtServicesDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTestMeasurement" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTests" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesHostTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesMddTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesNotInAllowListEndToEndTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesPermissionsAppOptOutEndToEndTests" />
@@ -78,6 +79,7 @@
     <option name="compatibility:module-arg" value="AdExtServicesApkUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesFrameworkUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesJsEngineUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesHostTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesMddIntegrationTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesServiceCoreUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesAdIdEndToEndTest:enable:true" />
