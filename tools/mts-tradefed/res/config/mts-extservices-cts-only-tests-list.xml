@@ -42,6 +42,7 @@
     <option name="compatibility:include-filter" value="CtsAdExtServicesTopicsAppUpdateTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesTopicsConnectionTests" />
 
+
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsPackageWatchdogTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsTextClassifierTestCases:enable:true" />
@@ -62,6 +63,5 @@
     <option name="compatibility:module-arg" value="CtsAdExtServicesPermissionsValidEndToEndTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesTopicsAppUpdateTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesTopicsConnectionTests:enable:true" />
-
 
 </configuration>
