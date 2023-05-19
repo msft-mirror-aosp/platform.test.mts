@@ -26,36 +26,42 @@
     <option name="compatibility:include-filter" value="CtsTextClassifierTestCases" />
 
     <!-- for AdServices -->
-    <option name="compatibility:include-filter" value="CtsExtAdIdEndToEndTest" />
-    <option name="compatibility:include-filter" value="CtsExtAdServicesPermissionsValidEndToEndTests" />
-    <option name="compatibility:include-filter" value="CtsExtAdServicesPermissionsAppOptOutEndToEndTests" />
-    <option name="compatibility:include-filter" value="CtsExtAdServicesPermissionsNoPermEndToEndTests" />
-    <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTests" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesAdIdEndToEndTest" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesAppSetIdEndToEndTest" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesCUJTestCases" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesDebuggableDeviceTestCases" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTestMeasurement" />
-    <option name="compatibility:include-filter" value="CtsExtAdServicesMddTests" />
-    <option name="compatibility:include-filter" value="CtsExtAdServicesTopicsAppUpdateTests" />
-    <option name="compatibility:include-filter" value="CtsExtAdServicesTopicsConnectionTests" />
-    <option name="compatibility:include-filter" value="CtsExtAdServicesDeviceTestCases" />
-    <option name="compatibility:include-filter" value="CtsExtAdServicesDebuggableDeviceTestCases" />
-    <option name="compatibility:include-filter" value="CtsExtAdServicesCUJTestCases" />
-    <option name="compatibility:include-filter" value="CtsExtAppSetIdEndToEndTest" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTests" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesHostTests" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesMddTests" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesNotInAllowListEndToEndTests" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesPermissionsAppOptOutEndToEndTests" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesPermissionsNoPermEndToEndTests" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesPermissionsValidEndToEndTests" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesTopicsAppUpdateTests" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesTopicsConnectionTests" />
 
 
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsPackageWatchdogTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsTextClassifierTestCases:enable:true" />
-    <option name="compatibility:module-arg" value="CtsExtAdIdEndToEndTest:enable:true" />
-    <option name="compatibility:module-arg" value="CtsExtAdServicesPermissionsValidEndToEndTests:enable:true" />
-    <option name="compatibility:module-arg" value="CtsExtAdServicesPermissionsAppOptOutEndToEndTests:enable:true" />
-    <option name="compatibility:module-arg" value="CtsExtAdServicesPermissionsNoPermEndToEndTests:enable:true" />
-    <option name="compatibility:module-arg" value="CtsAdExtServicesEndToEndTests:enable:true" />
+
+    <!-- AdServices -->
+    <option name="compatibility:module-arg" value="CtsAdExtServicesAdIdEndToEndTest:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesAppSetIdEndToEndTest:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesCUJTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesDebuggableDeviceTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesEndToEndTestMeasurement:enable:true" />
-    <option name="compatibility:module-arg" value="CtsExtAdServicesMddTests:enable:true" />
-    <option name="compatibility:module-arg" value="CtsExtAdServicesTopicsAppUpdateTests:enable:true" />
-    <option name="compatibility:module-arg" value="CtsExtAdServicesTopicsConnectionTests:enable:true" />
-    <option name="compatibility:module-arg" value="CtsExtAdServicesDeviceTestCases:enable:true" />
-    <option name="compatibility:module-arg" value="CtsExtAdServicesDebuggableDeviceTestCases:enable:true" />
-    <option name="compatibility:module-arg" value="CtsExtAdServicesCUJTestCases:enable:true" />
-    <option name="compatibility:module-arg" value="CtsExtAppSetIdEndToEndTest:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesEndToEndTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesHostTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesMddTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesNotInAllowListEndToEndTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesPermissionsAppOptOutEndToEndTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesPermissionsNoPermEndToEndTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesPermissionsValidEndToEndTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesTopicsAppUpdateTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesTopicsConnectionTests:enable:true" />
 
 </configuration>
