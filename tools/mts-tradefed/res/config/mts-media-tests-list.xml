@@ -47,13 +47,17 @@
 
     <option name="compatibility:include-filter" value="CtsMediaV2TestCases" />
     <option name="compatibility:module-arg" value="CtsMediaV2TestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaV2TestCases:instrumentation-arg:mts-media:=true" />
 
     <option name="compatibility:include-filter" value="CtsMediaParserTestCases" />
+    <option name="compatibility:module-arg" value="CtsMediaParserTestCases:instrumentation-arg:mts-media:=true" />
 
     <option name="compatibility:include-filter" value="CtsMediaStressTestCases" />
     <option name="compatibility:module-arg" value="CtsMediaStressTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaStressTestCases:instrumentation-arg:mts-media:=true" />
 
     <option name="compatibility:include-filter" value="CtsMediaTranscodingTestCases" />
+    <option name="compatibility:module-arg" value="CtsMediaTranscodingTestCases:instrumentation-arg:mts-media:=true" />
 
     <!--b/138964734-->
     <option name="compatibility:exclude-filter" value="CtsMediaCodecTestCases android.media.codec.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
