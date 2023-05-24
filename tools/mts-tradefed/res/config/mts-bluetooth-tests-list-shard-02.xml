@@ -47,7 +47,6 @@
     <option name="compatibility:include-filter" value="net_test_device" />
     <option name="compatibility:include-filter" value="net_test_eatt" />
     <option name="compatibility:include-filter" value="net_test_hci" />
-    <option name="compatibility:include-filter" value="net_test_hci_fragmenter_native" />
     <option name="compatibility:include-filter" value="net_test_main_shim" />
     <option name="compatibility:include-filter" value="net_test_osi" />
     <option name="compatibility:include-filter" value="net_test_performance" />
