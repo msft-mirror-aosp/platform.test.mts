@@ -47,11 +47,11 @@
     <option name="compatibility:include-filter" value="net_test_device" />
     <option name="compatibility:include-filter" value="net_test_eatt" />
     <option name="compatibility:include-filter" value="net_test_hci" />
-    <option name="compatibility:include-filter" value="net_test_hci_fragmenter_native" />
     <option name="compatibility:include-filter" value="net_test_main_shim" />
     <option name="compatibility:include-filter" value="net_test_osi" />
     <option name="compatibility:include-filter" value="net_test_performance" />
     <option name="compatibility:include-filter" value="net_test_stack" />
+    <option name="compatibility:include-filter" value="net_test_stack_a2dp_codecs_native" />
     <option name="compatibility:include-filter" value="net_test_stack_a2dp_native" />
     <option name="compatibility:include-filter" value="net_test_stack_acl" />
     <option name="compatibility:include-filter" value="net_test_stack_ad_parser" />
@@ -106,6 +106,7 @@
     <option name="compatibility:module-arg" value="net_test_main_shim:enable:true" />
     <option name="compatibility:module-arg" value="net_test_osi:enable:true" />
     <option name="compatibility:module-arg" value="net_test_performance:enable:true" />
+    <option name="compatibility:module-arg" value="net_test_stack_a2dp_codecs_native:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_a2dp_native:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_acl:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_ad_parser:enable:true" />
