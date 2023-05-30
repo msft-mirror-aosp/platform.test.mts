@@ -318,17 +318,17 @@
      <option name="compatibility:include-filter" value="CtsRoleTestCases android.app.role.cts.RoleManagerTest#requestRoleAndDenyThenIsNotRoleHolder" />
      <option name="compatibility:include-filter" value="CtsRoleTestCases android.app.role.cts.RoleManagerTest#requestRoleAndDenyWithDontAskAgainThenDeniedAutomatically" />
      <option name="compatibility:include-filter" value="CtsRoleTestCases android.app.role.cts.RoleManagerTest#dontAddRoleHolderThenRoleIsNotHeld" />
-     <option name="compatibility:include-filter" value="CtsPermission3TestCases	android.permission3.cts.PermissionTest23#testRequestNonRuntimePermission" />
-     <option name="compatibility:include-filter" value="CtsPermission3TestCases	android.permission3.cts.PermissionTest23#testNullAndRealPermission" />
-     <option name="compatibility:include-filter" value="CtsPermission3TestCases	android.permission3.cts.PermissionTest23#testCancelledPermissionRequest" />
-     <option name="compatibility:include-filter" value="CtsPermission3TestCases	android.permission3.cts.PermissionTest23#testInvalidPermission" />
-     <option name="compatibility:include-filter" value="CtsPermission3TestCases	android.permission3.cts.PermissionTest23#testDefault" />
-     <option name="compatibility:include-filter" value="CtsPermission3TestCases	android.permission3.cts.PermissionTest23#testNullPermissionRequest" />
-     <option name="compatibility:include-filter" value="CtsPermission3TestCases	android.permission3.cts.PermissionTest23#testRuntimeGroupGrantSpecificity" />
-     <option name="compatibility:include-filter" value="CtsPermission3TestCases	android.permission3.cts.PermissionTest23#testRequestGrantedPermission" />
-     <option name="compatibility:include-filter" value="CtsPermission3TestCases	android.permission3.cts.PermissionTest23#testRequestPermissionFromTwoGroups" />
-     <option name="compatibility:include-filter" value="CtsPermission3TestCases	android.permission3.cts.PermissionTest23#testInteractiveGrant" />
-     <option name="compatibility:include-filter" value="CtsPermission3TestCases	android.permission3.cts.PermissionTest23#testRequestNonExistentPermission" />
+     <option name="compatibility:include-filter" value="CtsPermissionUiTestCases	android.permission3.cts.PermissionTest23#testRequestNonRuntimePermission" />
+     <option name="compatibility:include-filter" value="CtsPermissionUiTestCases	android.permission3.cts.PermissionTest23#testNullAndRealPermission" />
+     <option name="compatibility:include-filter" value="CtsPermissionUiTestCases	android.permission3.cts.PermissionTest23#testCancelledPermissionRequest" />
+     <option name="compatibility:include-filter" value="CtsPermissionUiTestCases	android.permission3.cts.PermissionTest23#testInvalidPermission" />
+     <option name="compatibility:include-filter" value="CtsPermissionUiTestCases	android.permission3.cts.PermissionTest23#testDefault" />
+     <option name="compatibility:include-filter" value="CtsPermissionUiTestCases	android.permission3.cts.PermissionTest23#testNullPermissionRequest" />
+     <option name="compatibility:include-filter" value="CtsPermissionUiTestCases	android.permission3.cts.PermissionTest23#testRuntimeGroupGrantSpecificity" />
+     <option name="compatibility:include-filter" value="CtsPermissionUiTestCases	android.permission3.cts.PermissionTest23#testRequestGrantedPermission" />
+     <option name="compatibility:include-filter" value="CtsPermissionUiTestCases	android.permission3.cts.PermissionTest23#testRequestPermissionFromTwoGroups" />
+     <option name="compatibility:include-filter" value="CtsPermissionUiTestCases	android.permission3.cts.PermissionTest23#testInteractiveGrant" />
+     <option name="compatibility:include-filter" value="CtsPermissionUiTestCases	android.permission3.cts.PermissionTest23#testRequestNonExistentPermission" />
 
 
      <!-- SDKExtensions -->
