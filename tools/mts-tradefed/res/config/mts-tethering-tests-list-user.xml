@@ -21,6 +21,20 @@
     <option name="compatibility:include-filter" value="CtsNetTestCasesMaxTargetSdk30" />
     <option name="compatibility:include-filter" value="MtsTetheringTestLatestSdk" />
     <option name="compatibility:include-filter" value="CtsTetheringTestLatestSdk" />
+    <!-- Do not include NetworkStack module-specific tests as Connectivity MTS may not run
+         with the latest version of that module installed -->
+    <option name="compatibility:module-arg"
+            value="CtsNetTestCasesLatestSdk:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
+    <option name="compatibility:module-arg"
+            value="CtsNetTestCasesMaxTargetSdk33:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
+    <option name="compatibility:module-arg"
+            value="CtsNetTestCasesMaxTargetSdk31:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
+    <option name="compatibility:module-arg"
+            value="CtsNetTestCasesMaxTargetSdk30:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
+    <option name="compatibility:module-arg"
+            value="MtsTetheringTestLatestSdk:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
+    <option name="compatibility:module-arg"
+            value="CtsTetheringTestLatestSdk:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
     <option name="compatibility:include-filter" value="NearbyUnitTests" />
     <option name="compatibility:include-filter" value="CtsNearbyFastPairTestCases" />
     <option name="compatibility:include-filter" value="CtsNetHttpTestCases" />
