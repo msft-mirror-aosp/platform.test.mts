@@ -21,8 +21,6 @@
     <option name="compatibility:include-filter"
             value="OnDevicePersonalizationPluginTests" />
     <option name="compatibility:include-filter"
-            value="OnDevicePersonalizationSystemServiceApiTests" />
-    <option name="compatibility:include-filter"
             value="OnDevicePersonalizationSystemServiceImplTests" />
     <option name="compatibility:include-filter"
             value="OdpChronicleTests" />
@@ -33,7 +31,6 @@
     <option name="compatibility:module-arg" value="FrameworkOnDevicePersonalizationTests:enable:true" />
     <option name="compatibility:module-arg" value="OnDevicePersonalizationManagingServicesTests:enable:true" />
     <option name="compatibility:module-arg" value="OnDevicePersonalizationPluginTests:enable:true" />
-    <option name="compatibility:module-arg" value="OnDevicePersonalizationSystemServiceApiTests:enable:true" />
     <option name="compatibility:module-arg" value="OnDevicePersonalizationSystemServiceImplTests:enable:true" />
     <option name="compatibility:module-arg" value="OdpChronicleTests:enable:true" />
     <option name="compatibility:module-arg" value="FederatedComputeServicesTests:enable:true" />
