@@ -30,8 +30,8 @@
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PermissionControllerTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PlatformPermissionGroupMappingTest" />
     <option name="compatibility:module-arg" value="CtsPermissionTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
-    <option name="compatibility:include-filter" value="CtsPermission3TestCases" />
-    <option name="compatibility:module-arg" value="CtsPermission3TestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
+    <option name="compatibility:include-filter" value="CtsPermissionUiTestCases" />
+    <option name="compatibility:module-arg" value="CtsPermissionUiTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsBackupTestCases android.backup.cts.PermissionTest" />
     <option name="compatibility:module-arg" value="CtsBackupTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsDevicePolicyManagerTestCases" />
