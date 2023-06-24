@@ -35,4 +35,6 @@
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases com.android.org.conscrypt.javax.net.ssl.SSLSocketVersionCompatibilityTest#test_SSLSocket_setSoWriteTimeout[3: TLSv1.3 client, TLSv1.3 server]"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases libcore.dalvik.system.DelegateLastClassLoaderTest#testLookupOrderNodelegate_getResource"/>
     <option name="compatibility:exclude-filter" value="CtsLibcoreTestCases libcore.dalvik.system.DelegateLastClassLoaderTest#testLookupOrder_getResource"/>
+    <!-- Excluded failing tests (b/247108425). -->
+    <option name="compatibility:exclude-filter" value="art_standalone_compiler_tests JniCompilerTest*"/>
 </configuration>
