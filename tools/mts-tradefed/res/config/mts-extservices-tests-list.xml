@@ -39,6 +39,7 @@
     <!-- for AdServices -->
     <!-- Add remaining AdServices CTS test modules here once they're ported over to Android S -->
     <option name="compatibility:include-filter" value="AdExtServicesApkUINotificationTests" />
+    <option name="compatibility:include-filter" value="AdExtServicesApkUISettingsGaOtaTests" />
     <option name="compatibility:include-filter" value="AdExtServicesApkUISettingsTests" />
     <option name="compatibility:include-filter" value="AdExtServicesApkUITestsAppConsent" />
     <option name="compatibility:include-filter" value="AdExtServicesApkUnitTests" />
@@ -71,8 +72,10 @@
     <option name="compatibility:module-arg" value="libtextclassifier_tests:enable:true" />
     <option name="compatibility:module-arg" value="libtextclassifier_java_tests:enable:true" />
     <option name="compatibility:module-arg" value="libextservices_test:enable:true" />
+    <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCases:enable:true" />
 
     <option name="compatibility:module-arg" value="AdExtServicesApkUINotificationTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesApkUISettingsGaOtaTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesApkUISettingsTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesApkUITestsAppConsent:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesApkUnitTests:enable:true" />
