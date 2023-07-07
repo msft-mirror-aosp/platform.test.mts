@@ -72,6 +72,7 @@
     <option name="compatibility:module-arg" value="libtextclassifier_tests:enable:true" />
     <option name="compatibility:module-arg" value="libtextclassifier_java_tests:enable:true" />
     <option name="compatibility:module-arg" value="libextservices_test:enable:true" />
+    <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCases:enable:true" />
 
     <option name="compatibility:module-arg" value="AdExtServicesApkUINotificationTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesApkUISettingsGaOtaTests:enable:true" />
