@@ -13,17 +13,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs mts-bluetooth from a pre-existing MTS installation">
+<configuration description="List MTS cellbroadcast tests.">
+    <option name="compatibility:include-filter" value="CellBroadcastReceiverComplianceTests" />
 
-    <include name="mts" />
-    <include name="mts-bluetooth-tests-list" />
-    <option name="plan" value="mts-bluetooth" />
-
-    <target_preparer class="com.android.compatibility.common.tradefed.targetprep.PropertyCheck">
-        <option name="property-name" value="ro.build.type" />
-        <option name="expected-value" value="userdebug"/> <!-- Device should have userdebug/eng build -->
-        <option name="throw-error" value="false"/> <!-- Only print warning if not user build -->
-    </target_preparer>
-
-    <option name="compatibility:primary-abi-only" value="true" />
+    <!-- Enable MainlineTestModuleController -->
+    <option name="compatibility:module-arg" value="CellBroadcastReceiverComplianceTests:enable:true" />
 </configuration>
