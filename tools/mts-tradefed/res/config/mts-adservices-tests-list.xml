@@ -13,6 +13,7 @@
 
 <configuration description="List test modules of AdServices module. This is a placeholder xml instead of a runnable plan.">
     <option name="compatibility:include-filter" value="AdServicesApkUINotificationTests" />
+    <option name="compatibility:include-filter" value="AdServicesApkUISettingsGaOtaTests" />
     <option name="compatibility:include-filter" value="AdServicesApkUISettingsTests" />
     <option name="compatibility:include-filter" value="AdServicesApkUITestsAppConsent" />
     <option name="compatibility:include-filter" value="AdServicesApkUnitTests" />
@@ -27,6 +28,7 @@
     <option name="compatibility:include-filter" value="CtsAdServicesDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdServicesEndToEndTestMeasurement" />
     <option name="compatibility:include-filter" value="CtsAdServicesEndToEndTests" />
+    <option name="compatibility:include-filter" value="CtsAdServicesHostTests" />
     <option name="compatibility:include-filter" value="CtsAdServicesMddTests" />
     <option name="compatibility:include-filter" value="CtsAdServicesNotInAllowListEndToEndTests" />
     <option name="compatibility:include-filter" value="CtsAdServicesPermissionsAppOptOutEndToEndTests" />
@@ -50,6 +52,7 @@
 
 
     <option name="compatibility:module-arg" value="AdServicesApkUINotificationTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdServicesApkUISettingsGaOtaTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesApkUISettingsTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesApkUITestsAppConsent:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesApkUnitTests:enable:true" />
@@ -64,6 +67,7 @@
     <option name="compatibility:module-arg" value="CtsAdServicesDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTestMeasurement:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdServicesHostTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesMddTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesNotInAllowListEndToEndTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesPermissionsAppOptOutEndToEndTests:enable:true" />

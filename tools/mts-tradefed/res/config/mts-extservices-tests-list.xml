@@ -39,6 +39,7 @@
     <!-- for AdServices -->
     <!-- Add remaining AdServices CTS test modules here once they're ported over to Android S -->
     <option name="compatibility:include-filter" value="AdExtServicesApkUINotificationTests" />
+    <option name="compatibility:include-filter" value="AdExtServicesApkUISettingsGaOtaTests" />
     <option name="compatibility:include-filter" value="AdExtServicesApkUISettingsTests" />
     <option name="compatibility:include-filter" value="AdExtServicesApkUITestsAppConsent" />
     <option name="compatibility:include-filter" value="AdExtServicesApkUnitTests" />
@@ -53,6 +54,7 @@
     <option name="compatibility:include-filter" value="CtsAdExtServicesDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTestMeasurement" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTests" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesHostTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesMddTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesNotInAllowListEndToEndTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesPermissionsAppOptOutEndToEndTests" />
@@ -70,13 +72,16 @@
     <option name="compatibility:module-arg" value="libtextclassifier_tests:enable:true" />
     <option name="compatibility:module-arg" value="libtextclassifier_java_tests:enable:true" />
     <option name="compatibility:module-arg" value="libextservices_test:enable:true" />
+    <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCases:enable:true" />
 
     <option name="compatibility:module-arg" value="AdExtServicesApkUINotificationTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesApkUISettingsGaOtaTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesApkUISettingsTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesApkUITestsAppConsent:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesApkUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesFrameworkUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesJsEngineUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesHostTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesMddIntegrationTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesServiceCoreUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesAdIdEndToEndTest:enable:true" />
