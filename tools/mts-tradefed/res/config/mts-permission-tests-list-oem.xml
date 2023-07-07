@@ -25,6 +25,7 @@
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.BackgroundPermissionsTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.LocationAccessCheckTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.NotificationListenerCheckTest" />
+    <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.NotificationListenerCheckWithSafetyCenterUnsupportedTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.OneTimePermissionTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PermissionControllerTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PlatformPermissionGroupMappingTest" />
@@ -36,9 +37,8 @@
     <option name="compatibility:include-filter" value="CtsDevicePolicyManagerTestCases" />
     <option name="compatibility:module-arg" value="CtsDevicePolicyManagerTestCases:include-annotation:com.android.cts.devicepolicy.annotations.PermissionsTest" />
     <option name="compatibility:module-arg" value="CtsDevicePolicyManagerTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
-    <option name="compatibility:include-filter" value="CtsOsTestCases android.os.cts.AutoRevokeTest" />
-    <option name="compatibility:include-filter" value="CtsOsTestCases android.os.cts.AppHibernationIntegrationTest" />
-    <option name="compatibility:module-arg" value="CtsOsTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
+    <option name="compatibility:include-filter" value="CtsHibernationTestCases" />
+    <option name="compatibility:module-arg" value="CtsHibernationTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsRoleTestCases" />
     <option name="compatibility:module-arg" value="CtsRoleTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsSafetyCenterTestCases" />
@@ -47,4 +47,16 @@
     <option name="compatibility:module-arg" value="GtsIncidentManagerTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="GtsSafetyCenterTestCases" />
     <option name="compatibility:module-arg" value="GtsSafetyCenterTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
+    <option name="compatibility:include-filter" value="SafetyCenterFunctionalTestCases" />
+    <option name="compatibility:module-arg" value="SafetyCenterFunctionalTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
+    <option name="compatibility:include-filter" value="SafetyCenterConfigTests" />
+    <option name="compatibility:module-arg" value="SafetyCenterConfigTests:exclude-annotation:android.platform.test.annotations.FlakyTest" />
+    <option name="compatibility:include-filter" value="GtsPermissionUiTestCases" />
+    <option name="compatibility:module-arg" value="GtsPermissionUiTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
+    <option name="compatibility:include-filter" value="SafetyCenterFunctionalMultiUsersTestCases" />
+    <option name="compatibility:module-arg" value="SafetyCenterFunctionalMultiUsersTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
+    <option name="compatibility:include-filter" value="SafetyCenterActivityFunctionalTestCases" />
+    <option name="compatibility:module-arg" value="SafetyCenterActivityFunctionalTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
+    <option name="compatibility:include-filter" value="SafetyCenterHostSideTestCases" />
+    <option name="compatibility:module-arg" value="SafetyCenterHostSideTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
 </configuration>
