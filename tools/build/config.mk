@@ -26,12 +26,13 @@ mts_modules += \
                art \
                bluetooth \
                cellbroadcast \
+               configinfrastructure \
                conscrypt \
                cronet \
                dnsresolver \
                documentsui \
                extservices \
-               healthconnect \
+               healthfitness \
                ipsec \
                mainline-infra \
                media \
