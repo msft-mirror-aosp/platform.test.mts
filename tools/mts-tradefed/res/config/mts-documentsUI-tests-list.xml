@@ -15,6 +15,7 @@
 -->
 <configuration description="List MTS documentsUI tests.">
     <option name="compatibility:include-filter" value="DocumentsUIGoogleTests" />
+    <option name="compatibility:include-filter" value="DocumentsUIUnitTests" />
     <option name="compatibility:include-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.DocumentsTest" />
     <option name="compatibility:include-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.ScopedDirectoryAccessTest" />
 </configuration>
