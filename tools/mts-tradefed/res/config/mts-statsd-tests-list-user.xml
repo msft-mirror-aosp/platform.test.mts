@@ -24,10 +24,14 @@
     <!-- Include tests from GTS -->
     <option name="compatibility:include-filter" value="GtsStatsdHostTestCases" />
 
+    <!-- Include StatsdTestUtilsTest -->
+    <option name="compatibility:include-filter" value="StatsdTestUtilsTest" />
+
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsStatsdHostTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsUtilTestCases:enable:true" />
     <option name="compatibility:module-arg" value="FrameworkStatsdTest:enable:true" />
     <option name="compatibility:module-arg" value="GtsStatsdHostTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="StatsdTestUtilsTest:enable:true" />
 
 </configuration>
