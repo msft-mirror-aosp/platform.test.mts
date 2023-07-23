@@ -29,9 +29,9 @@
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.OneTimePermissionTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PermissionControllerTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.PlatformPermissionGroupMappingTest" />
-    <option name="compatibility:module-arg" value="CtsPermissionTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
+    <option name="compatibility:module-arg" value="CtsPermissionTestCases:exclude-annotation:android.permission.cts.MtsIgnore" />
     <option name="compatibility:include-filter" value="CtsPermissionUiTestCases" />
-    <option name="compatibility:module-arg" value="CtsPermissionUiTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
+    <option name="compatibility:module-arg" value="CtsPermissionUiTestCases:exclude-annotation:android.permission.cts.MtsIgnore" />
     <option name="compatibility:include-filter" value="CtsBackupTestCases android.backup.cts.PermissionTest" />
     <option name="compatibility:module-arg" value="CtsBackupTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsDevicePolicyManagerTestCases" />
@@ -40,7 +40,7 @@
     <option name="compatibility:include-filter" value="CtsHibernationTestCases" />
     <option name="compatibility:module-arg" value="CtsHibernationTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="CtsRoleTestCases" />
-    <option name="compatibility:module-arg" value="CtsRoleTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
+    <option name="compatibility:module-arg" value="CtsRoleTestCases:exclude-annotation:android.permission.cts.MtsIgnore" />
     <option name="compatibility:include-filter" value="CtsSafetyCenterTestCases" />
     <option name="compatibility:module-arg" value="CtsSafetyCenterTestCases:exclude-annotation:android.platform.test.annotations.FlakyTest" />
     <option name="compatibility:include-filter" value="GtsIncidentManagerTestCases" />
