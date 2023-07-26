@@ -13,15 +13,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List mts metrics tests that do not need root access">
+<configuration description="List mts rkpd tests that do not need root access">
   <option name="compatibility:include-filter" value="service-rkp-unittest" />
   <option name="compatibility:include-filter" value="GtsGmscoreHostTestCases com.google.android.gts.security.AttestationRootHostTest" />
-  <option name="compatibility:include-filter" value="RkpdAppGoogleIntegrationTests" />
-  <option name="compatibility:include-filter" value="RkpdAppGoogleUnitTests" />
-  <option name="compatibility:include-filter" value="RkpdAppGoogleStressTests" />
 
   <option name="compatibility:module-arg" value="GtsGmscoreHostTestCases:enable:true" />
-  <option name="compatibility:module-arg" value="RkpdAppGoogleIntegrationTests:enable:true" />
-  <option name="compatibility:module-arg" value="RkpdAppGoogleUnitTests:enable:true" />
-  <option name="compatibility:module-arg" value="RkpdAppGoogleStressTests:enable:true" />
 </configuration>
