@@ -41,10 +41,12 @@
      <!-- ExtServices -->
      <option name="compatibility:module-arg" value="CtsPackageWatchdogTestCases:enable:true" />
      <option name="compatibility:module-arg" value="CtsTextClassifierTestCases:enable:true" />
-     <option name="compatibility:module-arg" value="ExtServicesUnitTests:enable:true" />
+     <option name="compatibility:module-arg" value="ExtServicesUnitTests-tplus:enable:true" />
+     <option name="compatibility:module-arg" value="ExtServicesUnitTests-sminus:enable:true" />
      <option name="compatibility:module-arg" value="TextClassifierNotificationTests:enable:true" />
      <option name="compatibility:module-arg" value="TextClassifierServiceTest:enable:true" />
-     <option name="compatibility:module-arg" value="libtextclassifier_tests:enable:true" />
+     <option name="compatibility:module-arg" value="libtextclassifier_tests-tplus:enable:true" />
+     <option name="compatibility:module-arg" value="libtextclassifier_tests-sminus:enable:true" />
 
      <!-- IPsec -->
      <option name="compatibility:include-filter" value="FrameworksIkeTests" />
