@@ -43,7 +43,6 @@
     <option name="compatibility:include-filter" value="DocumentsUIGoogleTests" />
     <option name="compatibility:include-filter" value="DocumentsUIUnitTests" />
     <option name="compatibility:include-filter" value="CtsStorageAccessTestCases" />
-    <option name="compatibility:include-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.DocumentsTest" />
 
     <template-include name="reporters" default="basic-reporters" />
 
