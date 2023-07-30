@@ -25,16 +25,19 @@
     <!-- for TextClassifier -->
     <option name="compatibility:include-filter" value="CtsTextClassifierTestCases" />
 
-    <option name="compatibility:include-filter" value="ExtServicesUnitTests" />
+    <option name="compatibility:include-filter" value="ExtServicesUnitTests-tplus" />
+    <option name="compatibility:include-filter" value="ExtServicesUnitTests-sminus" />
     <option name="compatibility:include-filter" value="TextClassifierNotificationTests" />
     <option name="compatibility:include-filter" value="TextClassifierServiceTest" />
 
     <!-- for TextClassifier native -->
-    <option name="compatibility:include-filter" value="libtextclassifier_tests" />
+    <option name="compatibility:include-filter" value="libtextclassifier_tests-tplus" />
+    <option name="compatibility:include-filter" value="libtextclassifier_tests-sminus" />
     <option name="compatibility:include-filter" value="libtextclassifier_java_tests" />
 
     <!-- for Displayhash native -->
-    <option name="compatibility:include-filter" value="libextservices_test" />
+    <option name="compatibility:include-filter" value="libextservices_test-tplus" />
+    <option name="compatibility:include-filter" value="libextservices_test-sminus" />
 
     <!-- for AdServices -->
     <!-- Add remaining AdServices CTS test modules here once they're ported over to Android S -->
@@ -65,12 +68,15 @@
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsPackageWatchdogTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsTextClassifierTestCases:enable:true" />
-    <option name="compatibility:module-arg" value="ExtServicesUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="ExtServicesUnitTests-tplus:enable:true" />
+    <option name="compatibility:module-arg" value="ExtServicesUnitTests-sminus:enable:true" />
     <option name="compatibility:module-arg" value="TextClassifierNotificationTests:enable:true" />
     <option name="compatibility:module-arg" value="TextClassifierServiceTest:enable:true" />
-    <option name="compatibility:module-arg" value="libtextclassifier_tests:enable:true" />
+    <option name="compatibility:module-arg" value="libtextclassifier_tests-tplus:enable:true" />
+    <option name="compatibility:module-arg" value="libtextclassifier_tests-sminus:enable:true" />
     <option name="compatibility:module-arg" value="libtextclassifier_java_tests:enable:true" />
-    <option name="compatibility:module-arg" value="libextservices_test:enable:true" />
+    <option name="compatibility:module-arg" value="libextservices_test-tplus:enable:true" />
+    <option name="compatibility:module-arg" value="libextservices_test-sminus:enable:true" />
     <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCases:enable:true" />
 
     <option name="compatibility:module-arg" value="AdExtServicesApkUINotificationTests:enable:true" />
