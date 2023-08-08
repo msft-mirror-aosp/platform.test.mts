@@ -31,4 +31,6 @@
     <option name="compatibility:module-arg" value="CtsLibcoreOjTestCases:enable:true"/>
     <option name="compatibility:module-arg" value="CtsLibcoreWycheproofBCTestCases:enable:true"/>
     <option name="compatibility:module-arg" value="MtsLibcoreOkHttpTestCases:enable:true"/>
+    <!-- core-test-mode=mts tells ExpectationBasedFilter to exclude @NonMts Tests -->
+    <option name="compatibility:module-arg" value="CtsLibcoreOjTestCases:instrumentation-arg:core-test-mode:=mts"/>
 </configuration>
