@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2020 The Android Open Source Project
+<!-- Copyright (C) 2023 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,8 +13,16 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="DocumentsUI mts tests list for OEMs">
-    <option name="compatibility:include-filter" value="DocumentsUIUnitTests" />
-    <option name="compatibility:include-filter" value="CtsStorageAccessTestCases" />
-    <option name="compatibility:include-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.DocumentsTest" />
+<configuration description="Runs MTS multi device test from a pre-existing MTS installation">
+
+    <include name="mts" />
+
+    <option name="plan" value="mts-multidevice" />
+
+    <!-- multi device test cases only-->
+    <option name="multi-devices-modules" value="ONLY_MULTI_DEVICES" />
+
+    <!-- Enable multi-devices automatically, and limit MTS to 2 devices -->
+    <option name="replicate-parent-setup" value="true" />
+    <option name="multi-device-count" value="2" />
 </configuration>
