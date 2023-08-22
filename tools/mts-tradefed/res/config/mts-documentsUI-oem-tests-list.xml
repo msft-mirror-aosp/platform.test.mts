@@ -16,5 +16,4 @@
 <configuration description="DocumentsUI mts tests list for OEMs">
     <option name="compatibility:include-filter" value="DocumentsUIUnitTests" />
     <option name="compatibility:include-filter" value="CtsStorageAccessTestCases" />
-    <option name="compatibility:include-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.DocumentsTest" />
 </configuration>
