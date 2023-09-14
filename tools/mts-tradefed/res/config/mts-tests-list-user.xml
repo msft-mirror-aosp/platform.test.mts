@@ -37,7 +37,6 @@
     <include name="mts-rkpd-tests-list-user" />
     <include name="mts-scheduling-tests-list" />
     <include name="mts-sdkextensions-tests-list" />
-    <include name="mts-sdksandbox-cts-in-sandbox-tests-list" />
     <include name="mts-statsd-tests-list-user" />
     <include name="mts-tethering-tests-list-user" />
     <include name="mts-tzdata-tests-list" />
