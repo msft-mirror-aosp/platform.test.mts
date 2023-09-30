@@ -18,6 +18,10 @@
     <option name="plan" value="mts-tethering-coverage" />
 
     <option name="compatibility:include-filter" value="ConnectivityCoverageTests" />
+    <!-- Do not include NetworkStack module-specific tests as ConnectivityCoverageTests may not run
+         with the latest version of that module installed -->
+    <option name="compatibility:module-arg"
+            value="ConnectivityCoverageTests:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
     <option name="compatibility:include-filter" value="NearbyUnitTests" />
     <option name="compatibility:include-filter" value="CtsNearbyFastPairTestCases" />
     <option name="compatibility:include-filter" value="netd_updatable_unit_test" />
