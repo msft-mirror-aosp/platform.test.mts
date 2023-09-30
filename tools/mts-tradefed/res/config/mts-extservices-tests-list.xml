@@ -40,6 +40,9 @@
     <option name="compatibility:include-filter" value="libextservices_test-sminus" />
 
     <!-- for AdServices -->
+    <option name="compatibility:include-filter" value="CtsExtServicesHostTests-tplus" />
+    <option name="compatibility:include-filter" value="CtsExtServicesHostTests-sminus" />
+
     <!-- Add remaining AdServices CTS test modules here once they're ported over to Android S -->
     <option name="compatibility:include-filter" value="AdExtServicesApkUINotificationTests" />
     <option name="compatibility:include-filter" value="AdExtServicesApkUISettingsGaOtaTests" />
@@ -78,6 +81,9 @@
     <option name="compatibility:module-arg" value="libextservices_test-tplus:enable:true" />
     <option name="compatibility:module-arg" value="libextservices_test-sminus:enable:true" />
     <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCases:enable:true" />
+
+    <option name="compatibility:module-arg" value="CtsExtServicesHostTests-tplus:enable:true" />
+    <option name="compatibility:module-arg" value="CtsExtServicesHostTests-sminus:enable:true" />
 
     <option name="compatibility:module-arg" value="AdExtServicesApkUINotificationTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesApkUISettingsGaOtaTests:enable:true" />
