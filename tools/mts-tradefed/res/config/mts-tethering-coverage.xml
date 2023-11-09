@@ -26,7 +26,6 @@
     <option name="compatibility:include-filter" value="CtsNearbyFastPairTestCases" />
     <option name="compatibility:include-filter" value="netd_updatable_unit_test" />
     <option name="compatibility:include-filter" value="libnetworkstats_test" />
-    <option name="compatibility:include-filter" value="traffic_controller_unit_test" />
     <option name="compatibility:include-filter" value="libclat_test" />
     <option name="compatibility:include-filter" value="NetHttpCoverageTests" />
     <option name="compatibility:include-filter" value="net_unittests_tester" />
