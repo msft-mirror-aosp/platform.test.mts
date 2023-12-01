@@ -18,7 +18,9 @@
     <option name="compatibility:include-filter" value="CtsProviderTestCases android.provider.cts.media." />
     <option name="compatibility:include-filter" value="CtsScopedStorageCoreHostTest" />
     <option name="compatibility:include-filter" value="CtsScopedStorageHostTest" />
-    <option name="compatibility:include-filter" value="CtsScopedStorageDeviceOnlyTest" />
+    <option name="compatibility:include-filter" value="CtsScopedStorageGeneralTest" />
+    <option name="compatibility:include-filter" value="CtsScopedStorageBypassDatabaseOperationsTest" />
+    <option name="compatibility:include-filter" value="CtsScopedStorageRedactUriTest" />
     <!-- TODO(b/184232207) Enable CtsScopedStoragePublicVolumeHostTest in MTS when it is stable -->
     <!-- <option name="compatibility:include-filter" value="CtsScopedStoragePublicVolumeHostTest" /> -->
     <option name="compatibility:include-filter" value="CtsAppCloningHostTest" />
