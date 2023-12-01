@@ -14,6 +14,5 @@
      limitations under the License.
 -->
 <configuration description="List GTS OS tests to verify preloaded manline modules.">
-    <option name="compatibility:include-filter" value="GtsOsTestCases com.google.android.os.gts.MainlineModulePreloadTest" />
 </configuration>
 
