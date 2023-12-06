@@ -23,11 +23,11 @@
     <option name="compatibility:include-filter" value="AdServicesMddIntegrationTests" />
     <option name="compatibility:include-filter" value="AdServicesServiceCoreUnitTests" />
     <option name="compatibility:include-filter" value="CtsAdIdEndToEndTest" />
-    <option name="compatibility:include-filter" value="CtsAdServicesCUJTestCases" />
     <option name="compatibility:include-filter" value="CtsAdServicesDebuggableDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdServicesDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdServicesEndToEndTestMeasurement" />
     <option name="compatibility:include-filter" value="CtsAdServicesEndToEndTests" />
+    <option name="compatibility:include-filter" value="CtsAdServicesExtDataStorageServiceTest" />
     <option name="compatibility:include-filter" value="CtsAdServicesHostTests" />
     <option name="compatibility:include-filter" value="CtsAdServicesMddTests" />
     <option name="compatibility:include-filter" value="CtsAdServicesNotInAllowListEndToEndTests" />
@@ -62,11 +62,11 @@
     <option name="compatibility:module-arg" value="AdServicesMddIntegrationTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesServiceCoreUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdIdEndToEndTest:enable:true" />
-    <option name="compatibility:module-arg" value="CtsAdServicesCUJTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesDebuggableDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTestMeasurement:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdServicesExtDataStorageServiceTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesHostTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesMddTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesNotInAllowListEndToEndTests:enable:true" />
