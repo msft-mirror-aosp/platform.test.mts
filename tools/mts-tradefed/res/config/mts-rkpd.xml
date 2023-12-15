@@ -18,7 +18,7 @@
     <include name="mts" />
 
     <include name="mts-rkpd-tests-list-user" />
-
+    <include name="mts-rkpd-tests-list-eng-only" />
     <option name="plan" value="mts-rkpd" />
 
 </configuration>
