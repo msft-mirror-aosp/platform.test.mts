@@ -23,6 +23,10 @@
          with the latest version of that module installed -->
     <option name="compatibility:module-arg"
             value="CtsNetTestCasesLatestSdk:exclude-annotation:com.android.testutils.ConnectivityModuleTest" />
+    <!-- Temporary solution which equal to aosp/2861373. To skip the test require the latest
+        connectivity module-->
+    <option name="compatibility:exclude-filter"
+            value="CtsNetTestCasesLatestSdk android.net.cts.ConnectivityManagerTest#testGetRedactedNetworkCapabilitiesForPackage" />
     <option name="compatibility:include-filter"
             value="GtsGmscoreHostTestCases com.google.android.gts.wifi.WifiHostTest" />
     <option name="compatibility:include-filter"
