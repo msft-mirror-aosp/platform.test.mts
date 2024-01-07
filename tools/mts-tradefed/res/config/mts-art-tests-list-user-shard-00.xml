@@ -181,6 +181,9 @@
     <option name="compatibility:include-filter" value="art-run-test-2260-checker-inline-unimplemented-intrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-2262-checker-return-sinking"/>
     <option name="compatibility:include-filter" value="art-run-test-2265-checker-select-binary-unary"/>
+    <option name="compatibility:include-filter" value="art-run-test-2266-checker-remove-empty-ifs"/>
+    <option name="compatibility:include-filter" value="art-run-test-2268-checker-remove-dead-phis"/>
+    <option name="compatibility:include-filter" value="art-run-test-2269-checker-constant-folding-instrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-300-package-override"/>
     <option name="compatibility:include-filter" value="art-run-test-301-abstract-protected"/>
     <option name="compatibility:include-filter" value="art-run-test-302-float-conversion"/>
@@ -459,6 +462,7 @@
     <option name="compatibility:include-filter" value="art-run-test-839-clinit-throw"/>
     <option name="compatibility:include-filter" value="art-run-test-841-defaults"/>
     <option name="compatibility:include-filter" value="art-run-test-843-default-interface"/>
+    <option name="compatibility:include-filter" value="art-run-test-851-null-instanceof"/>
     <option name="compatibility:include-filter" value="art-run-test-963-default-range-smali"/>
     <option name="compatibility:include-filter" value="art-run-test-965-default-verify"/>
     <option name="compatibility:include-filter" value="art-run-test-967-default-ame"/>
@@ -628,6 +632,9 @@
     <option name="compatibility:module-arg" value="art-run-test-2260-checker-inline-unimplemented-intrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2262-checker-return-sinking:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2265-checker-select-binary-unary:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2266-checker-remove-empty-ifs:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2268-checker-remove-dead-phis:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2269-checker-constant-folding-instrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-300-package-override:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-301-abstract-protected:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-302-float-conversion:enable:true"/>
@@ -906,6 +913,7 @@
     <option name="compatibility:module-arg" value="art-run-test-839-clinit-throw:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-841-defaults:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-843-default-interface:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-851-null-instanceof:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-963-default-range-smali:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-965-default-verify:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-967-default-ame:enable:true"/>
