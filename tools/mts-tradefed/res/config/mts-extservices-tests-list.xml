@@ -25,18 +25,24 @@
     <!-- for TextClassifier -->
     <option name="compatibility:include-filter" value="CtsTextClassifierTestCases" />
 
-    <option name="compatibility:include-filter" value="ExtServicesUnitTests" />
+    <option name="compatibility:include-filter" value="ExtServicesUnitTests-tplus" />
+    <option name="compatibility:include-filter" value="ExtServicesUnitTests-sminus" />
     <option name="compatibility:include-filter" value="TextClassifierNotificationTests" />
     <option name="compatibility:include-filter" value="TextClassifierServiceTest" />
 
     <!-- for TextClassifier native -->
-    <option name="compatibility:include-filter" value="libtextclassifier_tests" />
+    <option name="compatibility:include-filter" value="libtextclassifier_tests-tplus" />
+    <option name="compatibility:include-filter" value="libtextclassifier_tests-sminus" />
     <option name="compatibility:include-filter" value="libtextclassifier_java_tests" />
 
     <!-- for Displayhash native -->
-    <option name="compatibility:include-filter" value="libextservices_test" />
+    <option name="compatibility:include-filter" value="libextservices_test-tplus" />
+    <option name="compatibility:include-filter" value="libextservices_test-sminus" />
 
     <!-- for AdServices -->
+    <option name="compatibility:include-filter" value="CtsExtServicesHostTests-tplus" />
+    <option name="compatibility:include-filter" value="CtsExtServicesHostTests-sminus" />
+
     <!-- Add remaining AdServices CTS test modules here once they're ported over to Android S -->
     <option name="compatibility:include-filter" value="AdExtServicesApkUINotificationTests" />
     <option name="compatibility:include-filter" value="AdExtServicesApkUISettingsGaOtaTests" />
@@ -49,11 +55,11 @@
     <option name="compatibility:include-filter" value="AdExtServicesServiceCoreUnitTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesAdIdEndToEndTest" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesAppSetIdEndToEndTest" />
-    <option name="compatibility:include-filter" value="CtsAdExtServicesCUJTestCases" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesDebuggableDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTestMeasurement" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTests" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesExtDataStorageServiceTest" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesHostTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesMddTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesNotInAllowListEndToEndTests" />
@@ -66,13 +72,19 @@
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsPackageWatchdogTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsTextClassifierTestCases:enable:true" />
-    <option name="compatibility:module-arg" value="ExtServicesUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="ExtServicesUnitTests-tplus:enable:true" />
+    <option name="compatibility:module-arg" value="ExtServicesUnitTests-sminus:enable:true" />
     <option name="compatibility:module-arg" value="TextClassifierNotificationTests:enable:true" />
     <option name="compatibility:module-arg" value="TextClassifierServiceTest:enable:true" />
-    <option name="compatibility:module-arg" value="libtextclassifier_tests:enable:true" />
+    <option name="compatibility:module-arg" value="libtextclassifier_tests-tplus:enable:true" />
+    <option name="compatibility:module-arg" value="libtextclassifier_tests-sminus:enable:true" />
     <option name="compatibility:module-arg" value="libtextclassifier_java_tests:enable:true" />
-    <option name="compatibility:module-arg" value="libextservices_test:enable:true" />
+    <option name="compatibility:module-arg" value="libextservices_test-tplus:enable:true" />
+    <option name="compatibility:module-arg" value="libextservices_test-sminus:enable:true" />
     <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCases:enable:true" />
+
+    <option name="compatibility:module-arg" value="CtsExtServicesHostTests-tplus:enable:true" />
+    <option name="compatibility:module-arg" value="CtsExtServicesHostTests-sminus:enable:true" />
 
     <option name="compatibility:module-arg" value="AdExtServicesApkUINotificationTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesApkUISettingsGaOtaTests:enable:true" />
@@ -86,11 +98,11 @@
     <option name="compatibility:module-arg" value="AdExtServicesServiceCoreUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesAdIdEndToEndTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesAppSetIdEndToEndTest:enable:true" />
-    <option name="compatibility:module-arg" value="CtsAdExtServicesCUJTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesDebuggableDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesEndToEndTestMeasurement:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesEndToEndTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesExtDataStorageServiceTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesMddTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesNotInAllowListEndToEndTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesPermissionsAppOptOutEndToEndTests:enable:true" />
