@@ -463,6 +463,7 @@
     <option name="compatibility:include-filter" value="art-run-test-841-defaults"/>
     <option name="compatibility:include-filter" value="art-run-test-843-default-interface"/>
     <option name="compatibility:include-filter" value="art-run-test-851-null-instanceof"/>
+    <option name="compatibility:include-filter" value="art-run-test-853-checker-inlining"/>
     <option name="compatibility:include-filter" value="art-run-test-963-default-range-smali"/>
     <option name="compatibility:include-filter" value="art-run-test-965-default-verify"/>
     <option name="compatibility:include-filter" value="art-run-test-967-default-ame"/>
@@ -914,6 +915,7 @@
     <option name="compatibility:module-arg" value="art-run-test-841-defaults:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-843-default-interface:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-851-null-instanceof:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-853-checker-inlining:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-963-default-range-smali:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-965-default-verify:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-967-default-ame:enable:true"/>
