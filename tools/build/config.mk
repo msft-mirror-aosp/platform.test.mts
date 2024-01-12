@@ -15,7 +15,7 @@
 
 COMPATIBILITY_TESTCASES_OUT_mts := $(HOST_OUT)/mts/android-mts/testcases
 COMPATIBILITY_TESTCASES_OUT_INCLUDE_MODULE_FOLDER_mts := true
-COMPATIBILITY_TESTCASES_OUT_mcts := $(HOST_OUT)/mcts/android-mcts/testcases
+COMPATIBILITY_TESTCASES_OUT_mcts := $(HOST_OUT)/mcts/android-mts/testcases
 COMPATIBILITY_TESTCASES_OUT_INCLUDE_MODULE_FOLDER_mcts := true
 
 mts_modules :=
@@ -58,6 +58,6 @@ $(foreach module, $(mts_modules), \
 )
 
 $(foreach module, $(mts_modules), \
-	$(eval COMPATIBILITY_TESTCASES_OUT_mcts-$(module) := $(HOST_OUT)/mcts-$(module)/android-mcts-$(module)/testcases) \
+	$(eval COMPATIBILITY_TESTCASES_OUT_mcts-$(module) := $(HOST_OUT)/mcts-$(module)/android-mts/testcases) \
 	$(eval COMPATIBILITY_TESTCASES_OUT_INCLUDE_MODULE_FOLDER_mcts-$(module) := true) \
 )
