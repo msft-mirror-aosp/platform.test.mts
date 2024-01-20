@@ -17,7 +17,8 @@
 
     <include name="mts" />
 
-    <include name="mts-extservices-tests-list" />
+    <include name="mts-extservices-tests-list-eng-only" />
+    <include name="mts-extservices-tests-list-user" />
 
     <option name="plan" value="mts-extservices" />
 
