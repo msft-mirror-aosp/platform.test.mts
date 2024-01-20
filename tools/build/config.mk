@@ -53,7 +53,7 @@ mts_modules += \
                wifi
 
 $(foreach module, $(mts_modules), \
-	$(eval COMPATIBILITY_TESTCASES_OUT_mts-$(module) := $(HOST_OUT)/mts-$(module)/android-mts-$(module)/testcases) \
+	$(eval COMPATIBILITY_TESTCASES_OUT_mts-$(module) := $(HOST_OUT)/mts-$(module)/android-mts/testcases) \
 	$(eval COMPATIBILITY_TESTCASES_OUT_INCLUDE_MODULE_FOLDER_mts-$(module) := true) \
 )
 
