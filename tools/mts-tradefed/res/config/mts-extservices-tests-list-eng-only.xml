@@ -20,6 +20,7 @@
     <option name="compatibility:include-filter" value="AdExtServicesGaUxDebugChannelEuTest" />
     <option name="compatibility:include-filter" value="AdExtServicesGaUxDebugChannelRowTest" />
     <option name="compatibility:include-filter" value="AdExtServicesGaUxDebugChannelApiOffTest" />
+    <option name="compatibility:include-filter" value="AdExtServicesGaUxGraduationChannelRowTest" />
 
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="AdExtServicesGaUxAlreadyEnrolledChannelRowTest:enable:true" />
@@ -27,4 +28,5 @@
     <option name="compatibility:module-arg" value="AdExtServicesGaUxDebugChannelEuTest:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesGaUxDebugChannelRowTest:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesGaUxDebugChannelApiOffTest:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesGaUxGraduationChannelRowTest:enable:true" />
 </configuration>
