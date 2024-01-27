@@ -38,6 +38,8 @@
     <option name="compatibility:include-filter" value="NearbyUnitTests" />
     <option name="compatibility:include-filter" value="CtsNearbyFastPairTestCases" />
     <option name="compatibility:include-filter" value="CtsNetHttpTestCases" />
+    <option name="compatibility:include-filter" value="ThreadNetworkUnitTests" />
+    <option name="compatibility:include-filter" value="CtsThreadNetworkTestCases" />
 
     <!-- Enable tethering MTS tests to use MainlineTestModuleController -->
     <option name="compatibility:module-arg" value="CtsNetTestCases:enable:true" />
@@ -49,5 +51,7 @@
     <option name="compatibility:module-arg" value="NearbyUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsNearbyFastPairTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsNetHttpTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="ThreadNetworkUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsThreadNetworkTestCases:enable:true" />
 </configuration>
 
