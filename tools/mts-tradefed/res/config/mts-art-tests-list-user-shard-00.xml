@@ -21,7 +21,6 @@
     <option name="compatibility:include-filter" value="art-run-test-001-Main"/>
     <option name="compatibility:include-filter" value="art-run-test-002-sleep"/>
     <option name="compatibility:include-filter" value="art-run-test-004-InterfaceTest"/>
-    <option name="compatibility:include-filter" value="art-run-test-004-NativeAllocations"/>
     <option name="compatibility:include-filter" value="art-run-test-004-checker-UnsafeTest18"/>
     <option name="compatibility:include-filter" value="art-run-test-006-args"/>
     <option name="compatibility:include-filter" value="art-run-test-007-count10"/>
@@ -31,7 +30,7 @@
     <option name="compatibility:include-filter" value="art-run-test-012-math"/>
     <option name="compatibility:include-filter" value="art-run-test-013-math2"/>
     <option name="compatibility:include-filter" value="art-run-test-014-math3"/>
-    <option name="compatibility:include-filter" value="art-run-test-015-switch"/>
+    <option name="compatibility:include-filter" value="art-run-test-015-checker-switch"/>
     <option name="compatibility:include-filter" value="art-run-test-016-intern"/>
     <option name="compatibility:include-filter" value="art-run-test-017-float"/>
     <option name="compatibility:include-filter" value="art-run-test-018-stack-overflow"/>
@@ -158,6 +157,8 @@
     <option name="compatibility:include-filter" value="art-run-test-2042-reference-processing"/>
     <option name="compatibility:include-filter" value="art-run-test-2043-reference-pauses"/>
     <option name="compatibility:include-filter" value="art-run-test-2044-get-stack-traces"/>
+    <option name="compatibility:include-filter" value="art-run-test-2046-checker-comparison"/>
+    <option name="compatibility:include-filter" value="art-run-test-2047-checker-const-string-length"/>
     <option name="compatibility:include-filter" value="art-run-test-2231-checker-heap-poisoning"/>
     <option name="compatibility:include-filter" value="art-run-test-2233-checker-remove-loop-suspend-check"/>
     <option name="compatibility:include-filter" value="art-run-test-2234-checker-remove-entry-suspendcheck"/>
@@ -176,6 +177,14 @@
     <option name="compatibility:include-filter" value="art-run-test-2255-checker-branch-redirection"/>
     <option name="compatibility:include-filter" value="art-run-test-2256-checker-vector-replacement"/>
     <option name="compatibility:include-filter" value="art-run-test-2257-checker-constant-folding-before-codegen"/>
+    <option name="compatibility:include-filter" value="art-run-test-2258-checker-valid-rti"/>
+    <option name="compatibility:include-filter" value="art-run-test-2259-checker-code-sinking-infinite-try-catch"/>
+    <option name="compatibility:include-filter" value="art-run-test-2260-checker-inline-unimplemented-intrinsics"/>
+    <option name="compatibility:include-filter" value="art-run-test-2262-checker-return-sinking"/>
+    <option name="compatibility:include-filter" value="art-run-test-2265-checker-select-binary-unary"/>
+    <option name="compatibility:include-filter" value="art-run-test-2266-checker-remove-empty-ifs"/>
+    <option name="compatibility:include-filter" value="art-run-test-2268-checker-remove-dead-phis"/>
+    <option name="compatibility:include-filter" value="art-run-test-2269-checker-constant-folding-instrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-300-package-override"/>
     <option name="compatibility:include-filter" value="art-run-test-301-abstract-protected"/>
     <option name="compatibility:include-filter" value="art-run-test-302-float-conversion"/>
@@ -405,6 +414,7 @@
     <option name="compatibility:include-filter" value="art-run-test-659-unpadded-array"/>
     <option name="compatibility:include-filter" value="art-run-test-660-checker-sad"/>
     <option name="compatibility:include-filter" value="art-run-test-660-checker-simd-sad"/>
+    <option name="compatibility:include-filter" value="art-run-test-661-checker-simd-cf-loops"/>
     <option name="compatibility:include-filter" value="art-run-test-661-checker-simd-reduc"/>
     <option name="compatibility:include-filter" value="art-run-test-662-regression-alias"/>
     <option name="compatibility:include-filter" value="art-run-test-663-checker-select-generator"/>
@@ -453,6 +463,8 @@
     <option name="compatibility:include-filter" value="art-run-test-839-clinit-throw"/>
     <option name="compatibility:include-filter" value="art-run-test-841-defaults"/>
     <option name="compatibility:include-filter" value="art-run-test-843-default-interface"/>
+    <option name="compatibility:include-filter" value="art-run-test-851-null-instanceof"/>
+    <option name="compatibility:include-filter" value="art-run-test-853-checker-inlining"/>
     <option name="compatibility:include-filter" value="art-run-test-963-default-range-smali"/>
     <option name="compatibility:include-filter" value="art-run-test-965-default-verify"/>
     <option name="compatibility:include-filter" value="art-run-test-967-default-ame"/>
@@ -462,7 +474,6 @@
     <option name="compatibility:module-arg" value="art-run-test-001-Main:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-002-sleep:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-004-InterfaceTest:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-004-NativeAllocations:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-004-checker-UnsafeTest18:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-006-args:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-007-count10:enable:true"/>
@@ -472,7 +483,7 @@
     <option name="compatibility:module-arg" value="art-run-test-012-math:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-013-math2:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-014-math3:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-015-switch:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-015-checker-switch:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-016-intern:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-017-float:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-018-stack-overflow:enable:true"/>
@@ -599,6 +610,8 @@
     <option name="compatibility:module-arg" value="art-run-test-2042-reference-processing:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2043-reference-pauses:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2044-get-stack-traces:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2046-checker-comparison:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2047-checker-const-string-length:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2231-checker-heap-poisoning:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2233-checker-remove-loop-suspend-check:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2234-checker-remove-entry-suspendcheck:enable:true"/>
@@ -617,6 +630,14 @@
     <option name="compatibility:module-arg" value="art-run-test-2255-checker-branch-redirection:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2256-checker-vector-replacement:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2257-checker-constant-folding-before-codegen:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2258-checker-valid-rti:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2259-checker-code-sinking-infinite-try-catch:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2260-checker-inline-unimplemented-intrinsics:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2262-checker-return-sinking:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2265-checker-select-binary-unary:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2266-checker-remove-empty-ifs:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2268-checker-remove-dead-phis:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2269-checker-constant-folding-instrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-300-package-override:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-301-abstract-protected:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-302-float-conversion:enable:true"/>
@@ -846,6 +867,7 @@
     <option name="compatibility:module-arg" value="art-run-test-659-unpadded-array:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-660-checker-sad:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-660-checker-simd-sad:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-661-checker-simd-cf-loops:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-661-checker-simd-reduc:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-662-regression-alias:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-663-checker-select-generator:enable:true"/>
@@ -894,6 +916,8 @@
     <option name="compatibility:module-arg" value="art-run-test-839-clinit-throw:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-841-defaults:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-843-default-interface:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-851-null-instanceof:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-853-checker-inlining:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-963-default-range-smali:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-965-default-verify:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-967-default-ame:enable:true"/>

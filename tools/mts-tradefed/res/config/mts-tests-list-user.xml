@@ -24,8 +24,8 @@
     <include name="mts-dnsresolver-tests-list-user" />
     <include name="mts-documentsUI-oem-tests-list" />
     <include name="mts-documentsUI-usedapi-tests-list" />
-    <include name="mts-extservices-tests-list" />
-    <include name="mts-healthfitness-tests-list">
+    <include name="mts-extservices-tests-list-user" />
+    <include name="mts-healthfitness-tests-list" />
     <include name="mts-linkerconfig-tests-list" />
     <include name="mts-ipsec-tests-list" />
     <include name="mts-media-tests-list" />

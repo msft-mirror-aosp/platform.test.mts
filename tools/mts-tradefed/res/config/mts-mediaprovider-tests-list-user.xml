@@ -19,22 +19,30 @@
     <option name="compatibility:include-filter" value="CtsScopedStorageCoreHostTest" />
     <option name="compatibility:include-filter" value="CtsScopedStorageHostTest" />
     <option name="compatibility:include-filter" value="CtsScopedStorageDeviceOnlyTest" />
+    <option name="compatibility:include-filter" value="CtsScopedStorageGeneralTest" />
+    <option name="compatibility:include-filter" value="CtsScopedStorageBypassDatabaseOperationsTest" />
+    <option name="compatibility:include-filter" value="CtsScopedStorageRedactUriTest" />
     <!-- TODO(b/184232207) Enable CtsScopedStoragePublicVolumeHostTest in MTS when it is stable -->
     <!-- <option name="compatibility:include-filter" value="CtsScopedStoragePublicVolumeHostTest" /> -->
     <option name="compatibility:include-filter" value="CtsAppCloningHostTest" />
     <option name="compatibility:include-filter" value="MediaProviderTests" />
     <option name="compatibility:include-filter" value="CtsMediaProviderTranscodeTests" />
     <option name="compatibility:include-filter" value="CtsPhotoPickerTest" />
+    <option name="compatibility:include-filter" value="CtsAppCloningMediaProviderHostTest" />
 
     <!-- Enable Mediaprovider MTS tests to use MainlineTestModuleController -->
     <!-- MainlineTestModuleController is disabled for CtsProviderTestCases because the test is shared by DocumentUI (Q-intro module) and MediaProvider -->
     <option name="compatibility:module-arg" value="CtsScopedStorageCoreHostTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsScopedStorageHostTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsScopedStorageDeviceOnlyTest:enable:true" />
+    <option name="compatibility:module-arg" value="CtsScopedStorageGeneralTest:enable:true" />
+    <option name="compatibility:module-arg" value="CtsScopedStorageBypassDatabaseOperationsTest:enable:true" />
+    <option name="compatibility:module-arg" value="CtsScopedStorageRedactUriTest:enable:true" />
     <!-- <option name="compatibility:module-arg" value="CtsScopedStoragePublicVolumeHostTest:enable:true" /> -->
     <option name="compatibility:module-arg" value="CtsAppCloningHostTest:enable:true" />
     <option name="compatibility:module-arg" value="MediaProviderTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsMediaProviderTranscodeTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsPhotoPickerTest:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAppCloningMediaProviderHostTest:enable:true" />
 
 </configuration>

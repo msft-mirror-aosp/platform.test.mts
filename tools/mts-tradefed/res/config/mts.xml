@@ -57,4 +57,11 @@
     <option name="compatibility:module-arg" value="CtsMediaExtractorTestCases:instrumentation-arg:mts-media:=true" />
     <option name="compatibility:module-arg" value="CtsMediaMiscTestCases:instrumentation-arg:mts-media:=true" />
     <option name="compatibility:module-arg" value="CtsMediaPlayerTestCases:instrumentation-arg:mts-media:=true" />
+    <option name="compatibility:module-arg" value="CtsMediaV2TestCases:instrumentation-arg:mts-media:=true" />
+    <option name="compatibility:module-arg" value="CtsMediaParserTestCases:instrumentation-arg:mts-media:=true" />
+    <option name="compatibility:module-arg" value="CtsMediaStressTestCases:instrumentation-arg:mts-media:=true" />
+    <option name="compatibility:module-arg" value="CtsMediaTranscodingTestCases:instrumentation-arg:mts-media:=true" />
+    <!-- core-test-mode=mts tells ExpectationBasedFilter to exclude @NonMts Tests -->
+    <option name="compatibility:module-arg" value="CtsLibcoreTestCases:instrumentation-arg:core-test-mode:=mts"/>
+    <option name="compatibility:module-arg" value="CtsLibcoreOjTestCases:instrumentation-arg:core-test-mode:=mts"/>
 </configuration>
