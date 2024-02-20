@@ -162,9 +162,6 @@
     <!-- Exclude flaky timezone data tests. b/144301036 -->
     <option name="compatibility:exclude-filter" value="CtsIcuTestCases android.icu.dev.test.util.ICUServiceThreadTest#Test05_ConcurrentEverything" />
 
-    <!-- b/142978584: Flaky test -->
-    <option name="compatibility:exclude-filter" value="CtsNetTestCases android.net.cts.TrafficStatsTest#testTrafficStatsForLocalhost" />
-
     <!-- b/148478158, b/148478370, b/148476965 Flaky test for Conscrypt-->
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases  test.java.time.chrono.TestJapaneseChronoImpl#test_dayOfYearVsCalendar" />
     <option name="compatibility:exclude-filter" value="CtsLibcoreOjTestCases  tck.java.time.chrono.TCKJapaneseChronology#test_getDayOfYear" />
