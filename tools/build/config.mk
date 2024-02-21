@@ -50,6 +50,7 @@ mts_modules += \
                tethering \
                tzdata \
                uwb \
+               webviewbootstrap \
                wifi
 
 $(foreach module, $(mts_modules), \
