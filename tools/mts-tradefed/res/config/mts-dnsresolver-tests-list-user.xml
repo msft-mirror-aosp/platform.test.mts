@@ -14,8 +14,8 @@
      limitations under the License.
 -->
 <configuration description="List mts dnsResolver tests that do not need root access">
-    <option name="compatibility:include-filter" value="CtsNetTestCasesLatestSdk android.net.cts.DnsTest" />
-    <option name="compatibility:include-filter" value="CtsNetTestCasesLatestSdk android.net.cts.DnsResolverTest" />
+    <option name="compatibility:include-filter" value="CtsNetTestCases android.net.cts.DnsTest" />
+    <option name="compatibility:include-filter" value="CtsNetTestCases android.net.cts.DnsResolverTest" />
     <option name="compatibility:include-filter" value="CtsNativeNetDnsTestCases" />
     <option name="compatibility:include-filter" value="doh_ffi_test" />
 </configuration>
