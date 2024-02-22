@@ -20,7 +20,7 @@
     <option name="compatibility:include-filter" value="CtsNetTestCasesMaxTargetSdk31" />
     <option name="compatibility:include-filter" value="CtsNetTestCasesMaxTargetSdk30" />
     <option name="compatibility:include-filter" value="MtsTetheringTestLatestSdk" />
-    <option name="compatibility:include-filter" value="CtsTetheringTestLatestSdk" />
+    <option name="compatibility:include-filter" value="CtsTetheringTest" />
     <!-- Do not include NetworkStack module-specific tests as Connectivity MTS may not run
          with the latest version of that module installed -->
     <option name="compatibility:module-arg"
@@ -34,7 +34,7 @@
     <option name="compatibility:module-arg"
             value="MtsTetheringTestLatestSdk:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
     <option name="compatibility:module-arg"
-            value="CtsTetheringTestLatestSdk:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
+            value="CtsTetheringTest:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
     <option name="compatibility:include-filter" value="NearbyUnitTests" />
     <option name="compatibility:include-filter" value="CtsNearbyFastPairTestCases" />
     <option name="compatibility:include-filter" value="CtsNetHttpTestCases" />
@@ -45,7 +45,7 @@
     <option name="compatibility:module-arg" value="CtsNetTestCasesMaxTargetSdk31:enable:true" />
     <option name="compatibility:module-arg" value="CtsNetTestCasesMaxTargetSdk30:enable:true" />
     <option name="compatibility:module-arg" value="MtsTetheringTestLatestSdk:enable:true" />
-    <option name="compatibility:module-arg" value="CtsTetheringTestLatestSdk:enable:true" />
+    <option name="compatibility:module-arg" value="CtsTetheringTest:enable:true" />
     <option name="compatibility:module-arg" value="NearbyUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsNearbyFastPairTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsNetHttpTestCases:enable:true" />
