@@ -19,6 +19,7 @@
       <option name="compatibility:include-filter" value="CtsHealthConnectControllerTestCases" />
       <option name="compatibility:include-filter" value="HealthFitnessIntegrationTests" />
       <option name="compatibility:include-filter" value="HealthConnectBackupRestoreUnitTests" />
+      <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesHistoricAccessLimitWithPermission"/>
       <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesRateLimiter"/>
       <option name="compatibility:include-filter" value="CtsHealthFitnessShowMigrationInfoIntentAbsentTests"/>
       <option name="compatibility:include-filter" value="HealthFitnessIntegrationBackupRestoreTests"/>
@@ -30,6 +31,7 @@
       <option name="compatibility:module-arg" value="CtsHealthConnectControllerTestCases:enable:true" />
       <option name="compatibility:module-arg" value="HealthFitnessIntegrationTests:enable:true" />
       <option name="compatibility:module-arg" value="HealthConnectBackupRestoreUnitTests:enable:true" />
+      <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCasesHistoricAccessLimitWithPermission:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCasesRateLimiter:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthFitnessShowMigrationInfoIntentAbsentTests:enable:true" />
       <option name="compatibility:module-arg" value="HealthFitnessIntegrationBackupRestoreTests:enable:true" />
