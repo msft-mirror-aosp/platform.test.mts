@@ -13,11 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Collects test cases without running the tests">
+<configuration description="Collects mts test cases in the pre-defined list without running the tests">
 
-<option name="plan" value="collect-tests-only" />
+<option name="plan" value="collect-mts-tests-only" />
 
-<include name="mts" />
+<include name="collect-tests-only" />
+<include name="mts-tests-list-user" />
+<include name="mts-tests-list-eng-only" />
 
-<option name="compatibility:collect-tests-only" value="true" />
 </configuration>
