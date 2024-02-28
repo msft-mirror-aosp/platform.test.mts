@@ -288,7 +288,7 @@
      <option name="compatibility:include-filter" value="CtsScopedStorageHostTest android.scopedstorage.cts.host.ScopedStorageHostTest#testCallingIdentityCacheInvalidation" />
 
      <!-- Network -->
-     <option name="compatibility:include-filter" value="CtsNetTestCasesLatestSdk" />
+     <option name="compatibility:include-filter" value="CtsNetTestCases" />
 
      <!-- NeuralNetworks -->
      <option name="compatibility:include-filter" value="CtsNNAPIBenchmarkTestCases" />

@@ -13,13 +13,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS from pre-existing MTS installation">
+<configuration description="Collects test cases without running the tests">
 
 <option name="plan" value="collect-tests-only" />
 
 <include name="mts" />
-<include name="mts-tests-list-user" />
-<include name="mts-tests-list-eng-only" />
 
 <option name="compatibility:collect-tests-only" value="true" />
 </configuration>
