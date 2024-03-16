@@ -14,6 +14,7 @@
 <configuration description="List test modules of HealthFitness module excluding unit tests. This is a placeholder xml instead of a runnable plan.">
       <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCases" />
       <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesNoPermission"/>
+      <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesNotAllPermissionsAreGranted"/>
       <option name="compatibility:include-filter" value="CtsHealthConnectControllerTestCases" />
       <option name="compatibility:include-filter" value="HealthFitnessIntegrationTests" />
       <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesHistoricAccessLimitWithPermission"/>
@@ -23,6 +24,7 @@
 
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCases:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCasesNoPermission:enable:true" />
+      <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCasesNotAllPermissionsAreGranted:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthConnectControllerTestCases:enable:true" />
       <option name="compatibility:module-arg" value="HealthFitnessIntegrationTests:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCasesHistoricAccessLimitWithPermission:enable:true" />
