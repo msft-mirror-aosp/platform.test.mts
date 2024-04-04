@@ -25,6 +25,7 @@
     <option name="compatibility:include-filter" value="AdServicesServiceCoreMeasurementUnitTests" />
     <option name="compatibility:include-filter" value="AdServicesServiceCoreTopicsUnitTests" />
     <option name="compatibility:include-filter" value="CtsAdIdEndToEndTest" />
+    <option name="compatibility:include-filter" value="CtsAdServicesCobaltTest" />
     <option name="compatibility:include-filter" value="CtsAdServicesDebuggableDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdServicesDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdServicesEndToEndTestMeasurement" />
@@ -66,6 +67,7 @@
     <option name="compatibility:module-arg" value="AdServicesServiceCoreMeasurementUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesServiceCoreTopicsUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdIdEndToEndTest:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdServicesCobaltTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesDebuggableDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTestMeasurement:enable:true" />
