@@ -128,9 +128,6 @@
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.StorageHostTest" />
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.UseEmbeddedDexTest" />
 
-    <!-- ANGLE: Don't run dEQP on physical devices -->
-    <option name="compatibility:exclude-filter" value="CtsDeqpTestCases" />
-
     <!--Tests from CTS known faliures-->
 
     <!-- b/38280830 -->
