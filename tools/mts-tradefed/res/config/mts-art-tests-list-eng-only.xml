@@ -15,7 +15,9 @@
 -->
 <configuration description="List of ART MTS tests that need root access.">
     <!-- ART gtests. -->
+    <option name="compatibility:include-filter" value="art_standalone_dexopt_chroot_setup_tests" />
     <option name="compatibility:include-filter" value="libnativeloader_e2e_tests" />
     <!-- Enable MainlineTestModuleController. -->
+    <option name="compatibility:module-arg" value="art_standalone_dexopt_chroot_setup_tests:enable:true" />
     <option name="compatibility:module-arg" value="libnativeloader_e2e_tests:enable:true" />
 </configuration>
