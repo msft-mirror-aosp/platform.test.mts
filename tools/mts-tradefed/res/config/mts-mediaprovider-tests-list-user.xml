@@ -30,6 +30,9 @@
     <option name="compatibility:include-filter" value="CtsPhotoPickerTest" />
     <option name="compatibility:include-filter" value="CtsAppCloningMediaProviderHostTest" />
 
+    <!-- PdfViewer tests -->
+    <option name="compatibility:include-filter" value="CtsPdfModuleTestCases" />
+
     <!-- Enable Mediaprovider MTS tests to use MainlineTestModuleController -->
     <!-- MainlineTestModuleController is disabled for CtsProviderTestCases because the test is shared by DocumentUI (Q-intro module) and MediaProvider -->
     <option name="compatibility:module-arg" value="CtsScopedStorageCoreHostTest:enable:true" />
@@ -44,5 +47,9 @@
     <option name="compatibility:module-arg" value="CtsMediaProviderTranscodeTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsPhotoPickerTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAppCloningMediaProviderHostTest:enable:true" />
+
+    <!-- Enable PdfViewer tests to use 
+    MainlineTestModuleController -->
+    <option name="compatibility:module-arg" value="CtsPdfModuleTestCases:enable:true" />
 
 </configuration>
