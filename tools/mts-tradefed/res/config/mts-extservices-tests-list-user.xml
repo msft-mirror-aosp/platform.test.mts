@@ -52,8 +52,11 @@
     <option name="compatibility:include-filter" value="AdExtServicesFrameworkUnitTests" />
     <option name="compatibility:include-filter" value="AdExtServicesJsEngineUnitTests" />
     <option name="compatibility:include-filter" value="AdExtServicesMddIntegrationTests" />
+    <option name="compatibility:include-filter" value="AdExtServicesServiceCoreMeasurementUnitTests" />
+    <option name="compatibility:include-filter" value="AdExtServicesServiceCoreTopicsUnitTests" />
     <option name="compatibility:include-filter" value="AdExtServicesServiceCoreUnitTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesAdIdEndToEndTest" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesAdServicesCobaltTest" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesAppSetIdEndToEndTest" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesDebuggableDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesDeviceTestCases" />
@@ -93,16 +96,19 @@
     <option name="compatibility:module-arg" value="AdExtServicesApkUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesFrameworkUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesJsEngineUnitTests:enable:true" />
-    <option name="compatibility:module-arg" value="CtsAdExtServicesHostTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesMddIntegrationTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesServiceCoreMeasurementUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesServiceCoreTopicsUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesServiceCoreUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesAdIdEndToEndTest:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesAdServicesCobaltTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesAppSetIdEndToEndTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesDebuggableDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesEndToEndTestMeasurement:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesEndToEndTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesExtDataStorageServiceTest:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesHostTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesMddTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesNotInAllowListEndToEndTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesPermissionsAppOptOutEndToEndTests:enable:true" />

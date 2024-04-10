@@ -11,15 +11,12 @@
      limitations under the License.
 -->
 
-<configuration description="List test modules of HealthFitness module. This is a placeholder xml instead of a runnable plan.">
+<configuration description="List test modules of HealthFitness module excluding unit tests. This is a placeholder xml instead of a runnable plan.">
       <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCases" />
-      <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesNoPermission" />
-      <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesNotAllPermissionsAreGranted" />
-      <option name="compatibility:include-filter" value="HealthFitnessUnitTests" />
-      <option name="compatibility:include-filter" value="HealthConnectControllerUITests" />
+      <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesNoPermission"/>
+      <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesNotAllPermissionsAreGranted"/>
       <option name="compatibility:include-filter" value="CtsHealthConnectControllerTestCases" />
       <option name="compatibility:include-filter" value="HealthFitnessIntegrationTests" />
-      <option name="compatibility:include-filter" value="HealthConnectBackupRestoreUnitTests" />
       <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesHistoricAccessLimitWithPermission"/>
       <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesRateLimiter"/>
       <option name="compatibility:include-filter" value="CtsHealthFitnessShowMigrationInfoIntentAbsentTests"/>
@@ -28,11 +25,8 @@
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCases:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCasesNoPermission:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCasesNotAllPermissionsAreGranted:enable:true" />
-      <option name="compatibility:module-arg" value="HealthFitnessUnitTests:enable:true" />
-      <option name="compatibility:module-arg" value="HealthConnectControllerUITests:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthConnectControllerTestCases:enable:true" />
       <option name="compatibility:module-arg" value="HealthFitnessIntegrationTests:enable:true" />
-      <option name="compatibility:module-arg" value="HealthConnectBackupRestoreUnitTests:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCasesHistoricAccessLimitWithPermission:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCasesRateLimiter:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthFitnessShowMigrationInfoIntentAbsentTests:enable:true" />
