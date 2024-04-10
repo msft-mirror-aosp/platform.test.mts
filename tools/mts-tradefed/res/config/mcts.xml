@@ -30,6 +30,10 @@
     <option name="compatibility:enable-parameterized-modules" value="true" />
 
     <option name="enable-root" value="false" />
+    <!-- retain 200MB of host log -->
+    <option name="max-log-size" value="200" />
+    <!--  retain 200MB of logcat -->
+    <option name="max-tmp-logcat-file" value="209715200" />
 
     <target_preparer class="com.android.tradefed.targetprep.RunCommandTargetPreparer">
         <option name="run-command" value="settings put global package_verifier_enable 0" />
