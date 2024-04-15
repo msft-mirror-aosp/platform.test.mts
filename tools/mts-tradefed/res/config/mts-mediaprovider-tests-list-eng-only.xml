@@ -19,9 +19,16 @@
     <option name="compatibility:include-filter" value="FuseUtilsTest" />
     <option name="compatibility:include-filter" value="RedactionInfoTest" />
 
+    <!-- PdfViewer tests -->
+    <option name="compatibility:include-filter" value="pdfClient_test" />
+
     <!-- Enable Mediaprovider MTS tests to use MainlineTestModuleController -->
     <option name="compatibility:module-arg" value="fuse_node_test:enable:true" />
     <option name="compatibility:module-arg" value="FuseUtilsTest:enable:true" />
     <option name="compatibility:module-arg" value="RedactionInfoTest:enable:true" />
+
+    <!-- Enable PdfViewer tests to use
+    MainlineTestModuleController -->
+    <option name="compatibility:module-arg" value="pdfClient_test:enable:true" />
 
 </configuration>
