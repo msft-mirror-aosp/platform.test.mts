@@ -23,6 +23,10 @@
          with the latest version of that module installed -->
     <option name="compatibility:module-arg"
             value="CtsNetTestCases:exclude-annotation:com.android.testutils.ConnectivityModuleTest" />
+    <option name="compatibility:module-arg"
+            value="CtsNetTestCases:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
+    <option name="compatibility:module-arg"
+            value="CtsNetTestCases:exclude-annotation:com.android.testutils.DnsResolverModuleTest" />
     <option name="compatibility:include-filter"
             value="GtsGmscoreHostTestCases com.google.android.gts.wifi.WifiHostTest" />
     <option name="compatibility:include-filter"
