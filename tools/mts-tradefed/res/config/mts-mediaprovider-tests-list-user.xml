@@ -15,7 +15,7 @@
 -->
 <configuration description="MTS test list for Mediaprovider tests not need root access.">
 
-    <option name="compatibility:include-filter" value="CtsProviderTestCases android.provider.cts.media." />
+    <option name="compatibility:include-filter" value="CtsMediaProviderTestCases" />
     <option name="compatibility:include-filter" value="CtsScopedStorageCoreHostTest" />
     <option name="compatibility:include-filter" value="CtsScopedStorageHostTest" />
     <option name="compatibility:include-filter" value="CtsScopedStorageDeviceOnlyTest" />
@@ -31,7 +31,7 @@
     <option name="compatibility:include-filter" value="CtsAppCloningMediaProviderHostTest" />
 
     <!-- Enable Mediaprovider MTS tests to use MainlineTestModuleController -->
-    <!-- MainlineTestModuleController is disabled for CtsProviderTestCases because the test is shared by DocumentUI (Q-intro module) and MediaProvider -->
+    <option name="compatibility:module-arg" value="CtsMediaProviderTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsScopedStorageCoreHostTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsScopedStorageHostTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsScopedStorageDeviceOnlyTest:enable:true" />
