@@ -25,6 +25,7 @@
     <include name="cts-exclude" />
     <include name="cts-exclude-instant" />
     <include name="cts-known-failures" />
+    <include name="mcts-exclude" />
 
     <!-- Enable module parameterization to run instant_app modules in main MCTS -->
     <option name="compatibility:enable-parameterized-modules" value="true" />
