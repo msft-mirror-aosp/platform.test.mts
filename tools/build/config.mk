@@ -14,20 +14,25 @@
 # limitations under the License.
 
 COMPATIBILITY_TESTCASES_OUT_mts := $(HOST_OUT)/mts/android-mts/testcases
+COMPATIBILITY_TESTCASES_OUT_INCLUDE_MODULE_FOLDER_mts := true
 
 mts_modules :=
 mts_modules += \
                adbd \
                adservices \
+               adservices-cts-only \
+               adservices-unittest-only \
                appsearch \
                art \
                bluetooth \
                cellbroadcast \
+               configinfrastructure \
                conscrypt \
                cronet \
                dnsresolver \
                documentsui \
                extservices \
+               healthfitness \
                ipsec \
                mainline-infra \
                media \
@@ -46,5 +51,7 @@ mts_modules += \
                wifi
 
 $(foreach module, $(mts_modules), \
-	$(eval COMPATIBILITY_TESTCASES_OUT_mts-$(module) := $(HOST_OUT)/mts-$(module)/android-mts-$(module)/testcases))
+	$(eval COMPATIBILITY_TESTCASES_OUT_mts-$(module) := $(HOST_OUT)/mts-$(module)/android-mts-$(module)/testcases) \
+	$(eval COMPATIBILITY_TESTCASES_OUT_INCLUDE_MODULE_FOLDER_mts-$(module) := true) \
+)
 

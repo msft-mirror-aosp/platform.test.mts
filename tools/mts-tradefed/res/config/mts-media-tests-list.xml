@@ -17,6 +17,10 @@
         <!-- These Media CTS tests are mostly relevant to mainline.
             The "mostly" is addressed with annotations to exclude specific tests in each suite.
         -->
+    <option name="compatibility:include-filter" value="CtsMediaBetterTogetherTestCases" />
+    <option name="compatibility:module-arg" value="CtsMediaBetterTogetherTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaBetterTogetherTestCases:instrumentation-arg:mts-media:=true" />
+
     <option name="compatibility:include-filter" value="CtsMediaCodecTestCases" />
     <option name="compatibility:module-arg" value="CtsMediaCodecTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
     <option name="compatibility:module-arg" value="CtsMediaCodecTestCases:instrumentation-arg:mts-media:=true" />
@@ -34,7 +38,7 @@
     <option name="compatibility:module-arg" value="CtsMediaExtractorTestCases:instrumentation-arg:mts-media:=true" />
 
     <option name="compatibility:include-filter" value="CtsMediaMiscTestCases" />
-    <option name="compatibility:module-arg" value="CtsMediaMiscTestCases:exclude-annotation:android.media.cts.NonMediaMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaMiscTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
     <option name="compatibility:module-arg" value="CtsMediaMiscTestCases:instrumentation-arg:mts-media:=true" />
 
     <option name="compatibility:include-filter" value="CtsMediaPlayerTestCases" />
@@ -43,17 +47,17 @@
 
     <option name="compatibility:include-filter" value="CtsMediaV2TestCases" />
     <option name="compatibility:module-arg" value="CtsMediaV2TestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaV2TestCases:instrumentation-arg:mts-media:=true" />
 
     <option name="compatibility:include-filter" value="CtsMediaParserTestCases" />
+    <option name="compatibility:module-arg" value="CtsMediaParserTestCases:instrumentation-arg:mts-media:=true" />
 
     <option name="compatibility:include-filter" value="CtsMediaStressTestCases" />
     <option name="compatibility:module-arg" value="CtsMediaStressTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaStressTestCases:instrumentation-arg:mts-media:=true" />
 
     <option name="compatibility:include-filter" value="CtsMediaTranscodingTestCases" />
-
-    <!-- unit tests -->
-    <option name="compatibility:include-filter" value="CodecListTest" />
-    <option name="compatibility:include-filter" value="Mpeg4H263DecoderTest" />
+    <option name="compatibility:module-arg" value="CtsMediaTranscodingTestCases:instrumentation-arg:mts-media:=true" />
 
     <!--b/138964734-->
     <option name="compatibility:exclude-filter" value="CtsMediaCodecTestCases android.media.codec.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />

@@ -11,18 +11,9 @@
      limitations under the License.
 -->
 
-<configuration description="List test modules of AdServices module. This is a placeholder xml instead of a runnable plan.">
-    <option name="compatibility:include-filter" value="AdServicesApkUINotificationTests" />
-    <option name="compatibility:include-filter" value="AdServicesApkUISettingsGaOtaTests" />
-    <option name="compatibility:include-filter" value="AdServicesApkUISettingsTests" />
-    <option name="compatibility:include-filter" value="AdServicesApkUITestsAppConsent" />
-    <option name="compatibility:include-filter" value="AdServicesApkUnitTests" />
-    <option name="compatibility:include-filter" value="AdServicesFrameworkUnitTests" />
-    <option name="compatibility:include-filter" value="AdServicesJsEngineUnitTests" />
-    <option name="compatibility:include-filter" value="AdServicesManagerServiceTests" />
-    <option name="compatibility:include-filter" value="AdServicesMddIntegrationTests" />
-    <option name="compatibility:include-filter" value="AdServicesServiceCoreUnitTests" />
+<configuration description="List CTS test modules of AdServices module. This is a placeholder xml instead of a runnable plan.">
     <option name="compatibility:include-filter" value="CtsAdIdEndToEndTest" />
+    <option name="compatibility:include-filter" value="CtsAdServicesCUJTestCases" />
     <option name="compatibility:include-filter" value="CtsAdServicesDebuggableDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdServicesDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdServicesEndToEndTestMeasurement" />
@@ -43,25 +34,12 @@
     <option name="compatibility:include-filter" value="CtsSandboxedMeasurementManagerTests" />
     <option name="compatibility:include-filter" value="CtsSandboxedTopicsManagerTests" />
 
-    <option name="compatibility:include-filter" value="SdkSandboxManagerTests" />
     <option name="compatibility:include-filter" value="CtsSdkSandboxHostSideTests" />
     <option name="compatibility:include-filter" value="CtsSdkSandboxInprocessTests" />
-    <option name="compatibility:include-filter" value="SdkSandboxManagerServiceUnitTests" />
-    <option name="compatibility:include-filter" value="SdkSandboxUnitTests" />
-    <option name="compatibility:include-filter" value="SdkSandboxFrameworkUnitTests" />
 
 
-    <option name="compatibility:module-arg" value="AdServicesApkUINotificationTests:enable:true" />
-    <option name="compatibility:module-arg" value="AdServicesApkUISettingsGaOtaTests:enable:true" />
-    <option name="compatibility:module-arg" value="AdServicesApkUISettingsTests:enable:true" />
-    <option name="compatibility:module-arg" value="AdServicesApkUITestsAppConsent:enable:true" />
-    <option name="compatibility:module-arg" value="AdServicesApkUnitTests:enable:true" />
-    <option name="compatibility:module-arg" value="AdServicesFrameworkUnitTests:enable:true" />
-    <option name="compatibility:module-arg" value="AdServicesJsEngineUnitTests:enable:true" />
-    <option name="compatibility:module-arg" value="AdServicesManagerServiceTests:enable:true" />
-    <option name="compatibility:module-arg" value="AdServicesMddIntegrationTests:enable:true" />
-    <option name="compatibility:module-arg" value="AdServicesServiceCoreUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdIdEndToEndTest:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdServicesCUJTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesDebuggableDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTestMeasurement:enable:true" />
@@ -82,10 +60,6 @@
     <option name="compatibility:module-arg" value="CtsSandboxedMeasurementManagerTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsSandboxedTopicsManagerTests:enable:true" />
 
-    <option name="compatibility:module-arg" value="SdkSandboxManagerTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsSdkSandboxHostSideTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsSdkSandboxInprocessTests:enable:true" />
-    <option name="compatibility:module-arg" value="SdkSandboxManagerServiceUnitTests:enable:true" />
-    <option name="compatibility:module-arg" value="SdkSandboxUnitTests:enable:true" />
-    <option name="compatibility:module-arg" value="SdkSandboxFrameworkUnitTests:enable:true" />
 </configuration>

@@ -13,7 +13,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List of tethering MTS tests that need root access.">
+<configuration description="List of tethering MTS tests that need root access or userdebug build.">
     <option name="compatibility:include-filter" value="bpf_existence_test" />
     <option name="compatibility:include-filter" value="connectivity_native_test" />
+    <option name="compatibility:include-filter" value="ThreadNetworkIntegrationTests" />
 </configuration>

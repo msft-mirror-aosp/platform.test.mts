@@ -19,4 +19,6 @@
     <option name="compatibility:include-filter" value="CtsLibcoreTestCases"/>
     <!-- Enable MainlineTestModuleController for CTS Libcore non-OJ tests. -->
     <option name="compatibility:module-arg" value="CtsLibcoreTestCases:enable:true"/>
+    <!-- core-test-mode=mts tells ExpectationBasedFilter to exclude @NonMts Tests -->
+    <option name="compatibility:module-arg" value="CtsLibcoreTestCases:instrumentation-arg:core-test-mode:=mts"/>
 </configuration>

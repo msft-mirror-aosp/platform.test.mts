@@ -23,6 +23,7 @@
     <option name="compatibility:include-filter" value="CtsLibcoreOjTestCases"/>
     <option name="compatibility:include-filter" value="CtsLibcoreWycheproofBCTestCases"/>
     <option name="compatibility:include-filter" value="MtsLibcoreOkHttpTestCases"/>
+    <option name="compatibility:include-filter" value="MtsLibcoreBouncyCastleTestCases"/>
     <!-- Enable MainlineTestModuleController for CTS Libcore OJ tests. -->
     <option name="compatibility:module-arg" value="CtsLibcoreApiEvolutionTestCases:enable:true"/>
     <option name="compatibility:module-arg" value="CtsLibcoreFileIOTestCases:enable:true"/>
@@ -31,4 +32,7 @@
     <option name="compatibility:module-arg" value="CtsLibcoreOjTestCases:enable:true"/>
     <option name="compatibility:module-arg" value="CtsLibcoreWycheproofBCTestCases:enable:true"/>
     <option name="compatibility:module-arg" value="MtsLibcoreOkHttpTestCases:enable:true"/>
+    <option name="compatibility:module-arg" value="MtsLibcoreBouncyCastleTestCases:enable:true"/>
+    <!-- core-test-mode=mts tells ExpectationBasedFilter to exclude @NonMts Tests -->
+    <option name="compatibility:module-arg" value="CtsLibcoreOjTestCases:instrumentation-arg:core-test-mode:=mts"/>
 </configuration>
