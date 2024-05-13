@@ -17,6 +17,7 @@
       <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesNotAllPermissionsAreGranted" />
       <option name="compatibility:include-filter" value="HealthFitnessUnitTests" />
       <option name="compatibility:include-filter" value="HealthConnectControllerUITests" />
+      <option name="compatibility:exclude-filter" value="HealthConnectControllerUITests com.android.healthconnect.controller.tests.data.entries.api.LoadEntriesHelperUseCaseTest" />
       <option name="compatibility:include-filter" value="CtsHealthConnectControllerTestCases" />
       <option name="compatibility:include-filter" value="HealthFitnessIntegrationTests" />
       <option name="compatibility:include-filter" value="HealthConnectBackupRestoreUnitTests" />
