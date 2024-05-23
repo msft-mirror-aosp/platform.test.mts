@@ -52,9 +52,14 @@
     <option name="compatibility:include-filter" value="AdExtServicesFrameworkUnitTests" />
     <option name="compatibility:include-filter" value="AdExtServicesJsEngineUnitTests" />
     <option name="compatibility:include-filter" value="AdExtServicesMddIntegrationTests" />
+    <option name="compatibility:include-filter" value="AdExtServicesServiceCoreAdIdUnitTests" />
+    <option name="compatibility:include-filter" value="AdExtServicesServiceCoreAppSearchUnitTests" />
+    <option name="compatibility:include-filter" value="AdExtServicesServiceCoreAppsetIdUnitTests" />
+    <option name="compatibility:include-filter" value="AdExtServicesServiceCoreCommonUnitTests" />
     <option name="compatibility:include-filter" value="AdExtServicesServiceCoreMeasurementUnitTests" />
     <option name="compatibility:include-filter" value="AdExtServicesServiceCoreTopicsUnitTests" />
     <option name="compatibility:include-filter" value="AdExtServicesServiceCoreUnitTests" />
+    <option name="compatibility:include-filter" value="AdExtServicesUIUnitTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesAdIdEndToEndTest" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesAdServicesCobaltTest" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesAppSetIdEndToEndTest" />
@@ -98,9 +103,14 @@
     <option name="compatibility:module-arg" value="AdExtServicesFrameworkUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesJsEngineUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesMddIntegrationTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesServiceCoreAdIdUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesServiceCoreAppSearchUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesServiceCoreAppsetIdUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesServiceCoreCommonUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesServiceCoreMeasurementUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesServiceCoreTopicsUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesServiceCoreUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdExtServicesUIUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesAdIdEndToEndTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesAdServicesCobaltTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesAppSetIdEndToEndTest:enable:true" />
