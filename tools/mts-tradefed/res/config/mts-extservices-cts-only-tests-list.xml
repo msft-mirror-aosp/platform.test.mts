@@ -31,7 +31,7 @@
     <option name="compatibility:include-filter" value="CtsAdExtServicesAppSetIdEndToEndTest" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesDebuggableDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesDeviceTestCases" />
-    <option name="compatibility:include:filter" value="CtsAdExtServicesCustomAudienceTests" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesCustomAudienceTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTestMeasurement" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesExtDataStorageServiceTest" />
