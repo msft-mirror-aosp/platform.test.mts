@@ -21,9 +21,8 @@
     <option name="compatibility:module-arg" value="MctsMediaBetterTogetherTestCases:instrumentation-arg:mts-media:=true" />
     <option name="compatibility:module-arg" value="MctsMediaBetterTogetherTestCases:instrumentation-arg:media-testing-mode:=mts" />
 
-    <option name="compatibility:include-filter" value="CtsMediaCodecTestCases" />
-    <option name="compatibility:module-arg" value="CtsMediaCodecTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaCodecTestCases:instrumentation-arg:mts-media:=true" />
+    <option name="compatibility:include-filter" value="MctsMediaCodecTestCases" />
+    <option name="compatibility:module-arg" value="MctsMediaCodecTestCases:instrumentation-arg:mts-media:=true" />
     <option name="compatibility:module-arg" value="MctsMediaCodecTestCases:instrumentation-arg:media-testing-mode:=mts" />
 
     <option name="compatibility:include-filter" value="MctsMediaDecoderTestCases" />
@@ -62,7 +61,7 @@
     <option name="compatibility:module-arg" value="CtsMediaTranscodingTestCases:instrumentation-arg:mts-media:=true" />
 
     <!--b/138964734-->
-    <option name="compatibility:exclude-filter" value="CtsMediaCodecTestCases android.media.codec.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
+    <option name="compatibility:exclude-filter" value="MctsMediaCodecTestCases android.media.codec.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
 
     <!--Exclude some tests with known CTS failures-->
 
