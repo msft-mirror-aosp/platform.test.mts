@@ -45,9 +45,10 @@
     <option name="compatibility:module-arg" value="MctsMediaPlayerTestCases:instrumentation-arg:mts-media:=true" />
     <option name="compatibility:module-arg" value="MctsMediaPlayerTestCases:instrumentation-arg:media-testing-mode:=mts" />
 
-    <option name="compatibility:include-filter" value="CtsMediaV2TestCases" />
-    <option name="compatibility:module-arg" value="CtsMediaV2TestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaV2TestCases:instrumentation-arg:mts-media:=true" />
+    <option name="compatibility:include-filter" value="MctsMediaV2TestCases" />
+    <option name="compatibility:module-arg" value="MctsMediaV2TestCases:instrumentation-arg:mts-media:=true" />
+    <option name="compatibility:module-arg" value="MctsMediaV2TestCases:instrumentation-arg:media-testing-mode:=mts" />
+
 
     <option name="compatibility:include-filter" value="MctsMediaParserTestCases" />
     <option name="compatibility:module-arg" value="MctsMediaParserTestCases:instrumentation-arg:mts-media:=true" />
@@ -70,9 +71,6 @@
 
     <!-- b/38280830 -->
     <option name="compatibility:exclude-filter" value="MctsMediaDecoderTestCases android.media.decoder.cts.VideoDecoderPerfTest#testVp8Goog0Perf1280x0720" />
-
-    <!-- Restrict mediav2 codec tests to the codecs shipped in the module: c2.android.* -->
-    <option name="compatibility:module-arg" value="CtsMediaV2TestCases:instrumentation-arg:codec-prefix:=c2.android." />
 
     <!-- Unit tests dynamically download test media -->
     <option name="compatibility:enable-module-dynamic-download" value="true" />
