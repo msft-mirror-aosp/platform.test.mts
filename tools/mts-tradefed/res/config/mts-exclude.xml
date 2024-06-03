@@ -17,10 +17,10 @@
     <option name="plan" value="mts-exclude" />
 
     <!-- b/156732610, b/156731539, b/156729972, b/156729967 Flaky test for media-->
-   <option name="compatibility:exclude-filter" value="CtsMediaPlayerTestCases MediaPlayerTest.testSeekModes" />
-   <option name="compatibility:exclude-filter" value="CtsMediaMiscTestCases MediaSessionManagerTest.testGetSession2TokensWithTwoSessions" />
-   <option name="compatibility:exclude-filter" value="CtsMediaMiscTestCases MediaSessionManagerTest.testRemoteUserInfo" />
-   <option name="compatibility:exclude-filter" value="CtsMediaMiscTestCases MediaSessionManagerTest.testSetOnMediaKeyListener" />
+   <option name="compatibility:exclude-filter" value="MctsMediaPlayerTestCases MediaPlayerTest.testSeekModes" />
+   <option name="compatibility:exclude-filter" value="MctsMediaMiscTestCases MediaSessionManagerTest.testGetSession2TokensWithTwoSessions" />
+   <option name="compatibility:exclude-filter" value="MctsMediaMiscTestCases MediaSessionManagerTest.testRemoteUserInfo" />
+   <option name="compatibility:exclude-filter" value="MctsMediaMiscTestCases MediaSessionManagerTest.testSetOnMediaKeyListener" />
 
     <!-- b/156436397 Flaky test for MediaProvider-->
     <option name="compatibility:exclude-filter" value="MediaProviderTests MediaProviderForFuseTest.test_scanFileForFuseis" />
@@ -128,23 +128,10 @@
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.StorageHostTest" />
     <option name="compatibility:exclude-filter" value="CtsAppSecurityHostTestCases android.appsecurity.cts.UseEmbeddedDexTest" />
 
-    <!-- ANGLE: Don't run dEQP on physical devices -->
-    <option name="compatibility:exclude-filter" value="CtsDeqpTestCases" />
-
     <!--Tests from CTS known faliures-->
 
     <!-- b/38280830 -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.VideoDecoderPerfTest#testVp8Goog0Perf1280x0720" />
-
-    <!-- Exclude tests that are not related to media mainlines -->
-    <option name="compatibility:module-arg" value="CtsMediaCodecTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaDecoderTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaEncoderTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaExtractorTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaMiscTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaPlayerTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaV2TestCases:exclude-annotation:android.compatibility.common.util.NonMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaStressTestCases:exclude-annotation:android.compatibility.common.util.NonMainlineTest" />
 
     <!-- Exclude cell broadcast module tests which are not unit tests -->
     <option name="compatibility:module-arg" value="CellBroadcastReceiverOemUnitTests:exclude-annotation:com.google.android.cellbroadcastreceiver.unit.InstrumentationTest" />
@@ -181,20 +168,20 @@
     <!-- https://b.corp.google.com/hotlists/2163558 Flaky test for Permission Controller-->
 
     <!-- https://b.corp.google.com/hotlists/2163722: Flaky test for media -->
-   <option name="compatibility:exclude-filter" value="CtsMediaMiscTestCases android.media.misc.cts.MediaScannerTest#testCanonicalize" />
+   <option name="compatibility:exclude-filter" value="MctsMediaMiscTestCases android.media.misc.cts.MediaScannerTest#testCanonicalize" />
    <option name="compatibility:exclude-filter" value="CtsMediaDrmFrameworkTestCases android.media.drmframework.cts.MediaPlayerDrmTest#testCAR_CLEARKEY_AUDIO_DOWNLOADED_V0_SYNC" />
-   <option name="compatibility:exclude-filter" value="CtsMediaMiscTestCases android.media.misc.cts.MediaSyncTest#testPlayAudio" />
-   <option name="compatibility:exclude-filter" value="CtsMediaPlayerTestCases android.media.player.cts.MediaPlayerTest#testPlayAudioAmr" />
-   <option name="compatibility:exclude-filter" value="CtsMediaMiscTestCases android.media.misc.cts.MediaCodecListTest#testVideoPerformancePointsSanity" />
-   <option name="compatibility:exclude-filter" value="CtsMediaRecorderTestCases android.media.recorder.cts.MediaRecorderTest#testGetSurfaceApi" />
-   <option name="compatibility:exclude-filter" value="CtsMediaMiscTestCases android.media.misc.cts.ResourceManagerTest#testReclaimResourceMixVsNonsecure" />
-   <option name="compatibility:exclude-filter" value="CtsMediaPlayerTestCases android.media.player.cts.MediaPlayerTest#testGapless1" />
-   <option name="compatibility:exclude-filter" value="CtsMediaMiscTestCases android.media.misc.cts.MediaSyncTest#testAudioBufferReturn" />
-   <option name="compatibility:exclude-filter" value="CtsMediaPlayerTestCases android.media.player.cts.MediaPlayerTest#testPlayAudioTwice" />
-   <option name="compatibility:exclude-filter" value="CtsMediaMiscTestCases android.media.misc.cts.MediaScannerTest#testEncodingDetection" />
-   <option name="compatibility:exclude-filter" value="CtsMediaMiscTestCases android.media.misc.cts.MediaScannerTest#testWildcardPaths" />
-   <option name="compatibility:exclude-filter" value="CtsMediaPlayerTestCases android.media.player.cts.MediaPlayerTest#testPositionAtEnd" />
-   <option name="compatibility:exclude-filter" value="CtsMediaMiscTestCases android.media.misc.cts.MediaSyncTest#testPlaybackRateDouble" />
+   <option name="compatibility:exclude-filter" value="MctsMediaMiscTestCases android.media.misc.cts.MediaSyncTest#testPlayAudio" />
+   <option name="compatibility:exclude-filter" value="MctsMediaPlayerTestCases android.media.player.cts.MediaPlayerTest#testPlayAudioAmr" />
+   <option name="compatibility:exclude-filter" value="MctsMediaMiscTestCases android.media.misc.cts.MediaCodecListTest#testVideoPerformancePointsSanity" />
+   <option name="compatibility:exclude-filter" value="MctsMediaRecorderTestCases android.media.recorder.cts.MediaRecorderTest#testGetSurfaceApi" />
+   <option name="compatibility:exclude-filter" value="MctsMediaMiscTestCases android.media.misc.cts.ResourceManagerTest#testReclaimResourceMixVsNonsecure" />
+   <option name="compatibility:exclude-filter" value="MctsMediaPlayerTestCases android.media.player.cts.MediaPlayerTest#testGapless1" />
+   <option name="compatibility:exclude-filter" value="MctsMediaMiscTestCases android.media.misc.cts.MediaSyncTest#testAudioBufferReturn" />
+   <option name="compatibility:exclude-filter" value="MctsMediaPlayerTestCases android.media.player.cts.MediaPlayerTest#testPlayAudioTwice" />
+   <option name="compatibility:exclude-filter" value="MctsMediaMiscTestCases android.media.misc.cts.MediaScannerTest#testEncodingDetection" />
+   <option name="compatibility:exclude-filter" value="MctsMediaMiscTestCases android.media.misc.cts.MediaScannerTest#testWildcardPaths" />
+   <option name="compatibility:exclude-filter" value="MctsMediaPlayerTestCases android.media.player.cts.MediaPlayerTest#testPositionAtEnd" />
+   <option name="compatibility:exclude-filter" value="MctsMediaMiscTestCases android.media.misc.cts.MediaSyncTest#testPlaybackRateDouble" />
 
     <!-- b/144859812: Flaky test -->
     <option name="compatibility:exclude-filter" value="DocumentsUIGoogleTests com.android.documentsui.FileCopyUiTest#testCopyDocuments_InternalStorage" />
@@ -210,28 +197,28 @@
     <option name="compatibility:exclude-filter" value="DocumentsUIGoogleTests com.android.documentsui.RecentsLoaderTests#testContentsUpdate_observable" />
 
     <!-- b/144850069: MTS flaky test -->
-    <option name="compatibility:exclude-filter" value="CtsMediaStressTestCases android.mediastress.cts.H264R1080pAacLongPlayerTest#testPlay00" />
+    <option name="compatibility:exclude-filter" value="MctsMediaStressTestCases android.mediastress.cts.H264R1080pAacLongPlayerTest#testPlay00" />
 
     <!-- b/144656329: MTS flaky test -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.EncodeDecodeTest#testEncodeDecodeVideoFromBufferToBufferQVGA0" />
 
     <!-- b/144590142: MTS flaky test -->
-    <option name="compatibility:exclude-filter" value="CtsMediaDecoderTestCases android.media.decoder.cts.DecoderTest#testVP8Decode640x360" />
+    <option name="compatibility:exclude-filter" value="MctsMediaDecoderTestCases android.media.decoder.cts.DecoderTest#testVP8Decode640x360" />
 
     <!-- b/144590245: MTS flaky test -->
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.VideoEncoderTest#testGoogH264FlexNearMaxMax" />
 
     <!-- b/142976793: MTS flaky test -->
-    <option name="compatibility:exclude-filter" value="CtsMediaDecoderTestCases android.media.decoder.cts.DecoderTest#testDecodeMonoOggMp4" />
+    <option name="compatibility:exclude-filter" value="MctsMediaDecoderTestCases android.media.decoder.cts.DecoderTest#testDecodeMonoOggMp4" />
 
     <!-- b/144798271: MTS flaky test -->
-    <option name="compatibility:exclude-filter" value="CtsMediaCodecTestCases android.media.codec.cts.MediaCodecCapabilitiesTest#testAvcHigh31" />
+    <option name="compatibility:exclude-filter" value="MctsMediaCodecTestCases android.media.codec.cts.MediaCodecCapabilitiesTest#testAvcHigh31" />
 
     <!-- b/144590380: MTS flaky test -->
     <option name="compatibility:exclude-filter" value="CtsMediaDrmTestCases android.mediadrm.cts.NativeMediaDrmClearkeyTest#testClearKeyPlaybackCenc2" />
 
     <!-- b/142965402: MTS flaky test -->
-    <option name="compatibility:exclude-filter" value="CtsMediaCodecTestCases android.media.codec.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
+    <option name="compatibility:exclude-filter" value="MctsMediaCodecTestCases android.media.codec.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
 
     <!-- b/159668249: MTS flaky test -->
     <option name="compatibility:exclude-filter" value="CtsMediaAudioTestCases android.media.audio.cts.VisualizerTest" />
