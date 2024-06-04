@@ -58,8 +58,9 @@
     <option name="compatibility:module-arg" value="MctsMediaStressTestCases:instrumentation-arg:mts-media:=true" />
     <option name="compatibility:module-arg" value="MctsMediaStressTestCases:instrumentation-arg:media-testing-mode:=mts" />
 
-    <option name="compatibility:include-filter" value="CtsMediaTranscodingTestCases" />
-    <option name="compatibility:module-arg" value="CtsMediaTranscodingTestCases:instrumentation-arg:mts-media:=true" />
+    <option name="compatibility:include-filter" value="MctsMediaTranscodingTestCases" />
+    <option name="compatibility:module-arg" value="MctsMediaTranscodingTestCases:instrumentation-arg:mts-media:=true" />
+    <option name="compatibility:module-arg" value="MctsMediaTranscodingTestCases:instrumentation-arg:media-testing-mode:=mts" />
 
     <!--b/138964734-->
     <option name="compatibility:exclude-filter" value="MctsMediaCodecTestCases android.media.codec.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
