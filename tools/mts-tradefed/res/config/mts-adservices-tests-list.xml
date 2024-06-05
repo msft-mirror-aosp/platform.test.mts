@@ -21,11 +21,17 @@
     <option name="compatibility:include-filter" value="AdServicesJsEngineUnitTests" />
     <option name="compatibility:include-filter" value="AdServicesManagerServiceTests" />
     <option name="compatibility:include-filter" value="AdServicesMddIntegrationTests" />
+    <option name="compatibility:include-filter" value="AdServicesServiceCoreAdIdUnitTests" />
+    <option name="compatibility:include-filter" value="AdServicesServiceCoreAppSearchUnitTests" />
+    <option name="compatibility:include-filter" value="AdServicesServiceCoreAppsetIdUnitTests" />
+    <option name="compatibility:include-filter" value="AdServicesServiceCoreCommonUnitTests" />
     <option name="compatibility:include-filter" value="AdServicesServiceCoreUnitTests" />
     <option name="compatibility:include-filter" value="AdServicesServiceCoreMeasurementUnitTests" />
     <option name="compatibility:include-filter" value="AdServicesServiceCoreTopicsUnitTests" />
+    <option name="compatibility:include-filter" value="AdServicesUIUnitTests" />
     <option name="compatibility:include-filter" value="CtsAdIdEndToEndTest" />
     <option name="compatibility:include-filter" value="CtsAdServicesCobaltTest" />
+    <option name="compatibility:include-filter" value="CtsAdServicesCustomAudienceTests" />
     <option name="compatibility:include-filter" value="CtsAdServicesDebuggableDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdServicesDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdServicesEndToEndTestMeasurement" />
@@ -63,11 +69,17 @@
     <option name="compatibility:module-arg" value="AdServicesJsEngineUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesManagerServiceTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesMddIntegrationTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdServicesServiceCoreAdIdUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdServicesServiceCoreAppSearchUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdServicesServiceCoreAppsetIdUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdServicesServiceCoreCommonUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesServiceCoreUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesServiceCoreMeasurementUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesServiceCoreTopicsUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdServicesUIUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdIdEndToEndTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesCobaltTest:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdServicesCustomAudienceTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesDebuggableDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTestMeasurement:enable:true" />

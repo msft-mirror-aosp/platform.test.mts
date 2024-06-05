@@ -16,7 +16,6 @@
 <configuration description="List of statsd MTS tests that do not need root access.">
     <!-- Include tests from CTS -->
     <option name="compatibility:include-filter" value="CtsStatsdHostTestCases" />
-    <option name="compatibility:include-filter" value="CtsUtilTestCases android.util.cts.AndroidExceptionTest#testAndroidException" />
 
     <!-- Include tests from Statsd Framework Apex -->
     <option name="compatibility:include-filter" value="FrameworkStatsdTest" />
@@ -24,10 +23,13 @@
     <!-- Include tests from GTS -->
     <option name="compatibility:include-filter" value="GtsStatsdHostTestCases" />
 
+    <!-- Include StatsdTestUtilsTest -->
+    <option name="compatibility:include-filter" value="StatsdTestUtilsTest" />
+
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsStatsdHostTestCases:enable:true" />
-    <option name="compatibility:module-arg" value="CtsUtilTestCases:enable:true" />
     <option name="compatibility:module-arg" value="FrameworkStatsdTest:enable:true" />
     <option name="compatibility:module-arg" value="GtsStatsdHostTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="StatsdTestUtilsTest:enable:true" />
 
 </configuration>

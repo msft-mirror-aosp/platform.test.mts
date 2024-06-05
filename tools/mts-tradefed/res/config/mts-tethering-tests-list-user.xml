@@ -15,16 +15,16 @@
 -->
 <configuration description="List of MTS tethering tests that do not need root acccess">
 
-    <option name="compatibility:include-filter" value="CtsNetTestCasesLatestSdk" />
+    <option name="compatibility:include-filter" value="CtsNetTestCases" />
     <option name="compatibility:include-filter" value="CtsNetTestCasesMaxTargetSdk33" />
     <option name="compatibility:include-filter" value="CtsNetTestCasesMaxTargetSdk31" />
     <option name="compatibility:include-filter" value="CtsNetTestCasesMaxTargetSdk30" />
     <option name="compatibility:include-filter" value="MtsTetheringTestLatestSdk" />
-    <option name="compatibility:include-filter" value="CtsTetheringTestLatestSdk" />
+    <option name="compatibility:include-filter" value="CtsTetheringTest" />
     <!-- Do not include NetworkStack module-specific tests as Connectivity MTS may not run
          with the latest version of that module installed -->
     <option name="compatibility:module-arg"
-            value="CtsNetTestCasesLatestSdk:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
+            value="CtsNetTestCases:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
     <option name="compatibility:module-arg"
             value="CtsNetTestCasesMaxTargetSdk33:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
     <option name="compatibility:module-arg"
@@ -34,20 +34,24 @@
     <option name="compatibility:module-arg"
             value="MtsTetheringTestLatestSdk:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
     <option name="compatibility:module-arg"
-            value="CtsTetheringTestLatestSdk:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
+            value="CtsTetheringTest:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
     <option name="compatibility:include-filter" value="NearbyUnitTests" />
     <option name="compatibility:include-filter" value="CtsNearbyFastPairTestCases" />
     <option name="compatibility:include-filter" value="CtsNetHttpTestCases" />
+    <option name="compatibility:include-filter" value="ThreadNetworkUnitTests" />
+    <option name="compatibility:include-filter" value="CtsThreadNetworkTestCases" />
 
     <!-- Enable tethering MTS tests to use MainlineTestModuleController -->
-    <option name="compatibility:module-arg" value="CtsNetTestCasesLatestSdk:enable:true" />
+    <option name="compatibility:module-arg" value="CtsNetTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsNetTestCasesMaxTargetSdk33:enable:true" />
     <option name="compatibility:module-arg" value="CtsNetTestCasesMaxTargetSdk31:enable:true" />
     <option name="compatibility:module-arg" value="CtsNetTestCasesMaxTargetSdk30:enable:true" />
     <option name="compatibility:module-arg" value="MtsTetheringTestLatestSdk:enable:true" />
-    <option name="compatibility:module-arg" value="CtsTetheringTestLatestSdk:enable:true" />
+    <option name="compatibility:module-arg" value="CtsTetheringTest:enable:true" />
     <option name="compatibility:module-arg" value="NearbyUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsNearbyFastPairTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsNetHttpTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="ThreadNetworkUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsThreadNetworkTestCases:enable:true" />
 </configuration>
 

@@ -17,7 +17,7 @@
 
     <include name="mts" />
 
-    <option name="plan" value="mts-multidevice" />
+    <option name="plan" value="mts-multi-device" />
 
     <!-- multi device test cases only-->
     <option name="multi-devices-modules" value="ONLY_MULTI_DEVICES" />

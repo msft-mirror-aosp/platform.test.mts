@@ -37,6 +37,7 @@
     <option name="compatibility:include-filter" value="net_test_bta" />
     <option name="compatibility:include-filter" value="net_test_btcore" />
     <option name="compatibility:include-filter" value="net_test_btif" />
+    <option name="compatibility:include-filter" value="net_test_btif_avrcp_audio_track" />
     <option name="compatibility:include-filter" value="net_test_btif_config_cache" />
     <option name="compatibility:include-filter" value="net_test_btif_hf_client_service" />
     <option name="compatibility:include-filter" value="net_test_btif_profile_queue" />
@@ -47,7 +48,6 @@
     <option name="compatibility:include-filter" value="net_test_device" />
     <option name="compatibility:include-filter" value="net_test_eatt" />
     <option name="compatibility:include-filter" value="net_test_hci" />
-    <option name="compatibility:include-filter" value="net_test_hci_fragmenter_native" />
     <option name="compatibility:include-filter" value="net_test_main_shim" />
     <option name="compatibility:include-filter" value="net_test_osi" />
     <option name="compatibility:include-filter" value="net_test_performance" />
@@ -92,8 +92,9 @@
     <option name="compatibility:module-arg" value="net_test_bluetooth:enable:true" />
     <option name="compatibility:module-arg" value="net_test_bta:enable:true" />
     <option name="compatibility:module-arg" value="net_test_btcore:enable:true" />
-    <option name="compatibility:module-arg" value="net_test_btif_config_cache:enable:true" />
     <option name="compatibility:module-arg" value="net_test_btif:enable:true" />
+    <option name="compatibility:module-arg" value="net_test_btif_avrcp_audio_track:enable:true" />
+    <option name="compatibility:module-arg" value="net_test_btif_config_cache:enable:true" />
     <option name="compatibility:module-arg" value="net_test_btif_hf_client_service:enable:true" />
     <option name="compatibility:module-arg" value="net_test_btif_profile_queue:enable:true" />
     <option name="compatibility:module-arg" value="net_test_btif_rc:enable:true" />

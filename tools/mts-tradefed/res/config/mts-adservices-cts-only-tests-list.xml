@@ -13,9 +13,11 @@
 
 <configuration description="List CTS test modules of AdServices module. This is a placeholder xml instead of a runnable plan.">
     <option name="compatibility:include-filter" value="CtsAdIdEndToEndTest" />
+    <option name="compatibility:include-filter" value="CtsAdServicesCobaltTest" />
     <option name="compatibility:include-filter" value="CtsAdServicesCUJTestCases" />
     <option name="compatibility:include-filter" value="CtsAdServicesDebuggableDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdServicesDeviceTestCases" />
+    <option name="compatibility:include-filter" value="CtsAdServicesCustomAudienceTests" />
     <option name="compatibility:include-filter" value="CtsAdServicesEndToEndTestMeasurement" />
     <option name="compatibility:include-filter" value="CtsAdServicesEndToEndTests" />
     <option name="compatibility:include-filter" value="CtsAdServicesExtDataStorageServiceTest" />
@@ -39,9 +41,11 @@
 
 
     <option name="compatibility:module-arg" value="CtsAdIdEndToEndTest:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdServicesCobaltTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesCUJTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesDebuggableDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesDeviceTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdServicesCustomAudienceTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTestMeasurement:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesEndToEndTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesExtDataStorageServiceTest:enable:true" />
