@@ -21,10 +21,12 @@
     <include name="mts-core-tests-list-eng-only" />
     <include name="mts-dnsresolver-tests-list-eng-only" />
     <include name="mts-documentsUI-usedapi-tests-list-eng-only" />
+    <include name="mts-extservices-tests-list-eng-only" />
     <include name="mts-mediaprovider-tests-list-eng-only" />
     <include name="mts-network-tests-list-eng-only" />
     <include name="mts-rkpd-tests-list-eng-only" />
     <include name="mts-statsd-tests-list-eng-only" />
     <include name="mts-tethering-tests-list-eng-only" />
     <include name="mts-uwb-tests-list-eng-only" />
+    <include name="mts-extservices-tests-list-eng-only" />
 </configuration>
