@@ -76,6 +76,7 @@
     <option name="compatibility:module-arg" value="AdServicesServiceCoreUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesServiceCoreMeasurementUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesServiceCoreTopicsUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdServicesSharedLibrariesUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesUIUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdIdEndToEndTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdServicesCobaltTest:enable:true" />
