@@ -15,6 +15,8 @@
 
 COMPATIBILITY_TESTCASES_OUT_mts := $(HOST_OUT)/mts/android-mts/testcases
 COMPATIBILITY_TESTCASES_OUT_INCLUDE_MODULE_FOLDER_mts := true
+COMPATIBILITY_TESTCASES_OUT_mcts := $(HOST_OUT)/mcts/android-mts/testcases
+COMPATIBILITY_TESTCASES_OUT_INCLUDE_MODULE_FOLDER_mcts := true
 
 mts_modules :=
 mts_modules += \
@@ -48,10 +50,15 @@ mts_modules += \
                tethering \
                tzdata \
                uwb \
+               webviewbootstrap \
                wifi
 
 $(foreach module, $(mts_modules), \
-	$(eval COMPATIBILITY_TESTCASES_OUT_mts-$(module) := $(HOST_OUT)/mts-$(module)/android-mts-$(module)/testcases) \
+	$(eval COMPATIBILITY_TESTCASES_OUT_mts-$(module) := $(HOST_OUT)/mts-$(module)/android-mts/testcases) \
 	$(eval COMPATIBILITY_TESTCASES_OUT_INCLUDE_MODULE_FOLDER_mts-$(module) := true) \
 )
 
+$(foreach module, $(mts_modules), \
+	$(eval COMPATIBILITY_TESTCASES_OUT_mcts-$(module) := $(HOST_OUT)/mcts-$(module)/android-mts/testcases) \
+	$(eval COMPATIBILITY_TESTCASES_OUT_INCLUDE_MODULE_FOLDER_mcts-$(module) := true) \
+)
