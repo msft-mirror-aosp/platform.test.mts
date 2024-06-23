@@ -187,6 +187,7 @@
     <option name="compatibility:include-filter" value="art-run-test-2269-checker-constant-folding-instrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-2273-checker-unreachable-intrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-2274-checker-bitwise-gvn"/>
+    <option name="compatibility:include-filter" value="art-run-test-2275-integral-unsigned-arithmetic"/>
     <option name="compatibility:include-filter" value="art-run-test-300-package-override"/>
     <option name="compatibility:include-filter" value="art-run-test-301-abstract-protected"/>
     <option name="compatibility:include-filter" value="art-run-test-302-float-conversion"/>
@@ -469,6 +470,7 @@
     <option name="compatibility:include-filter" value="art-run-test-851-null-instanceof"/>
     <option name="compatibility:include-filter" value="art-run-test-853-checker-inlining"/>
     <option name="compatibility:include-filter" value="art-run-test-856-clone"/>
+    <option name="compatibility:include-filter" value="art-run-test-857-default-access"/>
     <option name="compatibility:include-filter" value="art-run-test-963-default-range-smali"/>
     <option name="compatibility:include-filter" value="art-run-test-965-default-verify"/>
     <option name="compatibility:include-filter" value="art-run-test-967-default-ame"/>
@@ -644,6 +646,7 @@
     <option name="compatibility:module-arg" value="art-run-test-2269-checker-constant-folding-instrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2273-checker-unreachable-intrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2274-checker-bitwise-gvn:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2275-integral-unsigned-arithmetic:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-300-package-override:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-301-abstract-protected:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-302-float-conversion:enable:true"/>
@@ -926,6 +929,7 @@
     <option name="compatibility:module-arg" value="art-run-test-851-null-instanceof:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-853-checker-inlining:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-856-clone:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-857-default-access:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-963-default-range-smali:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-965-default-verify:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-967-default-ame:enable:true"/>
