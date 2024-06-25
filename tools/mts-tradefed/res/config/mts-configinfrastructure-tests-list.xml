@@ -15,8 +15,9 @@
 -->
 <configuration description="List MTS configinfrastructure tests.">
     <option name="compatibility:include-filter" value="CtsDeviceConfigTestCases" />
-
     <option name="compatibility:include-filter" value="ConfigInfrastructureServiceUnitTests" />
+
     <!-- Enable MainlineTestModuleController. -->
     <option name="compatibility:module-arg" value="CtsDeviceConfigTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="ConfigInfrastructureServiceUnitTests:enable:true" />
 </configuration>
