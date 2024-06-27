@@ -22,6 +22,8 @@ import com.android.compatibility.common.tradefed.build.CompatibilityBuildProvide
 import com.android.tradefed.build.IBuildInfo;
 import com.android.tradefed.config.OptionSetter;
 import com.android.tradefed.util.FileUtil;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.junit.After;
 import org.junit.Before;
@@ -29,7 +31,30 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
+import com.google.common.base.Strings;
+
 import java.io.File;
+import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.InputStream;
+import java.io.Reader;
+import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.HashSet;
+import java.util.jar.JarEntry;
+import java.util.jar.JarFile;
+import java.util.List;
+import java.util.Set;
+import java.util.regex.Pattern;
+import java.util.zip.ZipEntry;
+
+import java.util.zip.ZipException;
+import java.util.zip.ZipInputStream;
+import java.util.zip.ZipOutputStream;
+
 
 /**
  * Tests for mts-tradefed.
@@ -42,6 +67,8 @@ public class MtsTradefedTest {
     private static final String SUITE_NAME = "MTS";
     private static final String SUITE_PLAN = "mts";
     private static final String DYNAMIC_CONFIG_URL = "";
+    private static final String REGEX_PATTERN_TEST_MODULE = "value=\\\"(.*)\\\"";
+    private static final String REGEX_PATTERN_CONFIG = "([^\\/]+)\\.config";
 
     private String mOriginalProperty = null;
 
@@ -76,5 +103,90 @@ public class MtsTradefedTest {
         assertEquals("Incorrect suite name", SUITE_NAME, helper.getSuiteName());
         FileUtil.recursiveDelete(root);
     }
-}
 
+    @Test
+    public void testModulesTaggedWithIncludeFilterLoad() throws Exception {
+        String mtsRootVar = "MTS_ROOT";
+        String suiteRoot = System.getProperty(mtsRootVar);
+        if (Strings.isNullOrEmpty(suiteRoot)) {
+            fail(String.format("Should run within a suite context: %s doesn't exist", mtsRootVar));
+        }
+        File testcases = new File(suiteRoot, "/android-mts/testcases/");
+        if (!testcases.exists()) {
+            fail(String.format("%s does not exist", testcases));
+            return;
+        }
+
+        // Get all the tests configs in the testcases/ folder
+        Set<File> listConfigs = FileUtil.findFilesObject(testcases, ".*\\.config");
+        assertTrue(listConfigs.size() > 0);
+
+        // Get all the test modules tagged with include-filter in tools/ folder
+        File tools = new File(suiteRoot, "/android-mts/tools/");
+
+        File mtsTestLists = new File(tools, "mts-tradefed.jar");
+        Set<String> testModules = getTestModulesTaggedWithIncludeFilterFromXML(mtsTestLists);
+        assertTrue(testModules.size() > 0);
+
+        Set<String> configs = new HashSet<String>();
+        for (File config : listConfigs) {
+          Pattern pattern = Pattern.compile(REGEX_PATTERN_CONFIG);
+          Matcher matcher = pattern.matcher(config.getName());
+          if (matcher.find()) {
+            String configName = matcher.group(1);
+            configs.add(configName);
+          }
+        }
+        for (String testModule : testModules) {
+          assertTrue(String.format("%s not in configs", testModule), configs.contains(testModule));
+        }
+    }
+
+    private Set<String> getTestModulesTaggedWithIncludeFilterFromXML(File jarFile)
+        throws ZipException, IOException {
+
+    Set<String> testModules = new HashSet<String>();
+
+    JarFile jar = new JarFile(jarFile);
+    // Getting the files into the jar
+    Enumeration<JarEntry> enumeration = jar.entries();
+
+    // Iterates into the files in the jar file
+    while (enumeration.hasMoreElements()) {
+      ZipEntry zipEntry = enumeration.nextElement();
+
+      if (zipEntry.getName().endsWith(".xml") && zipEntry.getName().contains("tests-list")) {
+        if (zipEntry.getName().contains("bluetooth") || zipEntry.getName().contains("smoke")) {
+          continue;
+        }
+        // Relative path of file into the jar.
+        String moduleTestList = zipEntry.getName();
+        InputStream inputStream = getClass().getClassLoader().getResourceAsStream(moduleTestList);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+        while (true) {
+          String s = reader.readLine();
+          if (s == null) {
+            break;
+          }
+          if (s.contains("compatibility:include-filter")) {
+            Pattern pattern = Pattern.compile(REGEX_PATTERN_TEST_MODULE);
+            Matcher matcher = pattern.matcher(s);
+            if (matcher.find()) {
+              String testModuleAndTestName = matcher.group(1);
+              if (testModuleAndTestName.contains(" ")) {
+                String testModuleName = testModuleAndTestName.substring(0, testModuleAndTestName.indexOf(' '));
+                testModules.add(testModuleName);
+              } else {
+                testModules.add(testModuleAndTestName.trim());
+              }
+            }
+          }
+        }
+        reader.close();
+        inputStream.close();
+      }
+    }
+    jar.close();
+    return testModules;
+  }
+}
