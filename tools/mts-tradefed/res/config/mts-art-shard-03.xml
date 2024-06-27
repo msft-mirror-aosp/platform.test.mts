@@ -17,5 +17,6 @@
 <configuration description="Run mts-art-shard-03 from a preexisting MTS installation.">
     <include name="mts"/>
     <include name="mts-art-tests-list-user-shard-03"/>
+    <include name="mts-art-tests-list-eng-only"/>
     <option name="plan" value="mts-art-shard-03"/>
 </configuration>
