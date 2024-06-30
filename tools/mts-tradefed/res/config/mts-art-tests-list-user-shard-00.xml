@@ -27,6 +27,7 @@
     <option name="compatibility:include-filter" value="art-run-test-009-instanceof"/>
     <option name="compatibility:include-filter" value="art-run-test-010-instance"/>
     <option name="compatibility:include-filter" value="art-run-test-011-array-copy"/>
+    <option name="compatibility:include-filter" value="art-run-test-011-array-copy2"/>
     <option name="compatibility:include-filter" value="art-run-test-012-math"/>
     <option name="compatibility:include-filter" value="art-run-test-013-math2"/>
     <option name="compatibility:include-filter" value="art-run-test-014-math3"/>
@@ -187,6 +188,7 @@
     <option name="compatibility:include-filter" value="art-run-test-2269-checker-constant-folding-instrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-2273-checker-unreachable-intrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-2274-checker-bitwise-gvn"/>
+    <option name="compatibility:include-filter" value="art-run-test-2275-checker-empty-loops"/>
     <option name="compatibility:include-filter" value="art-run-test-2275-integral-unsigned-arithmetic"/>
     <option name="compatibility:include-filter" value="art-run-test-300-package-override"/>
     <option name="compatibility:include-filter" value="art-run-test-301-abstract-protected"/>
@@ -486,6 +488,7 @@
     <option name="compatibility:module-arg" value="art-run-test-009-instanceof:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-010-instance:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-011-array-copy:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-011-array-copy2:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-012-math:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-013-math2:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-014-math3:enable:true"/>
@@ -646,6 +649,7 @@
     <option name="compatibility:module-arg" value="art-run-test-2269-checker-constant-folding-instrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2273-checker-unreachable-intrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2274-checker-bitwise-gvn:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2275-checker-empty-loops:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2275-integral-unsigned-arithmetic:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-300-package-override:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-301-abstract-protected:enable:true"/>
