@@ -16,13 +16,10 @@
 
 # Helper script for running unit tests for MTS harness
 
-CTS_DIR=$(dirname ${0})/../../../../../../cts
-source ${CTS_DIR}/test_defs.sh
+MTS_DIR=`dirname $0`/../etc
 
-JARS="
-    compatibility-common-util-hostsidelib\
-    compatibility-host-util\
-    mts-tradefed-tests\
-    mts-tradefed"
+${MTS_DIR}/mts-tradefed run singleCommand host -n \
+  --class com.android.compatibility.tradefed.MtsTradefedTest \
+  "$@"
 
-run_tests "com.android.compatibility.tradefed.MtsTradefedTest" "${JARS}" "${@}"
+
