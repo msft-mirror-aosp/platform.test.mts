@@ -130,9 +130,6 @@
 
     <!--Tests from CTS known faliures-->
 
-    <!-- b/38280830 -->
-    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.VideoDecoderPerfTest#testVp8Goog0Perf1280x0720" />
-
     <!-- Exclude cell broadcast module tests which are not unit tests -->
     <option name="compatibility:module-arg" value="CellBroadcastReceiverOemUnitTests:exclude-annotation:com.google.android.cellbroadcastreceiver.unit.InstrumentationTest" />
 
@@ -196,17 +193,8 @@
     <option name="compatibility:exclude-filter" value="DocumentsUIGoogleTests com.android.documentsui.files.ActionHandlerTest#testDocumentPicked_Recent_ManagesApks" />
     <option name="compatibility:exclude-filter" value="DocumentsUIGoogleTests com.android.documentsui.RecentsLoaderTests#testContentsUpdate_observable" />
 
-    <!-- b/144850069: MTS flaky test -->
-    <option name="compatibility:exclude-filter" value="MctsMediaStressTestCases android.mediastress.cts.H264R1080pAacLongPlayerTest#testPlay00" />
-
-    <!-- b/144656329: MTS flaky test -->
-    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.EncodeDecodeTest#testEncodeDecodeVideoFromBufferToBufferQVGA0" />
-
     <!-- b/144590142: MTS flaky test -->
     <option name="compatibility:exclude-filter" value="MctsMediaDecoderTestCases android.media.decoder.cts.DecoderTest#testVP8Decode640x360" />
-
-    <!-- b/144590245: MTS flaky test -->
-    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.VideoEncoderTest#testGoogH264FlexNearMaxMax" />
 
     <!-- b/142976793: MTS flaky test -->
     <option name="compatibility:exclude-filter" value="MctsMediaDecoderTestCases android.media.decoder.cts.DecoderTest#testDecodeMonoOggMp4" />

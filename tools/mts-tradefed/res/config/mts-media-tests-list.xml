@@ -54,9 +54,7 @@
     <option name="compatibility:module-arg" value="MctsMediaParserTestCases:instrumentation-arg:mts-media:=true" />
     <option name="compatibility:module-arg" value="MctsMediaParserTestCases:instrumentation-arg:media-testing-mode:=mts" />
 
-    <option name="compatibility:include-filter" value="MctsMediaStressTestCases" />
-    <option name="compatibility:module-arg" value="MctsMediaStressTestCases:instrumentation-arg:mts-media:=true" />
-    <option name="compatibility:module-arg" value="MctsMediaStressTestCases:instrumentation-arg:media-testing-mode:=mts" />
+    <!-- b/344653352 dropped MctsMediaStressTestCases -->
 
     <option name="compatibility:include-filter" value="MctsMediaTranscodingTestCases" />
     <option name="compatibility:module-arg" value="MctsMediaTranscodingTestCases:instrumentation-arg:mts-media:=true" />
@@ -66,9 +64,6 @@
     <option name="compatibility:exclude-filter" value="MctsMediaCodecTestCases android.media.codec.cts.MediaCodecCapabilitiesTest#testGetMaxSupportedInstances" />
 
     <!--Exclude some tests with known CTS failures-->
-
-    <!-- b/38224690 -->
-    <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.NativeEncoderTest" />
 
     <!-- b/38280830 -->
     <option name="compatibility:exclude-filter" value="MctsMediaDecoderTestCases android.media.decoder.cts.VideoDecoderPerfTest#testVp8Goog0Perf1280x0720" />
