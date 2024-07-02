@@ -44,12 +44,12 @@
     <!-- <option name="compatibility:module-arg" value="CtsScopedStoragePublicVolumeHostTest:enable:true" /> -->
     <option name="compatibility:module-arg" value="CtsAppCloningHostTest:enable:true" />
     <option name="compatibility:module-arg" value="MediaProviderTests:enable:true" />
+    <option name="compatibility:module-arg" value="PhotopickerTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsMediaProviderTranscodeTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsPhotoPickerTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAppCloningMediaProviderHostTest:enable:true" />
 
-    <!-- Enable PdfViewer tests to use 
-    MainlineTestModuleController -->
+    <!-- Enable PdfViewer tests to use MainlineTestModuleController -->
     <option name="compatibility:module-arg" value="CtsPdfModuleTestCases:enable:true" />
 
 </configuration>
