@@ -193,9 +193,6 @@
     <option name="compatibility:exclude-filter" value="DocumentsUIGoogleTests com.android.documentsui.files.ActionHandlerTest#testDocumentPicked_Recent_ManagesApks" />
     <option name="compatibility:exclude-filter" value="DocumentsUIGoogleTests com.android.documentsui.RecentsLoaderTests#testContentsUpdate_observable" />
 
-    <!-- b/144850069: MTS flaky test -->
-    <option name="compatibility:exclude-filter" value="MctsMediaStressTestCases android.mediastress.cts.H264R1080pAacLongPlayerTest#testPlay00" />
-
     <!-- b/144590142: MTS flaky test -->
     <option name="compatibility:exclude-filter" value="MctsMediaDecoderTestCases android.media.decoder.cts.DecoderTest#testVP8Decode640x360" />
 
