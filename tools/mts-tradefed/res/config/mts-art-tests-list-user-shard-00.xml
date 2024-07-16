@@ -190,6 +190,7 @@
     <option name="compatibility:include-filter" value="art-run-test-2274-checker-bitwise-gvn"/>
     <option name="compatibility:include-filter" value="art-run-test-2275-checker-empty-loops"/>
     <option name="compatibility:include-filter" value="art-run-test-2275-integral-unsigned-arithmetic"/>
+    <option name="compatibility:include-filter" value="art-run-test-2278-nested-loops"/>
     <option name="compatibility:include-filter" value="art-run-test-300-package-override"/>
     <option name="compatibility:include-filter" value="art-run-test-301-abstract-protected"/>
     <option name="compatibility:include-filter" value="art-run-test-302-float-conversion"/>
@@ -651,6 +652,7 @@
     <option name="compatibility:module-arg" value="art-run-test-2274-checker-bitwise-gvn:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2275-checker-empty-loops:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2275-integral-unsigned-arithmetic:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2278-nested-loops:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-300-package-override:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-301-abstract-protected:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-302-float-conversion:enable:true"/>
