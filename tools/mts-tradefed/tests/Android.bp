@@ -32,3 +32,19 @@ java_library_host {
         "suite-loading-tests",
     ],
 }
+
+java_library_host {
+    name: "mcts-tradefed-tests",
+
+    srcs: ["src/**/*.java"],
+
+    libs: [
+        "tradefed",
+        "mcts-tradefed",
+    ],
+
+    static_libs: [
+        // Import common validation tests
+        "suite-loading-tests",
+    ],
+}
