@@ -15,7 +15,7 @@
 
 COMPATIBILITY_TESTCASES_OUT_mts := $(HOST_OUT)/mts/android-mts/testcases
 COMPATIBILITY_TESTCASES_OUT_INCLUDE_MODULE_FOLDER_mts := true
-COMPATIBILITY_TESTCASES_OUT_mcts := $(HOST_OUT)/mcts/android-mts/testcases
+COMPATIBILITY_TESTCASES_OUT_mcts := $(HOST_OUT)/mcts/android-mcts/testcases
 COMPATIBILITY_TESTCASES_OUT_INCLUDE_MODULE_FOLDER_mcts := true
 
 # A list of MCTS modules that should not be removed from CTS
