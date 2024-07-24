@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2020 The Android Open Source Project
+<!-- Copyright (C) 2024 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,8 +13,12 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List MTS DocumentsUI tests.">
-    <option name="compatibility:include-filter" value="DocumentsUIGoogleTests" />
-    <option name="compatibility:include-filter" value="DocumentsUIUnitTests" />
-    <option name="compatibility:include-filter" value="CtsStorageAccessTestCases" />
+<configuration description="Runs MTS-webviewbootstrap from a pre-existing MTS installation">
+
+    <include name="mts" />
+
+    <include name="mts-webviewbootstrap-tests-list" />
+
+    <option name="plan" value="mts-webviewbootstrap" />
+
 </configuration>

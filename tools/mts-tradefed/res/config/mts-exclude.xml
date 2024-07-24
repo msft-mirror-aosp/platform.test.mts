@@ -137,14 +137,14 @@
     <option name="compatibility:exclude-filter" value="CtsMediaTestCases android.media.cts.VideoDecoderPerfTest#testVp8Goog0Perf1280x0720" />
 
     <!-- Exclude tests that are not related to media mainlines -->
-    <option name="compatibility:module-arg" value="CtsMediaCodecTestCases:exclude-annotation:android.media.cts.NonMediaMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaDecoderTestCases:exclude-annotation:android.media.cts.NonMediaMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaEncoderTestCases:exclude-annotation:android.media.cts.NonMediaMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaExtractorTestCases:exclude-annotation:android.media.cts.NonMediaMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaMiscTestCases:exclude-annotation:android.media.cts.NonMediaMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaPlayerTestCases:exclude-annotation:android.media.cts.NonMediaMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaV2TestCases:exclude-annotation:android.mediav2.cts.NonMediaMainlineTest" />
-    <option name="compatibility:module-arg" value="CtsMediaStressTestCases:exclude-annotation:android.mediastress.cts.NonMediaMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaCodecTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaDecoderTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaEncoderTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaExtractorTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaMiscTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaPlayerTestCases:exclude-annotation:com.android.compatibility.common.util.NonMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaV2TestCases:exclude-annotation:android.compatibility.common.util.NonMainlineTest" />
+    <option name="compatibility:module-arg" value="CtsMediaStressTestCases:exclude-annotation:android.compatibility.common.util.NonMainlineTest" />
 
     <!-- Exclude cell broadcast module tests which are not unit tests -->
     <option name="compatibility:module-arg" value="CellBroadcastReceiverOemUnitTests:exclude-annotation:com.google.android.cellbroadcastreceiver.unit.InstrumentationTest" />
