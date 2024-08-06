@@ -57,7 +57,6 @@
     <option name="compatibility:include-filter" value="AdExtServicesServiceCoreAppsetIdUnitTests" />
     <option name="compatibility:include-filter" value="AdExtServicesServiceCoreCommonUnitTests" />
     <option name="compatibility:include-filter" value="AdExtServicesServiceCoreMeasurementUnitTests" />
-    <option name="compatibility:include-filter" value="AdExtServicesServiceCoreProtectedAudienceUnitTests" />
     <option name="compatibility:include-filter" value="AdExtServicesServiceCoreTopicsUnitTests" />
     <option name="compatibility:include-filter" value="AdExtServicesServiceCoreUnitTests" />
     <option name="compatibility:include-filter" value="AdExtServicesUIUnitTests" />
@@ -109,7 +108,6 @@
     <option name="compatibility:module-arg" value="AdExtServicesServiceCoreAppsetIdUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesServiceCoreCommonUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesServiceCoreMeasurementUnitTests:enable:true" />
-    <option name="compatibility:module-arg" value="AdExtServicesServiceCoreProtectedAudienceUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesServiceCoreTopicsUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesServiceCoreUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesUIUnitTests:enable:true" />
