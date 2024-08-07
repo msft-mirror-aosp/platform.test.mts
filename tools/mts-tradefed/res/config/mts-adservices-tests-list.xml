@@ -27,6 +27,7 @@
     <option name="compatibility:include-filter" value="AdServicesServiceCoreCommonUnitTests" />
     <option name="compatibility:include-filter" value="AdServicesServiceCoreUnitTests" />
     <option name="compatibility:include-filter" value="AdServicesServiceCoreMeasurementUnitTests" />
+    <option name="compatibility:include-filter" value="AdServicesServiceCoreProtectedAudienceUnitTests" />
     <option name="compatibility:include-filter" value="AdServicesServiceCoreTopicsUnitTests" />
     <option name="compatibility:include-filter" value="AdServicesUIUnitTests" />
     <option name="compatibility:include-filter" value="CtsAdIdEndToEndTest" />
@@ -75,6 +76,7 @@
     <option name="compatibility:module-arg" value="AdServicesServiceCoreCommonUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesServiceCoreUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesServiceCoreMeasurementUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="AdServicesServiceCoreProtectedAudienceUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesServiceCoreTopicsUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesSharedLibrariesUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdServicesUIUnitTests:enable:true" />
