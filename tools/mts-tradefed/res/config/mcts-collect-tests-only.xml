@@ -17,7 +17,7 @@
 
 <option name="plan" value="mcts-collect-tests-only" />
 
-<include name="mcts" />
+<include name="mcts-all" />
 
 <option name="compatibility:collect-tests-only" value="true" />
 </configuration>
