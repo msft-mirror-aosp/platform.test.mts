@@ -14,8 +14,8 @@
      limitations under the License.
 -->
 <configuration description="List MTS api tests used by documentsUI.">
-    <option name="compatibility:include-filter" value="CtsContentTestCases android.content.cts.ContextTest#testCreatePackageContextAsUser" />
-    <option name="compatibility:include-filter" value="CtsContentTestCases android.content.cts.ContextTest#testStartActivityAsUser" />
+    <option name="compatibility:include-filter" value="CtsDocumentContentTestCases android.content.cts.DocumentsUIUsedContentApiTest#testCreatePackageContextAsUser" />
+    <option name="compatibility:include-filter" value="CtsDocumentContentTestCases android.content.cts.DocumentsUIUsedContentApiTest#testStartActivityAsUser" />
     <option name="compatibility:include-filter" value="CtsProviderTestCases android.provider.cts.DocumentsContractTest#testGetDocumentThumbnail" />
     <option name="compatibility:include-filter" value="CtsProviderTestCases android.provider.cts.DocumentsContractTest#testManageMode" />
 </configuration>
