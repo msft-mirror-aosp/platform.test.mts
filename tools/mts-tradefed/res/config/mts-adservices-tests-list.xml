@@ -104,6 +104,7 @@
     <option name="compatibility:module-arg" value="CtsSandboxedTopicsManagerTests:enable:true" />
 
     <option name="compatibility:module-arg" value="SdkSandboxManagerTests:enable:true" />
+    <option name="compatibility:module-arg" value="SdkSandboxManagerDisabledTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsSdkSandboxHostSideTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsSdkSandboxInprocessTests:enable:true" />
     <option name="compatibility:module-arg" value="SdkSandboxManagerServiceUnitTests:enable:true" />
