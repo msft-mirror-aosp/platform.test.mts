@@ -28,6 +28,7 @@
     <option name="compatibility:include-filter" value="AdServicesServiceCoreUnitTests" />
     <option name="compatibility:include-filter" value="AdServicesServiceCoreMeasurementUnitTests" />
     <option name="compatibility:include-filter" value="AdServicesServiceCoreTopicsUnitTests" />
+    <option name="compatibility:include-filter" value="AdServicesSharedLibrariesUnitTests" />
     <option name="compatibility:include-filter" value="AdServicesUIUnitTests" />
     <option name="compatibility:include-filter" value="CtsAdIdEndToEndTest" />
     <option name="compatibility:include-filter" value="CtsAdServicesCobaltTest" />
