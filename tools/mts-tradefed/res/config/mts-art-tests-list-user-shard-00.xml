@@ -64,6 +64,7 @@
     <option name="compatibility:include-filter" value="art-run-test-052-verifier-fun"/>
     <option name="compatibility:include-filter" value="art-run-test-053-wait-some"/>
     <option name="compatibility:include-filter" value="art-run-test-055-enum-performance"/>
+    <option name="compatibility:include-filter" value="art-run-test-057-math-intrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-058-enum-order"/>
     <option name="compatibility:include-filter" value="art-run-test-059-finalizer-throw"/>
     <option name="compatibility:include-filter" value="art-run-test-061-out-of-memory"/>
@@ -185,7 +186,7 @@
     <option name="compatibility:include-filter" value="art-run-test-2265-checker-select-binary-unary"/>
     <option name="compatibility:include-filter" value="art-run-test-2266-checker-remove-empty-ifs"/>
     <option name="compatibility:include-filter" value="art-run-test-2268-checker-remove-dead-phis"/>
-    <option name="compatibility:include-filter" value="art-run-test-2269-checker-constant-folding-instrinsics"/>
+    <option name="compatibility:include-filter" value="art-run-test-2269-checker-constant-folding-intrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-2273-checker-unreachable-intrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-2274-checker-bitwise-gvn"/>
     <option name="compatibility:include-filter" value="art-run-test-2275-checker-empty-loops"/>
@@ -528,6 +529,7 @@
     <option name="compatibility:module-arg" value="art-run-test-052-verifier-fun:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-053-wait-some:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-055-enum-performance:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-057-math-intrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-058-enum-order:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-059-finalizer-throw:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-061-out-of-memory:enable:true"/>
@@ -649,7 +651,7 @@
     <option name="compatibility:module-arg" value="art-run-test-2265-checker-select-binary-unary:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2266-checker-remove-empty-ifs:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2268-checker-remove-dead-phis:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-2269-checker-constant-folding-instrinsics:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2269-checker-constant-folding-intrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2273-checker-unreachable-intrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2274-checker-bitwise-gvn:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2275-checker-empty-loops:enable:true"/>
