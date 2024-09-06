@@ -15,6 +15,8 @@
     <option name="compatibility:include-filter"
             value="CtsOnDevicePersonalizationE2ETests" />
     <option name="compatibility:include-filter"
+            value="CtsOnDevicePersonalizationConfigTests" />
+    <option name="compatibility:include-filter"
             value="FrameworkOnDevicePersonalizationTests" />
     <option name="compatibility:include-filter"
             value="OnDevicePersonalizationManagingServicesTests" />
@@ -28,6 +30,7 @@
             value="FederatedComputeServicesTests" />
 
     <option name="compatibility:module-arg" value="CtsOnDevicePersonalizationE2ETests:enable:true" />
+    <option name="compatibility:module-arg" value="CtsOnDevicePersonalizationConfigTests:enable:true" />
     <option name="compatibility:module-arg" value="FrameworkOnDevicePersonalizationTests:enable:true" />
     <option name="compatibility:module-arg" value="OnDevicePersonalizationManagingServicesTests:enable:true" />
     <option name="compatibility:module-arg" value="OnDevicePersonalizationPluginTests:enable:true" />
