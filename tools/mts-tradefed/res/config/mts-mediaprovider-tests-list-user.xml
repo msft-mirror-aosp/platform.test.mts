@@ -27,6 +27,7 @@
     <option name="compatibility:include-filter" value="CtsAppCloningHostTest" />
     <option name="compatibility:include-filter" value="MediaProviderTests" />
     <option name="compatibility:include-filter" value="CtsMediaProviderTranscodeTests" />
+    <option name="compatibility:include-filter" value="PhotopickerTests" />
     <option name="compatibility:include-filter" value="CtsPhotoPickerTest" />
     <option name="compatibility:include-filter" value="CtsAppCloningMediaProviderHostTest" />
 
