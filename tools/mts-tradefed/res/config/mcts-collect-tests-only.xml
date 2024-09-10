@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2023 The Android Open Source Project
+<!-- Copyright (C) 2024 The Android Open Source Project.
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,16 +13,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS multi device test from a pre-existing MTS installation">
+<configuration description="Collect all the CTS tests without actually running them">
 
-    <include name="mts" />
+<option name="plan" value="mcts-collect-tests-only" />
 
-    <option name="plan" value="mts-multi-device" />
+<include name="mcts" />
 
-    <!-- multi device test cases only-->
-    <option name="multi-devices-modules" value="ONLY_MULTI_DEVICES" />
-
-    <!-- Enable multi-devices automatically, and limit MTS to 2 devices -->
-    <option name="replicate-parent-setup" value="true" />
-    <option name="multi-device-count" value="2" />
+<option name="compatibility:collect-tests-only" value="true" />
 </configuration>

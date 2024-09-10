@@ -27,9 +27,11 @@
 
     <!-- for AdServices -->
     <option name="compatibility:include-filter" value="CtsAdExtServicesAdIdEndToEndTest" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesAdServicesCobaltTest" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesAppSetIdEndToEndTest" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesDebuggableDeviceTestCases" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesDeviceTestCases" />
+    <option name="compatibility:include-filter" value="CtsAdExtServicesCustomAudienceTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTestMeasurement" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesEndToEndTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesExtDataStorageServiceTest" />
@@ -49,9 +51,11 @@
 
     <!-- AdServices -->
     <option name="compatibility:module-arg" value="CtsAdExtServicesAdIdEndToEndTest:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesAdServicesCobaltTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesAppSetIdEndToEndTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesDebuggableDeviceTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesDeviceTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="CtsAdExtServicesCustomAudienceTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesEndToEndTestMeasurement:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesEndToEndTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesExtDataStorageServiceTest:enable:true" />
