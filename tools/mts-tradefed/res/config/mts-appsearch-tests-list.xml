@@ -19,6 +19,7 @@
     <option name="compatibility:include-filter" value="AppSearchCoreTests" />
     <option name="compatibility:include-filter" value="AppSearchServicesTests" />
     <option name="compatibility:include-filter" value="AppSearchMockingServicesTests" />
+    <option name="compatibility:include-filter" value="AppsIndexerTests" />
     <option name="compatibility:include-filter" value="ContactsIndexerTests" />
     <option name="compatibility:include-filter" value="CtsAppSearchTestCases" />
     <option name="compatibility:include-filter" value="CtsAppSearchHostTestCases" />
@@ -26,6 +27,7 @@
     <option name="compatibility:module-arg" value="AppSearchCoreTests:enable:true" />
     <option name="compatibility:module-arg" value="AppSearchServicesTests:enable:true" />
     <option name="compatibility:module-arg" value="AppSearchMockingServicesTests:enable:true" />
+    <option name="compatibility:module-arg" value="AppsIndexerTests:enable:true" />
     <option name="compatibility:module-arg" value="ContactsIndexerTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAppSearchTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsAppSearchHostTestCases:enable:true" />
