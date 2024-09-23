@@ -34,6 +34,6 @@
       <option name="compatibility:module-arg" value="CtsHealthFitnessShowMigrationInfoIntentAbsentTests:enable:true" />
       <option name="compatibility:module-arg" value="HealthFitnessIntegrationBackupRestoreTests:enable:true" />
       <option name="compatibility:module-arg" value="HealthFitnessIntegrationExportImportTests:enable:true" />
-      <option name="compatibility:module" value="CtsHealthConnectHostSideDeviceTestCases:enable:true" />
+      <option name="compatibility:module-arg" value="CtsHealthConnectHostSideDeviceTestCases:enable:true" />
 
 </configuration>
