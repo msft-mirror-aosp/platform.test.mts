@@ -26,7 +26,6 @@
     <include name="mts-documentsUI-usedapi-tests-list" />
     <include name="mts-extservices-tests-list-user" />
     <include name="mts-healthfitness-tests-list" />
-    <include name="mts-linkerconfig-tests-list" />
     <include name="mts-ipsec-tests-list" />
     <include name="mts-media-tests-list" />
     <include name="mts-mediaprovider-tests-list-user" />
