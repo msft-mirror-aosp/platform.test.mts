@@ -14,6 +14,7 @@
      limitations under the License.
 -->
 <configuration description="List all tests that do not need root access in active test plans.">
+    <include name="mts-adservices-tests-list" />
     <include name="mts-appsearch-tests-list" />
     <include name="mts-art-tests-list-user" />
     <include name="mts-art-extra-tests-list-user" />
@@ -32,6 +33,7 @@
     <include name="mts-mediaprovider-tests-list-user" />
     <include name="mts-network-tests-list-user" />
     <include name="mts-neuralnetworks-tests-list" />
+    <include name="mts-ondevicepersonalization-tests-list" />
     <include name="mts-permission-tests-list-oem" />
     <include name="mts-preload-verify-tests-list" />
     <include name="mts-rkpd-tests-list-user" />
