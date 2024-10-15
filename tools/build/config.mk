@@ -45,6 +45,7 @@ mts_modules += \
                mediaprovider \
                networking \
                neuralnetworks \
+               nfc \
                ondevicepersonalization \
                permission \
                rkpd \
