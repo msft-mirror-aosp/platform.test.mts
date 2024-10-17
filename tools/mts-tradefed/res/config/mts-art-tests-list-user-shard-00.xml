@@ -477,6 +477,8 @@
     <option name="compatibility:include-filter" value="art-run-test-853-checker-inlining"/>
     <option name="compatibility:include-filter" value="art-run-test-856-clone"/>
     <option name="compatibility:include-filter" value="art-run-test-857-default-access"/>
+    <option name="compatibility:include-filter" value="art-run-test-858-checker-unsafe"/>
+    <option name="compatibility:include-filter" value="art-run-test-859-checker-var-handles-intrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-963-default-range-smali"/>
     <option name="compatibility:include-filter" value="art-run-test-965-default-verify"/>
     <option name="compatibility:include-filter" value="art-run-test-967-default-ame"/>
@@ -942,6 +944,8 @@
     <option name="compatibility:module-arg" value="art-run-test-853-checker-inlining:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-856-clone:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-857-default-access:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-858-checker-unsafe:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-859-checker-var-handles-intrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-963-default-range-smali:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-965-default-verify:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-967-default-ame:enable:true"/>
