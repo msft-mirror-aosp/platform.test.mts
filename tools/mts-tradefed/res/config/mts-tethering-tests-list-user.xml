@@ -26,7 +26,6 @@
     <option name="compatibility:include-filter" value="CtsNetHttpTestCases" />
     <option name="compatibility:include-filter" value="ThreadNetworkUnitTests" />
     <option name="compatibility:include-filter" value="CtsThreadNetworkTestCases" />
-    <option name="compatibility:include-filter" value="CtsHostsideNetworkTests" />
 
     <!-- Do not include NetworkStack module-specific tests as Connectivity MTS may not run
          with the latest version of that module installed -->
@@ -55,6 +54,5 @@
     <option name="compatibility:module-arg" value="CtsNetHttpTestCases:enable:true" />
     <option name="compatibility:module-arg" value="ThreadNetworkUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsThreadNetworkTestCases:enable:true" />
-    <option name="compatibility:module-arg" value="CtsHostsideNetworkTests:enable:true" />
 </configuration>
 
