@@ -21,6 +21,7 @@ COMPATIBILITY_TESTCASES_OUT_INCLUDE_MODULE_FOLDER_mcts := true
 # A list of MCTS modules that should not be removed from CTS
 mcts_whitelist :=
 mcts_whitelist += CtsBackupHostTestCases
+mcts_whitelist += net-tests-utils-host-common
 
 mts_modules :=
 mts_modules += \
