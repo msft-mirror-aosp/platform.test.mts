@@ -22,6 +22,8 @@ COMPATIBILITY_TESTCASES_OUT_INCLUDE_MODULE_FOLDER_mcts := true
 mcts_whitelist :=
 mcts_whitelist += CtsBackupHostTestCases
 mcts_whitelist += net-tests-utils-host-common
+mcts_whitelist += cts-dalvik-host-test-runner
+mcts_whitelist += compatibility-host-provider-preconditions
 
 mts_modules :=
 mts_modules += \
