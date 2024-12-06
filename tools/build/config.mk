@@ -34,6 +34,7 @@ mts_modules += \
                cellbroadcast \
                configinfrastructure \
                conscrypt \
+               crashrecovery \
                cronet \
                dnsresolver \
                documentsui \
@@ -45,6 +46,7 @@ mts_modules += \
                mediaprovider \
                networking \
                neuralnetworks \
+               nfc \
                ondevicepersonalization \
                permission \
                profiling \

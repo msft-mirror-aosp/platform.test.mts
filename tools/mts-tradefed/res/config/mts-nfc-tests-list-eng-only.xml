@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2021 The Android Open Source Project
+<!-- Copyright (C) 2024 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,11 +13,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs MTS-linkerconfig from a pre-existing MTS installation">
-  <include name="mts" />
 
-  <include name="mts-linkerconfig-tests-list" />
+<configuration description="List of NFC MTS tests that need root access.">
+    <option name="compatibility:include-filter" value="libnfc-nci-tests" />
+    <option name="compatibility:include-filter" value="libnfc-nci-jni-tests" />
 
-  <option name="plan" value="mts-linkerconfig" />
-
+    <option name="compatibility:module-arg" value="libnfc-nci-tests:enable:true" />
+    <option name="compatibility:module-arg" value="libnfc-nci-jni-tests:enable:true" />
 </configuration>
