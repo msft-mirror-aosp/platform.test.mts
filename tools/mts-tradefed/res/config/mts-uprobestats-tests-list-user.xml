@@ -1,0 +1,5 @@
+<configuration description="List of uprobestats MTS tests that don't need root access.">
+
+    <option name="compatibility:include-filter" value="CtsStatsdAtomHostTestCases android.cts.statsdatom.perf.UprobeStatsTest" />
+
+</configuration>
