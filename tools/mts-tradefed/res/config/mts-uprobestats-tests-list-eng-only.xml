@@ -1,0 +1,8 @@
+<configuration description="List of uprobestats MTS tests that need root access.">
+
+    <option name="compatibility:include-filter" value="uprobestats-test test.SmokeTest" />
+
+    <!-- use MainlineTestModuleController -->
+    <option name="compatibility:module-arg" value="uprobestats-test:enable:true" />
+
+</configuration>
