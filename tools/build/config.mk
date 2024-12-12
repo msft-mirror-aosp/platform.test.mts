@@ -56,6 +56,7 @@ mts_modules += \
                statsd \
                tethering \
                tzdata \
+               uprobestats \
                uwb \
                webviewbootstrap \
                wifi
