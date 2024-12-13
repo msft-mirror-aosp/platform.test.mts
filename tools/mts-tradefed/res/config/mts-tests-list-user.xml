@@ -43,6 +43,7 @@
     <include name="mts-statsd-tests-list-user" />
     <include name="mts-tethering-tests-list-user" />
     <include name="mts-tzdata-tests-list" />
+    <!-- TODO: Enable when 25Q2 is next. include name="mts-uprobestats-tests-list-user" / -->
     <include name="mts-uwb-tests-list-user" />
     <include name="mts-wifi-oem-tests-list" />
 

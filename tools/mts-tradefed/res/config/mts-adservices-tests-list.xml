@@ -117,5 +117,5 @@
     <option name="compatibility:module-arg" value="SdkSandboxManagerTests:enable:true" />
     <option name="compatibility:module-arg" value="SdkSandboxManagerServiceUnitTest:enable:trues" />
     <option name="compatibility:module-arg" value="SdkSandboxRestrictionsTests:enable:true" />
-    <option name="compatibility:module-argr" value="SdkSandboxUnitTests:enable:true" />
+    <option name="compatibility:module-arg" value="SdkSandboxUnitTests:enable:true" />
 </configuration>
