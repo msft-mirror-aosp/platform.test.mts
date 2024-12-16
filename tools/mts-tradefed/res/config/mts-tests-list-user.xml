@@ -23,6 +23,7 @@
     <include name="mts-conscrypt-tests-list-user" />
     <include name="mts-core-tests-list-user" />
     <include name="mts-dnsresolver-tests-list-user" />
+    <!-- TODO: Enable when 25Q2 is next. include name="mts-crashrecovery-tests-list-user" / -->
     <include name="mts-documentsUI-oem-tests-list" />
     <include name="mts-documentsUI-usedapi-tests-list" />
     <include name="mts-extservices-tests-list-user" />
@@ -42,6 +43,7 @@
     <include name="mts-statsd-tests-list-user" />
     <include name="mts-tethering-tests-list-user" />
     <include name="mts-tzdata-tests-list" />
+    <!-- TODO: Enable when 25Q2 is next. include name="mts-uprobestats-tests-list-user" / -->
     <include name="mts-uwb-tests-list-user" />
     <include name="mts-wifi-oem-tests-list" />
 
