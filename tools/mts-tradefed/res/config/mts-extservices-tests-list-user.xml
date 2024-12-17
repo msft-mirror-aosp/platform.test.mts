@@ -66,7 +66,6 @@
     <option name="compatibility:include-filter" value="AdExtServicesServiceCoreTopicsUnitTests" />
     <option name="compatibility:include-filter" value="AdExtServicesServiceCoreUnitTests" />
     <option name="compatibility:include-filter" value="AdExtServicesUIUnitTests" />
-    <option mame="compatibility:include-filter" value="AdExtServicesTestUtilityTests" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesAdIdEndToEndTest" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesAdIdRvcEndToEndTest" />
     <option name="compatibility:include-filter" value="CtsAdExtServicesAdServicesCobaltTest" />
@@ -126,7 +125,6 @@
     <option name="compatibility:module-arg" value="AdExtServicesServiceCoreProtectedAudienceUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesServiceCoreTopicsUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesServiceCoreUnitTests:enable:true" />
-    <option name="compatibility:module-arg" value="AdExtServicesTestUtilityTests:enable:true" />
     <option name="compatibility:module-arg" value="AdExtServicesUIUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesAdIdEndToEndTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAdExtServicesAdIdRvcEndToEndTest:enable:true" />
