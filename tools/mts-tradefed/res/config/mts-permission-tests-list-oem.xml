@@ -21,6 +21,8 @@
     <option name="compatibility:include-filter" value="PermissionControllerMockingTests" />
     <option name="compatibility:include-filter" value="PermissionControllerOutOfProcessTests" />
     <option name="compatibility:include-filter" value="PermissionUiTestCases" />
+    <option name="compatibility:include-filter" value="CtsPermissionMultiDeviceTestCases" />
+    <option name="compatibility:include-filter" value="CtsPermissionMultiUserTestCases" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.AccessibilityPrivacySourceTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.BackgroundPermissionsTest" />
     <option name="compatibility:include-filter" value="CtsPermissionTestCases android.permission.cts.LocationAccessCheckTest" />

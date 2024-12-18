@@ -15,7 +15,7 @@
 -->
 <configuration description="MTS test list for Mediaprovider tests not need root access.">
 
-    <option name="compatibility:include-filter" value="CtsProviderTestCases android.provider.cts.media." />
+    <option name="compatibility:include-filter" value="CtsMediaProviderTestCases" />
     <option name="compatibility:include-filter" value="CtsScopedStorageCoreHostTest" />
     <option name="compatibility:include-filter" value="CtsScopedStorageHostTest" />
     <option name="compatibility:include-filter" value="CtsScopedStorageDeviceOnlyTest" />
@@ -27,11 +27,15 @@
     <option name="compatibility:include-filter" value="CtsAppCloningHostTest" />
     <option name="compatibility:include-filter" value="MediaProviderTests" />
     <option name="compatibility:include-filter" value="CtsMediaProviderTranscodeTests" />
+    <option name="compatibility:include-filter" value="PhotopickerTests" />
     <option name="compatibility:include-filter" value="CtsPhotoPickerTest" />
     <option name="compatibility:include-filter" value="CtsAppCloningMediaProviderHostTest" />
 
+    <!-- PdfViewer tests -->
+    <option name="compatibility:include-filter" value="CtsPdfModuleTestCases" />
+
     <!-- Enable Mediaprovider MTS tests to use MainlineTestModuleController -->
-    <!-- MainlineTestModuleController is disabled for CtsProviderTestCases because the test is shared by DocumentUI (Q-intro module) and MediaProvider -->
+    <option name="compatibility:module-arg" value="CtsMediaProviderTestCases:enable:true" />
     <option name="compatibility:module-arg" value="CtsScopedStorageCoreHostTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsScopedStorageHostTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsScopedStorageDeviceOnlyTest:enable:true" />
@@ -41,8 +45,12 @@
     <!-- <option name="compatibility:module-arg" value="CtsScopedStoragePublicVolumeHostTest:enable:true" /> -->
     <option name="compatibility:module-arg" value="CtsAppCloningHostTest:enable:true" />
     <option name="compatibility:module-arg" value="MediaProviderTests:enable:true" />
+    <option name="compatibility:module-arg" value="PhotopickerTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsMediaProviderTranscodeTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsPhotoPickerTest:enable:true" />
     <option name="compatibility:module-arg" value="CtsAppCloningMediaProviderHostTest:enable:true" />
+
+    <!-- Enable PdfViewer tests to use MainlineTestModuleController -->
+    <option name="compatibility:module-arg" value="CtsPdfModuleTestCases:enable:true" />
 
 </configuration>

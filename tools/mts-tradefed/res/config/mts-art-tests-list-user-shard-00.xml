@@ -186,7 +186,7 @@
     <option name="compatibility:include-filter" value="art-run-test-2265-checker-select-binary-unary"/>
     <option name="compatibility:include-filter" value="art-run-test-2266-checker-remove-empty-ifs"/>
     <option name="compatibility:include-filter" value="art-run-test-2268-checker-remove-dead-phis"/>
-    <option name="compatibility:include-filter" value="art-run-test-2269-checker-constant-folding-instrinsics"/>
+    <option name="compatibility:include-filter" value="art-run-test-2269-checker-constant-folding-intrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-2273-checker-unreachable-intrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-2274-checker-bitwise-gvn"/>
     <option name="compatibility:include-filter" value="art-run-test-2275-checker-empty-loops"/>
@@ -194,6 +194,8 @@
     <option name="compatibility:include-filter" value="art-run-test-2278-nested-loops"/>
     <option name="compatibility:include-filter" value="art-run-test-2279-aconfig-flags"/>
     <option name="compatibility:include-filter" value="art-run-test-2279-second-inner-loop-references-first"/>
+    <option name="compatibility:include-filter" value="art-run-test-2282-checker-always-throws-try-catch"/>
+    <option name="compatibility:include-filter" value="art-run-test-2283-checker-remove-null-check"/>
     <option name="compatibility:include-filter" value="art-run-test-300-package-override"/>
     <option name="compatibility:include-filter" value="art-run-test-301-abstract-protected"/>
     <option name="compatibility:include-filter" value="art-run-test-302-float-conversion"/>
@@ -477,6 +479,8 @@
     <option name="compatibility:include-filter" value="art-run-test-853-checker-inlining"/>
     <option name="compatibility:include-filter" value="art-run-test-856-clone"/>
     <option name="compatibility:include-filter" value="art-run-test-857-default-access"/>
+    <option name="compatibility:include-filter" value="art-run-test-858-checker-unsafe"/>
+    <option name="compatibility:include-filter" value="art-run-test-859-checker-var-handles-intrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-963-default-range-smali"/>
     <option name="compatibility:include-filter" value="art-run-test-965-default-verify"/>
     <option name="compatibility:include-filter" value="art-run-test-967-default-ame"/>
@@ -651,7 +655,7 @@
     <option name="compatibility:module-arg" value="art-run-test-2265-checker-select-binary-unary:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2266-checker-remove-empty-ifs:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2268-checker-remove-dead-phis:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-2269-checker-constant-folding-instrinsics:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2269-checker-constant-folding-intrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2273-checker-unreachable-intrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2274-checker-bitwise-gvn:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2275-checker-empty-loops:enable:true"/>
@@ -659,6 +663,8 @@
     <option name="compatibility:module-arg" value="art-run-test-2278-nested-loops:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2279-aconfig-flags:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-2279-second-inner-loop-references-first:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2282-checker-always-throws-try-catch:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-2283-checker-remove-null-check:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-300-package-override:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-301-abstract-protected:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-302-float-conversion:enable:true"/>
@@ -942,6 +948,8 @@
     <option name="compatibility:module-arg" value="art-run-test-853-checker-inlining:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-856-clone:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-857-default-access:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-858-checker-unsafe:enable:true"/>
+    <option name="compatibility:module-arg" value="art-run-test-859-checker-var-handles-intrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-963-default-range-smali:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-965-default-verify:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-967-default-ame:enable:true"/>
