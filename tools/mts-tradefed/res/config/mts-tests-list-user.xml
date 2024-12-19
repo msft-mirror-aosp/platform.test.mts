@@ -32,7 +32,7 @@
     <include name="mts-mediaprovider-tests-list-user" />
     <include name="mts-network-tests-list-user" />
     <include name="mts-neuralnetworks-tests-list" />
-    <!-- TODO: Enable when 25Q2 is next. include name="mts-nfc-tests-list-user" / -->
+    <include name="mts-nfc-tests-list-user" / -->
     <include name="mts-ondevicepersonalization-tests-list" />
     <include name="mts-permission-tests-list-oem" />
     <include name="mts-preload-verify-tests-list" />
