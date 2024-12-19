@@ -15,11 +15,13 @@
 -->
 
 <configuration description="List of NFC MTS tests that do not need root access.">
+    <option name="compatibility:include-filter" value="NfcManagerTests" />
     <option name="compatibility:include-filter" value="NfcNciUnitTests" />
     <option name="compatibility:include-filter" value="NfcNciInstrumentationTests" />
     <option name="compatibility:include-filter" value="CtsNfcTestCases" />
     <option name="compatibility:include-filter" value="NfcTestCases" />
 
+    <option name="compatibility:module-arg" value="NfcManagerTests:enable:true" />
     <option name="compatibility:module-arg" value="NfcNciUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="NfcNciInstrumentationTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsNfcTestCases:enable:true" />
