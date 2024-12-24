@@ -31,6 +31,7 @@ mts_modules += \
                appsearch \
                art \
                bluetooth \
+               bt \
                cellbroadcast \
                configinfrastructure \
                conscrypt \
