@@ -24,7 +24,7 @@
     <include name="mts-extservices-tests-list-eng-only" />
     <include name="mts-mediaprovider-tests-list-eng-only" />
     <include name="mts-network-tests-list-eng-only" />
-    <!-- TODO: Enable when 25Q2 is next. include name="mts-nfc-tests-list-eng-only" / -->
+    <include name="mts-nfc-tests-list-eng-only" / -->
     <include name="mts-rkpd-tests-list-eng-only" />
     <include name="mts-statsd-tests-list-eng-only" />
     <include name="mts-tethering-tests-list-eng-only" />
