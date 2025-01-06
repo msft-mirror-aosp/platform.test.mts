@@ -31,9 +31,11 @@ mts_modules += \
                appsearch \
                art \
                bluetooth \
+               bt \
                cellbroadcast \
                configinfrastructure \
                conscrypt \
+               crashrecovery \
                cronet \
                dnsresolver \
                documentsui \
@@ -55,6 +57,7 @@ mts_modules += \
                statsd \
                tethering \
                tzdata \
+               uprobestats \
                uwb \
                webviewbootstrap \
                wifi
