@@ -17,9 +17,6 @@
         <!-- These Media CTS tests are mostly relevant to mainline.
             The "mostly" is addressed with annotations to exclude specific tests in each suite.
         -->
-    <option name="compatibility:include-filter" value="MctsMediaBetterTogetherTestCases" />
-    <option name="compatibility:module-arg" value="MctsMediaBetterTogetherTestCases:instrumentation-arg:mts-media:=true" />
-    <option name="compatibility:module-arg" value="MctsMediaBetterTogetherTestCases:instrumentation-arg:media-testing-mode:=mts" />
 
     <option name="compatibility:include-filter" value="MctsMediaCodecTestCases" />
     <option name="compatibility:module-arg" value="MctsMediaCodecTestCases:instrumentation-arg:mts-media:=true" />
@@ -53,6 +50,14 @@
     <option name="compatibility:include-filter" value="MctsMediaParserTestCases" />
     <option name="compatibility:module-arg" value="MctsMediaParserTestCases:instrumentation-arg:mts-media:=true" />
     <option name="compatibility:module-arg" value="MctsMediaParserTestCases:instrumentation-arg:media-testing-mode:=mts" />
+
+    <option name="compatibility:include-filter" value="MctsMediaRouterTestCases" />
+    <option name="compatibility:module-arg" value="MctsMediaRouterTestCases:instrumentation-arg:mts-media:=true" />
+    <option name="compatibility:module-arg" value="MctsMediaRouterTestCases:instrumentation-arg:media-testing-mode:=mts" />
+
+    <option name="compatibility:include-filter" value="MctsMediaSessionTestCases" />
+    <option name="compatibility:module-arg" value="MctsMediaSessionTestCases:instrumentation-arg:mts-media:=true" />
+    <option name="compatibility:module-arg" value="MctsMediaSessionTestCases:instrumentation-arg:media-testing-mode:=mts" />
 
     <!-- b/344653352 dropped MctsMediaStressTestCases -->
 
