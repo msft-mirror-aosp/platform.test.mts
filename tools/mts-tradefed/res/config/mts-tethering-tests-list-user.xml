@@ -41,6 +41,18 @@
             value="MtsTetheringTestLatestSdk:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
     <option name="compatibility:module-arg"
             value="CtsTetheringTest:exclude-annotation:com.android.testutils.NetworkStackModuleTest" />
+    <option name="compatibility:module-arg"
+            value="CtsNetTestCases:exclude-annotation:com.android.testutils.DnsResolverModuleTest" />
+    <option name="compatibility:module-arg"
+            value="CtsNetTestCasesMaxTargetSdk33:exclude-annotation:com.android.testutils.DnsResolverModuleTest" />
+    <option name="compatibility:module-arg"
+            value="CtsNetTestCasesMaxTargetSdk31:exclude-annotation:com.android.testutils.DnsResolverModuleTest" />
+    <option name="compatibility:module-arg"
+            value="CtsNetTestCasesMaxTargetSdk30:exclude-annotation:com.android.testutils.DnsResolverModuleTest" />
+    <option name="compatibility:module-arg"
+            value="MtsTetheringTestLatestSdk:exclude-annotation:com.android.testutils.DnsResolverModuleTest" />
+    <option name="compatibility:module-arg"
+            value="CtsTetheringTest:exclude-annotation:com.android.testutils.DnsResolverModuleTest" />
 
     <!-- Enable tethering MTS tests to use MainlineTestModuleController -->
     <option name="compatibility:module-arg" value="CtsNetTestCases:enable:true" />
