@@ -19,9 +19,11 @@
     <option name="compatibility:include-filter" value="NfcNciUnitTests" />
     <option name="compatibility:include-filter" value="CtsNfcTestCases" />
     <option name="compatibility:include-filter" value="NfcTestCases" />
+    <option name="compatibility:include-filter" value="CtsNdefTestCases" />
 
     <option name="compatibility:module-arg" value="NfcManagerTests:enable:true" />
     <option name="compatibility:module-arg" value="NfcNciUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsNfcTestCases:enable:true" />
     <option name="compatibility:module-arg" value="NfcTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="CtsNdefTestCases:enable:true" />
 </configuration>
