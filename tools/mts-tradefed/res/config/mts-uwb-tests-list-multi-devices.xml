@@ -1,7 +1,9 @@
 <configuration description="List of UWB MTS tests that need multi devices.">
     <option name="compatibility:include-filter" value="CtsUwbMultiDeviceTestCase_UwbManagerTests" />
     <option name="compatibility:include-filter" value="CtsUwbMultiDeviceTestCase_FiraRangingTests" />
+    <option name="compatibility:include-filter" value="MultiDeviceRangingTestCases" />
 
     <option name="compatibility:module-arg" value="CtsUwbMultiDeviceTestCase_UwbManagerTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsUwbMultiDeviceTestCase_FiraRangingTests:enable:true" />
+    <option name="compatibility:module-arg" value="MultiDeviceRangingTestCases:enable:true" />
 </configuration>
