@@ -22,6 +22,7 @@
     <option name="compatibility:include-filter" value="RangingServiceTests" />
     <option name="compatibility:include-filter" value="RangingRttBackendTests" />
     <option name="compatibility:include-filter" value="RangingUwbBackendTests" />
+     <option name="compatibility:include-filter" value="RangingFrameworkTests" />
 
     <option name="compatibility:module-arg" value="FrameworkUwbTests:enable:true" />
     <option name="compatibility:module-arg" value="ServiceUwbTests:enable:true" />
@@ -30,4 +31,5 @@
     <option name="compatibility:module-arg" value="RangingServiceTests:enable:true" />
     <option name="compatibility:module-arg" value="RangingRttBackendTests:enable:true" />
     <option name="compatibility:module-arg" value="RangingUwbBackendTests:enable:true" />
+    <option name="compatibility:module-arg" value="RangingFrameworkTests:enable:true" />
 </configuration>
