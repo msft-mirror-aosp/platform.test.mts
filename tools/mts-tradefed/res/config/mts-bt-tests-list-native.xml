@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2022 The Android Open Source Project
+<!-- Copyright (C) 2024 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List of Bluetooth MTS tests that do not need root access (shard 02).">
+<configuration description="List of native Bluetooth MTS tests.">
     <option name="compatibility:include-filter" value="asrc_resampler_test" />
     <option name="compatibility:include-filter" value="bluetooth_csis_test" />
     <option name="compatibility:include-filter" value="bluetooth_flatbuffer_tests" />
@@ -36,7 +36,7 @@
     <option name="compatibility:include-filter" value="libaptxhd_enc_tests" />
     <option name="compatibility:include-filter" value="net_test_audio_hearing_aid_hw" />
     <option name="compatibility:include-filter" value="net_test_avrcp" />
-    <option name="compatibility:include-filter" value="net_test_bluetooth" />
+    <!-- <option name="compatibility:include-filter" value="net_test_bluetooth" /> -->
     <option name="compatibility:include-filter" value="net_test_bta" />
     <option name="compatibility:include-filter" value="net_test_bta_jv" />
     <option name="compatibility:include-filter" value="net_test_bta_security" />

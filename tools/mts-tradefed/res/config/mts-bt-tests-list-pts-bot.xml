@@ -13,10 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List of internal MTS tests.">
-    <!-- Include Pandora tests -->
+<configuration description="List of PTS-bot Bluetooth MTS tests.">
     <option name="compatibility:include-filter" value="pts-bot-mts" />
-
-    <!-- Enable Pandora tests -->
     <option name="compatibility:module-arg" value="pts-bot-mts:enable:true" />
 </configuration>

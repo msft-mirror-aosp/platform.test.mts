@@ -13,11 +13,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs mts-bt-shard-02 from a pre-existing MTS installation">
+<configuration description="Runs native Bluetooth MTS tests from a pre-existing MTS installation">
 
     <include name="mts" />
-    <include name="mts-bt-tests-list-shard-02" />
-    <option name="plan" value="mts-bt-shard-02" />
+    <include name="mts-bt-tests-list-native" />
+    <option name="plan" value="mts-bt-native" />
 
     <target_preparer class="com.android.compatibility.common.tradefed.targetprep.PropertyCheck">
         <option name="property-name" value="ro.build.type" />
