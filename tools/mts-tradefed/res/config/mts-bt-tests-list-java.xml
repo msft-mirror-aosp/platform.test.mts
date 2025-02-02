@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List of Bluetooth MTS tests that do not need root access (shard 01).">
+<configuration description="List of Java Bluetooth MTS tests.">
     <option name="compatibility:include-filter" value="CtsBluetoothTestCases" />
     <option name="compatibility:include-filter" value="FrameworkBluetoothTests" />
     <option name="compatibility:include-filter" value="ServiceBluetoothTests" />
