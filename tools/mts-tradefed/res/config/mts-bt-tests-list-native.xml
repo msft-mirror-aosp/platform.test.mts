@@ -24,6 +24,7 @@
     <option name="compatibility:include-filter" value="bluetooth_le_audio_codec_manager_test" />
     <option name="compatibility:include-filter" value="bluetooth_le_audio_test" />
     <option name="compatibility:include-filter" value="bluetooth_packet_parser_test" />
+    <option name="compatibility:include-filter" value="bluetooth_ras_test" />
     <option name="compatibility:include-filter" value="bluetooth-test-audio-hal-a2dp-provider-info" />
     <option name="compatibility:include-filter" value="bluetooth-test-audio-hal-interface" />
     <option name="compatibility:include-filter" value="bluetooth_test_broadcaster" />
@@ -86,6 +87,7 @@
     <option name="compatibility:module-arg" value="bluetooth_le_audio_codec_manager_test:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_le_audio_test:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_packet_parser_test:enable:true" />
+    <option name="compatibility:module-arg" value="bluetooth_ras_test:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth-test-audio-hal-a2dp-provider-info:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth-test-audio-hal-interface:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_test_broadcaster:enable:true" />
