@@ -7,3 +7,4 @@ per-file mts-media.xml = file: platform/frameworks/av/:/media/janitors/reliabili
 per-file mts-media-*.xml = file: platform/frameworks/av/:/media/janitors/reliability_mainline_OWNERS
 per-file mts-rkpd*.xml = file: platform/packages/modules/RemoteKeyProvisioning:/OWNERS
 per-file mts-ondevicepersonalization*.xml = file: platform/packages/modules/OnDevicePersonalization:/OWNERS
+per-file mts-uwb*.xml = file: platform/packages/modules/Uwb/:/OWNERS

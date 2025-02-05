@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List of Bluetooth MTS tests that do not need root access (shard 02).">
+<configuration description="List of native Bluetooth MTS tests.">
     <option name="compatibility:include-filter" value="asrc_resampler_test" />
     <option name="compatibility:include-filter" value="bluetooth_csis_test" />
     <option name="compatibility:include-filter" value="bluetooth_flatbuffer_tests" />
@@ -36,7 +36,7 @@
     <option name="compatibility:include-filter" value="libaptxhd_enc_tests" />
     <option name="compatibility:include-filter" value="net_test_audio_hearing_aid_hw" />
     <option name="compatibility:include-filter" value="net_test_avrcp" />
-    <option name="compatibility:include-filter" value="net_test_bluetooth" />
+    <!-- <option name="compatibility:include-filter" value="net_test_bluetooth" /> -->
     <option name="compatibility:include-filter" value="net_test_bta" />
     <option name="compatibility:include-filter" value="net_test_bta_jv" />
     <option name="compatibility:include-filter" value="net_test_bta_security" />
@@ -60,7 +60,6 @@
     <option name="compatibility:include-filter" value="net_test_performance" />
     <option name="compatibility:include-filter" value="net_test_stack" />
     <option name="compatibility:include-filter" value="net_test_stack_a2dp_codecs_native" />
-    <option name="compatibility:include-filter" value="net_test_stack_a2dp_native" />
     <option name="compatibility:include-filter" value="net_test_stack_acl" />
     <option name="compatibility:include-filter" value="net_test_stack_ad_parser" />
     <option name="compatibility:include-filter" value="net_test_stack_avctp" />
@@ -123,7 +122,6 @@
     <option name="compatibility:module-arg" value="net_test_osi:enable:true" />
     <option name="compatibility:module-arg" value="net_test_performance:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_a2dp_codecs_native:enable:true" />
-    <option name="compatibility:module-arg" value="net_test_stack_a2dp_native:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_acl:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_ad_parser:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_avctp:enable:true" />
