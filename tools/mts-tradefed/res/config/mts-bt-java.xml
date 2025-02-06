@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2022 The Android Open Source Project
+<!-- Copyright (C) 2024 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,11 +13,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="Runs mts-bluetooth-shard-00 from a pre-existing MTS installation">
+<configuration description="Runs Java Bluetooth MTS tests from a pre-existing MTS installation">
 
     <include name="mts" />
-    <include name="mts-bluetooth-tests-list-shard-00" />
-    <option name="plan" value="mts-bluetooth-shard-00" />
+    <include name="mts-bt-tests-list-java" />
+    <option name="plan" value="mts-bt-java" />
 
     <target_preparer class="com.android.compatibility.common.tradefed.targetprep.PropertyCheck">
         <option name="property-name" value="ro.build.type" />
