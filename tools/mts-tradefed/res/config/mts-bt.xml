@@ -16,7 +16,11 @@
 <configuration description="Runs mts-bt from a pre-existing MTS installation">
 
     <include name="mts" />
-    <include name="mts-bt-tests-list" />
+    <include name="mts-bt-tests-list-java" />
+    <include name="mts-bt-tests-list-native" />
+    <include name="mts-bt-tests-list-pts-bot" />
+    <include name="mts-bt-tests-list-avatar" />
+    <include name="mts-bt-tests-list-bumble" />
     <option name="plan" value="mts-bt" />
 
     <target_preparer class="com.android.compatibility.common.tradefed.targetprep.PropertyCheck">
