@@ -42,8 +42,7 @@
     <option name="compatibility:include-filter" value="libaptx_enc_tests" />
     <option name="compatibility:include-filter" value="libaptxhd_enc_tests" />
     <option name="compatibility:include-filter" value="libbluetooth_core_rs_test" />
-    <!-- TODO(b/396279988): Re-enable libbluetooth_log_test once the test is fixed. -->
-    <!-- <option name="compatibility:include-filter" value="libbluetooth_log_test" /> -->
+    <option name="compatibility:include-filter" value="libbluetooth_log_test" />
     <option name="compatibility:include-filter" value="libbluetooth_offload_hci_test" />
     <option name="compatibility:include-filter" value="libbluetooth_offload_leaudio_hci_test" />
     <option name="compatibility:include-filter" value="net_test_audio_hearing_aid_hw" />
