@@ -30,6 +30,7 @@
     <option name="compatibility:include-filter" value="NetHttpCoverageTests" />
     <option name="compatibility:include-filter" value="net_unittests_tester" />
     <option name="compatibility:include-filter" value="cronet_unittests_tester" />
+    <option name="compatibility:include-filter" value="FrameworksVcnTests" />
 
     <!-- Coverage runs are significantly slower than normal runs, and testFuzzing cannot
          complete before the general test timeout (5 minutes) on such configurations. It is
