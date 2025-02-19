@@ -14,9 +14,9 @@
      limitations under the License.
 -->
 <configuration description="List of native Bluetooth MTS tests.">
-    <option name="compatibility:include-filter" value="asrc_resampler_test" />
+    <option name="compatibility:include-filter" value="audio_bluetooth_hw_test" />
+    <option name="compatibility:include-filter" value="bluetooth_audio_hal_version_test" />
     <option name="compatibility:include-filter" value="bluetooth_csis_test" />
-    <option name="compatibility:include-filter" value="bluetooth_flatbuffer_tests" />
     <option name="compatibility:include-filter" value="bluetooth_groups_test" />
     <option name="compatibility:include-filter" value="bluetooth_has_test" />
     <option name="compatibility:include-filter" value="bluetooth_hh_test" />
@@ -26,19 +26,30 @@
     <option name="compatibility:include-filter" value="bluetooth_packet_parser_test" />
     <option name="compatibility:include-filter" value="bluetooth_ras_test" />
     <option name="compatibility:include-filter" value="bluetooth-test-audio-hal-a2dp-provider-info" />
-    <option name="compatibility:include-filter" value="bluetooth-test-audio-hal-interface" />
+    <!-- TODO(b/396280521): Re-enable bluetooth-test-audio-hal-aidl-leaudio-utils once the test is fixed. -->
+    <!-- <option name="compatibility:include-filter" value="bluetooth-test-audio-hal-aidl-leaudio-utils" /> -->
+    <option name="compatibility:include-filter" value="bluetooth-test-audio-hal-hfp-client-interface" />
+    <option name="compatibility:include-filter" value="bluetooth-test-audio-hal-le-audio-software" />
+    <!-- TODO(b/396279943): Re-enable bluetooth-test-audio-hal-interface once the test is fixed. -->
+    <!-- <option name="compatibility:include-filter" value="bluetooth-test-audio-hal-interface" /> -->
     <option name="compatibility:include-filter" value="bluetooth_test_broadcaster" />
     <option name="compatibility:include-filter" value="bluetooth_test_broadcaster_state_machine" />
     <option name="compatibility:include-filter" value="bluetooth_test_common" />
     <option name="compatibility:include-filter" value="bluetooth_test_gd_unit" />
+    <option name="compatibility:include-filter" value="bluetooth_test_with_timerfd" />
     <option name="compatibility:include-filter" value="bluetooth_vc_test" />
-    <option name="compatibility:include-filter" value="bt_host_test_bta" />
+    <option name="compatibility:include-filter" value="bt_host_test_bta_scn" />
     <option name="compatibility:include-filter" value="libaptx_enc_tests" />
     <option name="compatibility:include-filter" value="libaptxhd_enc_tests" />
+    <option name="compatibility:include-filter" value="libbluetooth_core_rs_test" />
+    <option name="compatibility:include-filter" value="libbluetooth_log_test" />
+    <option name="compatibility:include-filter" value="libbluetooth_offload_hci_test" />
+    <option name="compatibility:include-filter" value="libbluetooth_offload_leaudio_hci_test" />
     <option name="compatibility:include-filter" value="net_test_audio_hearing_aid_hw" />
     <option name="compatibility:include-filter" value="net_test_avrcp" />
-    <!-- <option name="compatibility:include-filter" value="net_test_bluetooth" /> -->
+    <option name="compatibility:include-filter" value="net_test_bluetooth" />
     <option name="compatibility:include-filter" value="net_test_bta" />
+    <option name="compatibility:include-filter" value="net_test_bta_gatt" />
     <option name="compatibility:include-filter" value="net_test_bta_jv" />
     <option name="compatibility:include-filter" value="net_test_bta_security" />
     <option name="compatibility:include-filter" value="net_test_btcore" />
@@ -74,12 +85,13 @@
     <option name="compatibility:include-filter" value="net_test_stack_hid" />
     <option name="compatibility:include-filter" value="net_test_stack_l2cap" />
     <option name="compatibility:include-filter" value="net_test_stack_rfcomm" />
+    <option name="compatibility:include-filter" value="net_test_stack_rnr" />
     <option name="compatibility:include-filter" value="net_test_stack_sdp" />
     <option name="compatibility:include-filter" value="net_test_stack_smp" />
     <option name="compatibility:include-filter" value="net_test_types" />
-    <option name="compatibility:module-arg" value="asrc_resampler_test:enable:true" />
+    <option name="compatibility:module-arg" value="audio_bluetooth_hw_test:enable:true" />
+    <option name="compatibility:module-arg" value="bluetooth_audio_hal_version_test:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_csis_test:enable:true" />
-    <option name="compatibility:module-arg" value="bluetooth_flatbuffer_tests:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_groups_test:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_has_test:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_hh_test:enable:true" />
@@ -89,19 +101,28 @@
     <option name="compatibility:module-arg" value="bluetooth_packet_parser_test:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_ras_test:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth-test-audio-hal-a2dp-provider-info:enable:true" />
+    <option name="compatibility:module-arg" value="bluetooth-test-audio-hal-aidl-leaudio-utils:enable:true" />
+    <option name="compatibility:module-arg" value="bluetooth-test-audio-hal-hfp-client-interface:enable:true" />
+    <option name="compatibility:module-arg" value="bluetooth-test-audio-hal-le-audio-software:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth-test-audio-hal-interface:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_test_broadcaster:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_test_broadcaster_state_machine:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_test_common:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_test_gd_unit:enable:true" />
+    <option name="compatibility:module-arg" value="bluetooth_test_with_timerfd:enable:true" />
     <option name="compatibility:module-arg" value="bluetooth_vc_test:enable:true" />
-    <option name="compatibility:module-arg" value="bt_host_test_bta:enable:true" />
+    <option name="compatibility:module-arg" value="bt_host_test_bta_scn:enable:true" />
     <option name="compatibility:module-arg" value="libaptx_enc_tests:enable:true" />
     <option name="compatibility:module-arg" value="libaptxhd_enc_tests:enable:true" />
+    <option name="compatibility:module-arg" value="libbluetooth_core_rs_test:enable:true" />
+    <option name="compatibility:module-arg" value="libbluetooth_log_test:enable:true" />
+    <option name="compatibility:module-arg" value="libbluetooth_offload_hci_test:enable:true" />
+    <option name="compatibility:module-arg" value="libbluetooth_offload_leaudio_hci_test:enable:true" />
     <option name="compatibility:module-arg" value="net_test_audio_hearing_aid_hw:enable:true" />
     <option name="compatibility:module-arg" value="net_test_avrcp:enable:true" />
     <option name="compatibility:module-arg" value="net_test_bluetooth:enable:true" />
     <option name="compatibility:module-arg" value="net_test_bta:enable:true" />
+    <option name="compatibility:module-arg" value="net_test_bta_gatt:enable:true" />
     <option name="compatibility:module-arg" value="net_test_bta_jv:enable:true" />
     <option name="compatibility:module-arg" value="net_test_bta_security:enable:true" />
     <option name="compatibility:module-arg" value="net_test_btcore:enable:true" />
@@ -119,7 +140,6 @@
     <option name="compatibility:module-arg" value="net_test_device_iot_config:enable:true" />
     <option name="compatibility:module-arg" value="net_test_eatt:enable:true" />
     <option name="compatibility:module-arg" value="net_test_hci:enable:true" />
-    <option name="compatibility:module-arg" value="net_test_hci_fragmenter_native:enable:true" />
     <option name="compatibility:module-arg" value="net_test_main_shim:enable:true" />
     <option name="compatibility:module-arg" value="net_test_osi:enable:true" />
     <option name="compatibility:module-arg" value="net_test_performance:enable:true" />
@@ -138,6 +158,7 @@
     <option name="compatibility:module-arg" value="net_test_stack_hid:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_l2cap:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_rfcomm:enable:true" />
+    <option name="compatibility:module-arg" value="net_test_stack_rnr:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_sdp:enable:true" />
     <option name="compatibility:module-arg" value="net_test_stack_smp:enable:true" />
     <option name="compatibility:module-arg" value="net_test_types:enable:true" />

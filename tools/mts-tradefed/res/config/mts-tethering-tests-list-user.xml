@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<configuration description="List of MTS tethering tests that do not need root acccess">
+<configuration description="List of MTS tethering tests that do not need root access">
 
     <option name="compatibility:include-filter" value="CtsNetTestCases" />
     <option name="compatibility:include-filter" value="CtsNetTestCasesMaxTargetSdk33" />
@@ -26,6 +26,8 @@
     <option name="compatibility:include-filter" value="CtsNetHttpTestCases" />
     <option name="compatibility:include-filter" value="ThreadNetworkUnitTests" />
     <option name="compatibility:include-filter" value="CtsThreadNetworkTestCases" />
+    <option name="compatibility:include-filter" value="CtsVcnTestCases" />
+    <option name="compatibility:include-filter" value="FrameworksVcnTests" />
 
     <!-- Do not include NetworkStack module-specific tests as Connectivity MTS may not run
          with the latest version of that module installed -->
@@ -66,5 +68,7 @@
     <option name="compatibility:module-arg" value="CtsNetHttpTestCases:enable:true" />
     <option name="compatibility:module-arg" value="ThreadNetworkUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsThreadNetworkTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="CtsVcnTestCases:enable:true" />
+    <option name="compatibility:module-arg" value="FrameworksVcnTests:enable:true" />
 </configuration>
 
