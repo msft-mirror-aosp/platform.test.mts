@@ -14,10 +14,12 @@
      limitations under the License.
 -->
 <configuration description="List of Java Bluetooth MTS tests.">
+    <option name="compatibility:include-filter" value="BluetoothJavaUnitTests" />
     <option name="compatibility:include-filter" value="CtsBluetoothTestCases" />
     <option name="compatibility:include-filter" value="FrameworkBluetoothTests" />
     <option name="compatibility:include-filter" value="ServiceBluetoothTests" />
     <option name="compatibility:include-filter" value="GoogleBluetoothInstrumentationTests" />
+    <option name="compatibility:module-arg" value="BluetoothJavaUnitTests:enable:true" />
     <option name="compatibility:module-arg" value="CtsBluetoothTestCases:enable:true" />
     <option name="compatibility:module-arg" value="FrameworkBluetoothTests:enable:true" />
     <option name="compatibility:module-arg" value="ServiceBluetoothTests:enable:true" />
