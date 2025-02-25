@@ -13,8 +13,8 @@
 
 <configuration description="List test modules of HealthFitness module excluding unit tests. This is a placeholder xml instead of a runnable plan.">
       <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCases" />
-      <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesNoPermission"/>
-      <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesNotAllPermissionsAreGranted"/>
+      <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesNoPermission" />
+      <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesNotAllPermissionsAreGranted" />
       <option name="compatibility:include-filter" value="CtsHealthConnectControllerTestCases" />
       <option name="compatibility:include-filter" value="HealthFitnessIntegrationTests" />
       <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesHistoricAccessLimitWithPermission"/>
@@ -23,6 +23,8 @@
       <option name="compatibility:include-filter" value="HealthFitnessIntegrationBackupRestoreTests"/>
       <option name="compatibility:include-filter" value="HealthFitnessIntegrationExportImportTests"/>
       <option name="compatibility:include-filter" value="CtsHealthConnectHostSideDeviceTestCases" />
+      <option name="compatibility:include-filter" value="CtsExerciseRouteTestCases" />
+      <option name="compatibility:include-filter" value="CtsHealthFitnessPhrTestCases" />
 
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCases:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCasesNoPermission:enable:true" />
@@ -35,5 +37,7 @@
       <option name="compatibility:module-arg" value="HealthFitnessIntegrationBackupRestoreTests:enable:true" />
       <option name="compatibility:module-arg" value="HealthFitnessIntegrationExportImportTests:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthConnectHostSideDeviceTestCases:enable:true" />
+      <option name="compatibility:module-arg" value="CtsExerciseRouteTestCases:enable:true" />
+      <option name="compatibility:module-arg" value="CtsHealthFitnessPhrTestCases:enable:true" />
 
 </configuration>
