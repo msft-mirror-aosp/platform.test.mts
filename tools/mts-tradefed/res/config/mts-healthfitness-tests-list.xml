@@ -16,7 +16,6 @@
       <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesNoPermission" />
       <option name="compatibility:include-filter" value="CtsHealthFitnessDeviceTestCasesNotAllPermissionsAreGranted" />
       <option name="compatibility:include-filter" value="HealthFitnessUnitTests" />
-      <option name="compatibility:include-filter" value="HealthConnectControllerUITests" />
       <option name="compatibility:include-filter" value="CtsHealthConnectControllerTestCases" />
       <option name="compatibility:include-filter" value="HealthFitnessIntegrationTests" />
       <option name="compatibility:include-filter" value="HealthConnectBackupRestoreUnitTests" />
@@ -26,12 +25,25 @@
       <option name="compatibility:include-filter" value="HealthFitnessIntegrationBackupRestoreTests"/>
       <option name="compatibility:include-filter" value="HealthFitnessIntegrationExportImportTests"/>
       <option name="compatibility:include-filter" value="CtsHealthConnectHostSideDeviceTestCases" />
+     <option name="compatibility:include-filter" value="CtsHealthConnectHostTestCases" />
+      <option name="compatibility:include-filter" value="CtsExerciseRouteTestCases" />
+      <option name="compatibility:include-filter" value="CtsHealthFitnessPhrTestCases" />
+      <option name="compatibility:include-filter" value="HealthConnectControllerDataScreensNewTests" />
+      <option name="compatibility:include-filter" value="HealthConnectControllerDataScreensOldTests" />
+      <option name="compatibility:include-filter" value="HealthConnectControllerDeletionTests" />
+      <option name="compatibility:include-filter" value="HealthConnectControllerExerciseRouteTests" />
+      <option name="compatibility:include-filter" value="HealthConnectControllerExportTests" />
+      <option name="compatibility:include-filter" value="HealthConnectControllerHomePageAndOnboardingTests" />
+      <option name="compatibility:include-filter" value="HealthConnectControllerManageDataTests" />
+      <option name="compatibility:include-filter" value="HealthConnectControllerMigrationTests" />
+      <option name="compatibility:include-filter" value="HealthConnectControllerNavigationTests" />
+      <option name="compatibility:include-filter" value="HealthConnectControllerPermissionTests" />
+      <option name="compatibility:include-filter" value="HealthConnectControllerExtraTests" />
 
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCases:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCasesNoPermission:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthFitnessDeviceTestCasesNotAllPermissionsAreGranted:enable:true" />
       <option name="compatibility:module-arg" value="HealthFitnessUnitTests:enable:true" />
-      <option name="compatibility:module-arg" value="HealthConnectControllerUITests:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthConnectControllerTestCases:enable:true" />
       <option name="compatibility:module-arg" value="HealthFitnessIntegrationTests:enable:true" />
       <option name="compatibility:module-arg" value="HealthConnectBackupRestoreUnitTests:enable:true" />
@@ -41,5 +53,19 @@
       <option name="compatibility:module-arg" value="HealthFitnessIntegrationBackupRestoreTests:enable:true" />
       <option name="compatibility:module-arg" value="HealthFitnessIntegrationExportImportTests:enable:true" />
       <option name="compatibility:module-arg" value="CtsHealthConnectHostSideDeviceTestCases:enable:true" />
+      <option name="compatibility:module-arg" value="CtsHealthConnectHostTestCases:enable:true" />
+      <option name="compatibility:module-arg" value="CtsExerciseRouteTestCases:enable:true" />
+      <option name="compatibility:module-arg" value="CtsHealthFitnessPhrTestCases:enable:true" />
+      <option name="compatibility:module-arg" value="HealthConnectControllerDataScreensNewTests:enable:true" />
+      <option name="compatibility:module-arg" value="HealthConnectControllerDataScreensOldTests:enable:true" />
+      <option name="compatibility:module-arg" value="HealthConnectControllerDeletionTests:enable:true" />
+      <option name="compatibility:module-arg" value="HealthConnectControllerExerciseRouteTests:enable:true" />
+      <option name="compatibility:module-arg" value="HealthConnectControllerExportTests:enable:true" />
+      <option name="compatibility:module-arg" value="HealthConnectControllerHomePageAndOnboardingTests:enable:true" />
+      <option name="compatibility:module-arg" value="HealthConnectControllerManageDataTests:enable:true" />
+      <option name="compatibility:module-arg" value="HealthConnectControllerMigrationTests:enable:true" />
+      <option name="compatibility:module-arg" value="HealthConnectControllerNavigationTests:enable:true" />
+      <option name="compatibility:module-arg" value="HealthConnectControllerPermissionTests:enable:true" />
+      <option name="compatibility:module-arg" value="HealthConnectControllerExtraTests:enable:true" />
 
 </configuration>
