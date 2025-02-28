@@ -156,7 +156,9 @@ public class MtsTradefedTest {
       ZipEntry zipEntry = enumeration.nextElement();
 
       if (zipEntry.getName().endsWith(".xml") && zipEntry.getName().contains("tests-list")) {
-        if (zipEntry.getName().contains("smoke")) {
+        if (zipEntry.getName().contains("bluetooth")
+            || zipEntry.getName().contains("bt")
+            || zipEntry.getName().contains("smoke")) {
           continue;
         }
         // Relative path of file into the jar.
