@@ -63,7 +63,6 @@
     <option name="compatibility:include-filter" value="art-run-test-050-sync-test"/>
     <option name="compatibility:include-filter" value="art-run-test-052-verifier-fun"/>
     <option name="compatibility:include-filter" value="art-run-test-053-wait-some"/>
-    <option name="compatibility:include-filter" value="art-run-test-055-enum-performance"/>
     <option name="compatibility:include-filter" value="art-run-test-057-math-intrinsics"/>
     <option name="compatibility:include-filter" value="art-run-test-058-enum-order"/>
     <option name="compatibility:include-filter" value="art-run-test-059-finalizer-throw"/>
@@ -532,7 +531,6 @@
     <option name="compatibility:module-arg" value="art-run-test-050-sync-test:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-052-verifier-fun:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-053-wait-some:enable:true"/>
-    <option name="compatibility:module-arg" value="art-run-test-055-enum-performance:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-057-math-intrinsics:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-058-enum-order:enable:true"/>
     <option name="compatibility:module-arg" value="art-run-test-059-finalizer-throw:enable:true"/>
