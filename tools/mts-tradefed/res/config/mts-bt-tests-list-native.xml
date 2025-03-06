@@ -45,7 +45,6 @@
     <option name="compatibility:include-filter" value="libbluetooth_log_test" />
     <option name="compatibility:include-filter" value="libbluetooth_offload_hci_test" />
     <option name="compatibility:include-filter" value="libbluetooth_offload_leaudio_hci_test" />
-    <option name="compatibility:include-filter" value="net_test_audio_hearing_aid_hw" />
     <option name="compatibility:include-filter" value="net_test_avrcp" />
     <option name="compatibility:include-filter" value="net_test_bluetooth" />
     <option name="compatibility:include-filter" value="net_test_bta" />
@@ -118,7 +117,6 @@
     <option name="compatibility:module-arg" value="libbluetooth_log_test:enable:true" />
     <option name="compatibility:module-arg" value="libbluetooth_offload_hci_test:enable:true" />
     <option name="compatibility:module-arg" value="libbluetooth_offload_leaudio_hci_test:enable:true" />
-    <option name="compatibility:module-arg" value="net_test_audio_hearing_aid_hw:enable:true" />
     <option name="compatibility:module-arg" value="net_test_avrcp:enable:true" />
     <option name="compatibility:module-arg" value="net_test_bluetooth:enable:true" />
     <option name="compatibility:module-arg" value="net_test_bta:enable:true" />
